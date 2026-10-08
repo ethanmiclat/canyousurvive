@@ -1,0 +1,41 @@
+{
+  "dataset": "harry_potter",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "book"
+      ],
+      "prompt": "Name one of the seven main Harry Potter books"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "weasley"
+      ],
+      "prompt": "Name one of the seven Weasley children"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "house"
+      ],
+      "prompt": "Name a Hogwarts house"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "marauder"
+      ],
+      "prompt": "Name one of the Marauders (nickname or real name)"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "house",
+        "marauder"
+      ],
+      "prompt": "Name a Hogwarts house or one of the Marauders"
+    }
+  ]
+}

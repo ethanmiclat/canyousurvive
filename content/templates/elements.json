@@ -1,0 +1,146 @@
+{
+  "dataset": "elements",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a chemical element"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 1,
+      "max": 92,
+      "prompt": "Name an element with atomic number 1 to 92"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 1,
+      "max": 100,
+      "prompt": "Name an element with atomic number 100 or less"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 1,
+      "max": 30,
+      "prompt": "Name one of the first 30 elements on the periodic table"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 1,
+      "max": 20,
+      "prompt": "Name one of the first 20 elements on the periodic table"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 1,
+      "max": 10,
+      "prompt": "Name one of the first 10 elements on the periodic table"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 1,
+      "max": 6,
+      "prompt": "Name one of the first 6 elements on the periodic table"
+    },
+    {
+      "type": "range",
+      "prop": "number",
+      "min": 101,
+      "max": 118,
+      "prompt": "Name an element with atomic number over 100"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "noble-gas"
+      ],
+      "prompt": "Name a noble gas"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "alkali-metal"
+      ],
+      "prompt": "Name an alkali metal"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "alkaline-earth-metal"
+      ],
+      "prompt": "Name an alkaline earth metal"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "halogen"
+      ],
+      "prompt": "Name a halogen"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "lanthanide"
+      ],
+      "prompt": "Name a lanthanide"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "actinide"
+      ],
+      "prompt": "Name an actinide"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "precious-metal"
+      ],
+      "prompt": "Name a precious metal (gold, silver or a platinum-group metal)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "one-letter-symbol"
+      ],
+      "prompt": "Name an element whose symbol is a single letter"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "period:2"
+      ],
+      "prompt": "Name an element in period 2 of the periodic table"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "period:3"
+      ],
+      "prompt": "Name an element in period 3 of the periodic table"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "period:4"
+      ],
+      "prompt": "Name an element in period 4 of the periodic table"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "period:5"
+      ],
+      "prompt": "Name an element in period 5 of the periodic table"
+    },
+    {
+      "type": "letters",
+      "noun": "element"
+    }
+  ]
+}

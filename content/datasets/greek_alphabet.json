@@ -1,0 +1,30 @@
+{
+  "id": "greek_alphabet",
+  "title": "Greek alphabet",
+  "entities": [
+    {"id": "alpha", "name": "Alpha", "tags": ["vowel"], "props": {"pos": 1}},
+    {"id": "beta", "name": "Beta", "props": {"pos": 2}},
+    {"id": "gamma", "name": "Gamma", "props": {"pos": 3}},
+    {"id": "delta", "name": "Delta", "props": {"pos": 4}},
+    {"id": "epsilon", "name": "Epsilon", "tags": ["vowel"], "props": {"pos": 5}},
+    {"id": "zeta", "name": "Zeta", "props": {"pos": 6}},
+    {"id": "eta", "name": "Eta", "tags": ["vowel"], "props": {"pos": 7}},
+    {"id": "theta", "name": "Theta", "props": {"pos": 8}},
+    {"id": "iota", "name": "Iota", "tags": ["vowel"], "props": {"pos": 9}},
+    {"id": "kappa", "name": "Kappa", "props": {"pos": 10}},
+    {"id": "lambda", "name": "Lambda", "aliases": ["Lamda"], "props": {"pos": 11}},
+    {"id": "mu", "name": "Mu", "aliases": ["Mi"], "props": {"pos": 12}},
+    {"id": "nu", "name": "Nu", "aliases": ["Ni"], "props": {"pos": 13}},
+    {"id": "xi", "name": "Xi", "props": {"pos": 14}},
+    {"id": "omicron", "name": "Omicron", "aliases": ["Omikron"], "tags": ["vowel"], "props": {"pos": 15}},
+    {"id": "pi", "name": "Pi", "props": {"pos": 16}},
+    {"id": "rho", "name": "Rho", "props": {"pos": 17}},
+    {"id": "sigma", "name": "Sigma", "props": {"pos": 18}},
+    {"id": "tau", "name": "Tau", "props": {"pos": 19}},
+    {"id": "upsilon", "name": "Upsilon", "tags": ["vowel"], "props": {"pos": 20}},
+    {"id": "phi", "name": "Phi", "props": {"pos": 21}},
+    {"id": "chi", "name": "Chi", "props": {"pos": 22}},
+    {"id": "psi", "name": "Psi", "props": {"pos": 23}},
+    {"id": "omega", "name": "Omega", "tags": ["vowel"], "props": {"pos": 24}}
+  ]
+}

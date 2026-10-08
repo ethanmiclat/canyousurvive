@@ -1,0 +1,89 @@
+{
+  "dataset": "world_capitals",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a national capital city (any of the 195 countries; official capitals)"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "continent:europe"
+      ],
+      "prompt": "Name a national capital outside Europe"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "continent:africa"
+      ],
+      "prompt": "Name a national capital outside Africa"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "continent:south-america"
+      ],
+      "prompt": "Name the capital of a South American country"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "continent:oceania"
+      ],
+      "prompt": "Name the capital of a country in Oceania"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "continent:north-america"
+      ],
+      "prompt": "Name the capital of a North American, Central American or Caribbean country"
+    },
+    {
+      "type": "letters",
+      "noun": "national capital",
+      "prompt": {
+        "starts": "Name a national capital that starts with the letter {L}",
+        "contains": "Name a national capital with the letter {L} in its name",
+        "lacks": "Name a national capital with no letter {L} in its name"
+      }
+    },
+    {
+      "type": "letters",
+      "modes": [
+        "starts"
+      ],
+      "where": [
+        "continent:europe"
+      ],
+      "prompt": {
+        "starts": "Name a European capital that starts with the letter {L}"
+      }
+    },
+    {
+      "type": "letters",
+      "modes": [
+        "starts"
+      ],
+      "where": [
+        "continent:africa"
+      ],
+      "prompt": {
+        "starts": "Name an African capital that starts with the letter {L}"
+      }
+    },
+    {
+      "type": "letters",
+      "modes": [
+        "starts"
+      ],
+      "where": [
+        "continent:asia"
+      ],
+      "prompt": {
+        "starts": "Name an Asian capital that starts with the letter {L}"
+      }
+    }
+  ]
+}

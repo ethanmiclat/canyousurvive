@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-08",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.2238,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "us_states:all",
+      "datasetId": "us_states",
+      "prompt": "Name a US state",
+      "size": 50,
+      "answers": ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
+    },
+    {
+      "round": 2,
+      "questionId": "nba:all",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team",
+      "size": 30,
+      "answers": ["atlanta-hawks", "boston-celtics", "brooklyn-nets", "charlotte-hornets", "chicago-bulls", "cleveland-cavaliers", "dallas-mavericks", "denver-nuggets", "detroit-pistons", "golden-state-warriors", "houston-rockets", "indiana-pacers", "los-angeles-clippers", "los-angeles-lakers", "memphis-grizzlies", "miami-heat", "milwaukee-bucks", "minnesota-timberwolves", "new-orleans-pelicans", "new-york-knicks", "oklahoma-city-thunder", "orlando-magic", "philadelphia-76ers", "phoenix-suns", "portland-trail-blazers", "sacramento-kings", "san-antonio-spurs", "toronto-raptors", "utah-jazz", "washington-wizards"]
+    },
+    {
+      "round": 3,
+      "questionId": "nato_alphabet:contains:i",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter I",
+      "size": 10,
+      "answers": ["charlie", "india", "juliett", "kilo", "lima", "mike", "sierra", "uniform", "victor", "whiskey"]
+    },
+    {
+      "round": 4,
+      "questionId": "space:lacks:s@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter S in its name",
+      "size": 4,
+      "answers": ["earth", "jupiter", "mercury", "neptune"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_myth:contains:m@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter M in their Greek name",
+      "size": 3,
+      "answers": ["olympian-artemis", "olympian-demeter", "olympian-hermes"]
+    },
+    {
+      "round": 6,
+      "questionId": "state_capitals:starts:r",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital that starts with the letter R",
+      "size": 2,
+      "answers": ["raleigh", "richmond"]
+    }
+  ]
+}

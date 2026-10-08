@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-14",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.2186,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:contains:a",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with the letter A in its name",
+      "size": 53,
+      "answers": ["acadia", "american-samoa", "arches", "badlands", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "north-cascades", "pinnacles", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias"]
+    },
+    {
+      "round": 2,
+      "questionId": "nhl:tag:conf:east",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Eastern Conference",
+      "size": 16,
+      "answers": ["boston-bruins", "buffalo-sabres", "carolina-hurricanes", "columbus-blue-jackets", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "ottawa-senators", "philadelphia-flyers", "pittsburgh-penguins", "tampa-bay-lightning", "toronto-maple-leafs", "washington-capitals"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:contains:y",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter Y in its title",
+      "size": 10,
+      "answers": ["antony-and-cleopatra", "as-you-like-it", "cymbeline", "henry-iv", "henry-v", "henry-vi", "henry-viii", "pericles", "the-comedy-of-errors", "the-merry-wives-of-windsor"]
+    },
+    {
+      "round": 4,
+      "questionId": "constellations:starts:v",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter V",
+      "size": 4,
+      "answers": ["vela", "virgo", "volans", "vulpecula"]
+    },
+    {
+      "round": 5,
+      "questionId": "nato_alphabet:contains:v",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter V",
+      "size": 3,
+      "answers": ["bravo", "november", "victor"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_states:starts:v",
+      "datasetId": "us_states",
+      "prompt": "Name a US state that starts with the letter V",
+      "size": 2,
+      "answers": ["vermont", "virginia"]
+    }
+  ]
+}

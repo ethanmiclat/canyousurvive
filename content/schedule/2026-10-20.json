@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.2306,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-150@odd",
+      "datasetId": "numbers",
+      "prompt": "Name an odd number from 1 to 150",
+      "size": 75,
+      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n17", "n19", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+    },
+    {
+      "round": 2,
+      "questionId": "board_games:tag:monopoly",
+      "datasetId": "board_games",
+      "prompt": "Name a property you can buy in classic US Monopoly (streets, railroads, utilities)",
+      "size": 28,
+      "answers": ["monopoly-atlantic-avenue", "monopoly-b-and-o-railroad", "monopoly-baltic-avenue", "monopoly-boardwalk", "monopoly-connecticut-avenue", "monopoly-electric-company", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-mediterranean-avenue", "monopoly-new-york-avenue", "monopoly-north-carolina-avenue", "monopoly-oriental-avenue", "monopoly-pacific-avenue", "monopoly-park-place", "monopoly-pennsylvania-avenue", "monopoly-pennsylvania-railroad", "monopoly-reading-railroad", "monopoly-short-line", "monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue", "monopoly-water-works"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:lacks:t",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with no letter T in its title",
+      "size": 8,
+      "answers": ["coriolanus", "cymbeline", "julius-caesar", "king-john", "king-lear", "measure-for-measure", "the-comedy-of-errors", "the-merry-wives-of-windsor"]
+    },
+    {
+      "round": 4,
+      "questionId": "mountains:tag:karakoram",
+      "datasetId": "mountains",
+      "prompt": "Name one of the four 8,000-meter peaks in the Karakoram (Pakistan)",
+      "size": 5,
+      "answers": ["broad-peak", "gasherbrum-i", "gasherbrum-ii", "k2", "nanga-parbat"]
+    },
+    {
+      "round": 5,
+      "questionId": "india_states:contains:o@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter O in its name",
+      "size": 3,
+      "answers": ["goa", "mizoram", "odisha"]
+    },
+    {
+      "round": 6,
+      "questionId": "countries:starts:u@continent:asia",
+      "datasetId": "countries",
+      "prompt": "Name an Asian country that starts with the letter U",
+      "size": 2,
+      "answers": ["united-arab-emirates", "uzbekistan"]
+    }
+  ]
+}

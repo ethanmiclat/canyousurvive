@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-18",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.2114,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:lacks:h",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter H in its name",
+      "size": 95,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "cobalt", "copernicium", "copper", "curium", "darmstadtium", "dubnium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "indium", "iodine", "iridium", "iron", "krypton", "lawrencium", "lead", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "palladium", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "protactinium", "radium", "radon", "roentgenium", "rubidium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "tantalum", "tellurium", "tennessine", "terbium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "state_capitals:tag:region:midwest",
+      "datasetId": "state_capitals",
+      "prompt": "Name the capital of a Midwestern US state",
+      "size": 12,
+      "answers": ["bismarck", "columbus", "des-moines", "indianapolis", "jefferson-city", "lansing", "lincoln", "madison", "pierre", "saint-paul", "springfield", "topeka"]
+    },
+    {
+      "round": 3,
+      "questionId": "world_cup:tag:mw",
+      "datasetId": "world_cup",
+      "prompt": "Name a nation that won the men's FIFA World Cup before 2026 (West Germany counts as Germany)",
+      "size": 8,
+      "answers": ["argentina", "brazil", "england", "france", "germany", "italy", "spain", "uruguay"]
+    },
+    {
+      "round": 4,
+      "questionId": "mexico_states:starts:m",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter M",
+      "size": 4,
+      "answers": ["mexico-city", "michoacan", "morelos", "state-of-mexico"]
+    },
+    {
+      "round": 5,
+      "questionId": "board_games:starts:s@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter S",
+      "size": 3,
+      "answers": ["monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue"]
+    },
+    {
+      "round": 6,
+      "questionId": "world_capitals:contains:x",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital with the letter X in its name",
+      "size": 2,
+      "answers": ["luxembourg-city", "mexico-city"]
+    }
+  ]
+}

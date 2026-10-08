@@ -1,0 +1,23 @@
+{
+  "dataset": "mountains",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of the 14 mountains over 8,000 meters"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "karakoram"
+      ],
+      "prompt": "Name one of the four 8,000-meter peaks in the Karakoram (Pakistan)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "himalaya"
+      ],
+      "prompt": "Name an 8,000-meter peak in the Himalayas (not the Karakoram)"
+    }
+  ]
+}

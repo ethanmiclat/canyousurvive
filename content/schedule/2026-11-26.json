@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-26",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.2966,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:b",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter B in its name",
+      "size": 86,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "chikorita", "chinchou", "cleffa", "corsola", "croconaw", "cyndaquil", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "lugia", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "unown", "ursaring", "wooper", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "nfl:tag:no-super-bowl",
+      "datasetId": "nfl",
+      "prompt": "Name an NFL team that has never won a Super Bowl",
+      "size": 12,
+      "answers": ["arizona-cardinals", "atlanta-falcons", "buffalo-bills", "carolina-panthers", "cincinnati-bengals", "cleveland-browns", "detroit-lions", "houston-texans", "jacksonville-jaguars", "los-angeles-chargers", "minnesota-vikings", "tennessee-titans"]
+    },
+    {
+      "round": 3,
+      "questionId": "india_states:lacks:r@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with no letter R in its name",
+      "size": 10,
+      "answers": ["assam", "goa", "meghalaya", "nagaland", "odisha", "punjab", "sikkim", "tamil-nadu", "telangana", "west-bengal"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:al-west",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the AL West",
+      "size": 5,
+      "answers": ["athletics", "houston-astros", "los-angeles-angels", "seattle-mariners", "texas-rangers"]
+    },
+    {
+      "round": 5,
+      "questionId": "german_states:contains:m",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter M in its English name",
+      "size": 4,
+      "answers": ["baden-wurttemberg", "bremen", "hamburg", "mecklenburg-western-pomerania"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_presidents:starts:r~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose last name starts with the letter R",
+      "size": 3,
+      "answers": ["franklin-d-roosevelt", "ronald-reagan", "theodore-roosevelt"]
+    }
+  ]
+}

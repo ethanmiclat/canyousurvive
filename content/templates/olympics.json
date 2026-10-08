@@ -1,0 +1,50 @@
+{
+  "dataset": "olympics",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "summer"
+      ],
+      "prompt": "Name a city that has hosted the Summer Olympics (through 2024)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "winter"
+      ],
+      "prompt": "Name a city that has hosted the Winter Olympics (through 2026, co-hosts count)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "summer-repeat"
+      ],
+      "prompt": "Name a city that has hosted the Summer Olympics more than once (through 2024)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "summer",
+        "continent:europe"
+      ],
+      "prompt": "Name a European city that has hosted the Summer Olympics (through 2024)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "winter",
+        "continent:north-america"
+      ],
+      "prompt": "Name a North American city that has hosted the Winter Olympics"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "winter",
+        "continent:asia"
+      ],
+      "prompt": "Name an Asian city that has hosted the Winter Olympics"
+    }
+  ]
+}

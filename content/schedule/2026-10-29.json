@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-29",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.2197,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:all",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (National Pokédex #152 to #251)",
+      "size": 100,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "mexico_states:lacks:p",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with no letter P in its name",
+      "size": 26,
+      "answers": ["aguascalientes", "baja-california", "baja-california-sur", "chihuahua", "coahuila", "colima", "durango", "guanajuato", "guerrero", "hidalgo", "jalisco", "mexico-city", "morelos", "nayarit", "nuevo-leon", "oaxaca", "queretaro", "quintana-roo", "sinaloa", "sonora", "state-of-mexico", "tabasco", "tlaxcala", "veracruz", "yucatan", "zacatecas"]
+    },
+    {
+      "round": 3,
+      "questionId": "nhl:tag:div:pacific",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Pacific Division",
+      "size": 8,
+      "answers": ["anaheim-ducks", "calgary-flames", "edmonton-oilers", "los-angeles-kings", "san-jose-sharks", "seattle-kraken", "vancouver-canucks", "vegas-golden-knights"]
+    },
+    {
+      "round": 4,
+      "questionId": "nato_alphabet:contains:k",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter K",
+      "size": 4,
+      "answers": ["kilo", "mike", "whiskey", "yankee"]
+    },
+    {
+      "round": 5,
+      "questionId": "german_states:lacks:n",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter N in its English name",
+      "size": 3,
+      "answers": ["bavaria", "hamburg", "hesse"]
+    },
+    {
+      "round": 6,
+      "questionId": "constellations:starts:u",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter U",
+      "size": 2,
+      "answers": ["ursa-major", "ursa-minor"]
+    }
+  ]
+}

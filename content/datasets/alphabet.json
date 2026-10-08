@@ -1,0 +1,32 @@
+{
+  "id": "alphabet",
+  "title": "English alphabet",
+  "entities": [
+    {"id": "letter-a", "name": "A", "aliases": ["letter A", "ay"], "tags": ["vowel", "scrabble-1"], "props": {"pos": 1}},
+    {"id": "letter-b", "name": "B", "aliases": ["letter B", "bee"], "tags": ["consonant"], "props": {"pos": 2}},
+    {"id": "letter-c", "name": "C", "aliases": ["letter C", "cee", "see"], "tags": ["consonant"], "props": {"pos": 3}},
+    {"id": "letter-d", "name": "D", "aliases": ["letter D", "dee"], "tags": ["consonant"], "props": {"pos": 4}},
+    {"id": "letter-e", "name": "E", "aliases": ["letter E"], "tags": ["vowel", "scrabble-1"], "props": {"pos": 5}},
+    {"id": "letter-f", "name": "F", "aliases": ["letter F", "ef"], "tags": ["consonant"], "props": {"pos": 6}},
+    {"id": "letter-g", "name": "G", "aliases": ["letter G", "gee"], "tags": ["consonant"], "props": {"pos": 7}},
+    {"id": "letter-h", "name": "H", "aliases": ["letter H", "aitch"], "tags": ["consonant"], "props": {"pos": 8}},
+    {"id": "letter-i", "name": "I", "aliases": ["letter I"], "tags": ["vowel", "scrabble-1"], "props": {"pos": 9}},
+    {"id": "letter-j", "name": "J", "aliases": ["letter J", "jay"], "tags": ["consonant"], "props": {"pos": 10}},
+    {"id": "letter-k", "name": "K", "aliases": ["letter K", "kay"], "tags": ["consonant"], "props": {"pos": 11}},
+    {"id": "letter-l", "name": "L", "aliases": ["letter L", "el"], "tags": ["consonant", "scrabble-1"], "props": {"pos": 12}},
+    {"id": "letter-m", "name": "M", "aliases": ["letter M", "em"], "tags": ["consonant"], "props": {"pos": 13}},
+    {"id": "letter-n", "name": "N", "aliases": ["letter N", "en"], "tags": ["consonant", "scrabble-1"], "props": {"pos": 14}},
+    {"id": "letter-o", "name": "O", "aliases": ["letter O"], "tags": ["vowel", "scrabble-1"], "props": {"pos": 15}},
+    {"id": "letter-p", "name": "P", "aliases": ["letter P", "pee"], "tags": ["consonant"], "props": {"pos": 16}},
+    {"id": "letter-q", "name": "Q", "aliases": ["letter Q", "cue"], "tags": ["consonant"], "props": {"pos": 17}},
+    {"id": "letter-r", "name": "R", "aliases": ["letter R", "ar"], "tags": ["consonant", "scrabble-1"], "props": {"pos": 18}},
+    {"id": "letter-s", "name": "S", "aliases": ["letter S", "ess"], "tags": ["consonant", "scrabble-1"], "props": {"pos": 19}},
+    {"id": "letter-t", "name": "T", "aliases": ["letter T", "tee"], "tags": ["consonant", "scrabble-1"], "props": {"pos": 20}},
+    {"id": "letter-u", "name": "U", "aliases": ["letter U"], "tags": ["vowel", "scrabble-1"], "props": {"pos": 21}},
+    {"id": "letter-v", "name": "V", "aliases": ["letter V", "vee"], "tags": ["consonant"], "props": {"pos": 22}},
+    {"id": "letter-w", "name": "W", "aliases": ["letter W", "double u", "double-u"], "tags": ["consonant"], "props": {"pos": 23}},
+    {"id": "letter-x", "name": "X", "aliases": ["letter X", "ex"], "tags": ["consonant"], "props": {"pos": 24}},
+    {"id": "letter-y", "name": "Y", "aliases": ["letter Y", "wye"], "tags": ["consonant"], "props": {"pos": 25}},
+    {"id": "letter-z", "name": "Z", "aliases": ["letter Z", "zee", "zed"], "tags": ["consonant"], "props": {"pos": 26}}
+  ]
+}

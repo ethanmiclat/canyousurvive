@@ -1,0 +1,172 @@
+{
+  "dataset": "pokemon_gen1",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of the original 151 Pokémon"
+    },
+    {
+      "type": "range",
+      "prop": "dex",
+      "min": 1,
+      "max": 100,
+      "prompt": "Name a Pokémon numbered 1 to 100 in the National Pokédex"
+    },
+    {
+      "type": "range",
+      "prop": "dex",
+      "min": 1,
+      "max": 75,
+      "prompt": "Name a Pokémon numbered 1 to 75 in the National Pokédex"
+    },
+    {
+      "type": "range",
+      "prop": "dex",
+      "min": 1,
+      "max": 20,
+      "prompt": "Name one of the first 20 Pokémon in the National Pokédex"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "legendary"
+      ],
+      "prompt": "Name a legendary or mythical Pokémon from the original 151"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "starter-line"
+      ],
+      "prompt": "Name a Kanto starter Pokémon or one of its evolutions"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:grass"
+      ],
+      "prompt": "Name a Grass-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:poison"
+      ],
+      "prompt": "Name a Poison-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:fire"
+      ],
+      "prompt": "Name a Fire-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:flying"
+      ],
+      "prompt": "Name a Flying-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:water"
+      ],
+      "prompt": "Name a Water-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:bug"
+      ],
+      "prompt": "Name a Bug-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:normal"
+      ],
+      "prompt": "Name a Normal-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:electric"
+      ],
+      "prompt": "Name a Electric-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:ground"
+      ],
+      "prompt": "Name a Ground-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:fairy"
+      ],
+      "prompt": "Name a Fairy-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:fighting"
+      ],
+      "prompt": "Name a Fighting-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:psychic"
+      ],
+      "prompt": "Name a Psychic-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:rock"
+      ],
+      "prompt": "Name a Rock-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:steel"
+      ],
+      "prompt": "Name a Steel-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:ice"
+      ],
+      "prompt": "Name a Ice-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:ghost"
+      ],
+      "prompt": "Name a Ghost-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:dragon"
+      ],
+      "prompt": "Name a Dragon-type Pokémon from the original 151 (current typings)"
+    },
+    {
+      "type": "letters",
+      "noun": "Pokémon",
+      "prompt": {
+        "starts": "Name an original-151 Pokémon that starts with the letter {L}",
+        "contains": "Name an original-151 Pokémon with the letter {L} in its name",
+        "lacks": "Name an original-151 Pokémon with no letter {L} in its name"
+      }
+    }
+  ]
+}

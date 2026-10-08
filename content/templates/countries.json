@@ -1,0 +1,180 @@
+{
+  "dataset": "countries",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a country (any of the 195: UN members plus Vatican City and Palestine)"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "continent:europe"
+      ],
+      "prompt": "Name a country outside Europe"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "continent:africa"
+      ],
+      "prompt": "Name a country outside Africa"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "continent:asia"
+      ],
+      "prompt": "Name a country outside Asia"
+    },
+    {
+      "type": "notTag",
+      "tags": [
+        "eu"
+      ],
+      "prompt": "Name a country that is not in the European Union"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "eu"
+      ],
+      "prompt": "Name a member of the European Union"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "nato"
+      ],
+      "prompt": "Name a NATO member country"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "g7"
+      ],
+      "prompt": "Name a G7 country"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "p5"
+      ],
+      "prompt": "Name a permanent member of the UN Security Council"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "continent:north-america"
+      ],
+      "prompt": "Name a country in North America (including Central America and the Caribbean)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "continent:south-america"
+      ],
+      "prompt": "Name a country in South America"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "continent:oceania"
+      ],
+      "prompt": "Name a country in Oceania"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "central-america"
+      ],
+      "prompt": "Name a country in Central America"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "caribbean"
+      ],
+      "prompt": "Name a Caribbean island country"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "stan"
+      ],
+      "prompt": "Name a country whose name ends in \"-stan\""
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "nordic"
+      ],
+      "prompt": "Name a Nordic country"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "guinea"
+      ],
+      "prompt": "Name a country with \"Guinea\" in its name"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "landlocked",
+        "continent:africa"
+      ],
+      "prompt": "Name a landlocked country in Africa"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "landlocked",
+        "continent:asia"
+      ],
+      "prompt": "Name a landlocked country in Asia"
+    },
+    {
+      "type": "letters",
+      "noun": "country"
+    },
+    {
+      "type": "letters",
+      "noun": "country",
+      "modes": [
+        "starts"
+      ],
+      "where": [
+        "continent:africa"
+      ],
+      "prompt": {
+        "starts": "Name an African country that starts with the letter {L}"
+      }
+    },
+    {
+      "type": "letters",
+      "noun": "country",
+      "modes": [
+        "starts"
+      ],
+      "where": [
+        "continent:europe"
+      ],
+      "prompt": {
+        "starts": "Name a European country that starts with the letter {L}"
+      }
+    },
+    {
+      "type": "letters",
+      "noun": "country",
+      "modes": [
+        "starts"
+      ],
+      "where": [
+        "continent:asia"
+      ],
+      "prompt": {
+        "starts": "Name an Asian country that starts with the letter {L}"
+      }
+    }
+  ]
+}

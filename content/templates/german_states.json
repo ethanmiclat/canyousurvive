@@ -1,0 +1,21 @@
+{
+  "dataset": "german_states",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of Germany's 16 states (English or German names)"
+    },
+    {
+      "type": "letters",
+      "noun": "German state",
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a German state with the letter {L} in its English name",
+        "lacks": "Name a German state with no letter {L} in its English name"
+      }
+    }
+  ]
+}

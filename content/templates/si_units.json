@@ -1,0 +1,42 @@
+{
+  "dataset": "si_units",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "base-unit"
+      ],
+      "prompt": "Name one of the seven SI base units"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "prefix"
+      ],
+      "prompt": "Name an SI prefix (like kilo- or nano-)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "prefix",
+        "big"
+      ],
+      "prompt": "Name an SI prefix for a multiple larger than one (deca- and up)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "prefix",
+        "small"
+      ],
+      "prompt": "Name an SI prefix for a fraction smaller than one (deci- and down)"
+    },
+    {
+      "type": "range",
+      "prop": "exp",
+      "min": -12,
+      "max": 12,
+      "prompt": "Name an SI prefix from pico- (10^-12) to tera- (10^12)"
+    }
+  ]
+}

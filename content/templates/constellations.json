@@ -1,0 +1,20 @@
+{
+  "dataset": "constellations",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of the 88 official constellations"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "zodiac"
+      ],
+      "prompt": "Name a constellation of the zodiac (the traditional 12)"
+    },
+    {
+      "type": "letters",
+      "noun": "constellation"
+    }
+  ]
+}

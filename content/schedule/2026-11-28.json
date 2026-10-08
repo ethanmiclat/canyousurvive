@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-28",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.2456,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:lacks:k",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter K in its name",
+      "size": 53,
+      "answers": ["acadia", "american-samoa", "arches", "badlands", "big-bend", "biscayne", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "guadalupe-mountains", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
+    },
+    {
+      "round": 2,
+      "questionId": "elements:tag:one-letter-symbol",
+      "datasetId": "elements",
+      "prompt": "Name an element whose symbol is a single letter",
+      "size": 14,
+      "answers": ["boron", "carbon", "fluorine", "hydrogen", "iodine", "nitrogen", "oxygen", "phosphorus", "potassium", "sulfur", "tungsten", "uranium", "vanadium", "yttrium"]
+    },
+    {
+      "round": 3,
+      "questionId": "amino_acids:tag:essential",
+      "datasetId": "amino_acids",
+      "prompt": "Name one of the nine essential amino acids for humans",
+      "size": 9,
+      "answers": ["histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "threonine", "tryptophan", "valine"]
+    },
+    {
+      "round": 4,
+      "questionId": "alphabet:tag:vowel",
+      "datasetId": "alphabet",
+      "prompt": "Name a vowel (A, E, I, O or U)",
+      "size": 5,
+      "answers": ["letter-a", "letter-e", "letter-i", "letter-o", "letter-u"]
+    },
+    {
+      "round": 5,
+      "questionId": "famous_groups:tag:tmnt",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of the Teenage Mutant Ninja Turtles",
+      "size": 4,
+      "answers": ["tmnt-donatello", "tmnt-leonardo", "tmnt-michelangelo", "tmnt-raphael"]
+    },
+    {
+      "round": 6,
+      "questionId": "board_games:starts:i@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter I",
+      "size": 2,
+      "answers": ["monopoly-illinois-avenue", "monopoly-indiana-avenue"]
+    }
+  ]
+}

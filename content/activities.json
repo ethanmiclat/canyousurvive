@@ -1,0 +1,12 @@
+{
+  "activities": [
+    { "id": "poison-cups", "name": "Poison Cups", "interaction": "tap", "kind": "choice", "rule": "Five cups. One is poisoned. Tap one and drink.", "enabled": true },
+    { "id": "bomb-wires", "name": "Bomb Wires", "interaction": "swipe", "kind": "choice", "rule": "Five wires. One sets it off. Swipe across a wire to cut it.", "enabled": true },
+    { "id": "glass-bridge", "name": "Glass Bridge", "interaction": "hold-release", "kind": "choice", "rule": "Five panes, one cracked. Hold to aim, release to jump.", "enabled": true },
+    { "id": "stop-the-needle", "name": "Stop the Needle", "interaction": "timing", "kind": "continuous", "rule": "A hidden red zone covers 20% of the dial. Stop the needle outside it.", "enabled": true },
+    { "id": "draw-straws", "name": "Draw Straws", "interaction": "drag", "kind": "choice", "rule": "Five straws, one short. Drag one up to pull it.", "enabled": true },
+    { "id": "five-keys", "name": "Five Keys", "interaction": "drag-to-target", "kind": "choice", "rule": "Five keys. One trips the alarm. Drag a key into the lock.", "enabled": true },
+    { "id": "spin-the-wheel", "name": "Spin the Wheel", "interaction": "flick", "kind": "continuous", "rule": "A hidden 20% of the wheel is deadly. Flick it to spin.", "enabled": true },
+    { "id": "elevator", "name": "Elevator", "interaction": "press-hold", "kind": "choice", "rule": "Five floors. One is on fire. Press and hold a button to go.", "enabled": true }
+  ]
+}

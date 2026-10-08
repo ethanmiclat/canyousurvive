@@ -1,0 +1,35 @@
+{
+  "dataset": "amino_acids",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of the 20 standard amino acids"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "essential"
+      ],
+      "prompt": "Name one of the nine essential amino acids for humans"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "nonessential"
+      ],
+      "prompt": "Name a standard amino acid that is not essential for humans"
+    },
+    {
+      "type": "letters",
+      "noun": "amino acid",
+      "modes": [
+        "starts",
+        "contains"
+      ],
+      "prompt": {
+        "starts": "Name a standard amino acid that starts with the letter {L}",
+        "contains": "Name a standard amino acid with the letter {L} in its name"
+      }
+    }
+  ]
+}

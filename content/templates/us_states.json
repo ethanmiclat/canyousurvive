@@ -1,0 +1,118 @@
+{
+  "dataset": "us_states",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a US state"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:south"
+      ],
+      "prompt": "Name a US state in the South (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:west"
+      ],
+      "prompt": "Name a US state in the West (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:midwest"
+      ],
+      "prompt": "Name a US state in the Midwest (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:northeast"
+      ],
+      "prompt": "Name a US state in the Northeast (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "division:new-england"
+      ],
+      "prompt": "Name a New England state"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "division:pacific"
+      ],
+      "prompt": "Name a US state in the Pacific Census division (including Alaska and Hawaii)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "division:mountain"
+      ],
+      "prompt": "Name a US state in the Mountain Census division"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "original-13"
+      ],
+      "prompt": "Name one of the original 13 US states"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "great-lakes"
+      ],
+      "prompt": "Name a US state that touches one of the Great Lakes"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-canada"
+      ],
+      "prompt": "Name a US state that borders Canada (land or water)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "borders-mexico"
+      ],
+      "prompt": "Name a US state that borders Mexico"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "gulf-coast"
+      ],
+      "prompt": "Name a US state with a Gulf of Mexico coastline"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "two-words"
+      ],
+      "prompt": "Name a US state with a two-word name"
+    },
+    {
+      "type": "range",
+      "prop": "admitted",
+      "min": 1850,
+      "max": 1959,
+      "prompt": "Name a US state admitted in 1850 or later"
+    },
+    {
+      "type": "range",
+      "prop": "admitted",
+      "min": 1890,
+      "max": 1959,
+      "prompt": "Name a US state admitted in 1890 or later"
+    },
+    {
+      "type": "letters",
+      "noun": "US state"
+    }
+  ]
+}

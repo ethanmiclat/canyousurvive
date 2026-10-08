@@ -1,0 +1,112 @@
+{
+  "dataset": "best_picture",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a film that won the Oscar for Best Picture (any ceremony from 1929 through 2025)"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1960,
+      "max": 2024,
+      "prompt": "Name a Best Picture winner released from 1960 to 2024"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2000,
+      "max": 2024,
+      "prompt": "Name a Best Picture winner released from 2000 to 2024"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1928,
+      "max": 1959,
+      "prompt": "Name a Best Picture winner released before 1960"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1930,
+      "max": 1939,
+      "prompt": "Name a Best Picture winner released in the 1930s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1940,
+      "max": 1949,
+      "prompt": "Name a Best Picture winner released in the 1940s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1950,
+      "max": 1959,
+      "prompt": "Name a Best Picture winner released in the 1950s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1960,
+      "max": 1969,
+      "prompt": "Name a Best Picture winner released in the 1960s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1970,
+      "max": 1979,
+      "prompt": "Name a Best Picture winner released in the 1970s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1980,
+      "max": 1989,
+      "prompt": "Name a Best Picture winner released in the 1980s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1990,
+      "max": 1999,
+      "prompt": "Name a Best Picture winner released in the 1990s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2000,
+      "max": 2009,
+      "prompt": "Name a Best Picture winner released in the 2000s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2010,
+      "max": 2019,
+      "prompt": "Name a Best Picture winner released in the 2010s"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2020,
+      "max": 2024,
+      "prompt": "Name a Best Picture winner released from 2020 to 2024"
+    },
+    {
+      "type": "letters",
+      "noun": "Best Picture winner",
+      "modes": [
+        "starts",
+        "contains"
+      ],
+      "prompt": {
+        "starts": "Name a Best Picture winner whose title starts with the letter {L} (ignore \"The\")",
+        "contains": "Name a Best Picture winner with the letter {L} in its title"
+      }
+    }
+  ]
+}

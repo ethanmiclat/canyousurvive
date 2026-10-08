@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-19",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.2925,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "state_capitals:all",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital",
+      "size": 50,
+      "answers": ["albany", "annapolis", "atlanta", "augusta", "austin", "baton-rouge", "bismarck", "boise", "boston", "carson-city", "charleston", "cheyenne", "columbia", "columbus", "concord", "denver", "des-moines", "dover", "frankfort", "harrisburg", "hartford", "helena", "honolulu", "indianapolis", "jackson", "jefferson-city", "juneau", "lansing", "lincoln", "little-rock", "madison", "montgomery", "montpelier", "nashville", "oklahoma-city", "olympia", "phoenix", "pierre", "providence", "raleigh", "richmond", "sacramento", "saint-paul", "salem", "salt-lake-city", "santa-fe", "springfield", "tallahassee", "topeka", "trenton"]
+    },
+    {
+      "round": 2,
+      "questionId": "mlb:tag:conf:al",
+      "datasetId": "mlb",
+      "prompt": "Name an American League team in MLB",
+      "size": 15,
+      "answers": ["athletics", "baltimore-orioles", "boston-red-sox", "chicago-white-sox", "cleveland-guardians", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "minnesota-twins", "new-york-yankees", "seattle-mariners", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays"]
+    },
+    {
+      "round": 3,
+      "questionId": "australia:all",
+      "datasetId": "australia",
+      "prompt": "Name one of Australia's six states or two mainland territories",
+      "size": 8,
+      "answers": ["australian-capital-territory", "new-south-wales", "northern-territory", "queensland", "south-australia", "tasmania", "victoria", "western-australia"]
+    },
+    {
+      "round": 4,
+      "questionId": "calendar:tag:weekday",
+      "datasetId": "calendar",
+      "prompt": "Name a weekday (Monday to Friday)",
+      "size": 5,
+      "answers": ["friday", "monday", "thursday", "tuesday", "wednesday"]
+    },
+    {
+      "round": 5,
+      "questionId": "film_series:tag:shrek",
+      "datasetId": "film_series",
+      "prompt": "Name one of the four main Shrek films",
+      "size": 4,
+      "answers": ["shrek-shrek", "shrek-shrek-2", "shrek-shrek-forever-after", "shrek-shrek-the-third"]
+    },
+    {
+      "round": 6,
+      "questionId": "greek_myth:contains:n@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter N in their Greek name",
+      "size": 3,
+      "answers": ["olympian-athena", "olympian-dionysus", "olympian-poseidon"]
+    }
+  ]
+}

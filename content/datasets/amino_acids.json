@@ -1,0 +1,26 @@
+{
+  "id": "amino_acids",
+  "title": "Amino acids",
+  "entities": [
+    {"id": "alanine", "name": "Alanine", "aliases": ["Ala"], "tags": ["nonessential"], "props": {"code": "Ala"}},
+    {"id": "arginine", "name": "Arginine", "aliases": ["Arg"], "tags": ["nonessential"], "props": {"code": "Arg"}},
+    {"id": "asparagine", "name": "Asparagine", "aliases": ["Asn"], "tags": ["nonessential"], "props": {"code": "Asn"}},
+    {"id": "aspartic-acid", "name": "Aspartic acid", "alt": ["Aspartate"], "aliases": ["Asp"], "tags": ["nonessential"], "props": {"code": "Asp"}},
+    {"id": "cysteine", "name": "Cysteine", "aliases": ["Cys"], "tags": ["nonessential"], "props": {"code": "Cys"}},
+    {"id": "glutamic-acid", "name": "Glutamic acid", "alt": ["Glutamate"], "aliases": ["Glu"], "tags": ["nonessential"], "props": {"code": "Glu"}},
+    {"id": "glutamine", "name": "Glutamine", "aliases": ["Gln"], "tags": ["nonessential"], "props": {"code": "Gln"}},
+    {"id": "glycine", "name": "Glycine", "aliases": ["Gly"], "tags": ["nonessential"], "props": {"code": "Gly"}},
+    {"id": "histidine", "name": "Histidine", "aliases": ["His"], "tags": ["essential"], "props": {"code": "His"}},
+    {"id": "isoleucine", "name": "Isoleucine", "aliases": ["Ile"], "tags": ["essential"], "props": {"code": "Ile"}},
+    {"id": "leucine", "name": "Leucine", "aliases": ["Leu"], "tags": ["essential"], "props": {"code": "Leu"}},
+    {"id": "lysine", "name": "Lysine", "aliases": ["Lys"], "tags": ["essential"], "props": {"code": "Lys"}},
+    {"id": "methionine", "name": "Methionine", "aliases": ["Met"], "tags": ["essential"], "props": {"code": "Met"}},
+    {"id": "phenylalanine", "name": "Phenylalanine", "aliases": ["Phe"], "tags": ["essential"], "props": {"code": "Phe"}},
+    {"id": "proline", "name": "Proline", "aliases": ["Pro"], "tags": ["nonessential"], "props": {"code": "Pro"}},
+    {"id": "serine", "name": "Serine", "aliases": ["Ser"], "tags": ["nonessential"], "props": {"code": "Ser"}},
+    {"id": "threonine", "name": "Threonine", "aliases": ["Thr"], "tags": ["essential"], "props": {"code": "Thr"}},
+    {"id": "tryptophan", "name": "Tryptophan", "aliases": ["Trp"], "tags": ["essential"], "props": {"code": "Trp"}},
+    {"id": "tyrosine", "name": "Tyrosine", "aliases": ["Tyr"], "tags": ["nonessential"], "props": {"code": "Tyr"}},
+    {"id": "valine", "name": "Valine", "aliases": ["Val"], "tags": ["essential"], "props": {"code": "Val"}}
+  ]
+}

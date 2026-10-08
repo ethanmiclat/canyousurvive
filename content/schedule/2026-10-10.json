@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-10",
+  "approved": false,
+  "activity": "five-keys",
+  "winRate": 0.2153,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "constellations:lacks:p",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with no letter P in its name",
+      "size": 64,
+      "answers": ["andromeda", "antlia", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "cancer", "canes-venatici", "canis-major", "canis-minor", "carina", "centaurus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "hercules", "horologium", "hydra", "hydrus", "indus", "lacerta", "leo", "leo-minor", "libra", "lynx", "lyra", "mensa", "monoceros", "musca", "norma", "octans", "orion", "reticulum", "sagitta", "sagittarius", "scutum", "sextans", "taurus", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans"]
+    },
+    {
+      "round": 2,
+      "questionId": "calendar:tag:month",
+      "datasetId": "calendar",
+      "prompt": "Name a month of the year",
+      "size": 12,
+      "answers": ["april", "august", "december", "february", "january", "july", "june", "march", "may", "november", "october", "september"]
+    },
+    {
+      "round": 3,
+      "questionId": "alphabet:tag:scrabble-1",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter worth exactly 1 point in English Scrabble",
+      "size": 10,
+      "answers": ["letter-a", "letter-e", "letter-i", "letter-l", "letter-n", "letter-o", "letter-r", "letter-s", "letter-t", "letter-u"]
+    },
+    {
+      "round": 4,
+      "questionId": "nfl:tag:div:afc-south",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the AFC South",
+      "size": 4,
+      "answers": ["houston-texans", "indianapolis-colts", "jacksonville-jaguars", "tennessee-titans"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_alphabet:contains:g",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter G in its name",
+      "size": 3,
+      "answers": ["gamma", "omega", "sigma"]
+    },
+    {
+      "round": 6,
+      "questionId": "zodiac:contains:l@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter L in it",
+      "size": 2,
+      "answers": ["leo", "libra"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-22",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.2884,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "bible_books:lacks:c~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter C in its name (ignore any number in front)",
+      "size": 55,
+      "answers": ["1-john", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-john", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "amos", "daniel", "deuteronomy", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "luke", "mark", "matthew", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zephaniah"]
+    },
+    {
+      "round": 2,
+      "questionId": "elements:tag:lanthanide",
+      "datasetId": "elements",
+      "prompt": "Name a lanthanide",
+      "size": 15,
+      "answers": ["cerium", "dysprosium", "erbium", "europium", "gadolinium", "holmium", "lanthanum", "lutetium", "neodymium", "praseodymium", "promethium", "samarium", "terbium", "thulium", "ytterbium"]
+    },
+    {
+      "round": 3,
+      "questionId": "us_presidents:range:start:1981-2025",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president who first took office in 1981 or later",
+      "size": 7,
+      "answers": ["barack-obama", "bill-clinton", "donald-trump", "george-h-w-bush", "george-w-bush", "joe-biden", "ronald-reagan"]
+    },
+    {
+      "round": 4,
+      "questionId": "famous_groups:tag:simpsons",
+      "datasetId": "famous_groups",
+      "prompt": "Name a member of the Simpson family (Homer's household)",
+      "size": 5,
+      "answers": ["simpsons-bart-simpson", "simpsons-homer-simpson", "simpsons-lisa-simpson", "simpsons-maggie-simpson", "simpsons-marge-simpson"]
+    },
+    {
+      "round": 5,
+      "questionId": "olympics:tag:winter+continent:asia",
+      "datasetId": "olympics",
+      "prompt": "Name an Asian city that has hosted the Winter Olympics",
+      "size": 4,
+      "answers": ["beijing", "nagano", "pyeongchang", "sapporo"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:starts:t",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter T",
+      "size": 3,
+      "answers": ["threonine", "tryptophan", "tyrosine"]
+    }
+  ]
+}

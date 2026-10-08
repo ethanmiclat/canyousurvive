@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-09",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.2543,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "countries:not:eu",
+      "datasetId": "countries",
+      "prompt": "Name a country that is not in the European Union",
+      "size": 168,
+      "answers": ["afghanistan", "albania", "algeria", "andorra", "angola", "antigua-and-barbuda", "argentina", "armenia", "australia", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belarus", "belize", "benin", "bhutan", "bolivia", "bosnia-and-herzegovina", "botswana", "brazil", "brunei", "burkina-faso", "burundi", "cabo-verde", "cambodia", "cameroon", "canada", "central-african-republic", "chad", "chile", "china", "colombia", "comoros", "costa-rica", "cote-d-ivoire", "cuba", "democratic-republic-of-the-congo", "djibouti", "dominica", "dominican-republic", "ecuador", "egypt", "el-salvador", "equatorial-guinea", "eritrea", "eswatini", "ethiopia", "fiji", "gabon", "gambia", "georgia", "ghana", "grenada", "guatemala", "guinea", "guinea-bissau", "guyana", "haiti", "honduras", "iceland", "india", "indonesia", "iran", "iraq", "israel", "jamaica", "japan", "jordan", "kazakhstan", "kenya", "kiribati", "kuwait", "kyrgyzstan", "laos", "lebanon", "lesotho", "liberia", "libya", "liechtenstein", "madagascar", "malawi", "malaysia", "maldives", "mali", "marshall-islands", "mauritania", "mauritius", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "morocco", "mozambique", "myanmar", "namibia", "nauru", "nepal", "new-zealand", "nicaragua", "niger", "nigeria", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "qatar", "republic-of-the-congo", "russia", "rwanda", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "sao-tome-and-principe", "saudi-arabia", "senegal", "serbia", "seychelles", "sierra-leone", "singapore", "solomon-islands", "somalia", "south-africa", "south-korea", "south-sudan", "sri-lanka", "sudan", "suriname", "switzerland", "syria", "tajikistan", "tanzania", "thailand", "timor-leste", "togo", "tonga", "trinidad-and-tobago", "tunisia", "turkey", "turkmenistan", "tuvalu", "uganda", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uruguay", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen", "zambia", "zimbabwe"]
+    },
+    {
+      "round": 2,
+      "questionId": "board_games:tag:monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a street (colored property) in classic US Monopoly",
+      "size": 22,
+      "answers": ["monopoly-atlantic-avenue", "monopoly-baltic-avenue", "monopoly-boardwalk", "monopoly-connecticut-avenue", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-mediterranean-avenue", "monopoly-new-york-avenue", "monopoly-north-carolina-avenue", "monopoly-oriental-avenue", "monopoly-pacific-avenue", "monopoly-park-place", "monopoly-pennsylvania-avenue", "monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
+    },
+    {
+      "round": 3,
+      "questionId": "famous_groups:tag:dwarf",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of the Seven Dwarfs from Disney's Snow White",
+      "size": 7,
+      "answers": ["dwarf-bashful", "dwarf-doc", "dwarf-dopey", "dwarf-grumpy", "dwarf-happy", "dwarf-sleepy", "dwarf-sneezy"]
+    },
+    {
+      "round": 4,
+      "questionId": "film_series:tag:bond-actor",
+      "datasetId": "film_series",
+      "prompt": "Name an actor who played James Bond in an official Eon film",
+      "size": 6,
+      "answers": ["bond-actor-daniel-craig", "bond-actor-george-lazenby", "bond-actor-pierce-brosnan", "bond-actor-roger-moore", "bond-actor-sean-connery", "bond-actor-timothy-dalton"]
+    },
+    {
+      "round": 5,
+      "questionId": "tarot:contains:u",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter U in its name",
+      "size": 4,
+      "answers": ["judgement", "justice", "the-sun", "wheel-of-fortune"]
+    },
+    {
+      "round": 6,
+      "questionId": "india_states:starts:h@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter H",
+      "size": 2,
+      "answers": ["haryana", "himachal-pradesh"]
+    }
+  ]
+}

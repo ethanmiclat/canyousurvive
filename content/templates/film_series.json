@@ -1,0 +1,47 @@
+{
+  "dataset": "film_series",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "star-wars"
+      ],
+      "prompt": "Name one of the nine numbered Star Wars saga films"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "bond-actor"
+      ],
+      "prompt": "Name an actor who played James Bond in an official Eon film"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "indiana-jones"
+      ],
+      "prompt": "Name one of the five Indiana Jones films"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "jurassic"
+      ],
+      "prompt": "Name a Jurassic Park or Jurassic World film released before 2026"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "shrek"
+      ],
+      "prompt": "Name one of the four main Shrek films"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "middle-earth"
+      ],
+      "prompt": "Name one of Peter Jackson's Lord of the Rings or Hobbit films"
+    }
+  ]
+}

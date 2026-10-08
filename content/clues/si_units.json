@@ -1,0 +1,9 @@
+{
+ "unit-metre": "Base unit of length",
+ "unit-kilogram": "Base unit of mass, the only one with a prefix in its name",
+ "unit-second": "Base unit of time",
+ "unit-ampere": "Base unit of electric current",
+ "unit-kelvin": "Base unit of temperature, starting at absolute zero",
+ "unit-mole": "Base unit for amount of substance, about 6.022 × 10²³ things",
+ "unit-candela": "Base unit of light intensity, roughly one candle"
+}

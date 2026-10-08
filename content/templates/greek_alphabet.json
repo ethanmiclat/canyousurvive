@@ -1,0 +1,38 @@
+{
+  "dataset": "greek_alphabet",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a letter of the Greek alphabet"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "vowel"
+      ],
+      "prompt": "Name a Greek vowel letter"
+    },
+    {
+      "type": "range",
+      "prop": "pos",
+      "min": 1,
+      "max": 12,
+      "prompt": "Name one of the first 12 letters of the Greek alphabet"
+    },
+    {
+      "type": "range",
+      "prop": "pos",
+      "min": 13,
+      "max": 24,
+      "prompt": "Name one of the last 12 letters of the Greek alphabet"
+    },
+    {
+      "type": "letters",
+      "noun": "Greek letter",
+      "modes": [
+        "contains",
+        "lacks"
+      ]
+    }
+  ]
+}

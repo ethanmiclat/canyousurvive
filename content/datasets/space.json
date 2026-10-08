@@ -1,0 +1,30 @@
+{
+  "id": "space",
+  "title": "Solar system",
+  "entities": [
+    {"id": "mercury", "name": "Mercury", "tags": ["planet", "rocky"]},
+    {"id": "venus", "name": "Venus", "tags": ["planet", "rocky"]},
+    {"id": "earth", "name": "Earth", "tags": ["planet", "rocky"]},
+    {"id": "mars", "name": "Mars", "tags": ["planet", "rocky"]},
+    {"id": "jupiter", "name": "Jupiter", "tags": ["planet", "giant"]},
+    {"id": "saturn", "name": "Saturn", "tags": ["planet", "giant"]},
+    {"id": "uranus", "name": "Uranus", "tags": ["planet", "giant"]},
+    {"id": "neptune", "name": "Neptune", "tags": ["planet", "giant"]},
+    {"id": "ceres", "name": "Ceres", "tags": ["dwarf"]},
+    {"id": "pluto", "name": "Pluto", "tags": ["dwarf"]},
+    {"id": "haumea", "name": "Haumea", "tags": ["dwarf"]},
+    {"id": "makemake", "name": "Makemake", "tags": ["dwarf"]},
+    {"id": "eris", "name": "Eris", "tags": ["dwarf"]},
+    {"id": "io", "name": "Io", "tags": ["moon", "galilean"]},
+    {"id": "europa", "name": "Europa", "tags": ["moon", "galilean"]},
+    {"id": "ganymede", "name": "Ganymede", "tags": ["moon", "galilean"]},
+    {"id": "callisto", "name": "Callisto", "tags": ["moon", "galilean"]},
+    {"id": "mimas", "name": "Mimas", "tags": ["moon", "saturn-moon"]},
+    {"id": "enceladus", "name": "Enceladus", "tags": ["moon", "saturn-moon"]},
+    {"id": "tethys", "name": "Tethys", "tags": ["moon", "saturn-moon"]},
+    {"id": "dione", "name": "Dione", "tags": ["moon", "saturn-moon"]},
+    {"id": "rhea", "name": "Rhea", "tags": ["moon", "saturn-moon"]},
+    {"id": "titan", "name": "Titan", "tags": ["moon", "saturn-moon"]},
+    {"id": "iapetus", "name": "Iapetus", "tags": ["moon", "saturn-moon"]}
+  ]
+}

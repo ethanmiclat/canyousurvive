@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.2928,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:lacks:b",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter B in its name",
+      "size": 54,
+      "answers": ["acadia", "american-samoa", "arches", "canyonlands", "capitol-reef", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "grand-canyon", "grand-teton", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
+    },
+    {
+      "round": 2,
+      "questionId": "nba:tag:conf:west",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Western Conference",
+      "size": 15,
+      "answers": ["dallas-mavericks", "denver-nuggets", "golden-state-warriors", "houston-rockets", "los-angeles-clippers", "los-angeles-lakers", "memphis-grizzlies", "minnesota-timberwolves", "new-orleans-pelicans", "oklahoma-city-thunder", "phoenix-suns", "portland-trail-blazers", "sacramento-kings", "san-antonio-spurs", "utah-jazz"]
+    },
+    {
+      "round": 3,
+      "questionId": "tarot:contains:h",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter H in its name",
+      "size": 8,
+      "answers": ["death", "strength", "the-chariot", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "wheel-of-fortune"]
+    },
+    {
+      "round": 4,
+      "questionId": "world_cup:tag:ww",
+      "datasetId": "world_cup",
+      "prompt": "Name a nation that has won the FIFA Women's World Cup (through 2023)",
+      "size": 5,
+      "answers": ["germany", "japan", "norway", "spain", "united-states"]
+    },
+    {
+      "round": 5,
+      "questionId": "mexico_states:contains:j",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter J in its name",
+      "size": 4,
+      "answers": ["baja-california", "baja-california-sur", "guanajuato", "jalisco"]
+    },
+    {
+      "round": 6,
+      "questionId": "board_games:starts:v@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter V",
+      "size": 3,
+      "answers": ["monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
+    }
+  ]
+}

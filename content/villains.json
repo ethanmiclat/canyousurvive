@@ -1,0 +1,82 @@
+{
+  "note": "One villain per weekday (0 = Sunday), in America/Chicago date order. `name` starts a sentence, `ref` sits mid-sentence. `greeting` opens the day, `taunts` show after a death, `jeers` after surviving a round.",
+  "villains": [
+    {
+      "weekday": 0,
+      "id": "hollow",
+      "name": "The Hollow",
+      "ref": "the Hollow",
+      "color": "#8fa889",
+      "deathStamp": "Devoured",
+      "greeting": "Fresh meat. We can smell you from here.",
+      "taunts": ["We were so hungry.", "Join us. It doesn't hurt for long.", "The horde thanks you.", "Shh. Listen to the shuffling."],
+      "jeers": ["We'll wait. We always wait.", "Run, then. We don't get tired.", "You smell so alive."]
+    },
+    {
+      "weekday": 1,
+      "id": "warden",
+      "name": "WARDEN",
+      "ref": "WARDEN",
+      "color": "#f5a524",
+      "deathStamp": "Terminated",
+      "greeting": "Welcome, subject. The trials begin now.",
+      "taunts": ["Subject terminated. File closed.", "Containment trial failed.", "Your bunk has been reassigned.", "Efficiency improved by one."],
+      "jeers": ["Anomaly logged. Proceed.", "Subject still viable. Continuing.", "Unexpected. Recalibrating."]
+    },
+    {
+      "weekday": 2,
+      "id": "reaper",
+      "name": "The Reaper",
+      "ref": "the Reaper",
+      "color": "#b8b0c8",
+      "deathStamp": "Claimed",
+      "greeting": "I've been expecting you.",
+      "taunts": ["Your time was up.", "I'll keep your seat warm.", "Everyone meets me eventually.", "Don't look so surprised."],
+      "jeers": ["Not today, then.", "I'm patient. Are you?", "Enjoy the borrowed time."]
+    },
+    {
+      "weekday": 3,
+      "id": "warlord",
+      "name": "The Warlord",
+      "ref": "the Warlord",
+      "color": "#e0703a",
+      "deathStamp": "Wrecked",
+      "greeting": "Welcome to my wasteland, scrap.",
+      "taunts": ["Another skull for the wall.", "You'd never last out here.", "Weak. Next.", "Strip the body. Keep the boots."],
+      "jeers": ["Lucky. Don't get used to it.", "Huh. You've got teeth.", "Keep running, scrap."]
+    },
+    {
+      "weekday": 4,
+      "id": "ferryman",
+      "name": "The Ferryman",
+      "ref": "the Ferryman",
+      "color": "#5fb3b3",
+      "deathStamp": "Taken",
+      "greeting": "Step aboard. Few make it across.",
+      "taunts": ["The river was waiting for you.", "You didn't pay the toll.", "Sit. The crossing is long.", "Mind the water. It's cold."],
+      "jeers": ["Not your crossing. Yet.", "Keep your coin for now.", "The boat will come back."]
+    },
+    {
+      "weekday": 5,
+      "id": "mother-rot",
+      "name": "Mother Rot",
+      "ref": "Mother Rot",
+      "color": "#b48ad8",
+      "deathStamp": "Infected",
+      "greeting": "Come closer, little one. Breathe.",
+      "taunts": ["Rest now. Become soil.", "You'll grow on me.", "The spores like you.", "Breathe deep, little one."],
+      "jeers": ["You can't hold your breath forever.", "Something is already growing.", "Run. Spread me further."]
+    },
+    {
+      "weekday": 6,
+      "id": "radiant",
+      "name": "The Radiant",
+      "ref": "the Radiant",
+      "color": "#ffe27a",
+      "deathStamp": "Vaporized",
+      "greeting": "Look at me. Everyone does, once.",
+      "taunts": ["Such a bright end.", "You burned so briefly.", "Bask in it.", "Only a shadow left on the wall."],
+      "jeers": ["Still glowing? Interesting.", "Your hair will fall out soon.", "The light can wait."]
+    }
+  ]
+}

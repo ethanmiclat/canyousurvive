@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-25",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.2129,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "bible_books:lacks:g~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter G in its name (ignore any number in front)",
+      "size": 59,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "habakkuk", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "titus", "zechariah", "zephaniah"]
+    },
+    {
+      "round": 2,
+      "questionId": "nato_alphabet:lacks:t",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word with no letter T",
+      "size": 20,
+      "answers": ["alfa", "bravo", "charlie", "echo", "golf", "india", "kilo", "lima", "mike", "november", "oscar", "papa", "quebec", "romeo", "sierra", "uniform", "whiskey", "x-ray", "yankee", "zulu"]
+    },
+    {
+      "round": 3,
+      "questionId": "calendar:tag:day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week",
+      "size": 7,
+      "answers": ["friday", "monday", "saturday", "sunday", "thursday", "tuesday", "wednesday"]
+    },
+    {
+      "round": 4,
+      "questionId": "pixar:contains:b",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter B in its title",
+      "size": 4,
+      "answers": ["a-bug-s-life", "brave", "incredibles-2", "the-incredibles"]
+    },
+    {
+      "round": 5,
+      "questionId": "us_states:starts:c",
+      "datasetId": "us_states",
+      "prompt": "Name a US state that starts with the letter C",
+      "size": 3,
+      "answers": ["california", "colorado", "connecticut"]
+    },
+    {
+      "round": 6,
+      "questionId": "greek_alphabet:contains:r",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter R in its name",
+      "size": 2,
+      "answers": ["omicron", "rho"]
+    }
+  ]
+}

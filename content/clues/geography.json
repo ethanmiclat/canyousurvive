@@ -1,0 +1,19 @@
+{
+ "continent-africa": "The continent with the Sahara and the Nile",
+ "continent-antarctica": "The ice-covered continent at the South Pole",
+ "continent-asia": "The largest and most populous continent",
+ "continent-australia": "The smallest continent, also a single country",
+ "continent-europe": "Continent with the Alps, Paris and Rome",
+ "continent-north-america": "Continent with the Rockies, Canada and Mexico",
+ "continent-south-america": "Continent with the Amazon and the Andes",
+ "ocean-pacific": "The largest and deepest ocean, with the Mariana Trench",
+ "ocean-atlantic": "The ocean where the Titanic sank",
+ "ocean-indian": "The ocean with the Maldives and Madagascar",
+ "ocean-arctic": "The smallest, northernmost ocean, mostly frozen",
+ "ocean-southern": "The ocean around the South Pole, officially recognised in 2000",
+ "lake-superior": "The largest Great Lake by area and volume",
+ "lake-michigan": "The only Great Lake entirely in the US, with Chicago on its shore",
+ "lake-huron": "Great Lake with Georgian Bay and Mackinac Island",
+ "lake-erie": "The shallowest Great Lake, with Cleveland and Buffalo on its shores",
+ "lake-ontario": "The smallest Great Lake, just below Niagara Falls, with Toronto on its shore"
+}

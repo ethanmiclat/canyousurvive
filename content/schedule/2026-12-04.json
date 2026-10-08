@@ -1,0 +1,56 @@
+{
+  "date": "2026-12-04",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.2567,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "countries:contains:n",
+      "datasetId": "countries",
+      "prompt": "Name a country with the letter N in its name",
+      "size": 116,
+      "answers": ["afghanistan", "albania", "andorra", "angola", "antigua-and-barbuda", "argentina", "armenia", "azerbaijan", "bahrain", "bangladesh", "benin", "bhutan", "bosnia-and-herzegovina", "botswana", "brunei", "burkina-faso", "burundi", "cameroon", "canada", "central-african-republic", "china", "democratic-republic-of-the-congo", "denmark", "dominica", "dominican-republic", "equatorial-guinea", "estonia", "eswatini", "finland", "france", "gabon", "germany", "ghana", "grenada", "guinea", "guinea-bissau", "guyana", "honduras", "hungary", "iceland", "india", "indonesia", "iran", "ireland", "japan", "jordan", "kazakhstan", "kenya", "kyrgyzstan", "lebanon", "liechtenstein", "lithuania", "marshall-islands", "mauritania", "micronesia", "monaco", "mongolia", "montenegro", "myanmar", "namibia", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "niger", "nigeria", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palestine", "panama", "papua-new-guinea", "philippines", "poland", "republic-of-the-congo", "romania", "russia", "rwanda", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "san-marino", "sao-tome-and-principe", "senegal", "sierra-leone", "singapore", "slovenia", "solomon-islands", "south-sudan", "spain", "sri-lanka", "sudan", "suriname", "sweden", "switzerland", "tajikistan", "tanzania", "thailand", "tonga", "trinidad-and-tobago", "tunisia", "turkmenistan", "uganda", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen"]
+    },
+    {
+      "round": 2,
+      "questionId": "greek_myth:tag:olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god (Hestia and Dionysus both count)",
+      "size": 13,
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-ares", "olympian-artemis", "olympian-athena", "olympian-demeter", "olympian-dionysus", "olympian-hephaestus", "olympian-hera", "olympian-hermes", "olympian-hestia", "olympian-poseidon", "olympian-zeus"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:lacks:n",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with no letter N in its title",
+      "size": 10,
+      "answers": ["as-you-like-it", "hamlet", "julius-caesar", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "othello", "richard-iii", "the-comedy-of-errors", "the-tempest"]
+    },
+    {
+      "round": 4,
+      "questionId": "world_capitals:starts:a@continent:africa",
+      "datasetId": "world_capitals",
+      "prompt": "Name an African capital that starts with the letter A",
+      "size": 6,
+      "answers": ["abuja", "accra", "addis-ababa", "algiers", "antananarivo", "asmara"]
+    },
+    {
+      "round": 5,
+      "questionId": "pokemon_gen1:starts:o",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon that starts with the letter O",
+      "size": 4,
+      "answers": ["oddish", "omanyte", "omastar", "onix"]
+    },
+    {
+      "round": 6,
+      "questionId": "tarot:starts:w",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card that starts with the letter W (ignore \"The\")",
+      "size": 2,
+      "answers": ["the-world", "wheel-of-fortune"]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataset": "india_states",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "state"
+      ],
+      "prompt": "Name one of India's 28 states (not a union territory)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "ut"
+      ],
+      "prompt": "Name one of India's eight union territories"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "pradesh"
+      ],
+      "prompt": "Name an Indian state with \"Pradesh\" in its name"
+    },
+    {
+      "type": "letters",
+      "noun": "Indian state",
+      "where": [
+        "state"
+      ],
+      "modes": [
+        "starts",
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "starts": "Name an Indian state that starts with the letter {L}",
+        "contains": "Name an Indian state with the letter {L} in its name",
+        "lacks": "Name an Indian state with no letter {L} in its name"
+      }
+    }
+  ]
+}

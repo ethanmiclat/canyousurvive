@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-12",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.2969,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:all",
+      "datasetId": "elements",
+      "prompt": "Name a chemical element",
+      "size": 118,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copernicium", "copper", "curium", "darmstadtium", "dubnium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "us_presidents:range:start:1789-1850",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president who first took office before 1851",
+      "size": 13,
+      "answers": ["andrew-jackson", "george-washington", "james-k-polk", "james-madison", "james-monroe", "john-adams", "john-quincy-adams", "john-tyler", "martin-van-buren", "millard-fillmore", "thomas-jefferson", "william-henry-harrison", "zachary-taylor"]
+    },
+    {
+      "round": 3,
+      "questionId": "geography:tag:continent",
+      "datasetId": "geography",
+      "prompt": "Name one of the seven continents",
+      "size": 7,
+      "answers": ["continent-africa", "continent-antarctica", "continent-asia", "continent-australia", "continent-europe", "continent-north-america", "continent-south-america"]
+    },
+    {
+      "round": 4,
+      "questionId": "australia:tag:state",
+      "datasetId": "australia",
+      "prompt": "Name one of Australia's six states",
+      "size": 6,
+      "answers": ["new-south-wales", "queensland", "south-australia", "tasmania", "victoria", "western-australia"]
+    },
+    {
+      "round": 5,
+      "questionId": "pokemon_gen2:tag:type:poison",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Poison-type Johto Pokémon (#152 to #251, current typings)",
+      "size": 4,
+      "answers": ["ariados", "crobat", "qwilfish", "spinarak"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:starts:g",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter G",
+      "size": 3,
+      "answers": ["glutamic-acid", "glutamine", "glycine"]
+    }
+  ]
+}

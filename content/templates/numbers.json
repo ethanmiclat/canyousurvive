@@ -1,0 +1,284 @@
+{
+  "dataset": "numbers",
+  "templates": [
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 60,
+      "prompt": "Name a whole number from 1 to 60"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 75,
+      "prompt": "Name a whole number from 1 to 75"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "prompt": "Name a whole number from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 120,
+      "prompt": "Name a whole number from 1 to 120"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 150,
+      "prompt": "Name a whole number from 1 to 150"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 200,
+      "prompt": "Name a whole number from 1 to 200"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 250,
+      "prompt": "Name a whole number from 1 to 250"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 150,
+      "where": [
+        "even"
+      ],
+      "prompt": "Name an even number from 1 to 150"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 150,
+      "where": [
+        "odd"
+      ],
+      "prompt": "Name an odd number from 1 to 150"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 200,
+      "where": [
+        "even"
+      ],
+      "prompt": "Name an even number from 1 to 200"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 200,
+      "where": [
+        "odd"
+      ],
+      "prompt": "Name an odd number from 1 to 200"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 250,
+      "where": [
+        "even"
+      ],
+      "prompt": "Name an even number from 1 to 250"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 250,
+      "where": [
+        "odd"
+      ],
+      "prompt": "Name an odd number from 1 to 250"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "prime"
+      ],
+      "prompt": "Name a prime number less than or equal to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 50,
+      "where": [
+        "prime"
+      ],
+      "prompt": "Name a prime number less than or equal to 50"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 20,
+      "where": [
+        "prime"
+      ],
+      "prompt": "Name a prime number less than or equal to 20"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 13,
+      "where": [
+        "prime"
+      ],
+      "prompt": "Name a prime number less than or equal to 13"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 36,
+      "where": [
+        "square"
+      ],
+      "prompt": "Name a perfect square from 1 to 36"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "square"
+      ],
+      "prompt": "Name a perfect square from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 144,
+      "where": [
+        "square"
+      ],
+      "prompt": "Name a perfect square from 1 to 144"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 225,
+      "where": [
+        "square"
+      ],
+      "prompt": "Name a perfect square from 1 to 225"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 250,
+      "where": [
+        "cube"
+      ],
+      "prompt": "Name a perfect cube from 1 to 250"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 250,
+      "where": [
+        "fibonacci"
+      ],
+      "prompt": "Name a Fibonacci number from 1 to 250"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "fibonacci"
+      ],
+      "prompt": "Name a Fibonacci number from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "multiple:7"
+      ],
+      "prompt": "Name a multiple of 7 from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "multiple:11"
+      ],
+      "prompt": "Name a multiple of 11 from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "multiple:12"
+      ],
+      "prompt": "Name a multiple of 12 from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "multiple:13"
+      ],
+      "prompt": "Name a multiple of 13 from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 100,
+      "where": [
+        "multiple:15"
+      ],
+      "prompt": "Name a multiple of 15 from 1 to 100"
+    },
+    {
+      "type": "range",
+      "prop": "n",
+      "min": 1,
+      "max": 250,
+      "where": [
+        "multiple:25"
+      ],
+      "prompt": "Name a multiple of 25 from 1 to 250"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "german_states",
+  "title": "German states",
+  "entities": [
+    {"id": "baden-wurttemberg", "name": "Baden-Württemberg"},
+    {"id": "bavaria", "name": "Bavaria", "aliases": ["Bayern"]},
+    {"id": "berlin", "name": "Berlin", "tags": ["city-state"]},
+    {"id": "brandenburg", "name": "Brandenburg"},
+    {"id": "bremen", "name": "Bremen", "tags": ["city-state"]},
+    {"id": "hamburg", "name": "Hamburg", "tags": ["city-state"]},
+    {"id": "hesse", "name": "Hesse", "aliases": ["Hessen"]},
+    {"id": "lower-saxony", "name": "Lower Saxony", "aliases": ["Niedersachsen"]},
+    {"id": "mecklenburg-western-pomerania", "name": "Mecklenburg-Western Pomerania", "aliases": ["Mecklenburg-Vorpommern", "Mecklenburg"]},
+    {"id": "north-rhine-westphalia", "name": "North Rhine-Westphalia", "aliases": ["Nordrhein-Westfalen", "NRW"]},
+    {"id": "rhineland-palatinate", "name": "Rhineland-Palatinate", "aliases": ["Rheinland-Pfalz"]},
+    {"id": "saarland", "name": "Saarland"},
+    {"id": "saxony", "name": "Saxony", "aliases": ["Sachsen"]},
+    {"id": "saxony-anhalt", "name": "Saxony-Anhalt", "aliases": ["Sachsen-Anhalt"]},
+    {"id": "schleswig-holstein", "name": "Schleswig-Holstein"},
+    {"id": "thuringia", "name": "Thuringia", "aliases": ["Thüringen"]}
+  ]
+}

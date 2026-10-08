@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-23",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.2356,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:contains:e",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with the letter E in its name",
+      "size": 50,
+      "answers": ["american-samoa", "arches", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "sequoia", "shenandoah", "theodore-roosevelt", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite"]
+    },
+    {
+      "round": 2,
+      "questionId": "amino_acids:contains:n",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter N in its name",
+      "size": 18,
+      "answers": ["alanine", "arginine", "asparagine", "cysteine", "glutamine", "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan", "tyrosine", "valine"]
+    },
+    {
+      "round": 3,
+      "questionId": "board_games:any:color:orange+color:red+color:yellow",
+      "datasetId": "board_games",
+      "prompt": "Name an orange, red or yellow property in classic US Monopoly",
+      "size": 9,
+      "answers": ["monopoly-atlantic-avenue", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-new-york-avenue", "monopoly-st-james-place", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue"]
+    },
+    {
+      "round": 4,
+      "questionId": "famous_groups:tag:friends",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of the six main characters of Friends",
+      "size": 6,
+      "answers": ["friends-chandler-bing", "friends-joey-tribbiani", "friends-monica-geller", "friends-phoebe-buffay", "friends-rachel-green", "friends-ross-geller"]
+    },
+    {
+      "round": 5,
+      "questionId": "elements:contains:k",
+      "datasetId": "elements",
+      "prompt": "Name an element with the letter K in its name",
+      "size": 3,
+      "answers": ["berkelium", "krypton", "nickel"]
+    },
+    {
+      "round": 6,
+      "questionId": "world_capitals:starts:j@continent:asia",
+      "datasetId": "world_capitals",
+      "prompt": "Name an Asian capital that starts with the letter J",
+      "size": 2,
+      "answers": ["jakarta", "jerusalem"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-06",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.2566,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "countries:not:continent:africa",
+      "datasetId": "countries",
+      "prompt": "Name a country outside Africa",
+      "size": 141,
+      "answers": ["afghanistan", "albania", "andorra", "antigua-and-barbuda", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belarus", "belgium", "belize", "bhutan", "bolivia", "bosnia-and-herzegovina", "brazil", "brunei", "bulgaria", "cambodia", "canada", "chile", "china", "colombia", "costa-rica", "croatia", "cuba", "cyprus", "czechia", "denmark", "dominica", "dominican-republic", "ecuador", "el-salvador", "estonia", "fiji", "finland", "france", "georgia", "germany", "greece", "grenada", "guatemala", "guyana", "haiti", "honduras", "hungary", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "israel", "italy", "jamaica", "japan", "jordan", "kazakhstan", "kiribati", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "liechtenstein", "lithuania", "luxembourg", "malaysia", "maldives", "malta", "marshall-islands", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "myanmar", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "poland", "portugal", "qatar", "romania", "russia", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "saudi-arabia", "serbia", "singapore", "slovakia", "slovenia", "solomon-islands", "south-korea", "spain", "sri-lanka", "suriname", "sweden", "switzerland", "syria", "tajikistan", "thailand", "timor-leste", "tonga", "trinidad-and-tobago", "turkey", "turkmenistan", "tuvalu", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uruguay", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen"]
+    },
+    {
+      "round": 2,
+      "questionId": "state_capitals:contains:n",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital with the letter N in its name",
+      "size": 33,
+      "answers": ["albany", "annapolis", "atlanta", "austin", "baton-rouge", "boston", "carson-city", "charleston", "cheyenne", "concord", "denver", "des-moines", "frankfort", "helena", "honolulu", "indianapolis", "jackson", "jefferson-city", "juneau", "lansing", "lincoln", "madison", "montgomery", "montpelier", "nashville", "phoenix", "providence", "richmond", "sacramento", "saint-paul", "santa-fe", "springfield", "trenton"]
+    },
+    {
+      "round": 3,
+      "questionId": "film_series:tag:star-wars",
+      "datasetId": "film_series",
+      "prompt": "Name one of the nine numbered Star Wars saga films",
+      "size": 9,
+      "answers": ["star-wars-star-wars-episode-i-the-phantom-menace", "star-wars-star-wars-episode-ii-attack-of-the-clones", "star-wars-star-wars-episode-iii-revenge-of-the-sith", "star-wars-star-wars-episode-iv-a-new-hope", "star-wars-star-wars-episode-ix-the-rise-of-skywalker", "star-wars-star-wars-episode-v-the-empire-strikes-back", "star-wars-star-wars-episode-vi-return-of-the-jedi", "star-wars-star-wars-episode-vii-the-force-awakens", "star-wars-star-wars-episode-viii-the-last-jedi"]
+    },
+    {
+      "round": 4,
+      "questionId": "amino_acids:contains:p",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter P in its name",
+      "size": 5,
+      "answers": ["asparagine", "aspartic-acid", "phenylalanine", "proline", "tryptophan"]
+    },
+    {
+      "round": 5,
+      "questionId": "german_states:lacks:r",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter R in its English name",
+      "size": 4,
+      "answers": ["hesse", "saxony", "saxony-anhalt", "schleswig-holstein"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_presidents:starts:f~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose last name starts with the letter F",
+      "size": 2,
+      "answers": ["gerald-ford", "millard-fillmore"]
+    }
+  ]
+}

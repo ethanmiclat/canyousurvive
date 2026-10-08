@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-01",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.247,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "best_picture:range:year:1960-2024",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner released from 1960 to 2024",
+      "size": 65,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "amadeus", "american-beauty", "annie-hall", "anora", "argo", "birdman", "braveheart", "chariots-of-fire", "chicago", "coda", "crash", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "forrest-gump", "gandhi", "gladiator", "green-book", "in-the-heat-of-the-night", "kramer-vs-kramer", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "my-fair-lady", "no-country-for-old-men", "nomadland", "oliver", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "patton", "platoon", "rain-man", "rocky", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-hurt-locker", "the-king-s-speech", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-shape-of-water", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "tom-jones", "unforgiven", "west-side-story"]
+    },
+    {
+      "round": 2,
+      "questionId": "mountains:all",
+      "datasetId": "mountains",
+      "prompt": "Name one of the 14 mountains over 8,000 meters",
+      "size": 14,
+      "answers": ["annapurna", "broad-peak", "cho-oyu", "dhaulagiri", "gasherbrum-i", "gasherbrum-ii", "k2", "kangchenjunga", "lhotse", "makalu", "manaslu", "mount-everest", "nanga-parbat", "shishapangma"]
+    },
+    {
+      "round": 3,
+      "questionId": "film_series:tag:jurassic",
+      "datasetId": "film_series",
+      "prompt": "Name a Jurassic Park or Jurassic World film released before 2026",
+      "size": 7,
+      "answers": ["jurassic-jurassic-park", "jurassic-jurassic-park-iii", "jurassic-jurassic-world", "jurassic-jurassic-world-dominion", "jurassic-jurassic-world-fallen-kingdom", "jurassic-jurassic-world-rebirth", "jurassic-the-lost-world-jurassic-park"]
+    },
+    {
+      "round": 4,
+      "questionId": "national_parks:contains:p",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with the letter P in its name",
+      "size": 6,
+      "answers": ["capitol-reef", "guadalupe-mountains", "hot-springs", "olympic", "petrified-forest", "pinnacles"]
+    },
+    {
+      "round": 5,
+      "questionId": "amino_acids:starts:a",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter A",
+      "size": 4,
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_presidents:starts:w~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose last name starts with the letter W",
+      "size": 2,
+      "answers": ["george-washington", "woodrow-wilson"]
+    }
+  ]
+}

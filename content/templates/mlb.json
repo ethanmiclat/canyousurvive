@@ -1,0 +1,65 @@
+{
+  "dataset": "mlb",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name an MLB team"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "conf:al"
+      ],
+      "prompt": "Name an American League team in MLB"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "conf:nl"
+      ],
+      "prompt": "Name a National League team in MLB"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:al-east"
+      ],
+      "prompt": "Name a team in the AL East"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:al-central"
+      ],
+      "prompt": "Name a team in the AL Central"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:al-west"
+      ],
+      "prompt": "Name a team in the AL West"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nl-east"
+      ],
+      "prompt": "Name a team in the NL East"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nl-central"
+      ],
+      "prompt": "Name a team in the NL Central"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nl-west"
+      ],
+      "prompt": "Name a team in the NL West"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "world_cup",
+  "title": "FIFA World Cup nations",
+  "entities": [
+    {"id": "brazil", "name": "Brazil", "tags": ["mw", "mh"]},
+    {"id": "germany", "name": "Germany", "aliases": ["West Germany"], "tags": ["mw", "mh", "ww", "wh"]},
+    {"id": "italy", "name": "Italy", "tags": ["mw", "mh"]},
+    {"id": "argentina", "name": "Argentina", "tags": ["mw", "mh"]},
+    {"id": "france", "name": "France", "tags": ["mw", "mh", "wh"]},
+    {"id": "uruguay", "name": "Uruguay", "tags": ["mw", "mh"]},
+    {"id": "england", "name": "England", "tags": ["mw", "mh"]},
+    {"id": "spain", "name": "Spain", "tags": ["mw", "mh", "ww"]},
+    {"id": "switzerland", "name": "Switzerland", "tags": ["mh"]},
+    {"id": "sweden", "name": "Sweden", "tags": ["mh", "wh"]},
+    {"id": "chile", "name": "Chile", "tags": ["mh"]},
+    {"id": "mexico", "name": "Mexico", "tags": ["mh"]},
+    {"id": "united-states", "name": "United States", "aliases": ["USA", "US", "America", "United States of America", "USMNT", "USWNT"], "tags": ["mh", "ww", "wh"]},
+    {"id": "south-korea", "name": "South Korea", "aliases": ["Korea", "Korea Republic"], "tags": ["mh"]},
+    {"id": "japan", "name": "Japan", "tags": ["mh", "ww"]},
+    {"id": "south-africa", "name": "South Africa", "tags": ["mh"]},
+    {"id": "russia", "name": "Russia", "tags": ["mh"]},
+    {"id": "qatar", "name": "Qatar", "tags": ["mh"]},
+    {"id": "canada", "name": "Canada", "tags": ["mh", "wh"]},
+    {"id": "norway", "name": "Norway", "tags": ["ww"]},
+    {"id": "china", "name": "China", "tags": ["wh"]},
+    {"id": "australia", "name": "Australia", "tags": ["wh"]},
+    {"id": "new-zealand", "name": "New Zealand", "tags": ["wh"]}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "australia",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of Australia's six states or two mainland territories"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "state"
+      ],
+      "prompt": "Name one of Australia's six states"
+    }
+  ]
+}

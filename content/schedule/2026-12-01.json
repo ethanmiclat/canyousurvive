@@ -1,0 +1,56 @@
+{
+  "date": "2026-12-01",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.2505,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:w",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter W in its name",
+      "size": 89,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "cyndaquil", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "natu", "octillery", "phanpy", "pichu", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "suicune", "sunflora", "sunkern", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "umbreon", "ursaring", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "us_presidents:tag:party:dem",
+      "datasetId": "us_presidents",
+      "prompt": "Name a Democratic US president (Andrew Johnson, elected on the National Union ticket, doesn't count)",
+      "size": 15,
+      "answers": ["andrew-jackson", "barack-obama", "bill-clinton", "franklin-d-roosevelt", "franklin-pierce", "grover-cleveland", "harry-s-truman", "james-buchanan", "james-k-polk", "jimmy-carter", "joe-biden", "john-f-kennedy", "lyndon-b-johnson", "martin-van-buren", "woodrow-wilson"]
+    },
+    {
+      "round": 3,
+      "questionId": "german_states:lacks:o",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter O in its English name",
+      "size": 10,
+      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "hesse", "rhineland-palatinate", "saarland", "thuringia"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:al-east",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the AL East",
+      "size": 5,
+      "answers": ["baltimore-orioles", "boston-red-sox", "new-york-yankees", "tampa-bay-rays", "toronto-blue-jays"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:afc-east",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the AFC East",
+      "size": 4,
+      "answers": ["buffalo-bills", "miami-dolphins", "new-england-patriots", "new-york-jets"]
+    },
+    {
+      "round": 6,
+      "questionId": "india_states:starts:u@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter U",
+      "size": 2,
+      "answers": ["uttar-pradesh", "uttarakhand"]
+    }
+  ]
+}

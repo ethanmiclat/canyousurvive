@@ -1,0 +1,93 @@
+{
+  "dataset": "nfl",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name an NFL team"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "conf:afc"
+      ],
+      "prompt": "Name an AFC team in the NFL"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "conf:nfc"
+      ],
+      "prompt": "Name an NFC team in the NFL"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "super-bowl-winner"
+      ],
+      "prompt": "Name an NFL team that has won at least one Super Bowl"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "no-super-bowl"
+      ],
+      "prompt": "Name an NFL team that has never won a Super Bowl"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:afc-east"
+      ],
+      "prompt": "Name a team in the AFC East"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:afc-north"
+      ],
+      "prompt": "Name a team in the AFC North"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:afc-south"
+      ],
+      "prompt": "Name a team in the AFC South"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:afc-west"
+      ],
+      "prompt": "Name a team in the AFC West"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nfc-east"
+      ],
+      "prompt": "Name a team in the NFC East"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nfc-north"
+      ],
+      "prompt": "Name a team in the NFC North"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nfc-south"
+      ],
+      "prompt": "Name a team in the NFC South"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:nfc-west"
+      ],
+      "prompt": "Name a team in the NFC West"
+    }
+  ]
+}

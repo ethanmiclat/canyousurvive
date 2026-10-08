@@ -1,0 +1,179 @@
+{
+  "dataset": "pokemon_gen2",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a Johto Pokémon (National Pokédex #152 to #251)"
+    },
+    {
+      "type": "range",
+      "prop": "dex",
+      "min": 152,
+      "max": 201,
+      "prompt": "Name a Pokémon numbered 152 to 201 in the National Pokédex"
+    },
+    {
+      "type": "range",
+      "prop": "dex",
+      "min": 202,
+      "max": 251,
+      "prompt": "Name a Pokémon numbered 202 to 251 in the National Pokédex"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "legendary"
+      ],
+      "prompt": "Name a legendary or mythical Pokémon from Johto (#152 to #251)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "starter-line"
+      ],
+      "prompt": "Name a Johto starter Pokémon or one of its evolutions"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "baby"
+      ],
+      "prompt": "Name a baby Pokémon introduced in Johto (#152 to #251)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:grass"
+      ],
+      "prompt": "Name a Grass-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:poison"
+      ],
+      "prompt": "Name a Poison-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:fire"
+      ],
+      "prompt": "Name a Fire-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:flying"
+      ],
+      "prompt": "Name a Flying-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:water"
+      ],
+      "prompt": "Name a Water-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:bug"
+      ],
+      "prompt": "Name a Bug-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:normal"
+      ],
+      "prompt": "Name a Normal-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:electric"
+      ],
+      "prompt": "Name a Electric-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:ground"
+      ],
+      "prompt": "Name a Ground-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:fairy"
+      ],
+      "prompt": "Name a Fairy-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:fighting"
+      ],
+      "prompt": "Name a Fighting-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:psychic"
+      ],
+      "prompt": "Name a Psychic-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:rock"
+      ],
+      "prompt": "Name a Rock-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:steel"
+      ],
+      "prompt": "Name a Steel-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:ice"
+      ],
+      "prompt": "Name a Ice-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:ghost"
+      ],
+      "prompt": "Name a Ghost-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:dragon"
+      ],
+      "prompt": "Name a Dragon-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "type:dark"
+      ],
+      "prompt": "Name a Dark-type Johto Pokémon (#152 to #251, current typings)"
+    },
+    {
+      "type": "letters",
+      "noun": "Pokémon",
+      "prompt": {
+        "starts": "Name a Johto Pokémon (#152 to #251) that starts with the letter {L}",
+        "contains": "Name a Johto Pokémon (#152 to #251) with the letter {L} in its name",
+        "lacks": "Name a Johto Pokémon (#152 to #251) with no letter {L} in its name"
+      }
+    }
+  ]
+}

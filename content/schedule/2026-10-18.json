@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-18",
+  "approved": false,
+  "activity": "five-keys",
+  "winRate": 0.2201,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:lacks:e",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter E in its name",
+      "size": 58,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "chikorita", "chinchou", "corsola", "crobat", "croconaw", "cyndaquil", "donphan", "flaaffy", "girafarig", "gligar", "granbull", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "lugia", "magby", "magcargo", "marill", "miltank", "murkrow", "natu", "noctowl", "phanpy", "pichu", "porygon2", "pupitar", "quilava", "qwilfish", "raikou", "scizor", "skarmory", "skiploom", "slowking", "slugma", "smoochum", "snubbull", "spinarak", "sudowoodo", "sunflora", "swinub", "typhlosion", "tyranitar", "unown", "ursaring", "xatu", "yanma"]
+    },
+    {
+      "round": 2,
+      "questionId": "mexico_states:lacks:n",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with no letter N in its name",
+      "size": 18,
+      "answers": ["campeche", "chiapas", "chihuahua", "coahuila", "colima", "guerrero", "hidalgo", "jalisco", "mexico-city", "morelos", "oaxaca", "puebla", "queretaro", "state-of-mexico", "tabasco", "tamaulipas", "tlaxcala", "zacatecas"]
+    },
+    {
+      "round": 3,
+      "questionId": "geography:any:ocean+great-lake",
+      "datasetId": "geography",
+      "prompt": "Name an ocean or one of the Great Lakes",
+      "size": 10,
+      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior", "ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
+    },
+    {
+      "round": 4,
+      "questionId": "space:contains:s@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with the letter S in its name",
+      "size": 4,
+      "answers": ["mars", "saturn", "uranus", "venus"]
+    },
+    {
+      "round": 5,
+      "questionId": "best_picture:starts:h",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner whose title starts with the letter H (ignore \"The\")",
+      "size": 3,
+      "answers": ["hamlet-1948", "how-green-was-my-valley", "the-hurt-locker"]
+    },
+    {
+      "round": 6,
+      "questionId": "nato_alphabet:contains:g",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter G",
+      "size": 2,
+      "answers": ["golf", "tango"]
+    }
+  ]
+}

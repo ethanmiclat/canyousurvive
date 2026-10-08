@@ -1,0 +1,58 @@
+{
+  "dataset": "national_parks",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of the 63 US national parks"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "state:ca"
+      ],
+      "prompt": "Name a US national park in California"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "state:ak"
+      ],
+      "prompt": "Name a US national park in Alaska"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "state:ut"
+      ],
+      "prompt": "Name a US national park in Utah"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "state:co"
+      ],
+      "prompt": "Name a US national park in Colorado"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "state:az",
+        "state:nm",
+        "state:tx"
+      ],
+      "prompt": "Name a US national park in Arizona, New Mexico or Texas"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "state:wa",
+        "state:or"
+      ],
+      "prompt": "Name a US national park in Washington or Oregon"
+    },
+    {
+      "type": "letters",
+      "noun": "US national park"
+    }
+  ]
+}

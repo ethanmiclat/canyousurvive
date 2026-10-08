@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-17",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.2935,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:contains:n",
+      "datasetId": "elements",
+      "prompt": "Name an element with the letter N in its name",
+      "size": 64,
+      "answers": ["actinium", "aluminium", "antimony", "argon", "arsenic", "astatine", "boron", "bromine", "californium", "carbon", "chlorine", "copernicium", "dubnium", "einsteinium", "fluorine", "francium", "gadolinium", "germanium", "hafnium", "hydrogen", "indium", "iodine", "iron", "krypton", "lanthanum", "lawrencium", "magnesium", "manganese", "meitnerium", "mendelevium", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "oxygen", "platinum", "plutonium", "polonium", "protactinium", "radon", "rhenium", "roentgenium", "ruthenium", "scandium", "selenium", "silicon", "strontium", "tantalum", "technetium", "tennessine", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "alphabet:tag:consonant",
+      "datasetId": "alphabet",
+      "prompt": "Name a consonant (anything but A, E, I, O, U)",
+      "size": 21,
+      "answers": ["letter-b", "letter-c", "letter-d", "letter-f", "letter-g", "letter-h", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+    },
+    {
+      "round": 3,
+      "questionId": "harry_potter:tag:weasley",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the seven Weasley children",
+      "size": 7,
+      "answers": ["weasley-bill-weasley", "weasley-charlie-weasley", "weasley-fred-weasley", "weasley-george-weasley", "weasley-ginny-weasley", "weasley-percy-weasley", "weasley-ron-weasley"]
+    },
+    {
+      "round": 4,
+      "questionId": "us_presidents:range:start:1789-1817",
+      "datasetId": "us_presidents",
+      "prompt": "Name one of the first five US presidents",
+      "size": 5,
+      "answers": ["george-washington", "james-madison", "james-monroe", "john-adams", "thomas-jefferson"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:afc-west",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the AFC West",
+      "size": 4,
+      "answers": ["denver-broncos", "kansas-city-chiefs", "las-vegas-raiders", "los-angeles-chargers"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:contains:m",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter M in its name",
+      "size": 3,
+      "answers": ["glutamic-acid", "glutamine", "methionine"]
+    }
+  ]
+}

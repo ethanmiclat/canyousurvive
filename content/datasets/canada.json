@@ -1,0 +1,19 @@
+{
+  "id": "canada",
+  "title": "Canadian provinces and territories",
+  "entities": [
+    {"id": "ontario", "name": "Ontario", "aliases": ["ON"], "tags": ["province"]},
+    {"id": "quebec", "name": "Quebec", "aliases": ["QC", "Québec"], "tags": ["province"]},
+    {"id": "nova-scotia", "name": "Nova Scotia", "aliases": ["NS"], "tags": ["province", "atlantic"]},
+    {"id": "new-brunswick", "name": "New Brunswick", "aliases": ["NB"], "tags": ["province", "atlantic"]},
+    {"id": "manitoba", "name": "Manitoba", "aliases": ["MB"], "tags": ["province", "prairie"]},
+    {"id": "british-columbia", "name": "British Columbia", "aliases": ["BC"], "tags": ["province"]},
+    {"id": "prince-edward-island", "name": "Prince Edward Island", "aliases": ["PE", "PEI"], "tags": ["province", "atlantic"]},
+    {"id": "saskatchewan", "name": "Saskatchewan", "aliases": ["SK"], "tags": ["province", "prairie"]},
+    {"id": "alberta", "name": "Alberta", "aliases": ["AB"], "tags": ["province", "prairie"]},
+    {"id": "newfoundland-and-labrador", "name": "Newfoundland and Labrador", "aliases": ["NL", "Newfoundland"], "tags": ["province", "atlantic"]},
+    {"id": "northwest-territories", "name": "Northwest Territories", "aliases": ["NT", "NWT"], "tags": ["territory"]},
+    {"id": "yukon", "name": "Yukon", "aliases": ["YT", "Yukon Territory"], "tags": ["territory"]},
+    {"id": "nunavut", "name": "Nunavut", "aliases": ["NU"], "tags": ["territory"]}
+  ]
+}

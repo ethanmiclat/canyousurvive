@@ -1,0 +1,54 @@
+{
+  "dataset": "pixar",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a Pixar feature film released before 2026"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "original"
+      ],
+      "prompt": "Name a Pixar feature released before 2026 that isn't a sequel or prequel"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "sequel"
+      ],
+      "prompt": "Name a Pixar sequel or prequel released before 2026"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2000,
+      "max": 2009,
+      "prompt": "Name a Pixar feature released from 2000 to 2009"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 2020,
+      "max": 2025,
+      "prompt": "Name a Pixar feature released from 2020 to 2025"
+    },
+    {
+      "type": "range",
+      "prop": "year",
+      "min": 1995,
+      "max": 2005,
+      "prompt": "Name a Pixar feature released from 1995 to 2005"
+    },
+    {
+      "type": "letters",
+      "noun": "Pixar film",
+      "modes": [
+        "contains"
+      ],
+      "prompt": {
+        "contains": "Name a Pixar feature (before 2026) with the letter {L} in its title"
+      }
+    }
+  ]
+}

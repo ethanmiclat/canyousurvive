@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-30",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.2136,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-150@even",
+      "datasetId": "numbers",
+      "prompt": "Name an even number from 1 to 150",
+      "size": 75,
+      "answers": ["n10", "n100", "n102", "n104", "n106", "n108", "n110", "n112", "n114", "n116", "n118", "n12", "n120", "n122", "n124", "n126", "n128", "n130", "n132", "n134", "n136", "n138", "n14", "n140", "n142", "n144", "n146", "n148", "n150", "n16", "n18", "n2", "n20", "n22", "n24", "n26", "n28", "n30", "n32", "n34", "n36", "n38", "n4", "n40", "n42", "n44", "n46", "n48", "n50", "n52", "n54", "n56", "n58", "n6", "n60", "n62", "n64", "n66", "n68", "n70", "n72", "n74", "n76", "n78", "n8", "n80", "n82", "n84", "n86", "n88", "n90", "n92", "n94", "n96", "n98"]
+    },
+    {
+      "round": 2,
+      "questionId": "zodiac:tag:chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name an animal of the Chinese zodiac",
+      "size": 12,
+      "answers": ["chinese-dog", "chinese-dragon", "chinese-goat", "chinese-horse", "chinese-monkey", "chinese-ox", "chinese-pig", "chinese-rabbit", "chinese-rat", "chinese-rooster", "chinese-snake", "chinese-tiger"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_myth:tag:muse",
+      "datasetId": "greek_myth",
+      "prompt": "Name one of the nine Muses",
+      "size": 9,
+      "answers": ["muse-calliope", "muse-clio", "muse-erato", "muse-euterpe", "muse-melpomene", "muse-polyhymnia", "muse-terpsichore", "muse-thalia", "muse-urania"]
+    },
+    {
+      "round": 4,
+      "questionId": "calendar:tag:days-30",
+      "datasetId": "calendar",
+      "prompt": "Name a month with exactly 30 days",
+      "size": 4,
+      "answers": ["april", "june", "november", "september"]
+    },
+    {
+      "round": 5,
+      "questionId": "shakespeare:contains:p",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter P in its title",
+      "size": 3,
+      "answers": ["antony-and-cleopatra", "pericles", "the-tempest"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_states:contains:b",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with the letter B in its name",
+      "size": 2,
+      "answers": ["alabama", "nebraska"]
+    }
+  ]
+}

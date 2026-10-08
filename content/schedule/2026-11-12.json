@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-12",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.2922,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "best_picture:all",
+      "datasetId": "best_picture",
+      "prompt": "Name a film that won the Oscar for Best Picture (any ceremony from 1929 through 2025)",
+      "size": 97,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "amadeus", "american-beauty", "an-american-in-paris", "annie-hall", "anora", "argo", "around-the-world-in-80-days", "ben-hur", "birdman", "braveheart", "casablanca", "cavalcade", "chariots-of-fire", "chicago", "cimarron", "coda", "crash", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gandhi", "gentleman-s-agreement", "gigi", "gladiator", "going-my-way", "gone-with-the-wind", "grand-hotel", "green-book", "hamlet-1948", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "kramer-vs-kramer", "lawrence-of-arabia", "marty", "midnight-cowboy", "million-dollar-baby", "moonlight", "mrs-miniver", "mutiny-on-the-bounty", "my-fair-lady", "no-country-for-old-men", "nomadland", "oliver", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "patton", "platoon", "rain-man", "rebecca", "rocky", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-king-s-speech", "the-last-emperor", "the-life-of-emile-zola", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "tom-jones", "unforgiven", "west-side-story", "wings", "you-can-t-take-it-with-you"]
+    },
+    {
+      "round": 2,
+      "questionId": "canada:all",
+      "datasetId": "canada",
+      "prompt": "Name a Canadian province or territory",
+      "size": 13,
+      "answers": ["alberta", "british-columbia", "manitoba", "new-brunswick", "newfoundland-and-labrador", "northwest-territories", "nova-scotia", "nunavut", "ontario", "prince-edward-island", "quebec", "saskatchewan", "yukon"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_myth:contains:s@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter S in their Greek name",
+      "size": 8,
+      "answers": ["olympian-ares", "olympian-artemis", "olympian-dionysus", "olympian-hephaestus", "olympian-hermes", "olympian-hestia", "olympian-poseidon", "olympian-zeus"]
+    },
+    {
+      "round": 4,
+      "questionId": "space:tag:dwarf",
+      "datasetId": "space",
+      "prompt": "Name one of the five recognized dwarf planets",
+      "size": 5,
+      "answers": ["ceres", "eris", "haumea", "makemake", "pluto"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:nfc-east",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC East",
+      "size": 4,
+      "answers": ["dallas-cowboys", "new-york-giants", "philadelphia-eagles", "washington-commanders"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:contains:d",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter D in its name",
+      "size": 3,
+      "answers": ["aspartic-acid", "glutamic-acid", "histidine"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-13",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.2146,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-100",
+      "datasetId": "numbers",
+      "prompt": "Name a whole number from 1 to 100",
+      "size": 100,
+      "answers": ["n1", "n10", "n100", "n11", "n12", "n13", "n14", "n15", "n16", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n23", "n24", "n25", "n26", "n27", "n28", "n29", "n3", "n30", "n31", "n32", "n33", "n34", "n35", "n36", "n37", "n38", "n39", "n4", "n40", "n41", "n42", "n43", "n44", "n45", "n46", "n47", "n48", "n49", "n5", "n50", "n51", "n52", "n53", "n54", "n55", "n56", "n57", "n58", "n59", "n6", "n60", "n61", "n62", "n63", "n64", "n65", "n66", "n67", "n68", "n69", "n7", "n70", "n71", "n72", "n73", "n74", "n75", "n76", "n77", "n78", "n79", "n8", "n80", "n81", "n82", "n83", "n84", "n85", "n86", "n87", "n88", "n89", "n9", "n90", "n91", "n92", "n93", "n94", "n95", "n96", "n97", "n98", "n99"]
+    },
+    {
+      "round": 2,
+      "questionId": "mlb:tag:conf:nl",
+      "datasetId": "mlb",
+      "prompt": "Name a National League team in MLB",
+      "size": 15,
+      "answers": ["arizona-diamondbacks", "atlanta-braves", "chicago-cubs", "cincinnati-reds", "colorado-rockies", "los-angeles-dodgers", "miami-marlins", "milwaukee-brewers", "new-york-mets", "philadelphia-phillies", "pittsburgh-pirates", "san-diego-padres", "san-francisco-giants", "st-louis-cardinals", "washington-nationals"]
+    },
+    {
+      "round": 3,
+      "questionId": "world_cup:tag:wh",
+      "datasetId": "world_cup",
+      "prompt": "Name a country that has hosted (or co-hosted) the FIFA Women's World Cup, through 2023",
+      "size": 8,
+      "answers": ["australia", "canada", "china", "france", "germany", "new-zealand", "sweden", "united-states"]
+    },
+    {
+      "round": 4,
+      "questionId": "space:tag:galilean",
+      "datasetId": "space",
+      "prompt": "Name one of Jupiter's four Galilean moons",
+      "size": 4,
+      "answers": ["callisto", "europa", "ganymede", "io"]
+    },
+    {
+      "round": 5,
+      "questionId": "nato_alphabet:contains:s",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter S",
+      "size": 3,
+      "answers": ["oscar", "sierra", "whiskey"]
+    },
+    {
+      "round": 6,
+      "questionId": "mexico_states:starts:n",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter N",
+      "size": 2,
+      "answers": ["nayarit", "nuevo-leon"]
+    }
+  ]
+}

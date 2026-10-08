@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.2184,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen1:lacks:n",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with no letter N in its name",
+      "size": 95,
+      "answers": ["abra", "aerodactyl", "alakazam", "arbok", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "clefable", "clefairy", "cloyster", "diglett", "ditto", "dodrio", "doduo", "drowzee", "dugtrio", "eevee", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "gastly", "geodude", "gloom", "golbat", "golduck", "golem", "graveler", "grimer", "growlithe", "gyarados", "horsea", "ivysaur", "jigglypuff", "kabuto", "kabutops", "kadabra", "krabby", "lapras", "machamp", "machoke", "machop", "magikarp", "magmar", "marowak", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "muk", "oddish", "omastar", "paras", "parasect", "pidgeot", "pidgeotto", "pidgey", "pikachu", "poliwag", "poliwhirl", "poliwrath", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "scyther", "seadra", "seel", "shellder", "slowbro", "slowpoke", "spearow", "squirtle", "starmie", "staryu", "tauros", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "wigglytuff", "zapdos", "zubat"]
+    },
+    {
+      "round": 2,
+      "questionId": "si_units:range:exp:-12-12",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix from pico- (10^-12) to tera- (10^12)",
+      "size": 12,
+      "answers": ["prefix-centi", "prefix-deca", "prefix-deci", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-tera"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_alphabet:tag:vowel",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek vowel letter",
+      "size": 7,
+      "answers": ["alpha", "epsilon", "eta", "iota", "omega", "omicron", "upsilon"]
+    },
+    {
+      "round": 4,
+      "questionId": "geography:tag:ocean",
+      "datasetId": "geography",
+      "prompt": "Name one of the five oceans",
+      "size": 5,
+      "answers": ["ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
+    },
+    {
+      "round": 5,
+      "questionId": "pixar:contains:f",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter F in its title",
+      "size": 3,
+      "answers": ["a-bug-s-life", "finding-dory", "finding-nemo"]
+    },
+    {
+      "round": 6,
+      "questionId": "india_states:starts:k@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter K",
+      "size": 2,
+      "answers": ["karnataka", "kerala"]
+    }
+  ]
+}

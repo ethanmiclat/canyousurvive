@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-21",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.2921,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen1:all",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name one of the original 151 Pokémon",
+      "size": 151,
+      "answers": ["abra", "aerodactyl", "alakazam", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "cubone", "dewgong", "diglett", "ditto", "dodrio", "doduo", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "eevee", "ekans", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gastly", "gengar", "geodude", "gloom", "golbat", "goldeen", "golduck", "golem", "graveler", "grimer", "growlithe", "gyarados", "haunter", "hitmonchan", "hitmonlee", "horsea", "hypno", "ivysaur", "jigglypuff", "jolteon", "jynx", "kabuto", "kabutops", "kadabra", "kakuna", "kangaskhan", "kingler", "koffing", "krabby", "lapras", "lickitung", "machamp", "machoke", "machop", "magikarp", "magmar", "magnemite", "magneton", "mankey", "marowak", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "muk", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "omanyte", "omastar", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "ponyta", "porygon", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "sandslash", "scyther", "seadra", "seaking", "seel", "shellder", "slowbro", "slowpoke", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "weezing", "wigglytuff", "zapdos", "zubat"]
+    },
+    {
+      "round": 2,
+      "questionId": "german_states:all",
+      "datasetId": "german_states",
+      "prompt": "Name one of Germany's 16 states (English or German names)",
+      "size": 16,
+      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "hesse", "lower-saxony", "mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate", "saarland", "saxony", "saxony-anhalt", "schleswig-holstein", "thuringia"]
+    },
+    {
+      "round": 3,
+      "questionId": "si_units:tag:base-unit",
+      "datasetId": "si_units",
+      "prompt": "Name one of the seven SI base units",
+      "size": 7,
+      "answers": ["unit-ampere", "unit-candela", "unit-kelvin", "unit-kilogram", "unit-metre", "unit-mole", "unit-second"]
+    },
+    {
+      "round": 4,
+      "questionId": "nba:tag:div:central",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Central Division",
+      "size": 5,
+      "answers": ["chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "milwaukee-bucks"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_alphabet:contains:s",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter S in its name",
+      "size": 4,
+      "answers": ["epsilon", "psi", "sigma", "upsilon"]
+    },
+    {
+      "round": 6,
+      "questionId": "tarot:starts:s",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card that starts with the letter S (ignore \"The\")",
+      "size": 3,
+      "answers": ["strength", "the-star", "the-sun"]
+    }
+  ]
+}

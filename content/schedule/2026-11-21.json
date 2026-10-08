@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-21",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.2302,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-75",
+      "datasetId": "numbers",
+      "prompt": "Name a whole number from 1 to 75",
+      "size": 75,
+      "answers": ["n1", "n10", "n11", "n12", "n13", "n14", "n15", "n16", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n23", "n24", "n25", "n26", "n27", "n28", "n29", "n3", "n30", "n31", "n32", "n33", "n34", "n35", "n36", "n37", "n38", "n39", "n4", "n40", "n41", "n42", "n43", "n44", "n45", "n46", "n47", "n48", "n49", "n5", "n50", "n51", "n52", "n53", "n54", "n55", "n56", "n57", "n58", "n59", "n6", "n60", "n61", "n62", "n63", "n64", "n65", "n66", "n67", "n68", "n69", "n7", "n70", "n71", "n72", "n73", "n74", "n75", "n8", "n9"]
+    },
+    {
+      "round": 2,
+      "questionId": "pokemon_gen2:tag:type:flying",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Flying-type Johto Pokémon (#152 to #251, current typings)",
+      "size": 19,
+      "answers": ["crobat", "delibird", "gligar", "ho-oh", "hoothoot", "hoppip", "jumpluff", "ledian", "ledyba", "lugia", "mantine", "murkrow", "natu", "noctowl", "skarmory", "skiploom", "togetic", "xatu", "yanma"]
+    },
+    {
+      "round": 3,
+      "questionId": "us_presidents:contains:m~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president with the letter M in their last name",
+      "size": 9,
+      "answers": ["barack-obama", "donald-trump", "harry-s-truman", "james-madison", "james-monroe", "john-adams", "john-quincy-adams", "millard-fillmore", "william-mckinley"]
+    },
+    {
+      "round": 4,
+      "questionId": "india_states:contains:k@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter K in its name",
+      "size": 5,
+      "answers": ["jharkhand", "karnataka", "kerala", "sikkim", "uttarakhand"]
+    },
+    {
+      "round": 5,
+      "questionId": "german_states:contains:x",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter X in its English name",
+      "size": 3,
+      "answers": ["lower-saxony", "saxony", "saxony-anhalt"]
+    },
+    {
+      "round": 6,
+      "questionId": "countries:starts:n@continent:asia",
+      "datasetId": "countries",
+      "prompt": "Name an Asian country that starts with the letter N",
+      "size": 2,
+      "answers": ["nepal", "north-korea"]
+    }
+  ]
+}

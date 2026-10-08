@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-27",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.2192,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "best_picture:contains:o",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter O in its title",
+      "size": 62,
+      "answers": ["a-man-for-all-seasons", "all-about-eve", "all-quiet-on-the-western-front", "anora", "argo", "around-the-world-in-80-days", "birdman", "chariots-of-fire", "chicago", "cimarron", "coda", "dances-with-wolves", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gladiator", "going-my-way", "gone-with-the-wind", "grand-hotel", "green-book", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "mutiny-on-the-bounty", "no-country-for-old-men", "nomadland", "oliver", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "patton", "platoon", "rocky", "shakespeare-in-love", "slumdog-millionaire", "spotlight", "terms-of-endearment", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-life-of-emile-zola", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "the-sound-of-music", "tom-jones", "unforgiven", "west-side-story", "you-can-t-take-it-with-you"]
+    },
+    {
+      "round": 2,
+      "questionId": "nfl:tag:super-bowl-winner",
+      "datasetId": "nfl",
+      "prompt": "Name an NFL team that has won at least one Super Bowl",
+      "size": 20,
+      "answers": ["baltimore-ravens", "chicago-bears", "dallas-cowboys", "denver-broncos", "green-bay-packers", "indianapolis-colts", "kansas-city-chiefs", "las-vegas-raiders", "los-angeles-rams", "miami-dolphins", "new-england-patriots", "new-orleans-saints", "new-york-giants", "new-york-jets", "philadelphia-eagles", "pittsburgh-steelers", "san-francisco-49ers", "seattle-seahawks", "tampa-bay-buccaneers", "washington-commanders"]
+    },
+    {
+      "round": 3,
+      "questionId": "board_games:tag:clue-room",
+      "datasetId": "board_games",
+      "prompt": "Name one of the nine rooms in classic Clue (Cluedo)",
+      "size": 9,
+      "answers": ["clue-ballroom", "clue-billiard-room", "clue-conservatory", "clue-dining-room", "clue-hall", "clue-kitchen", "clue-library", "clue-lounge", "clue-study"]
+    },
+    {
+      "round": 4,
+      "questionId": "us_presidents:range:start:2001-2025",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president who first took office in 2001 or later",
+      "size": 4,
+      "answers": ["barack-obama", "donald-trump", "george-w-bush", "joe-biden"]
+    },
+    {
+      "round": 5,
+      "questionId": "national_parks:starts:w",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park that starts with the letter W",
+      "size": 3,
+      "answers": ["white-sands", "wind-cave", "wrangell-st-elias"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:starts:l",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter L",
+      "size": 2,
+      "answers": ["leucine", "lysine"]
+    }
+  ]
+}

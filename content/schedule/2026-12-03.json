@@ -1,0 +1,56 @@
+{
+  "date": "2026-12-03",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.2526,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:lacks:p",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter P in its name",
+      "size": 102,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "curium", "darmstadtium", "dubnium", "einsteinium", "erbium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "radium", "radon", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "amino_acids:all",
+      "datasetId": "amino_acids",
+      "prompt": "Name one of the 20 standard amino acids",
+      "size": 20,
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid", "cysteine", "glutamic-acid", "glutamine", "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan", "tyrosine", "valine"]
+    },
+    {
+      "round": 3,
+      "questionId": "nhl:tag:canada",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team based in Canada",
+      "size": 7,
+      "answers": ["calgary-flames", "edmonton-oilers", "montreal-canadiens", "ottawa-senators", "toronto-maple-leafs", "vancouver-canucks", "winnipeg-jets"]
+    },
+    {
+      "round": 4,
+      "questionId": "board_games:tag:clue-suspect",
+      "datasetId": "board_games",
+      "prompt": "Name one of the six classic Clue (Cluedo) suspects",
+      "size": 6,
+      "answers": ["clue-colonel-mustard", "clue-miss-scarlett", "clue-mrs-peacock", "clue-mrs-white", "clue-professor-plum", "clue-reverend-green"]
+    },
+    {
+      "round": 5,
+      "questionId": "national_parks:starts:k",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park that starts with the letter K",
+      "size": 4,
+      "answers": ["katmai", "kenai-fjords", "kings-canyon", "kobuk-valley"]
+    },
+    {
+      "round": 6,
+      "questionId": "bible_books:starts:z~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible that starts with the letter Z (ignore any number in front)",
+      "size": 2,
+      "answers": ["zechariah", "zephaniah"]
+    }
+  ]
+}

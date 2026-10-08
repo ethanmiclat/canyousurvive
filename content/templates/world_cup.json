@@ -1,0 +1,33 @@
+{
+  "dataset": "world_cup",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "mw"
+      ],
+      "prompt": "Name a nation that won the men's FIFA World Cup before 2026 (West Germany counts as Germany)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "mh"
+      ],
+      "prompt": "Name a country that has hosted (or co-hosted) the men's FIFA World Cup, through 2026"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "ww"
+      ],
+      "prompt": "Name a nation that has won the FIFA Women's World Cup (through 2023)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "wh"
+      ],
+      "prompt": "Name a country that has hosted (or co-hosted) the FIFA Women's World Cup, through 2023"
+    }
+  ]
+}

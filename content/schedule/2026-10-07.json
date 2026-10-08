@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-07",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.222,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen2:range:dex:202-251",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Pokémon numbered 202 to 251 in the National Pokédex",
+      "size": 50,
+      "answers": ["blissey", "celebi", "corsola", "delibird", "donphan", "dunsparce", "elekid", "entei", "forretress", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "houndoom", "houndour", "kingdra", "larvitar", "lugia", "magby", "magcargo", "mantine", "miltank", "octillery", "phanpy", "piloswine", "pineco", "porygon2", "pupitar", "qwilfish", "raikou", "remoraid", "scizor", "shuckle", "skarmory", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "stantler", "steelix", "suicune", "swinub", "teddiursa", "tyranitar", "tyrogue", "ursaring", "wobbuffet"]
+    },
+    {
+      "round": 2,
+      "questionId": "mexico_states:all",
+      "datasetId": "mexico_states",
+      "prompt": "Name one of Mexico's 32 federal entities (31 states plus Mexico City)",
+      "size": 32,
+      "answers": ["aguascalientes", "baja-california", "baja-california-sur", "campeche", "chiapas", "chihuahua", "coahuila", "colima", "durango", "guanajuato", "guerrero", "hidalgo", "jalisco", "mexico-city", "michoacan", "morelos", "nayarit", "nuevo-leon", "oaxaca", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "sinaloa", "sonora", "state-of-mexico", "tabasco", "tamaulipas", "tlaxcala", "veracruz", "yucatan", "zacatecas"]
+    },
+    {
+      "round": 3,
+      "questionId": "mountains:tag:himalaya",
+      "datasetId": "mountains",
+      "prompt": "Name an 8,000-meter peak in the Himalayas (not the Karakoram)",
+      "size": 9,
+      "answers": ["annapurna", "cho-oyu", "dhaulagiri", "kangchenjunga", "lhotse", "makalu", "manaslu", "mount-everest", "shishapangma"]
+    },
+    {
+      "round": 4,
+      "questionId": "canada:tag:atlantic",
+      "datasetId": "canada",
+      "prompt": "Name one of Canada's four Atlantic provinces",
+      "size": 4,
+      "answers": ["new-brunswick", "newfoundland-and-labrador", "nova-scotia", "prince-edward-island"]
+    },
+    {
+      "round": 5,
+      "questionId": "us_presidents:contains:w~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president with the letter W in their last name",
+      "size": 3,
+      "answers": ["dwight-d-eisenhower", "george-washington", "woodrow-wilson"]
+    },
+    {
+      "round": 6,
+      "questionId": "amino_acids:starts:p",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid that starts with the letter P",
+      "size": 2,
+      "answers": ["phenylalanine", "proline"]
+    }
+  ]
+}

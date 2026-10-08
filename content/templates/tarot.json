@@ -1,0 +1,42 @@
+{
+  "dataset": "tarot",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a card of the tarot's Major Arcana"
+    },
+    {
+      "type": "range",
+      "prop": "num",
+      "min": 0,
+      "max": 10,
+      "prompt": "Name a Major Arcana card numbered 0 to 10"
+    },
+    {
+      "type": "range",
+      "prop": "num",
+      "min": 11,
+      "max": 21,
+      "prompt": "Name a Major Arcana card numbered 11 to 21"
+    },
+    {
+      "type": "range",
+      "prop": "num",
+      "min": 0,
+      "max": 9,
+      "prompt": "Name a Major Arcana card numbered 0 to 9"
+    },
+    {
+      "type": "letters",
+      "noun": "Major Arcana card",
+      "modes": [
+        "starts",
+        "contains"
+      ],
+      "prompt": {
+        "starts": "Name a Major Arcana card that starts with the letter {L} (ignore \"The\")",
+        "contains": "Name a Major Arcana card with the letter {L} in its name"
+      }
+    }
+  ]
+}

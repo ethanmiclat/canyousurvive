@@ -1,0 +1,87 @@
+{
+  "dataset": "bible_books",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a book of the Bible (the 66-book Protestant canon)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "ot"
+      ],
+      "prompt": "Name a book of the Old Testament (Protestant canon)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "nt"
+      ],
+      "prompt": "Name a book of the New Testament"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "pent"
+      ],
+      "prompt": "Name a book of the Torah (the first five books of the Bible)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "major"
+      ],
+      "prompt": "Name one of the Major Prophets (Isaiah through Daniel, including Lamentations)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "minor"
+      ],
+      "prompt": "Name one of the twelve Minor Prophets"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "gospel"
+      ],
+      "prompt": "Name one of the four Gospels"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "pauline"
+      ],
+      "prompt": "Name one of the 13 letters traditionally attributed to Paul"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "hist"
+      ],
+      "prompt": "Name a historical book of the Old Testament (Joshua through Esther)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "general"
+      ],
+      "prompt": "Name one of the eight General Epistles (Hebrews through Jude)"
+    },
+    {
+      "type": "letters",
+      "noun": "book of the Bible",
+      "modes": [
+        "starts",
+        "contains",
+        "lacks"
+      ],
+      "field": "base",
+      "prompt": {
+        "starts": "Name a book of the Bible that starts with the letter {L} (ignore any number in front)",
+        "contains": "Name a book of the Bible with the letter {L} in its name (ignore any number in front)",
+        "lacks": "Name a book of the Bible with no letter {L} in its name (ignore any number in front)"
+      }
+    }
+  ]
+}

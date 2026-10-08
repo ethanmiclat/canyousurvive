@@ -1,0 +1,68 @@
+{
+  "dataset": "famous_groups",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "dwarf"
+      ],
+      "prompt": "Name one of the Seven Dwarfs from Disney's Snow White"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "reindeer"
+      ],
+      "prompt": "Name one of Santa's reindeer (Rudolph counts)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "spice-girl"
+      ],
+      "prompt": "Name a Spice Girl (nickname or real name)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "tmnt"
+      ],
+      "prompt": "Name one of the Teenage Mutant Ninja Turtles"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "beatle"
+      ],
+      "prompt": "Name a member of the Beatles (the famous four)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "teletubby"
+      ],
+      "prompt": "Name a Teletubby"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "golden-girl"
+      ],
+      "prompt": "Name one of The Golden Girls"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "friends"
+      ],
+      "prompt": "Name one of the six main characters of Friends"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "simpsons"
+      ],
+      "prompt": "Name a member of the Simpson family (Homer's household)"
+    }
+  ]
+}

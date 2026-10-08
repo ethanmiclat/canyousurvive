@@ -1,0 +1,20 @@
+{
+  "id": "mountains",
+  "title": "Eight-thousanders",
+  "entities": [
+    {"id": "mount-everest", "name": "Mount Everest", "aliases": ["Everest", "Sagarmatha", "Chomolungma"], "tags": ["eight-thousander", "himalaya"]},
+    {"id": "k2", "name": "K2", "aliases": ["Godwin-Austen", "Chhogori"], "tags": ["eight-thousander", "karakoram"]},
+    {"id": "kangchenjunga", "name": "Kangchenjunga", "aliases": ["Kanchenjunga"], "tags": ["eight-thousander", "himalaya"]},
+    {"id": "lhotse", "name": "Lhotse", "tags": ["eight-thousander", "himalaya"]},
+    {"id": "makalu", "name": "Makalu", "tags": ["eight-thousander", "himalaya"]},
+    {"id": "cho-oyu", "name": "Cho Oyu", "tags": ["eight-thousander", "himalaya"]},
+    {"id": "dhaulagiri", "name": "Dhaulagiri", "tags": ["eight-thousander", "himalaya"]},
+    {"id": "manaslu", "name": "Manaslu", "tags": ["eight-thousander", "himalaya"]},
+    {"id": "nanga-parbat", "name": "Nanga Parbat", "tags": ["eight-thousander", "karakoram"]},
+    {"id": "annapurna", "name": "Annapurna", "tags": ["eight-thousander", "himalaya"]},
+    {"id": "gasherbrum-i", "name": "Gasherbrum I", "aliases": ["Hidden Peak", "Gasherbrum 1"], "tags": ["eight-thousander", "karakoram"]},
+    {"id": "broad-peak", "name": "Broad Peak", "tags": ["eight-thousander", "karakoram"]},
+    {"id": "gasherbrum-ii", "name": "Gasherbrum II", "aliases": ["Gasherbrum 2"], "tags": ["eight-thousander", "karakoram"]},
+    {"id": "shishapangma", "name": "Shishapangma", "aliases": ["Shisha Pangma", "Xixabangma"], "tags": ["eight-thousander", "himalaya"]}
+  ]
+}

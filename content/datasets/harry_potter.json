@@ -1,0 +1,28 @@
+{
+  "id": "harry_potter",
+  "title": "Harry Potter",
+  "entities": [
+    {"id": "book-harry-potter-and-the-philosopher-s-stone", "name": "Harry Potter and the Philosopher's Stone", "aliases": ["Philosopher's Stone", "Sorcerer's Stone", "Harry Potter and the Sorcerer's Stone"], "tags": ["book"]},
+    {"id": "book-harry-potter-and-the-chamber-of-secrets", "name": "Harry Potter and the Chamber of Secrets", "aliases": ["Chamber of Secrets"], "tags": ["book"]},
+    {"id": "book-harry-potter-and-the-prisoner-of-azkaban", "name": "Harry Potter and the Prisoner of Azkaban", "aliases": ["Prisoner of Azkaban"], "tags": ["book"]},
+    {"id": "book-harry-potter-and-the-goblet-of-fire", "name": "Harry Potter and the Goblet of Fire", "aliases": ["Goblet of Fire"], "tags": ["book"]},
+    {"id": "book-harry-potter-and-the-order-of-the-phoenix", "name": "Harry Potter and the Order of the Phoenix", "aliases": ["Order of the Phoenix"], "tags": ["book"]},
+    {"id": "book-harry-potter-and-the-half-blood-prince", "name": "Harry Potter and the Half-Blood Prince", "aliases": ["Half-Blood Prince"], "tags": ["book"]},
+    {"id": "book-harry-potter-and-the-deathly-hallows", "name": "Harry Potter and the Deathly Hallows", "aliases": ["Deathly Hallows"], "tags": ["book"]},
+    {"id": "weasley-bill-weasley", "name": "Bill Weasley", "aliases": ["Bill", "William Weasley"], "tags": ["weasley"]},
+    {"id": "weasley-charlie-weasley", "name": "Charlie Weasley", "aliases": ["Charlie"], "tags": ["weasley"]},
+    {"id": "weasley-percy-weasley", "name": "Percy Weasley", "aliases": ["Percy"], "tags": ["weasley"]},
+    {"id": "weasley-fred-weasley", "name": "Fred Weasley", "aliases": ["Fred"], "tags": ["weasley"]},
+    {"id": "weasley-george-weasley", "name": "George Weasley", "aliases": ["George"], "tags": ["weasley"]},
+    {"id": "weasley-ron-weasley", "name": "Ron Weasley", "aliases": ["Ron", "Ronald Weasley"], "tags": ["weasley"]},
+    {"id": "weasley-ginny-weasley", "name": "Ginny Weasley", "aliases": ["Ginny", "Ginevra Weasley"], "tags": ["weasley"]},
+    {"id": "house-gryffindor", "name": "Gryffindor", "tags": ["house"]},
+    {"id": "house-hufflepuff", "name": "Hufflepuff", "tags": ["house"]},
+    {"id": "house-ravenclaw", "name": "Ravenclaw", "tags": ["house"]},
+    {"id": "house-slytherin", "name": "Slytherin", "tags": ["house"]},
+    {"id": "marauder-moony", "name": "Moony", "aliases": ["Remus Lupin", "Lupin"], "tags": ["marauder"]},
+    {"id": "marauder-wormtail", "name": "Wormtail", "aliases": ["Peter Pettigrew", "Pettigrew"], "tags": ["marauder"]},
+    {"id": "marauder-padfoot", "name": "Padfoot", "aliases": ["Sirius Black", "Sirius"], "tags": ["marauder"]},
+    {"id": "marauder-prongs", "name": "Prongs", "aliases": ["James Potter"], "tags": ["marauder"]}
+  ]
+}

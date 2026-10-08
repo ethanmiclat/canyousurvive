@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.2239,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "world_capitals:lacks:m",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital with no letter M in its name",
+      "size": 146,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "andorra-la-vella", "ankara", "antananarivo", "apia", "ashgabat", "astana", "asuncion", "athens", "baghdad", "baku", "bandar-seri-begawan", "bangkok", "bangui", "banjul", "basseterre", "beijing", "beirut", "belgrade", "berlin", "bern", "bishkek", "bissau", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "chisinau", "conakry", "copenhagen", "dakar", "dhaka", "dili", "djibouti", "doha", "dublin", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "hanoi", "harare", "havana", "helsinki", "honiara", "jakarta", "juba", "kabul", "kigali", "kingston", "kingstown", "kinshasa", "kuwait-city", "kyiv", "la-paz", "libreville", "lilongwe", "lisbon", "ljubljana", "london", "luanda", "lusaka", "nairobi", "nassau", "naypyidaw", "new-delhi", "nicosia", "nouakchott", "nuku-alofa", "oslo", "ottawa", "ouagadougou", "palikir", "paris", "podgorica", "port-au-prince", "port-louis", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "reykjavik", "riga", "riyadh", "roseau", "san-jose", "san-salvador", "sanaa", "santiago", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "tirana", "tokyo", "tripoli", "tunis", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "windhoek", "yaounde", "yaren", "yerevan", "zagreb"]
+    },
+    {
+      "round": 2,
+      "questionId": "mexico_states:contains:e",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter E in its name",
+      "size": 13,
+      "answers": ["aguascalientes", "campeche", "coahuila", "guerrero", "mexico-city", "michoacan", "morelos", "nuevo-leon", "puebla", "queretaro", "state-of-mexico", "veracruz", "zacatecas"]
+    },
+    {
+      "round": 3,
+      "questionId": "harry_potter:any:house+marauder",
+      "datasetId": "harry_potter",
+      "prompt": "Name a Hogwarts house or one of the Marauders",
+      "size": 8,
+      "answers": ["house-gryffindor", "house-hufflepuff", "house-ravenclaw", "house-slytherin", "marauder-moony", "marauder-padfoot", "marauder-prongs", "marauder-wormtail"]
+    },
+    {
+      "round": 4,
+      "questionId": "mlb:tag:div:nl-central",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the NL Central",
+      "size": 5,
+      "answers": ["chicago-cubs", "cincinnati-reds", "milwaukee-brewers", "pittsburgh-pirates", "st-louis-cardinals"]
+    },
+    {
+      "round": 5,
+      "questionId": "tarot:contains:w",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter W in its name",
+      "size": 3,
+      "answers": ["the-tower", "the-world", "wheel-of-fortune"]
+    },
+    {
+      "round": 6,
+      "questionId": "board_games:starts:m@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter M",
+      "size": 2,
+      "answers": ["monopoly-marvin-gardens", "monopoly-mediterranean-avenue"]
+    }
+  ]
+}

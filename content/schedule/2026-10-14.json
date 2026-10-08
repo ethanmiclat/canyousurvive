@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-14",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.2111,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "bible_books:lacks:u~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter U in its name (ignore any number in front)",
+      "size": 52,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-peter", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-peter", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "ecclesiastes", "ephesians", "esther", "ezekiel", "ezra", "galatians", "genesis", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "lamentations", "malachi", "mark", "matthew", "micah", "nehemiah", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "song-of-solomon", "zechariah", "zephaniah"]
+    },
+    {
+      "round": 2,
+      "questionId": "state_capitals:tag:region:west",
+      "datasetId": "state_capitals",
+      "prompt": "Name the capital of a US state in the West (US Census region)",
+      "size": 13,
+      "answers": ["boise", "carson-city", "cheyenne", "denver", "helena", "honolulu", "juneau", "olympia", "phoenix", "sacramento", "salem", "salt-lake-city", "santa-fe"]
+    },
+    {
+      "round": 3,
+      "questionId": "india_states:tag:ut",
+      "datasetId": "india_states",
+      "prompt": "Name one of India's eight union territories",
+      "size": 8,
+      "answers": ["andaman-and-nicobar-islands", "chandigarh", "dadra-and-nagar-haveli-and-daman-and-diu", "delhi", "jammu-and-kashmir", "ladakh", "lakshadweep", "puducherry"]
+    },
+    {
+      "round": 4,
+      "questionId": "countries:tag:guinea",
+      "datasetId": "countries",
+      "prompt": "Name a country with \"Guinea\" in its name",
+      "size": 4,
+      "answers": ["equatorial-guinea", "guinea", "guinea-bissau", "papua-new-guinea"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_myth:contains:u@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter U in their Greek name",
+      "size": 3,
+      "answers": ["olympian-dionysus", "olympian-hephaestus", "olympian-zeus"]
+    },
+    {
+      "round": 6,
+      "questionId": "pokemon_gen1:tag:type:steel",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Steel-type Pokémon from the original 151 (current typings)",
+      "size": 2,
+      "answers": ["magnemite", "magneton"]
+    }
+  ]
+}

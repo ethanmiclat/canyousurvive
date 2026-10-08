@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-24",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.2534,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "constellations:lacks:d",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with no letter D in its name",
+      "size": 79,
+      "answers": ["antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "equuleus", "fornax", "gemini", "grus", "hercules", "horologium", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
+    },
+    {
+      "round": 2,
+      "questionId": "state_capitals:tag:region:south",
+      "datasetId": "state_capitals",
+      "prompt": "Name the capital of a US state in the South (US Census region)",
+      "size": 16,
+      "answers": ["annapolis", "atlanta", "austin", "baton-rouge", "charleston", "columbia", "dover", "frankfort", "jackson", "little-rock", "montgomery", "nashville", "oklahoma-city", "raleigh", "richmond", "tallahassee"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:contains:v",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter V in its title",
+      "size": 8,
+      "answers": ["henry-iv", "henry-v", "henry-vi", "henry-viii", "love-s-labour-s-lost", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-two-gentlemen-of-verona"]
+    },
+    {
+      "round": 4,
+      "questionId": "greek_myth:contains:h@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter H in their Greek name",
+      "size": 6,
+      "answers": ["olympian-aphrodite", "olympian-athena", "olympian-hephaestus", "olympian-hera", "olympian-hermes", "olympian-hestia"]
+    },
+    {
+      "round": 5,
+      "questionId": "tarot:contains:c",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter C in its name",
+      "size": 4,
+      "answers": ["justice", "temperance", "the-chariot", "the-magician"]
+    },
+    {
+      "round": 6,
+      "questionId": "mexico_states:starts:q",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter Q",
+      "size": 2,
+      "answers": ["queretaro", "quintana-roo"]
+    }
+  ]
+}

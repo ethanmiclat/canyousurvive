@@ -1,0 +1,68 @@
+{
+  "dataset": "calendar",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "month"
+      ],
+      "prompt": "Name a month of the year"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "day"
+      ],
+      "prompt": "Name a day of the week"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "weekday"
+      ],
+      "prompt": "Name a weekday (Monday to Friday)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "days-31"
+      ],
+      "prompt": "Name a month with 31 days"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "days-30"
+      ],
+      "prompt": "Name a month with exactly 30 days"
+    },
+    {
+      "type": "letters",
+      "where": [
+        "month"
+      ],
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a month with the letter {L} in its name",
+        "lacks": "Name a month with no letter {L} in its name"
+      }
+    },
+    {
+      "type": "letters",
+      "where": [
+        "day"
+      ],
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a day of the week with the letter {L} in its name",
+        "lacks": "Name a day of the week with no letter {L} in its name"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "calendar",
+  "title": "Months and days",
+  "entities": [
+    {"id": "january", "name": "January", "aliases": ["Jan"], "tags": ["month", "days-31"]},
+    {"id": "february", "name": "February", "aliases": ["Feb"], "tags": ["month"]},
+    {"id": "march", "name": "March", "aliases": ["Mar"], "tags": ["month", "days-31"]},
+    {"id": "april", "name": "April", "aliases": ["Apr"], "tags": ["month", "days-30"]},
+    {"id": "may", "name": "May", "aliases": ["May"], "tags": ["month", "days-31"]},
+    {"id": "june", "name": "June", "aliases": ["Jun"], "tags": ["month", "days-30"]},
+    {"id": "july", "name": "July", "aliases": ["Jul"], "tags": ["month", "days-31"]},
+    {"id": "august", "name": "August", "aliases": ["Aug"], "tags": ["month", "days-31"]},
+    {"id": "september", "name": "September", "aliases": ["Sept"], "tags": ["month", "days-30"]},
+    {"id": "october", "name": "October", "aliases": ["Oct"], "tags": ["month", "days-31"]},
+    {"id": "november", "name": "November", "aliases": ["Nov"], "tags": ["month", "days-30"]},
+    {"id": "december", "name": "December", "aliases": ["Dec"], "tags": ["month", "days-31"]},
+    {"id": "monday", "name": "Monday", "aliases": ["Mon"], "tags": ["day", "weekday"]},
+    {"id": "tuesday", "name": "Tuesday", "aliases": ["Tue", "Tues"], "tags": ["day", "weekday"]},
+    {"id": "wednesday", "name": "Wednesday", "aliases": ["Wed"], "tags": ["day", "weekday"]},
+    {"id": "thursday", "name": "Thursday", "aliases": ["Thu", "Thurs"], "tags": ["day", "weekday"]},
+    {"id": "friday", "name": "Friday", "aliases": ["Fri"], "tags": ["day", "weekday"]},
+    {"id": "saturday", "name": "Saturday", "aliases": ["Sat"], "tags": ["day"]},
+    {"id": "sunday", "name": "Sunday", "aliases": ["Sun"], "tags": ["day"]}
+  ]
+}

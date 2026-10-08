@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-28",
+  "approved": false,
+  "activity": "spin-the-wheel",
+  "winRate": 0.2127,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:range:number:1-100",
+      "datasetId": "elements",
+      "prompt": "Name an element with atomic number 100 or less",
+      "size": 100,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "curium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "space:any:planet+dwarf",
+      "datasetId": "space",
+      "prompt": "Name a planet or one of the five recognized dwarf planets",
+      "size": 13,
+      "answers": ["ceres", "earth", "eris", "haumea", "jupiter", "makemake", "mars", "mercury", "neptune", "pluto", "saturn", "uranus", "venus"]
+    },
+    {
+      "round": 3,
+      "questionId": "bible_books:contains:p~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with the letter P in its name (ignore any number in front)",
+      "size": 8,
+      "answers": ["1-peter", "2-peter", "ephesians", "philemon", "philippians", "proverbs", "psalms", "zephaniah"]
+    },
+    {
+      "round": 4,
+      "questionId": "famous_groups:tag:golden-girl",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of The Golden Girls",
+      "size": 4,
+      "answers": ["golden-girl-blanche-devereaux", "golden-girl-dorothy-zbornak", "golden-girl-rose-nylund", "golden-girl-sophia-petrillo"]
+    },
+    {
+      "round": 5,
+      "questionId": "world_capitals:starts:c@continent:africa",
+      "datasetId": "world_capitals",
+      "prompt": "Name an African capital that starts with the letter C",
+      "size": 3,
+      "answers": ["cairo", "cape-town", "conakry"]
+    },
+    {
+      "round": 6,
+      "questionId": "state_capitals:starts:o",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital that starts with the letter O",
+      "size": 2,
+      "answers": ["oklahoma-city", "olympia"]
+    }
+  ]
+}

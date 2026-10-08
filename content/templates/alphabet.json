@@ -1,0 +1,44 @@
+{
+  "dataset": "alphabet",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a letter of the English alphabet"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "consonant"
+      ],
+      "prompt": "Name a consonant (anything but A, E, I, O, U)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "vowel"
+      ],
+      "prompt": "Name a vowel (A, E, I, O or U)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "scrabble-1"
+      ],
+      "prompt": "Name a letter worth exactly 1 point in English Scrabble"
+    },
+    {
+      "type": "range",
+      "prop": "pos",
+      "min": 1,
+      "max": 13,
+      "prompt": "Name a letter in the first half of the alphabet (A to M)"
+    },
+    {
+      "type": "range",
+      "prop": "pos",
+      "min": 14,
+      "max": 26,
+      "prompt": "Name a letter in the second half of the alphabet (N to Z)"
+    }
+  ]
+}

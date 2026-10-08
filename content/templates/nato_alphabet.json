@@ -1,0 +1,35 @@
+{
+  "dataset": "nato_alphabet",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a word from the NATO phonetic alphabet"
+    },
+    {
+      "type": "range",
+      "prop": "pos",
+      "min": 1,
+      "max": 13,
+      "prompt": "Name a NATO phonetic alphabet word for a letter from A to M"
+    },
+    {
+      "type": "range",
+      "prop": "pos",
+      "min": 14,
+      "max": 26,
+      "prompt": "Name a NATO phonetic alphabet word for a letter from N to Z"
+    },
+    {
+      "type": "letters",
+      "noun": "NATO phonetic alphabet word",
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a NATO phonetic alphabet word containing the letter {L}",
+        "lacks": "Name a NATO phonetic alphabet word with no letter {L}"
+      }
+    }
+  ]
+}

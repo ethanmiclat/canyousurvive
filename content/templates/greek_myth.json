@@ -1,0 +1,38 @@
+{
+  "dataset": "greek_myth",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "muse"
+      ],
+      "prompt": "Name one of the nine Muses"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "titan"
+      ],
+      "prompt": "Name one of the twelve first-generation Titans (children of Uranus and Gaia)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "olympian"
+      ],
+      "prompt": "Name an Olympian god (Hestia and Dionysus both count)"
+    },
+    {
+      "type": "letters",
+      "where": [
+        "olympian"
+      ],
+      "modes": [
+        "contains"
+      ],
+      "prompt": {
+        "contains": "Name an Olympian god with the letter {L} in their Greek name"
+      }
+    }
+  ]
+}

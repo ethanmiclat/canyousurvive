@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-22",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.297,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen1:range:dex:1-100",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Pokémon numbered 1 to 100 in the National Pokédex",
+      "size": 100,
+      "answers": ["abra", "alakazam", "arbok", "arcanine", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "dewgong", "diglett", "dodrio", "doduo", "drowzee", "dugtrio", "ekans", "farfetch-d", "fearow", "gastly", "gengar", "geodude", "gloom", "golbat", "golduck", "golem", "graveler", "grimer", "growlithe", "haunter", "hypno", "ivysaur", "jigglypuff", "kadabra", "kakuna", "kingler", "krabby", "machamp", "machoke", "machop", "magnemite", "magneton", "mankey", "meowth", "metapod", "muk", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "poliwag", "poliwhirl", "poliwrath", "ponyta", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "sandshrew", "sandslash", "seel", "shellder", "slowbro", "slowpoke", "spearow", "squirtle", "tentacool", "tentacruel", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "wigglytuff", "zubat"]
+    },
+    {
+      "round": 2,
+      "questionId": "alphabet:all",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter of the English alphabet",
+      "size": 26,
+      "answers": ["letter-a", "letter-b", "letter-c", "letter-d", "letter-e", "letter-f", "letter-g", "letter-h", "letter-i", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+    },
+    {
+      "round": 3,
+      "questionId": "space:tag:saturn-moon",
+      "datasetId": "space",
+      "prompt": "Name one of Saturn's seven major moons",
+      "size": 7,
+      "answers": ["dione", "enceladus", "iapetus", "mimas", "rhea", "tethys", "titan"]
+    },
+    {
+      "round": 4,
+      "questionId": "nba:tag:div:pacific",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Pacific Division",
+      "size": 5,
+      "answers": ["golden-state-warriors", "los-angeles-clippers", "los-angeles-lakers", "phoenix-suns", "sacramento-kings"]
+    },
+    {
+      "round": 5,
+      "questionId": "best_picture:starts:d",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner whose title starts with the letter D (ignore \"The\")",
+      "size": 4,
+      "answers": ["dances-with-wolves", "driving-miss-daisy", "the-deer-hunter", "the-departed"]
+    },
+    {
+      "round": 6,
+      "questionId": "zodiac:contains:g@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter G in it",
+      "size": 3,
+      "answers": ["gemini", "sagittarius", "virgo"]
+    }
+  ]
+}

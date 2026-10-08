@@ -1,0 +1,7 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "web/dist",
+  "functions": {
+    "api/**/*.ts": { "includeFiles": "content/**" }
+  }
+}

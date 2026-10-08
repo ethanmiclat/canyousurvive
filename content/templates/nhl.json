@@ -1,0 +1,65 @@
+{
+  "dataset": "nhl",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name an NHL team"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "conf:east"
+      ],
+      "prompt": "Name an NHL team in the Eastern Conference"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "conf:west"
+      ],
+      "prompt": "Name an NHL team in the Western Conference"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:atlantic"
+      ],
+      "prompt": "Name an NHL team in the Atlantic Division"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:metropolitan"
+      ],
+      "prompt": "Name an NHL team in the Metropolitan Division"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:central"
+      ],
+      "prompt": "Name an NHL team in the Central Division"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "div:pacific"
+      ],
+      "prompt": "Name an NHL team in the Pacific Division"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "canada"
+      ],
+      "prompt": "Name an NHL team based in Canada"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "original-six"
+      ],
+      "prompt": "Name one of the NHL's Original Six teams"
+    }
+  ]
+}

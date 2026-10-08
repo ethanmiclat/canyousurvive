@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-26",
+  "approved": false,
+  "activity": "five-keys",
+  "winRate": 0.2442,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "pokemon_gen1:range:dex:1-75",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Pokémon numbered 1 to 75 in the National Pokédex",
+      "size": 75,
+      "answers": ["abra", "alakazam", "arbok", "arcanine", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "diglett", "dugtrio", "ekans", "fearow", "geodude", "gloom", "golbat", "golduck", "graveler", "growlithe", "ivysaur", "jigglypuff", "kadabra", "kakuna", "machamp", "machoke", "machop", "mankey", "meowth", "metapod", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "poliwag", "poliwhirl", "poliwrath", "primeape", "psyduck", "raichu", "raticate", "rattata", "sandshrew", "sandslash", "spearow", "squirtle", "tentacool", "tentacruel", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "vulpix", "wartortle", "weedle", "weepinbell", "wigglytuff", "zubat"]
+    },
+    {
+      "round": 2,
+      "questionId": "pixar:contains:n",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter N in its title",
+      "size": 12,
+      "answers": ["elemental", "finding-dory", "finding-nemo", "incredibles-2", "inside-out", "inside-out-2", "monsters-inc", "monsters-university", "onward", "the-good-dinosaur", "the-incredibles", "turning-red"]
+    },
+    {
+      "round": 3,
+      "questionId": "india_states:contains:m@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter M in its name",
+      "size": 9,
+      "answers": ["assam", "himachal-pradesh", "madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram", "sikkim", "tamil-nadu"]
+    },
+    {
+      "round": 4,
+      "questionId": "film_series:tag:indiana-jones",
+      "datasetId": "film_series",
+      "prompt": "Name one of the five Indiana Jones films",
+      "size": 5,
+      "answers": ["indiana-jones-indiana-jones-and-the-dial-of-destiny", "indiana-jones-indiana-jones-and-the-kingdom-of-the-crystal-skull", "indiana-jones-indiana-jones-and-the-last-crusade", "indiana-jones-indiana-jones-and-the-temple-of-doom", "indiana-jones-raiders-of-the-lost-ark"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_alphabet:contains:u",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter U in its name",
+      "size": 4,
+      "answers": ["mu", "nu", "tau", "upsilon"]
+    },
+    {
+      "round": 6,
+      "questionId": "tarot:starts:t",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card that starts with the letter T (ignore \"The\")",
+      "size": 2,
+      "answers": ["temperance", "the-tower"]
+    }
+  ]
+}

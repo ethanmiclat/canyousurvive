@@ -1,0 +1,94 @@
+{
+  "dataset": "us_presidents",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a US president (any of the 45 people who have held the office)"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 1801,
+      "max": 1900,
+      "prompt": "Name a US president who first took office in the 1800s (1801 to 1900)"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 1901,
+      "max": 2000,
+      "prompt": "Name a US president who first took office in the 1900s (1901 to 2000)"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 1789,
+      "max": 1850,
+      "prompt": "Name a US president who first took office before 1851"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 1789,
+      "max": 1817,
+      "prompt": "Name one of the first five US presidents"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 1961,
+      "max": 2025,
+      "prompt": "Name a US president who first took office in 1961 or later"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 1981,
+      "max": 2025,
+      "prompt": "Name a US president who first took office in 1981 or later"
+    },
+    {
+      "type": "range",
+      "prop": "start",
+      "min": 2001,
+      "max": 2025,
+      "prompt": "Name a US president who first took office in 2001 or later"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "party:rep"
+      ],
+      "prompt": "Name a Republican US president"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "party:dem"
+      ],
+      "prompt": "Name a Democratic US president (Andrew Johnson, elected on the National Union ticket, doesn't count)"
+    },
+    {
+      "type": "letters",
+      "field": "surname",
+      "modes": [
+        "starts",
+        "contains"
+      ],
+      "prompt": {
+        "starts": "Name a US president whose last name starts with the letter {L}",
+        "contains": "Name a US president with the letter {L} in their last name"
+      }
+    },
+    {
+      "type": "letters",
+      "field": "first",
+      "modes": [
+        "starts"
+      ],
+      "prompt": {
+        "starts": "Name a US president whose first name starts with the letter {L}"
+      }
+    }
+  ]
+}

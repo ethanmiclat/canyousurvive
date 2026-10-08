@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-16",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.2397,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:lacks:m",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter M in its name",
+      "size": 53,
+      "answers": ["acadia", "arches", "badlands", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "zion"]
+    },
+    {
+      "round": 2,
+      "questionId": "nba:tag:conf:east",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Eastern Conference",
+      "size": 15,
+      "answers": ["atlanta-hawks", "boston-celtics", "brooklyn-nets", "charlotte-hornets", "chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "miami-heat", "milwaukee-bucks", "new-york-knicks", "orlando-magic", "philadelphia-76ers", "toronto-raptors", "washington-wizards"]
+    },
+    {
+      "round": 3,
+      "questionId": "german_states:contains:b",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter B in its English name",
+      "size": 7,
+      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "mecklenburg-western-pomerania"]
+    },
+    {
+      "round": 4,
+      "questionId": "tarot:contains:d",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter D in its name",
+      "size": 5,
+      "answers": ["death", "judgement", "the-devil", "the-hanged-man", "the-world"]
+    },
+    {
+      "round": 5,
+      "questionId": "pixar:contains:m",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter M in its title",
+      "size": 4,
+      "answers": ["elemental", "finding-nemo", "monsters-inc", "monsters-university"]
+    },
+    {
+      "round": 6,
+      "questionId": "greek_alphabet:contains:b",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter B in its name",
+      "size": 2,
+      "answers": ["beta", "lambda"]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "dataset": "space",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "planet"
+      ],
+      "prompt": "Name a planet in our solar system"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "planet",
+        "dwarf"
+      ],
+      "prompt": "Name a planet or one of the five recognized dwarf planets"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "dwarf"
+      ],
+      "prompt": "Name one of the five recognized dwarf planets"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "galilean"
+      ],
+      "prompt": "Name one of Jupiter's four Galilean moons"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "saturn-moon"
+      ],
+      "prompt": "Name one of Saturn's seven major moons"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "moon"
+      ],
+      "prompt": "Name a Galilean moon of Jupiter or a major moon of Saturn"
+    },
+    {
+      "type": "letters",
+      "where": [
+        "planet"
+      ],
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a planet with the letter {L} in its name",
+        "lacks": "Name a planet with no letter {L} in its name"
+      }
+    }
+  ]
+}

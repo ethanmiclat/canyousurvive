@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.246,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:range:number:1-92",
+      "datasetId": "elements",
+      "prompt": "Name an element with atomic number 1 to 92",
+      "size": 92,
+      "answers": ["actinium", "aluminium", "antimony", "argon", "arsenic", "astatine", "barium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "dysprosium", "erbium", "europium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "olympics:tag:summer",
+      "datasetId": "olympics",
+      "prompt": "Name a city that has hosted the Summer Olympics (through 2024)",
+      "size": 23,
+      "answers": ["amsterdam", "antwerp", "athens", "atlanta", "barcelona", "beijing", "berlin", "helsinki", "london", "los-angeles", "melbourne", "mexico-city", "montreal", "moscow", "munich", "paris", "rio-de-janeiro", "rome", "seoul", "st-louis", "stockholm", "sydney", "tokyo"]
+    },
+    {
+      "round": 3,
+      "questionId": "harry_potter:tag:book",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the seven main Harry Potter books",
+      "size": 7,
+      "answers": ["book-harry-potter-and-the-chamber-of-secrets", "book-harry-potter-and-the-deathly-hallows", "book-harry-potter-and-the-goblet-of-fire", "book-harry-potter-and-the-half-blood-prince", "book-harry-potter-and-the-order-of-the-phoenix", "book-harry-potter-and-the-philosopher-s-stone", "book-harry-potter-and-the-prisoner-of-azkaban"]
+    },
+    {
+      "round": 4,
+      "questionId": "world_capitals:starts:k@continent:asia",
+      "datasetId": "world_capitals",
+      "prompt": "Name an Asian capital that starts with the letter K",
+      "size": 5,
+      "answers": ["kabul", "kathmandu", "kuala-lumpur", "kuwait-city", "sri-jayawardenepura-kotte"]
+    },
+    {
+      "round": 5,
+      "questionId": "nfl:tag:div:nfc-north",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC North",
+      "size": 4,
+      "answers": ["chicago-bears", "detroit-lions", "green-bay-packers", "minnesota-vikings"]
+    },
+    {
+      "round": 6,
+      "questionId": "space:lacks:u@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter U in its name",
+      "size": 2,
+      "answers": ["earth", "mars"]
+    }
+  ]
+}

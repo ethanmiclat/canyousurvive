@@ -1,0 +1,34 @@
+{
+  "dataset": "geography",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "continent"
+      ],
+      "prompt": "Name one of the seven continents"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "ocean"
+      ],
+      "prompt": "Name one of the five oceans"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "great-lake"
+      ],
+      "prompt": "Name one of the Great Lakes"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "ocean",
+        "great-lake"
+      ],
+      "prompt": "Name an ocean or one of the Great Lakes"
+    }
+  ]
+}

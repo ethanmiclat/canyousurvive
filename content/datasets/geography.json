@@ -1,0 +1,23 @@
+{
+  "id": "geography",
+  "title": "Continents, oceans and lakes",
+  "entities": [
+    {"id": "continent-africa", "name": "Africa", "tags": ["continent"]},
+    {"id": "continent-antarctica", "name": "Antarctica", "tags": ["continent"]},
+    {"id": "continent-asia", "name": "Asia", "tags": ["continent"]},
+    {"id": "continent-australia", "name": "Australia", "alt": ["Oceania"], "tags": ["continent"]},
+    {"id": "continent-europe", "name": "Europe", "tags": ["continent"]},
+    {"id": "continent-north-america", "name": "North America", "tags": ["continent"]},
+    {"id": "continent-south-america", "name": "South America", "tags": ["continent"]},
+    {"id": "ocean-pacific", "name": "Pacific Ocean", "aliases": ["Pacific"], "tags": ["ocean"]},
+    {"id": "ocean-atlantic", "name": "Atlantic Ocean", "aliases": ["Atlantic"], "tags": ["ocean"]},
+    {"id": "ocean-indian", "name": "Indian Ocean", "aliases": ["Indian"], "tags": ["ocean"]},
+    {"id": "ocean-arctic", "name": "Arctic Ocean", "aliases": ["Arctic"], "tags": ["ocean"]},
+    {"id": "ocean-southern", "name": "Southern Ocean", "aliases": ["Southern", "Antarctic Ocean", "Antarctic"], "tags": ["ocean"]},
+    {"id": "lake-superior", "name": "Lake Superior", "aliases": ["Superior"], "tags": ["great-lake"]},
+    {"id": "lake-michigan", "name": "Lake Michigan", "aliases": ["Michigan"], "tags": ["great-lake"]},
+    {"id": "lake-huron", "name": "Lake Huron", "aliases": ["Huron"], "tags": ["great-lake"]},
+    {"id": "lake-erie", "name": "Lake Erie", "aliases": ["Erie"], "tags": ["great-lake"]},
+    {"id": "lake-ontario", "name": "Lake Ontario", "aliases": ["Ontario"], "tags": ["great-lake"]}
+  ]
+}

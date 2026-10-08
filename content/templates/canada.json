@@ -1,0 +1,23 @@
+{
+  "dataset": "canada",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a Canadian province or territory"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "province"
+      ],
+      "prompt": "Name a Canadian province (not a territory)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "atlantic"
+      ],
+      "prompt": "Name one of Canada's four Atlantic provinces"
+    }
+  ]
+}

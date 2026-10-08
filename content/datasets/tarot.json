@@ -1,0 +1,28 @@
+{
+  "id": "tarot",
+  "title": "Tarot Major Arcana",
+  "entities": [
+    {"id": "the-fool", "name": "The Fool", "props": {"num": 0}},
+    {"id": "the-magician", "name": "The Magician", "props": {"num": 1}},
+    {"id": "the-high-priestess", "name": "The High Priestess", "props": {"num": 2}},
+    {"id": "the-empress", "name": "The Empress", "props": {"num": 3}},
+    {"id": "the-emperor", "name": "The Emperor", "props": {"num": 4}},
+    {"id": "the-hierophant", "name": "The Hierophant", "props": {"num": 5}},
+    {"id": "the-lovers", "name": "The Lovers", "props": {"num": 6}},
+    {"id": "the-chariot", "name": "The Chariot", "props": {"num": 7}},
+    {"id": "strength", "name": "Strength", "props": {"num": 8}},
+    {"id": "the-hermit", "name": "The Hermit", "props": {"num": 9}},
+    {"id": "wheel-of-fortune", "name": "Wheel of Fortune", "aliases": ["Wheel"], "props": {"num": 10}},
+    {"id": "justice", "name": "Justice", "props": {"num": 11}},
+    {"id": "the-hanged-man", "name": "The Hanged Man", "props": {"num": 12}},
+    {"id": "death", "name": "Death", "props": {"num": 13}},
+    {"id": "temperance", "name": "Temperance", "props": {"num": 14}},
+    {"id": "the-devil", "name": "The Devil", "props": {"num": 15}},
+    {"id": "the-tower", "name": "The Tower", "props": {"num": 16}},
+    {"id": "the-star", "name": "The Star", "props": {"num": 17}},
+    {"id": "the-moon", "name": "The Moon", "props": {"num": 18}},
+    {"id": "the-sun", "name": "The Sun", "props": {"num": 19}},
+    {"id": "judgement", "name": "Judgement", "aliases": ["Judgment"], "props": {"num": 20}},
+    {"id": "the-world", "name": "The World", "props": {"num": 21}}
+  ]
+}

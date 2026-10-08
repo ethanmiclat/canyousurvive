@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-03",
+  "approved": false,
+  "activity": "five-keys",
+  "winRate": 0.2459,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "constellations:all",
+      "datasetId": "constellations",
+      "prompt": "Name one of the 88 official constellations",
+      "size": 88,
+      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "delphinus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "hercules", "horologium", "hydra", "hydrus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
+    },
+    {
+      "round": 2,
+      "questionId": "nhl:tag:conf:west",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Western Conference",
+      "size": 16,
+      "answers": ["anaheim-ducks", "calgary-flames", "chicago-blackhawks", "colorado-avalanche", "dallas-stars", "edmonton-oilers", "los-angeles-kings", "minnesota-wild", "nashville-predators", "san-jose-sharks", "seattle-kraken", "st-louis-blues", "utah-mammoth", "vancouver-canucks", "vegas-golden-knights", "winnipeg-jets"]
+    },
+    {
+      "round": 3,
+      "questionId": "board_games:any:color:brown+color:light-blue+color:pink",
+      "datasetId": "board_games",
+      "prompt": "Name a brown, light blue or pink property in classic US Monopoly",
+      "size": 8,
+      "answers": ["monopoly-baltic-avenue", "monopoly-connecticut-avenue", "monopoly-mediterranean-avenue", "monopoly-oriental-avenue", "monopoly-st-charles-place", "monopoly-states-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
+    },
+    {
+      "round": 4,
+      "questionId": "nba:tag:div:southeast",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Southeast Division",
+      "size": 5,
+      "answers": ["atlanta-hawks", "charlotte-hornets", "miami-heat", "orlando-magic", "washington-wizards"]
+    },
+    {
+      "round": 5,
+      "questionId": "bible_books:starts:h~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible that starts with the letter H (ignore any number in front)",
+      "size": 4,
+      "answers": ["habakkuk", "haggai", "hebrews", "hosea"]
+    },
+    {
+      "round": 6,
+      "questionId": "mexico_states:starts:b",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter B",
+      "size": 2,
+      "answers": ["baja-california", "baja-california-sur"]
+    }
+  ]
+}

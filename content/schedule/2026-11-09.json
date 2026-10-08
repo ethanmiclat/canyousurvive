@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-09",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.2586,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "elements:lacks:d",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter D in its name",
+      "size": 94,
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copernicium", "copper", "curium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "francium", "gallium", "germanium", "hafnium", "hassium", "helium", "holmium", "iron", "krypton", "lanthanum", "lawrencium", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mercury", "moscovium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "promethium", "protactinium", "rhenium", "roentgenium", "ruthenium", "samarium", "seaborgium", "selenium", "silicon", "silver", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+    },
+    {
+      "round": 2,
+      "questionId": "shakespeare:lacks:y",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with no letter Y in its title",
+      "size": 25,
+      "answers": ["a-midsummer-night-s-dream", "all-s-well-that-ends-well", "coriolanus", "hamlet", "julius-caesar", "king-john", "king-lear", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "much-ado-about-nothing", "othello", "richard-ii", "richard-iii", "romeo-and-juliet", "the-merchant-of-venice", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "the-winter-s-tale", "timon-of-athens", "titus-andronicus", "troilus-and-cressida", "twelfth-night"]
+    },
+    {
+      "round": 3,
+      "questionId": "nhl:tag:div:central",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Central Division",
+      "size": 8,
+      "answers": ["chicago-blackhawks", "colorado-avalanche", "dallas-stars", "minnesota-wild", "nashville-predators", "st-louis-blues", "utah-mammoth", "winnipeg-jets"]
+    },
+    {
+      "round": 4,
+      "questionId": "constellations:contains:y",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with the letter Y in its name",
+      "size": 6,
+      "answers": ["cygnus", "hydra", "hydrus", "lynx", "lyra", "pyxis"]
+    },
+    {
+      "round": 5,
+      "questionId": "famous_groups:tag:teletubby",
+      "datasetId": "famous_groups",
+      "prompt": "Name a Teletubby",
+      "size": 4,
+      "answers": ["teletubby-dipsy", "teletubby-laa-laa", "teletubby-po", "teletubby-tinky-winky"]
+    },
+    {
+      "round": 6,
+      "questionId": "nato_alphabet:contains:x",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter X",
+      "size": 2,
+      "answers": ["foxtrot", "x-ray"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "mexico_states",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name one of Mexico's 32 federal entities (31 states plus Mexico City)"
+    },
+    {
+      "type": "letters",
+      "noun": "Mexican state",
+      "modes": [
+        "starts",
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "starts": "Name a Mexican state (or Mexico City) that starts with the letter {L}",
+        "contains": "Name a Mexican state (or Mexico City) with the letter {L} in its name",
+        "lacks": "Name a Mexican state (or Mexico City) with no letter {L} in its name"
+      }
+    }
+  ]
+}

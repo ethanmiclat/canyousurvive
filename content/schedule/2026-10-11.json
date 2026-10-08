@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-11",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.2553,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "national_parks:all",
+      "datasetId": "national_parks",
+      "prompt": "Name one of the 63 US national parks",
+      "size": 63,
+      "answers": ["acadia", "american-samoa", "arches", "badlands", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
+    },
+    {
+      "round": 2,
+      "questionId": "nhl:all",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team",
+      "size": 32,
+      "answers": ["anaheim-ducks", "boston-bruins", "buffalo-sabres", "calgary-flames", "carolina-hurricanes", "chicago-blackhawks", "colorado-avalanche", "columbus-blue-jackets", "dallas-stars", "detroit-red-wings", "edmonton-oilers", "florida-panthers", "los-angeles-kings", "minnesota-wild", "montreal-canadiens", "nashville-predators", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "ottawa-senators", "philadelphia-flyers", "pittsburgh-penguins", "san-jose-sharks", "seattle-kraken", "st-louis-blues", "tampa-bay-lightning", "toronto-maple-leafs", "utah-mammoth", "vancouver-canucks", "vegas-golden-knights", "washington-capitals", "winnipeg-jets"]
+    },
+    {
+      "round": 3,
+      "questionId": "shakespeare:tag:history",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare history play (multi-part plays count once)",
+      "size": 7,
+      "answers": ["henry-iv", "henry-v", "henry-vi", "henry-viii", "king-john", "richard-ii", "richard-iii"]
+    },
+    {
+      "round": 4,
+      "questionId": "pixar:range:year:1995-2005",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature released from 1995 to 2005",
+      "size": 6,
+      "answers": ["a-bug-s-life", "finding-nemo", "monsters-inc", "the-incredibles", "toy-story", "toy-story-2"]
+    },
+    {
+      "round": 5,
+      "questionId": "harry_potter:tag:house",
+      "datasetId": "harry_potter",
+      "prompt": "Name a Hogwarts house",
+      "size": 4,
+      "answers": ["house-gryffindor", "house-hufflepuff", "house-ravenclaw", "house-slytherin"]
+    },
+    {
+      "round": 6,
+      "questionId": "german_states:contains:c",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter C in its English name",
+      "size": 2,
+      "answers": ["mecklenburg-western-pomerania", "schleswig-holstein"]
+    }
+  ]
+}

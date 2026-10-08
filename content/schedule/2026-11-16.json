@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.2267,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "numbers:range:n:1-200@odd",
+      "datasetId": "numbers",
+      "prompt": "Name an odd number from 1 to 200",
+      "size": 100,
+      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n151", "n153", "n155", "n157", "n159", "n161", "n163", "n165", "n167", "n169", "n17", "n171", "n173", "n175", "n177", "n179", "n181", "n183", "n185", "n187", "n189", "n19", "n191", "n193", "n195", "n197", "n199", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+    },
+    {
+      "round": 2,
+      "questionId": "alphabet:range:pos:14-26",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter in the second half of the alphabet (N to Z)",
+      "size": 13,
+      "answers": ["letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+    },
+    {
+      "round": 3,
+      "questionId": "us_presidents:contains:u~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president with the letter U in their last name",
+      "size": 7,
+      "answers": ["chester-a-arthur", "donald-trump", "george-h-w-bush", "george-w-bush", "harry-s-truman", "james-buchanan", "martin-van-buren"]
+    },
+    {
+      "round": 4,
+      "questionId": "german_states:contains:g",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter G in its English name",
+      "size": 6,
+      "answers": ["baden-wurttemberg", "brandenburg", "hamburg", "mecklenburg-western-pomerania", "schleswig-holstein", "thuringia"]
+    },
+    {
+      "round": 5,
+      "questionId": "pokemon_gen2:tag:type:fighting",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Fighting-type Johto Pokémon (#152 to #251, current typings)",
+      "size": 3,
+      "answers": ["heracross", "hitmontop", "tyrogue"]
+    },
+    {
+      "round": 6,
+      "questionId": "india_states:starts:g@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter G",
+      "size": 2,
+      "answers": ["goa", "gujarat"]
+    }
+  ]
+}

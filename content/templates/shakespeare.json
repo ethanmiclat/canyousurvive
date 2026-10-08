@@ -1,0 +1,49 @@
+{
+  "dataset": "shakespeare",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a play by Shakespeare (multi-part plays like Henry VI count once)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "tragedy"
+      ],
+      "prompt": "Name a Shakespeare tragedy (Troilus and Cressida and Cymbeline don't count)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "history"
+      ],
+      "prompt": "Name a Shakespeare history play (multi-part plays count once)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "comedy"
+      ],
+      "prompt": "Name a play the First Folio lists as a Shakespeare comedy"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "romance"
+      ],
+      "prompt": "Name one of Shakespeare's late romances (Pericles, Cymbeline and friends)"
+    },
+    {
+      "type": "letters",
+      "noun": "Shakespeare play",
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a Shakespeare play with the letter {L} in its title",
+        "lacks": "Name a Shakespeare play with no letter {L} in its title"
+      }
+    }
+  ]
+}

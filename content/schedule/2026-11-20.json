@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-20",
+  "approved": false,
+  "activity": "draw-straws",
+  "winRate": 0.2455,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "bible_books:lacks:p~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter P in its name (ignore any number in front)",
+      "size": 58,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah"]
+    },
+    {
+      "round": 2,
+      "questionId": "nato_alphabet:range:pos:14-26",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word for a letter from N to Z",
+      "size": 13,
+      "answers": ["november", "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform", "victor", "whiskey", "x-ray", "yankee", "zulu"]
+    },
+    {
+      "round": 3,
+      "questionId": "calendar:lacks:u@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with no letter U in its name",
+      "size": 7,
+      "answers": ["april", "december", "march", "may", "november", "october", "september"]
+    },
+    {
+      "round": 4,
+      "questionId": "nhl:tag:original-six",
+      "datasetId": "nhl",
+      "prompt": "Name one of the NHL's Original Six teams",
+      "size": 6,
+      "answers": ["boston-bruins", "chicago-blackhawks", "detroit-red-wings", "montreal-canadiens", "new-york-rangers", "toronto-maple-leafs"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_alphabet:contains:n",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter N in its name",
+      "size": 4,
+      "answers": ["epsilon", "nu", "omicron", "upsilon"]
+    },
+    {
+      "round": 6,
+      "questionId": "pixar:contains:w",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter W in its title",
+      "size": 2,
+      "answers": ["onward", "wall-e"]
+    }
+  ]
+}

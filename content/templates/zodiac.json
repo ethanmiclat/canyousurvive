@@ -1,0 +1,63 @@
+{
+  "dataset": "zodiac",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "western"
+      ],
+      "prompt": "Name a Western zodiac sign"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "chinese"
+      ],
+      "prompt": "Name an animal of the Chinese zodiac"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "element:fire",
+        "element:water"
+      ],
+      "prompt": "Name a fire or water sign of the Western zodiac"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "element:earth",
+        "element:air"
+      ],
+      "prompt": "Name an earth or air sign of the Western zodiac"
+    },
+    {
+      "type": "letters",
+      "where": [
+        "western"
+      ],
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a Western zodiac sign with the letter {L} in it",
+        "lacks": "Name a Western zodiac sign with no letter {L} in it"
+      }
+    },
+    {
+      "type": "letters",
+      "where": [
+        "chinese"
+      ],
+      "modes": [
+        "contains",
+        "lacks"
+      ],
+      "prompt": {
+        "contains": "Name a Chinese zodiac animal with the letter {L} in it",
+        "lacks": "Name a Chinese zodiac animal with no letter {L} in it"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-07",
+  "approved": false,
+  "activity": "glass-bridge",
+  "winRate": 0.2475,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "world_capitals:not:continent:africa",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital outside Africa",
+      "size": 142,
+      "answers": ["abu-dhabi", "amman", "amsterdam", "andorra-la-vella", "ankara", "apia", "ashgabat", "astana", "asuncion", "athens", "baghdad", "baku", "bandar-seri-begawan", "bangkok", "basseterre", "beijing", "beirut", "belgrade", "belmopan", "berlin", "bern", "bishkek", "bogota", "brasilia", "bratislava", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "canberra", "caracas", "castries", "chisinau", "copenhagen", "damascus", "dhaka", "dili", "doha", "dublin", "dushanbe", "funafuti", "georgetown", "guatemala-city", "hanoi", "havana", "helsinki", "honiara", "islamabad", "jakarta", "jerusalem", "kabul", "kathmandu", "kingston", "kingstown", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "lima", "lisbon", "ljubljana", "london", "luxembourg-city", "madrid", "majuro", "male", "managua", "manama", "manila", "mexico-city", "minsk", "monaco", "montevideo", "moscow", "muscat", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "nicosia", "nuku-alofa", "oslo", "ottawa", "palikir", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-moresby", "port-of-spain", "port-vila", "prague", "pyongyang", "quito", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tokyo", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "yaren", "yerevan", "zagreb"]
+    },
+    {
+      "round": 2,
+      "questionId": "best_picture:range:year:2000-2024",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner released from 2000 to 2024",
+      "size": 25,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "anora", "argo", "birdman", "chicago", "coda", "crash", "everything-everywhere-all-at-once", "gladiator", "green-book", "million-dollar-baby", "moonlight", "no-country-for-old-men", "nomadland", "oppenheimer", "parasite", "slumdog-millionaire", "spotlight", "the-artist", "the-departed", "the-hurt-locker", "the-king-s-speech", "the-lord-of-the-rings-the-return-of-the-king", "the-shape-of-water"]
+    },
+    {
+      "round": 3,
+      "questionId": "space:lacks:v@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter V in its name",
+      "size": 7,
+      "answers": ["earth", "jupiter", "mars", "mercury", "neptune", "saturn", "uranus"]
+    },
+    {
+      "round": 4,
+      "questionId": "olympics:tag:summer-repeat",
+      "datasetId": "olympics",
+      "prompt": "Name a city that has hosted the Summer Olympics more than once (through 2024)",
+      "size": 5,
+      "answers": ["athens", "london", "los-angeles", "paris", "tokyo"]
+    },
+    {
+      "round": 5,
+      "questionId": "greek_myth:contains:p@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter P in their Greek name",
+      "size": 4,
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-hephaestus", "olympian-poseidon"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_states:contains:x",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with the letter X in its name",
+      "size": 2,
+      "answers": ["new-mexico", "texas"]
+    }
+  ]
+}

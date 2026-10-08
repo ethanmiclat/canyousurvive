@@ -1,0 +1,84 @@
+{
+  "dataset": "board_games",
+  "templates": [
+    {
+      "type": "tag",
+      "tags": [
+        "chess"
+      ],
+      "prompt": "Name a chess piece"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "clue-suspect"
+      ],
+      "prompt": "Name one of the six classic Clue (Cluedo) suspects"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "clue-weapon"
+      ],
+      "prompt": "Name one of the six classic Clue (Cluedo) weapons"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "clue-room"
+      ],
+      "prompt": "Name one of the nine rooms in classic Clue (Cluedo)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "monopoly"
+      ],
+      "prompt": "Name a property you can buy in classic US Monopoly (streets, railroads, utilities)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "monopoly-street"
+      ],
+      "prompt": "Name a street (colored property) in classic US Monopoly"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "monopoly-railroad"
+      ],
+      "prompt": "Name a railroad in classic US Monopoly"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "color:orange",
+        "color:red",
+        "color:yellow"
+      ],
+      "prompt": "Name an orange, red or yellow property in classic US Monopoly"
+    },
+    {
+      "type": "anyTag",
+      "tags": [
+        "color:brown",
+        "color:light-blue",
+        "color:pink"
+      ],
+      "prompt": "Name a brown, light blue or pink property in classic US Monopoly"
+    },
+    {
+      "type": "letters",
+      "where": [
+        "monopoly-street"
+      ],
+      "modes": [
+        "starts"
+      ],
+      "prompt": {
+        "starts": "Name a classic US Monopoly street that starts with the letter {L}"
+      }
+    }
+  ]
+}

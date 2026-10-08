@@ -1,0 +1,48 @@
+{
+  "dataset": "state_capitals",
+  "templates": [
+    {
+      "type": "all",
+      "prompt": "Name a US state capital"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:south"
+      ],
+      "prompt": "Name the capital of a US state in the South (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:west"
+      ],
+      "prompt": "Name the capital of a US state in the West (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:midwest"
+      ],
+      "prompt": "Name the capital of a Midwestern US state"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "region:northeast"
+      ],
+      "prompt": "Name the capital of a US state in the Northeast (US Census region)"
+    },
+    {
+      "type": "tag",
+      "tags": [
+        "division:new-england"
+      ],
+      "prompt": "Name the capital of a New England state"
+    },
+    {
+      "type": "letters",
+      "noun": "US state capital"
+    }
+  ]
+}

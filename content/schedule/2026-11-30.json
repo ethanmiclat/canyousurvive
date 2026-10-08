@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-30",
+  "approved": false,
+  "activity": "elevator",
+  "winRate": 0.2248,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "constellations:lacks:h",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with no letter H in its name",
+      "size": 79,
+      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cetus", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "orion", "pavo", "pegasus", "perseus", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
+    },
+    {
+      "round": 2,
+      "questionId": "nato_alphabet:lacks:m",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word with no letter M",
+      "size": 21,
+      "answers": ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliett", "kilo", "oscar", "papa", "quebec", "sierra", "tango", "victor", "whiskey", "x-ray", "yankee", "zulu"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_alphabet:contains:e",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter E in its name",
+      "size": 7,
+      "answers": ["beta", "delta", "epsilon", "eta", "omega", "theta", "zeta"]
+    },
+    {
+      "round": 4,
+      "questionId": "olympics:tag:winter+continent:north-america",
+      "datasetId": "olympics",
+      "prompt": "Name a North American city that has hosted the Winter Olympics",
+      "size": 5,
+      "answers": ["calgary", "lake-placid", "salt-lake-city", "squaw-valley", "vancouver"]
+    },
+    {
+      "round": 5,
+      "questionId": "calendar:contains:r@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with the letter R in its name",
+      "size": 3,
+      "answers": ["friday", "saturday", "thursday"]
+    },
+    {
+      "round": 6,
+      "questionId": "us_states:starts:t",
+      "datasetId": "us_states",
+      "prompt": "Name a US state that starts with the letter T",
+      "size": 2,
+      "answers": ["tennessee", "texas"]
+    }
+  ]
+}

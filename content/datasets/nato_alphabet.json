@@ -1,0 +1,32 @@
+{
+  "id": "nato_alphabet",
+  "title": "NATO phonetic alphabet",
+  "entities": [
+    {"id": "alfa", "name": "Alfa", "aliases": ["Alpha"], "props": {"pos": 1}},
+    {"id": "bravo", "name": "Bravo", "props": {"pos": 2}},
+    {"id": "charlie", "name": "Charlie", "props": {"pos": 3}},
+    {"id": "delta", "name": "Delta", "props": {"pos": 4}},
+    {"id": "echo", "name": "Echo", "props": {"pos": 5}},
+    {"id": "foxtrot", "name": "Foxtrot", "props": {"pos": 6}},
+    {"id": "golf", "name": "Golf", "props": {"pos": 7}},
+    {"id": "hotel", "name": "Hotel", "props": {"pos": 8}},
+    {"id": "india", "name": "India", "props": {"pos": 9}},
+    {"id": "juliett", "name": "Juliett", "aliases": ["Juliet"], "props": {"pos": 10}},
+    {"id": "kilo", "name": "Kilo", "props": {"pos": 11}},
+    {"id": "lima", "name": "Lima", "props": {"pos": 12}},
+    {"id": "mike", "name": "Mike", "props": {"pos": 13}},
+    {"id": "november", "name": "November", "props": {"pos": 14}},
+    {"id": "oscar", "name": "Oscar", "props": {"pos": 15}},
+    {"id": "papa", "name": "Papa", "props": {"pos": 16}},
+    {"id": "quebec", "name": "Quebec", "props": {"pos": 17}},
+    {"id": "romeo", "name": "Romeo", "props": {"pos": 18}},
+    {"id": "sierra", "name": "Sierra", "props": {"pos": 19}},
+    {"id": "tango", "name": "Tango", "props": {"pos": 20}},
+    {"id": "uniform", "name": "Uniform", "props": {"pos": 21}},
+    {"id": "victor", "name": "Victor", "props": {"pos": 22}},
+    {"id": "whiskey", "name": "Whiskey", "aliases": ["Whisky"], "props": {"pos": 23}},
+    {"id": "x-ray", "name": "X-ray", "aliases": ["Xray"], "props": {"pos": 24}},
+    {"id": "yankee", "name": "Yankee", "props": {"pos": 25}},
+    {"id": "zulu", "name": "Zulu", "props": {"pos": 26}}
+  ]
+}

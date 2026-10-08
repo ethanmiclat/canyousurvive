@@ -1,0 +1,30 @@
+{
+  "id": "zodiac",
+  "title": "Zodiac signs",
+  "entities": [
+    {"id": "aries", "name": "Aries", "tags": ["western", "element:fire"]},
+    {"id": "taurus", "name": "Taurus", "tags": ["western", "element:earth"]},
+    {"id": "gemini", "name": "Gemini", "tags": ["western", "element:air"]},
+    {"id": "cancer", "name": "Cancer", "tags": ["western", "element:water"]},
+    {"id": "leo", "name": "Leo", "tags": ["western", "element:fire"]},
+    {"id": "virgo", "name": "Virgo", "tags": ["western", "element:earth"]},
+    {"id": "libra", "name": "Libra", "tags": ["western", "element:air"]},
+    {"id": "scorpio", "name": "Scorpio", "aliases": ["Scorpius"], "tags": ["western", "element:water"]},
+    {"id": "sagittarius", "name": "Sagittarius", "tags": ["western", "element:fire"]},
+    {"id": "capricorn", "name": "Capricorn", "aliases": ["Capricornus"], "tags": ["western", "element:earth"]},
+    {"id": "aquarius", "name": "Aquarius", "tags": ["western", "element:air"]},
+    {"id": "pisces", "name": "Pisces", "tags": ["western", "element:water"]},
+    {"id": "chinese-rat", "name": "Rat", "tags": ["chinese"]},
+    {"id": "chinese-ox", "name": "Ox", "aliases": ["Cow", "Buffalo"], "tags": ["chinese"]},
+    {"id": "chinese-tiger", "name": "Tiger", "tags": ["chinese"]},
+    {"id": "chinese-rabbit", "name": "Rabbit", "aliases": ["Hare"], "tags": ["chinese"]},
+    {"id": "chinese-dragon", "name": "Dragon", "tags": ["chinese"]},
+    {"id": "chinese-snake", "name": "Snake", "tags": ["chinese"]},
+    {"id": "chinese-horse", "name": "Horse", "tags": ["chinese"]},
+    {"id": "chinese-goat", "name": "Goat", "aliases": ["Sheep", "Ram"], "tags": ["chinese"]},
+    {"id": "chinese-monkey", "name": "Monkey", "tags": ["chinese"]},
+    {"id": "chinese-rooster", "name": "Rooster", "aliases": ["Chicken"], "tags": ["chinese"]},
+    {"id": "chinese-dog", "name": "Dog", "tags": ["chinese"]},
+    {"id": "chinese-pig", "name": "Pig", "aliases": ["Boar"], "tags": ["chinese"]}
+  ]
+}

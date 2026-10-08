@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-23",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.2571,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "world_capitals:all",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital city (any of the 195 countries; official capitals)",
+      "size": 199,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "amsterdam", "andorra-la-vella", "ankara", "antananarivo", "apia", "ashgabat", "asmara", "astana", "asuncion", "athens", "baghdad", "baku", "bamako", "bandar-seri-begawan", "bangkok", "bangui", "banjul", "basseterre", "beijing", "beirut", "belgrade", "belmopan", "berlin", "bern", "bishkek", "bissau", "bloemfontein", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "chisinau", "conakry", "copenhagen", "dakar", "damascus", "dhaka", "dili", "djibouti", "dodoma", "doha", "dublin", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "hanoi", "harare", "havana", "helsinki", "honiara", "islamabad", "jakarta", "jerusalem", "juba", "kabul", "kampala", "kathmandu", "khartoum", "kigali", "kingston", "kingstown", "kinshasa", "kuala-lumpur", "kuwait-city", "kyiv", "la-paz", "libreville", "lilongwe", "lima", "lisbon", "ljubljana", "lobamba", "lome", "london", "luanda", "lusaka", "luxembourg-city", "madrid", "majuro", "malabo", "male", "managua", "manama", "manila", "maputo", "maseru", "mbabane", "mexico-city", "minsk", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "niamey", "nicosia", "nouakchott", "nuku-alofa", "oslo", "ottawa", "ouagadougou", "palikir", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sao-tome", "sarajevo", "seoul", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "stockholm", "sucre", "suva", "tallinn", "tashkent", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tokyo", "tripoli", "tunis", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "windhoek", "yamoussoukro", "yaounde", "yaren", "yerevan", "zagreb"]
+    },
+    {
+      "round": 2,
+      "questionId": "world_cup:tag:mh",
+      "datasetId": "world_cup",
+      "prompt": "Name a country that has hosted (or co-hosted) the men's FIFA World Cup, through 2026",
+      "size": 19,
+      "answers": ["argentina", "brazil", "canada", "chile", "england", "france", "germany", "italy", "japan", "mexico", "qatar", "russia", "south-africa", "south-korea", "spain", "sweden", "switzerland", "united-states", "uruguay"]
+    },
+    {
+      "round": 3,
+      "questionId": "us_states:tag:division:mountain",
+      "datasetId": "us_states",
+      "prompt": "Name a US state in the Mountain Census division",
+      "size": 8,
+      "answers": ["arizona", "colorado", "idaho", "montana", "nevada", "new-mexico", "utah", "wyoming"]
+    },
+    {
+      "round": 4,
+      "questionId": "space:lacks:m@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter M in its name",
+      "size": 6,
+      "answers": ["earth", "jupiter", "neptune", "saturn", "uranus", "venus"]
+    },
+    {
+      "round": 5,
+      "questionId": "harry_potter:tag:marauder",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the Marauders (nickname or real name)",
+      "size": 4,
+      "answers": ["marauder-moony", "marauder-padfoot", "marauder-prongs", "marauder-wormtail"]
+    },
+    {
+      "round": 6,
+      "questionId": "zodiac:contains:t@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter T in it",
+      "size": 2,
+      "answers": ["sagittarius", "taurus"]
+    }
+  ]
+}

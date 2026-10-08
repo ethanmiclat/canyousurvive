@@ -1,0 +1,14 @@
+{
+  "id": "australia",
+  "title": "Australian states and territories",
+  "entities": [
+    {"id": "new-south-wales", "name": "New South Wales", "aliases": ["NSW"], "tags": ["state"]},
+    {"id": "victoria", "name": "Victoria", "aliases": ["VIC"], "tags": ["state"]},
+    {"id": "queensland", "name": "Queensland", "aliases": ["QLD"], "tags": ["state"]},
+    {"id": "western-australia", "name": "Western Australia", "aliases": ["WA"], "tags": ["state"]},
+    {"id": "south-australia", "name": "South Australia", "aliases": ["SA"], "tags": ["state"]},
+    {"id": "tasmania", "name": "Tasmania", "aliases": ["TAS"], "tags": ["state"]},
+    {"id": "northern-territory", "name": "Northern Territory", "aliases": ["NT"], "tags": ["territory"]},
+    {"id": "australian-capital-territory", "name": "Australian Capital Territory", "aliases": ["ACT"], "tags": ["territory"]}
+  ]
+}

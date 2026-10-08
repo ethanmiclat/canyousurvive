@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-15",
+  "approved": false,
+  "activity": "stop-the-needle",
+  "winRate": 0.2147,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "world_capitals:not:continent:europe",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital outside Europe",
+      "size": 149,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "antananarivo", "apia", "ashgabat", "asmara", "asuncion", "baghdad", "bamako", "bandar-seri-begawan", "bangkok", "bangui", "banjul", "basseterre", "beijing", "beirut", "belmopan", "bishkek", "bissau", "bloemfontein", "bogota", "brasilia", "brazzaville", "bridgetown", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "conakry", "dakar", "damascus", "dhaka", "dili", "djibouti", "dodoma", "doha", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "hanoi", "harare", "havana", "honiara", "islamabad", "jakarta", "jerusalem", "juba", "kabul", "kampala", "kathmandu", "khartoum", "kigali", "kingston", "kingstown", "kinshasa", "kuala-lumpur", "kuwait-city", "la-paz", "libreville", "lilongwe", "lima", "lobamba", "lome", "luanda", "lusaka", "majuro", "malabo", "male", "managua", "manama", "manila", "maputo", "maseru", "mbabane", "mexico-city", "mogadishu", "monrovia", "montevideo", "moroni", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "niamey", "nouakchott", "nuku-alofa", "ottawa", "ouagadougou", "palikir", "panama-city", "paramaribo", "phnom-penh", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "praia", "pretoria", "pyongyang", "quito", "rabat", "ramallah", "riyadh", "roseau", "san-jose", "san-salvador", "sanaa", "santiago", "santo-domingo", "sao-tome", "seoul", "singapore", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "sucre", "suva", "tashkent", "tegucigalpa", "tehran", "thimphu", "tokyo", "tripoli", "tunis", "ulaanbaatar", "victoria", "vientiane", "washington-d-c", "wellington", "windhoek", "yamoussoukro", "yaounde", "yaren"]
+    },
+    {
+      "round": 2,
+      "questionId": "si_units:tag:prefix+big",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix for a multiple larger than one (deca- and up)",
+      "size": 12,
+      "answers": ["prefix-deca", "prefix-exa", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-peta", "prefix-quetta", "prefix-ronna", "prefix-tera", "prefix-yotta", "prefix-zetta"]
+    },
+    {
+      "round": 3,
+      "questionId": "famous_groups:tag:reindeer",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of Santa's reindeer (Rudolph counts)",
+      "size": 9,
+      "answers": ["reindeer-blitzen", "reindeer-comet", "reindeer-cupid", "reindeer-dancer", "reindeer-dasher", "reindeer-donner", "reindeer-prancer", "reindeer-rudolph", "reindeer-vixen"]
+    },
+    {
+      "round": 4,
+      "questionId": "constellations:starts:m",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter M",
+      "size": 4,
+      "answers": ["mensa", "microscopium", "monoceros", "musca"]
+    },
+    {
+      "round": 5,
+      "questionId": "zodiac:contains:u@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter U in it",
+      "size": 3,
+      "answers": ["aquarius", "sagittarius", "taurus"]
+    },
+    {
+      "round": 6,
+      "questionId": "board_games:starts:b@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter B",
+      "size": 2,
+      "answers": ["monopoly-baltic-avenue", "monopoly-boardwalk"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-17",
+  "approved": false,
+  "activity": "poison-cups",
+  "winRate": 0.2441,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "best_picture:contains:t",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter T in its title",
+      "size": 58,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "around-the-world-in-80-days", "birdman", "braveheart", "chariots-of-fire", "dances-with-wolves", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gladiator", "gone-with-the-wind", "grand-hotel", "hamlet-1948", "in-the-heat-of-the-night", "it-happened-one-night", "marty", "midnight-cowboy", "moonlight", "mutiny-on-the-bounty", "no-country-for-old-men", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "out-of-africa", "parasite", "patton", "platoon", "schindler-s-list", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "the-sting", "titanic", "tom-jones", "west-side-story", "you-can-t-take-it-with-you"]
+    },
+    {
+      "round": 2,
+      "questionId": "olympics:tag:summer+continent:europe",
+      "datasetId": "olympics",
+      "prompt": "Name a European city that has hosted the Summer Olympics (through 2024)",
+      "size": 12,
+      "answers": ["amsterdam", "antwerp", "athens", "barcelona", "berlin", "helsinki", "london", "moscow", "munich", "paris", "rome", "stockholm"]
+    },
+    {
+      "round": 3,
+      "questionId": "zodiac:lacks:e@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with no letter E in it",
+      "size": 7,
+      "answers": ["aquarius", "capricorn", "libra", "sagittarius", "scorpio", "taurus", "virgo"]
+    },
+    {
+      "round": 4,
+      "questionId": "film_series:tag:middle-earth",
+      "datasetId": "film_series",
+      "prompt": "Name one of Peter Jackson's Lord of the Rings or Hobbit films",
+      "size": 6,
+      "answers": ["middle-earth-the-hobbit-an-unexpected-journey", "middle-earth-the-hobbit-the-battle-of-the-five-armies", "middle-earth-the-hobbit-the-desolation-of-smaug", "middle-earth-the-lord-of-the-rings-the-fellowship-of-the-ring", "middle-earth-the-lord-of-the-rings-the-return-of-the-king", "middle-earth-the-lord-of-the-rings-the-two-towers"]
+    },
+    {
+      "round": 5,
+      "questionId": "amino_acids:contains:u",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter U in its name",
+      "size": 4,
+      "answers": ["glutamic-acid", "glutamine", "isoleucine", "leucine"]
+    },
+    {
+      "round": 6,
+      "questionId": "space:lacks:r@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter R in its name",
+      "size": 2,
+      "answers": ["neptune", "venus"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-12-05",
+  "approved": false,
+  "activity": "five-keys",
+  "winRate": 0.2916,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "constellations:contains:s",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with the letter S in its name",
+      "size": 53,
+      "answers": ["apus", "aquarius", "aries", "bootes", "camelopardalis", "canes-venatici", "canis-major", "canis-minor", "capricornus", "cassiopeia", "centaurus", "cepheus", "cetus", "circinus", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "cygnus", "delphinus", "equuleus", "eridanus", "grus", "hercules", "hydrus", "indus", "lepus", "lupus", "mensa", "microscopium", "monoceros", "musca", "octans", "ophiuchus", "pegasus", "perseus", "pisces", "piscis-austrinus", "puppis", "pyxis", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum-australe", "ursa-major", "ursa-minor", "volans"]
+    },
+    {
+      "round": 2,
+      "questionId": "mexico_states:lacks:t",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with no letter T in its name",
+      "size": 19,
+      "answers": ["baja-california", "baja-california-sur", "campeche", "chiapas", "chihuahua", "coahuila", "colima", "durango", "guerrero", "hidalgo", "jalisco", "michoacan", "morelos", "nuevo-leon", "oaxaca", "puebla", "sinaloa", "sonora", "veracruz"]
+    },
+    {
+      "round": 3,
+      "questionId": "greek_alphabet:contains:t",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter T in its name",
+      "size": 7,
+      "answers": ["beta", "delta", "eta", "iota", "tau", "theta", "zeta"]
+    },
+    {
+      "round": 4,
+      "questionId": "nba:tag:div:southwest",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Southwest Division",
+      "size": 5,
+      "answers": ["dallas-mavericks", "houston-rockets", "memphis-grizzlies", "new-orleans-pelicans", "san-antonio-spurs"]
+    },
+    {
+      "round": 5,
+      "questionId": "calendar:lacks:r@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with no letter R in its name",
+      "size": 4,
+      "answers": ["august", "july", "june", "may"]
+    },
+    {
+      "round": 6,
+      "questionId": "nato_alphabet:contains:y",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter Y",
+      "size": 3,
+      "answers": ["whiskey", "x-ray", "yankee"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-10",
+  "approved": false,
+  "activity": "bomb-wires",
+  "winRate": 0.2503,
+  "rounds": [
+    {
+      "round": 1,
+      "questionId": "bible_books:lacks:j~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter J in its name (ignore any number in front)",
+      "size": 54,
+      "answers": ["1-chronicles", "1-corinthians", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah", "zephaniah"]
+    },
+    {
+      "round": 2,
+      "questionId": "pixar:all",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature film released before 2026",
+      "size": 29,
+      "answers": ["a-bug-s-life", "brave", "cars", "cars-2", "cars-3", "coco", "elemental", "elio", "finding-dory", "finding-nemo", "incredibles-2", "inside-out", "inside-out-2", "lightyear", "luca", "monsters-inc", "monsters-university", "onward", "ratatouille", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "toy-story-2", "toy-story-3", "toy-story-4", "turning-red", "up", "wall-e"]
+    },
+    {
+      "round": 3,
+      "questionId": "pokemon_gen1:tag:type:fighting",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Fighting-type Pokémon from the original 151 (current typings)",
+      "size": 8,
+      "answers": ["hitmonchan", "hitmonlee", "machamp", "machoke", "machop", "mankey", "poliwrath", "primeape"]
+    },
+    {
+      "round": 4,
+      "questionId": "greek_alphabet:contains:l",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter L in its name",
+      "size": 5,
+      "answers": ["alpha", "delta", "epsilon", "lambda", "upsilon"]
+    },
+    {
+      "round": 5,
+      "questionId": "calendar:lacks:r@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with no letter R in its name",
+      "size": 4,
+      "answers": ["monday", "sunday", "tuesday", "wednesday"]
+    },
+    {
+      "round": 6,
+      "questionId": "pokemon_gen2:starts:n",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) that starts with the letter N",
+      "size": 2,
+      "answers": ["natu", "noctowl"]
+    }
+  ]
+}
