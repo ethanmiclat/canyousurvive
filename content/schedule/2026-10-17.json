@@ -2,55 +2,55 @@
   "date": "2026-10-17",
   "approved": false,
   "activity": "bomb-wires",
-  "winRate": 0.2935,
+  "winRate": 0.633,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:contains:n",
+      "questionId": "elements:range:number:1-92",
       "datasetId": "elements",
-      "prompt": "Name an element with the letter N in its name",
-      "size": 64,
-      "answers": ["actinium", "aluminium", "antimony", "argon", "arsenic", "astatine", "boron", "bromine", "californium", "carbon", "chlorine", "copernicium", "dubnium", "einsteinium", "fluorine", "francium", "gadolinium", "germanium", "hafnium", "hydrogen", "indium", "iodine", "iron", "krypton", "lanthanum", "lawrencium", "magnesium", "manganese", "meitnerium", "mendelevium", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "oxygen", "platinum", "plutonium", "polonium", "protactinium", "radon", "rhenium", "roentgenium", "ruthenium", "scandium", "selenium", "silicon", "strontium", "tantalum", "technetium", "tennessine", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "zinc", "zirconium"]
+      "prompt": "Name an element with atomic number 1 to 92",
+      "size": 92,
+      "answers": ["actinium", "aluminium", "antimony", "argon", "arsenic", "astatine", "barium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "dysprosium", "erbium", "europium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
     },
     {
       "round": 2,
-      "questionId": "alphabet:tag:consonant",
-      "datasetId": "alphabet",
-      "prompt": "Name a consonant (anything but A, E, I, O, U)",
-      "size": 21,
-      "answers": ["letter-b", "letter-c", "letter-d", "letter-f", "letter-g", "letter-h", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+      "questionId": "india_states:tag:state",
+      "datasetId": "india_states",
+      "prompt": "Name one of India's 28 states (not a union territory)",
+      "size": 28,
+      "answers": ["andhra-pradesh", "arunachal-pradesh", "assam", "bihar", "chhattisgarh", "goa", "gujarat", "haryana", "himachal-pradesh", "jharkhand", "karnataka", "kerala", "madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram", "nagaland", "odisha", "punjab", "rajasthan", "sikkim", "tamil-nadu", "telangana", "tripura", "uttar-pradesh", "uttarakhand", "west-bengal"]
     },
     {
       "round": 3,
-      "questionId": "harry_potter:tag:weasley",
-      "datasetId": "harry_potter",
-      "prompt": "Name one of the seven Weasley children",
-      "size": 7,
-      "answers": ["weasley-bill-weasley", "weasley-charlie-weasley", "weasley-fred-weasley", "weasley-george-weasley", "weasley-ginny-weasley", "weasley-percy-weasley", "weasley-ron-weasley"]
+      "questionId": "pixar:range:year:2020-2025",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature released from 2020 to 2025",
+      "size": 8,
+      "answers": ["elemental", "elio", "inside-out-2", "lightyear", "luca", "onward", "soul", "turning-red"]
     },
     {
       "round": 4,
-      "questionId": "us_presidents:range:start:1789-1817",
+      "questionId": "us_presidents:starts:w~first",
       "datasetId": "us_presidents",
-      "prompt": "Name one of the first five US presidents",
+      "prompt": "Name a US president whose first name starts with the letter W",
       "size": 5,
-      "answers": ["george-washington", "james-madison", "james-monroe", "john-adams", "thomas-jefferson"]
+      "answers": ["warren-g-harding", "william-henry-harrison", "william-howard-taft", "william-mckinley", "woodrow-wilson"]
     },
     {
       "round": 5,
-      "questionId": "nfl:tag:div:afc-west",
-      "datasetId": "nfl",
-      "prompt": "Name a team in the AFC West",
+      "questionId": "olympics:tag:winter+continent:asia",
+      "datasetId": "olympics",
+      "prompt": "Name an Asian city that has hosted the Winter Olympics",
       "size": 4,
-      "answers": ["denver-broncos", "kansas-city-chiefs", "las-vegas-raiders", "los-angeles-chargers"]
+      "answers": ["beijing", "nagano", "pyeongchang", "sapporo"]
     },
     {
       "round": 6,
-      "questionId": "amino_acids:contains:m",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter M in its name",
+      "questionId": "german_states:contains:x",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter X in its English name",
       "size": 3,
-      "answers": ["glutamic-acid", "glutamine", "methionine"]
+      "answers": ["lower-saxony", "saxony", "saxony-anhalt"]
     }
   ]
 }

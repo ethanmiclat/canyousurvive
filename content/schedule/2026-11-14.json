@@ -2,55 +2,55 @@
   "date": "2026-11-14",
   "approved": false,
   "activity": "elevator",
-  "winRate": 0.2186,
+  "winRate": 0.6262,
   "rounds": [
     {
       "round": 1,
-      "questionId": "national_parks:contains:a",
+      "questionId": "national_parks:contains:e",
       "datasetId": "national_parks",
-      "prompt": "Name a US national park with the letter A in its name",
-      "size": 53,
-      "answers": ["acadia", "american-samoa", "arches", "badlands", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "north-cascades", "pinnacles", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias"]
+      "prompt": "Name a US national park with the letter E in its name",
+      "size": 50,
+      "answers": ["american-samoa", "arches", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "sequoia", "shenandoah", "theodore-roosevelt", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite"]
     },
     {
       "round": 2,
-      "questionId": "nhl:tag:conf:east",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Eastern Conference",
-      "size": 16,
-      "answers": ["boston-bruins", "buffalo-sabres", "carolina-hurricanes", "columbus-blue-jackets", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "ottawa-senators", "philadelphia-flyers", "pittsburgh-penguins", "tampa-bay-lightning", "toronto-maple-leafs", "washington-capitals"]
+      "questionId": "shakespeare:all",
+      "datasetId": "shakespeare",
+      "prompt": "Name a play by Shakespeare (multi-part plays like Henry VI count once)",
+      "size": 35,
+      "answers": ["a-midsummer-night-s-dream", "all-s-well-that-ends-well", "antony-and-cleopatra", "as-you-like-it", "coriolanus", "cymbeline", "hamlet", "henry-iv", "henry-v", "henry-vi", "henry-viii", "julius-caesar", "king-john", "king-lear", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "much-ado-about-nothing", "othello", "pericles", "richard-ii", "richard-iii", "romeo-and-juliet", "the-comedy-of-errors", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "the-winter-s-tale", "timon-of-athens", "titus-andronicus", "troilus-and-cressida", "twelfth-night"]
     },
     {
       "round": 3,
-      "questionId": "shakespeare:contains:y",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with the letter Y in its title",
-      "size": 10,
-      "answers": ["antony-and-cleopatra", "as-you-like-it", "cymbeline", "henry-iv", "henry-v", "henry-vi", "henry-viii", "pericles", "the-comedy-of-errors", "the-merry-wives-of-windsor"]
+      "questionId": "harry_potter:tag:weasley",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the seven Weasley children",
+      "size": 7,
+      "answers": ["weasley-bill-weasley", "weasley-charlie-weasley", "weasley-fred-weasley", "weasley-george-weasley", "weasley-ginny-weasley", "weasley-percy-weasley", "weasley-ron-weasley"]
     },
     {
       "round": 4,
-      "questionId": "constellations:starts:v",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation that starts with the letter V",
-      "size": 4,
-      "answers": ["vela", "virgo", "volans", "vulpecula"]
+      "questionId": "best_picture:range:year:2020-2024",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner released from 2020 to 2024",
+      "size": 5,
+      "answers": ["anora", "coda", "everything-everywhere-all-at-once", "nomadland", "oppenheimer"]
     },
     {
       "round": 5,
-      "questionId": "nato_alphabet:contains:v",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter V",
-      "size": 3,
-      "answers": ["bravo", "november", "victor"]
+      "questionId": "german_states:contains:d",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter D in its English name",
+      "size": 4,
+      "answers": ["baden-wurttemberg", "brandenburg", "rhineland-palatinate", "saarland"]
     },
     {
       "round": 6,
-      "questionId": "us_states:starts:v",
-      "datasetId": "us_states",
-      "prompt": "Name a US state that starts with the letter V",
-      "size": 2,
-      "answers": ["vermont", "virginia"]
+      "questionId": "world_capitals:starts:o",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital that starts with the letter O",
+      "size": 3,
+      "answers": ["oslo", "ottawa", "ouagadougou"]
     }
   ]
 }

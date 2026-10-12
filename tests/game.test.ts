@@ -39,7 +39,7 @@ describe('run lifecycle', () => {
     expect((await statsFor(DATE)).started).toBe(1)
   })
 
-  it('survives typed rounds with safe answers, takes a hit, and dies on the second', async () => {
+  it('survives typed rounds with safe answers, takes two hits, and dies on the third', async () => {
     const { token } = await startOrResume(undefined, DATE)
     for (const round of [1, 2]) {
       const { safe } = safeAndDeadly(round)
@@ -50,28 +50,30 @@ describe('run lifecycle', () => {
       expect(lock.run.round).toBe(round + 1)
       expect(lock.run.answerSets).toBeNull()
     }
-    // The first lost round costs a hit, and the run goes on.
-    const hit = await typed(token, (run) => lockTyped(run, safeAndDeadly(3).deadly))
-    expect(hit.outcome.survived).toBe(false)
-    expect(hit.run).toMatchObject({ status: 'playing', round: 4, answerSets: null })
-    const { deadly } = safeAndDeadly(4)
+    // The first two lost rounds cost a hit each, and the run goes on.
+    for (const round of [3, 4]) {
+      const hit = await typed(token, (run) => lockTyped(run, safeAndDeadly(round).deadly))
+      expect(hit.outcome.survived).toBe(false)
+      expect(hit.run).toMatchObject({ status: 'playing', round: round + 1, answerSets: null })
+    }
+    const { deadly } = safeAndDeadly(5)
     const lock = await typed(token, (run) => lockTyped(run, deadly))
     expect(lock.outcome).toMatchObject({ survived: false, pick: deadly, answer: deadly })
     expect(lock.run.status).toBe('dead')
     expect(lock.run.answerSets.map((a: { round: number }) => a.round)).toEqual([1, 2, 3, 4, 5, 6])
-    expect(lock.run.answerSets[3].names).toHaveLength(getSchedule(DATE).rounds[3].answers.length)
-    expect(lock.run.answerSets[3].names).toContain(deadly)
-    expect((await statsFor(DATE)).deaths).toEqual([0, 0, 0, 1, 0, 0, 0, 0, 0])
+    expect(lock.run.answerSets[4].names).toHaveLength(getSchedule(DATE).rounds[4].answers.length)
+    expect(lock.run.answerSets[4].names).toContain(deadly)
+    expect((await statsFor(DATE)).deaths).toEqual([0, 0, 0, 0, 1, 0, 0, 0, 0])
     await expect(play(token, (run) => lockTyped(run, deadly))).rejects.toThrow(/over/)
   })
 
   it('shows every question and answer list after an early death, without unreached picks', async () => {
     const { token } = await startOrResume(undefined, DATE)
-    await typed(token, (run) => lockTyped(run, safeAndDeadly(1).deadly))
-    const lock = await typed(token, (run) => lockTyped(run, safeAndDeadly(2).deadly))
+    for (const round of [1, 2]) await typed(token, (run) => lockTyped(run, safeAndDeadly(round).deadly))
+    const lock = await typed(token, (run) => lockTyped(run, safeAndDeadly(3).deadly))
     expect(lock.run.status).toBe('dead')
-    expect(lock.run.answerSets.map((a: { round: number; reached: boolean }) => [a.round, a.reached])).toEqual([[1, true], [2, true], [3, false], [4, false], [5, false], [6, false]])
-    const unreached = JSON.stringify(lock.run.answerSets.slice(2))
+    expect(lock.run.answerSets.map((a: { round: number; reached: boolean }) => [a.round, a.reached])).toEqual([[1, true], [2, true], [3, true], [4, false], [5, false], [6, false]])
+    const unreached = JSON.stringify(lock.run.answerSets.slice(3))
     expect(unreached).not.toMatch(/answer|deadly|pick/)
   })
 
@@ -147,9 +149,9 @@ describe('run lifecycle', () => {
 
   it('plays activity, rps and coin rounds to an outcome', async () => {
     const { token } = await startOrResume(undefined, DATE)
-    // One hit early, so every later round matters and the coin flip is reached.
-    await typed(token, (run) => lockTyped(run, safeAndDeadly(1).deadly))
-    for (const round of [2, 3, 4, 5, 6]) {
+    // Two hits early, so every later round matters and the coin flip is reached.
+    for (const round of [1, 2]) await typed(token, (run) => lockTyped(run, safeAndDeadly(round).deadly))
+    for (const round of [3, 4, 5, 6]) {
       const { safe } = safeAndDeadly(round)
       await typed(token, (run) => lockTyped(run, safe))
     }
@@ -166,17 +168,12 @@ describe('run lifecycle', () => {
     expect(coin.run.status).toBe(coin.outcome.survived ? 'won' : 'dead')
   })
 
-  it('a flawless run empties the boss a round early', async () => {
+  it('a flawless run still plays every round', async () => {
     const { token } = await startOrResume(undefined, DATE)
     for (const round of [1, 2, 3, 4, 5, 6]) await typed(token, (run) => lockTyped(run, safeAndDeadly(round).safe))
-    // Skip the activity's luck: record it as survived and move on to RPS.
-    await play(token, async (r) => Object.assign(r, { round: 8, results: [...r.results, { round: 7, kind: 'activity', survived: true }] }))
-    let rps
-    do rps = await play(token, (run) => lockRps(run, 'rock'))
-    while (rps.result === 'tie')
-    // Eight rounds survived empties the boss; a loss here is the first hit and the coin flip decides it.
-    if (rps.outcome.survived) expect(rps.run).toMatchObject({ status: 'won', round: 8 })
-    else expect(rps.run).toMatchObject({ status: 'playing', round: 9 })
+    const act = await play(token, (run) => lockActivity(run, 0.5))
+    // Win or lose, the activity can't end the run: at most it's the first hit, and RPS comes next.
+    expect(act.run).toMatchObject({ status: 'playing', round: 8 })
   })
 
   for (const [kind, date] of [['continuous', '2026-10-07'], ['choice', '2026-10-08']] as const) {

@@ -2,23 +2,23 @@
   "date": "2026-11-06",
   "approved": false,
   "activity": "elevator",
-  "winRate": 0.2566,
+  "winRate": 0.6327,
   "rounds": [
     {
       "round": 1,
-      "questionId": "countries:not:continent:africa",
-      "datasetId": "countries",
-      "prompt": "Name a country outside Africa",
-      "size": 141,
-      "answers": ["afghanistan", "albania", "andorra", "antigua-and-barbuda", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belarus", "belgium", "belize", "bhutan", "bolivia", "bosnia-and-herzegovina", "brazil", "brunei", "bulgaria", "cambodia", "canada", "chile", "china", "colombia", "costa-rica", "croatia", "cuba", "cyprus", "czechia", "denmark", "dominica", "dominican-republic", "ecuador", "el-salvador", "estonia", "fiji", "finland", "france", "georgia", "germany", "greece", "grenada", "guatemala", "guyana", "haiti", "honduras", "hungary", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "israel", "italy", "jamaica", "japan", "jordan", "kazakhstan", "kiribati", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "liechtenstein", "lithuania", "luxembourg", "malaysia", "maldives", "malta", "marshall-islands", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "myanmar", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "poland", "portugal", "qatar", "romania", "russia", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "saudi-arabia", "serbia", "singapore", "slovakia", "slovenia", "solomon-islands", "south-korea", "spain", "sri-lanka", "suriname", "sweden", "switzerland", "syria", "tajikistan", "thailand", "timor-leste", "tonga", "trinidad-and-tobago", "turkey", "turkmenistan", "tuvalu", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uruguay", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen"]
+      "questionId": "constellations:all",
+      "datasetId": "constellations",
+      "prompt": "Name one of the 88 official constellations",
+      "size": 88,
+      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "delphinus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "hercules", "horologium", "hydra", "hydrus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "pegasus", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
     },
     {
       "round": 2,
-      "questionId": "state_capitals:contains:n",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital with the letter N in its name",
-      "size": 33,
-      "answers": ["albany", "annapolis", "atlanta", "austin", "baton-rouge", "boston", "carson-city", "charleston", "cheyenne", "concord", "denver", "des-moines", "frankfort", "helena", "honolulu", "indianapolis", "jackson", "jefferson-city", "juneau", "lansing", "lincoln", "madison", "montgomery", "montpelier", "nashville", "phoenix", "providence", "richmond", "sacramento", "saint-paul", "santa-fe", "springfield", "trenton"]
+      "questionId": "nfl:tag:super-bowl-winner",
+      "datasetId": "nfl",
+      "prompt": "Name an NFL team that has won at least one Super Bowl",
+      "size": 20,
+      "answers": ["baltimore-ravens", "chicago-bears", "dallas-cowboys", "denver-broncos", "green-bay-packers", "indianapolis-colts", "kansas-city-chiefs", "las-vegas-raiders", "los-angeles-rams", "miami-dolphins", "new-england-patriots", "new-orleans-saints", "new-york-giants", "new-york-jets", "philadelphia-eagles", "pittsburgh-steelers", "san-francisco-49ers", "seattle-seahawks", "tampa-bay-buccaneers", "washington-commanders"]
     },
     {
       "round": 3,
@@ -30,27 +30,27 @@
     },
     {
       "round": 4,
-      "questionId": "amino_acids:contains:p",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter P in its name",
+      "questionId": "tarot:contains:p",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter P in its name",
       "size": 5,
-      "answers": ["asparagine", "aspartic-acid", "phenylalanine", "proline", "tryptophan"]
+      "answers": ["temperance", "the-emperor", "the-empress", "the-hierophant", "the-high-priestess"]
     },
     {
       "round": 5,
-      "questionId": "german_states:lacks:r",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with no letter R in its English name",
+      "questionId": "calendar:tag:days-30",
+      "datasetId": "calendar",
+      "prompt": "Name a month with exactly 30 days",
       "size": 4,
-      "answers": ["hesse", "saxony", "saxony-anhalt", "schleswig-holstein"]
+      "answers": ["april", "june", "november", "september"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:f~surname",
+      "questionId": "us_presidents:starts:r~first",
       "datasetId": "us_presidents",
-      "prompt": "Name a US president whose last name starts with the letter F",
-      "size": 2,
-      "answers": ["gerald-ford", "millard-fillmore"]
+      "prompt": "Name a US president whose first name starts with the letter R",
+      "size": 3,
+      "answers": ["richard-nixon", "ronald-reagan", "rutherford-b-hayes"]
     }
   ]
 }

@@ -2,55 +2,55 @@
   "date": "2026-11-30",
   "approved": false,
   "activity": "elevator",
-  "winRate": 0.2248,
+  "winRate": 0.6487,
   "rounds": [
     {
       "round": 1,
-      "questionId": "constellations:lacks:h",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation with no letter H in its name",
-      "size": 79,
-      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cetus", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "cygnus", "dorado", "draco", "equuleus", "eridanus", "fornax", "gemini", "grus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "orion", "pavo", "pegasus", "perseus", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum", "triangulum-australe", "tucana", "ursa-major", "ursa-minor", "vela", "virgo", "volans", "vulpecula"]
+      "questionId": "best_picture:contains:r",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter R in its title",
+      "size": 62,
+      "answers": ["12-years-a-slave", "a-man-for-all-seasons", "all-quiet-on-the-western-front", "american-beauty", "an-american-in-paris", "anora", "argo", "around-the-world-in-80-days", "ben-hur", "birdman", "braveheart", "chariots-of-fire", "cimarron", "crash", "driving-miss-daisy", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gladiator", "grand-hotel", "green-book", "how-green-was-my-valley", "kramer-vs-kramer", "lawrence-of-arabia", "marty", "million-dollar-baby", "mrs-miniver", "my-fair-lady", "no-country-for-old-men", "oliver", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "rain-man", "rebecca", "rocky", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-deer-hunter", "the-departed", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-shape-of-water", "unforgiven", "west-side-story"]
     },
     {
       "round": 2,
-      "questionId": "nato_alphabet:lacks:m",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word with no letter M",
-      "size": 21,
-      "answers": ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliett", "kilo", "oscar", "papa", "quebec", "sierra", "tango", "victor", "whiskey", "x-ray", "yankee", "zulu"]
+      "questionId": "german_states:contains:a",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter A in its English name",
+      "size": 12,
+      "answers": ["baden-wurttemberg", "bavaria", "brandenburg", "hamburg", "lower-saxony", "mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate", "saarland", "saxony", "saxony-anhalt", "thuringia"]
     },
     {
       "round": 3,
-      "questionId": "greek_alphabet:contains:e",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter E in its name",
-      "size": 7,
-      "answers": ["beta", "delta", "epsilon", "eta", "omega", "theta", "zeta"]
+      "questionId": "greek_myth:tag:muse",
+      "datasetId": "greek_myth",
+      "prompt": "Name one of the nine Muses",
+      "size": 9,
+      "answers": ["muse-calliope", "muse-clio", "muse-erato", "muse-euterpe", "muse-melpomene", "muse-polyhymnia", "muse-terpsichore", "muse-thalia", "muse-urania"]
     },
     {
       "round": 4,
-      "questionId": "olympics:tag:winter+continent:north-america",
-      "datasetId": "olympics",
-      "prompt": "Name a North American city that has hosted the Winter Olympics",
-      "size": 5,
-      "answers": ["calgary", "lake-placid", "salt-lake-city", "squaw-valley", "vancouver"]
+      "questionId": "zodiac:any:element:fire+element:water",
+      "datasetId": "zodiac",
+      "prompt": "Name a fire or water sign of the Western zodiac",
+      "size": 6,
+      "answers": ["aries", "cancer", "leo", "pisces", "sagittarius", "scorpio"]
     },
     {
       "round": 5,
-      "questionId": "calendar:contains:r@day",
-      "datasetId": "calendar",
-      "prompt": "Name a day of the week with the letter R in its name",
-      "size": 3,
-      "answers": ["friday", "saturday", "thursday"]
+      "questionId": "india_states:contains:k@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter K in its name",
+      "size": 5,
+      "answers": ["jharkhand", "karnataka", "kerala", "sikkim", "uttarakhand"]
     },
     {
       "round": 6,
-      "questionId": "us_states:starts:t",
-      "datasetId": "us_states",
-      "prompt": "Name a US state that starts with the letter T",
-      "size": 2,
-      "answers": ["tennessee", "texas"]
+      "questionId": "national_parks:starts:m",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park that starts with the letter M",
+      "size": 3,
+      "answers": ["mammoth-cave", "mesa-verde", "mount-rainier"]
     }
   ]
 }

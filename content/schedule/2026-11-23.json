@@ -2,55 +2,55 @@
   "date": "2026-11-23",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.2356,
+  "winRate": 0.6425,
   "rounds": [
     {
       "round": 1,
-      "questionId": "national_parks:contains:e",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park with the letter E in its name",
-      "size": 50,
-      "answers": ["american-samoa", "arches", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-teton", "great-basin", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kobuk-valley", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "sequoia", "shenandoah", "theodore-roosevelt", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite"]
+      "questionId": "constellations:lacks:o",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with no letter O in its name",
+      "size": 53,
+      "answers": ["antlia", "apus", "aquarius", "aquila", "ara", "aries", "auriga", "caelum", "cancer", "canes-venatici", "carina", "centaurus", "cepheus", "cetus", "circinus", "crater", "crux", "cygnus", "delphinus", "equuleus", "eridanus", "gemini", "grus", "hercules", "hydra", "hydrus", "indus", "lacerta", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "musca", "pegasus", "perseus", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "sagitta", "sagittarius", "scutum", "serpens", "sextans", "taurus", "triangulum", "triangulum-australe", "tucana", "vela", "vulpecula"]
     },
     {
       "round": 2,
-      "questionId": "amino_acids:contains:n",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter N in its name",
-      "size": 18,
-      "answers": ["alanine", "arginine", "asparagine", "cysteine", "glutamine", "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan", "tyrosine", "valine"]
+      "questionId": "alphabet:tag:consonant",
+      "datasetId": "alphabet",
+      "prompt": "Name a consonant (anything but A, E, I, O, U)",
+      "size": 21,
+      "answers": ["letter-b", "letter-c", "letter-d", "letter-f", "letter-g", "letter-h", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
     },
     {
       "round": 3,
-      "questionId": "board_games:any:color:orange+color:red+color:yellow",
-      "datasetId": "board_games",
-      "prompt": "Name an orange, red or yellow property in classic US Monopoly",
+      "questionId": "amino_acids:contains:t",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter T in its name",
       "size": 9,
-      "answers": ["monopoly-atlantic-avenue", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-new-york-avenue", "monopoly-st-james-place", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue"]
+      "answers": ["aspartic-acid", "cysteine", "glutamic-acid", "glutamine", "histidine", "methionine", "threonine", "tryptophan", "tyrosine"]
     },
     {
       "round": 4,
-      "questionId": "famous_groups:tag:friends",
-      "datasetId": "famous_groups",
-      "prompt": "Name one of the six main characters of Friends",
+      "questionId": "nhl:tag:original-six",
+      "datasetId": "nhl",
+      "prompt": "Name one of the NHL's Original Six teams",
       "size": 6,
-      "answers": ["friends-chandler-bing", "friends-joey-tribbiani", "friends-monica-geller", "friends-phoebe-buffay", "friends-rachel-green", "friends-ross-geller"]
+      "answers": ["boston-bruins", "chicago-blackhawks", "detroit-red-wings", "montreal-canadiens", "new-york-rangers", "toronto-maple-leafs"]
     },
     {
       "round": 5,
-      "questionId": "elements:contains:k",
-      "datasetId": "elements",
-      "prompt": "Name an element with the letter K in its name",
-      "size": 3,
-      "answers": ["berkelium", "krypton", "nickel"]
+      "questionId": "bible_books:contains:z~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with the letter Z in its name (ignore any number in front)",
+      "size": 4,
+      "answers": ["ezekiel", "ezra", "zechariah", "zephaniah"]
     },
     {
       "round": 6,
-      "questionId": "world_capitals:starts:j@continent:asia",
-      "datasetId": "world_capitals",
-      "prompt": "Name an Asian capital that starts with the letter J",
-      "size": 2,
-      "answers": ["jakarta", "jerusalem"]
+      "questionId": "countries:starts:l@continent:africa",
+      "datasetId": "countries",
+      "prompt": "Name an African country that starts with the letter L",
+      "size": 3,
+      "answers": ["lesotho", "liberia", "libya"]
     }
   ]
 }

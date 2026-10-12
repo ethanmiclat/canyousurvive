@@ -137,7 +137,7 @@ export default function TypedRound({ villain, round, outcome, run, seconds, onRu
       {locking || outcome ? (
         <div className="pixel-panel mt-8 p-6 text-center">
           <div className="text-sm text-mute">Locked in</div>
-          <div className="display mt-2 text-3xl">{locking ?? outcome?.pick ?? '—'}</div>
+          <div className="headline mt-2 text-3xl">{locking ?? outcome?.pick ?? '—'}</div>
           {outcome ? (
             <div className="mt-3 text-sm text-mute">
               {villain.name}'s answer: <span className={`font-semibold ${outcome.survived ? 'text-bone' : 'text-blood'}`}>{outcome.answer}</span>
@@ -192,7 +192,7 @@ export default function TypedRound({ villain, round, outcome, run, seconds, onRu
           <p id="confirm-title" className="text-sm text-mute">
             We read this as
           </p>
-          <p className="display mt-1 text-3xl">{confirm}</p>
+          <p className="headline mt-1 text-3xl">{confirm}</p>
           <div className="mt-4 grid grid-cols-2 gap-3">
             <Button variant="ghost" onClick={() => (setConfirm(null), setTimeout(() => inputRef.current?.focus()))}>
               No, edit

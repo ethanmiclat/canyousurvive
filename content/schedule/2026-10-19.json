@@ -2,55 +2,55 @@
   "date": "2026-10-19",
   "approved": false,
   "activity": "draw-straws",
-  "winRate": 0.2925,
+  "winRate": 0.6308,
   "rounds": [
     {
       "round": 1,
-      "questionId": "state_capitals:all",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital",
-      "size": 50,
-      "answers": ["albany", "annapolis", "atlanta", "augusta", "austin", "baton-rouge", "bismarck", "boise", "boston", "carson-city", "charleston", "cheyenne", "columbia", "columbus", "concord", "denver", "des-moines", "dover", "frankfort", "harrisburg", "hartford", "helena", "honolulu", "indianapolis", "jackson", "jefferson-city", "juneau", "lansing", "lincoln", "little-rock", "madison", "montgomery", "montpelier", "nashville", "oklahoma-city", "olympia", "phoenix", "pierre", "providence", "raleigh", "richmond", "sacramento", "saint-paul", "salem", "salt-lake-city", "santa-fe", "springfield", "tallahassee", "topeka", "trenton"]
+      "questionId": "best_picture:contains:t",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter T in its title",
+      "size": 58,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "around-the-world-in-80-days", "birdman", "braveheart", "chariots-of-fire", "dances-with-wolves", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gladiator", "gone-with-the-wind", "grand-hotel", "hamlet-1948", "in-the-heat-of-the-night", "it-happened-one-night", "marty", "midnight-cowboy", "moonlight", "mutiny-on-the-bounty", "no-country-for-old-men", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "out-of-africa", "parasite", "patton", "platoon", "schindler-s-list", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "the-sting", "titanic", "tom-jones", "west-side-story", "you-can-t-take-it-with-you"]
     },
     {
       "round": 2,
-      "questionId": "mlb:tag:conf:al",
-      "datasetId": "mlb",
-      "prompt": "Name an American League team in MLB",
-      "size": 15,
-      "answers": ["athletics", "baltimore-orioles", "boston-red-sox", "chicago-white-sox", "cleveland-guardians", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "minnesota-twins", "new-york-yankees", "seattle-mariners", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays"]
+      "questionId": "board_games:tag:monopoly",
+      "datasetId": "board_games",
+      "prompt": "Name a property you can buy in classic US Monopoly (streets, railroads, utilities)",
+      "size": 28,
+      "answers": ["monopoly-atlantic-avenue", "monopoly-b-and-o-railroad", "monopoly-baltic-avenue", "monopoly-boardwalk", "monopoly-connecticut-avenue", "monopoly-electric-company", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-mediterranean-avenue", "monopoly-new-york-avenue", "monopoly-north-carolina-avenue", "monopoly-oriental-avenue", "monopoly-pacific-avenue", "monopoly-park-place", "monopoly-pennsylvania-avenue", "monopoly-pennsylvania-railroad", "monopoly-reading-railroad", "monopoly-short-line", "monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue", "monopoly-water-works"]
     },
     {
       "round": 3,
-      "questionId": "australia:all",
-      "datasetId": "australia",
-      "prompt": "Name one of Australia's six states or two mainland territories",
+      "questionId": "nhl:tag:div:central",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Central Division",
       "size": 8,
-      "answers": ["australian-capital-territory", "new-south-wales", "northern-territory", "queensland", "south-australia", "tasmania", "victoria", "western-australia"]
+      "answers": ["chicago-blackhawks", "colorado-avalanche", "dallas-stars", "minnesota-wild", "nashville-predators", "st-louis-blues", "utah-mammoth", "winnipeg-jets"]
     },
     {
       "round": 4,
-      "questionId": "calendar:tag:weekday",
-      "datasetId": "calendar",
-      "prompt": "Name a weekday (Monday to Friday)",
+      "questionId": "mlb:tag:div:nl-east",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the NL East",
       "size": 5,
-      "answers": ["friday", "monday", "thursday", "tuesday", "wednesday"]
+      "answers": ["atlanta-braves", "miami-marlins", "new-york-mets", "philadelphia-phillies", "washington-nationals"]
     },
     {
       "round": 5,
-      "questionId": "film_series:tag:shrek",
-      "datasetId": "film_series",
-      "prompt": "Name one of the four main Shrek films",
+      "questionId": "greek_myth:contains:d@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter D in their Greek name",
       "size": 4,
-      "answers": ["shrek-shrek", "shrek-shrek-2", "shrek-shrek-forever-after", "shrek-shrek-the-third"]
+      "answers": ["olympian-aphrodite", "olympian-demeter", "olympian-dionysus", "olympian-poseidon"]
     },
     {
       "round": 6,
-      "questionId": "greek_myth:contains:n@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter N in their Greek name",
+      "questionId": "pokemon_gen1:tag:type:ghost",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Ghost-type Pokémon from the original 151 (current typings)",
       "size": 3,
-      "answers": ["olympian-athena", "olympian-dionysus", "olympian-poseidon"]
+      "answers": ["gastly", "gengar", "haunter"]
     }
   ]
 }

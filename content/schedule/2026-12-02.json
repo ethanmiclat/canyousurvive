@@ -2,55 +2,55 @@
   "date": "2026-12-02",
   "approved": false,
   "activity": "stop-the-needle",
-  "winRate": 0.2214,
+  "winRate": 0.6382,
   "rounds": [
     {
       "round": 1,
-      "questionId": "best_picture:contains:n",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner with the letter N in its title",
-      "size": 62,
-      "answers": ["a-beautiful-mind", "a-man-for-all-seasons", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "an-american-in-paris", "annie-hall", "anora", "around-the-world-in-80-days", "ben-hur", "birdman", "casablanca", "cimarron", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "from-here-to-eternity", "gandhi", "gentleman-s-agreement", "going-my-way", "gone-with-the-wind", "grand-hotel", "green-book", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "mrs-miniver", "mutiny-on-the-bounty", "no-country-for-old-men", "nomadland", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "patton", "platoon", "rain-man", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-bridge-on-the-river-kwai", "the-deer-hunter", "the-english-patient", "the-french-connection", "the-greatest-show-on-earth", "the-king-s-speech", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "tom-jones", "unforgiven", "wings", "you-can-t-take-it-with-you"]
+      "questionId": "elements:lacks:r",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter R in its name",
+      "size": 59,
+      "answers": ["actinium", "aluminium", "antimony", "astatine", "bismuth", "cadmium", "caesium", "calcium", "cobalt", "dubnium", "einsteinium", "gadolinium", "gallium", "gold", "hafnium", "hassium", "helium", "holmium", "indium", "iodine", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mendelevium", "molybdenum", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nobelium", "oganesson", "osmium", "oxygen", "palladium", "platinum", "plutonium", "polonium", "potassium", "scandium", "selenium", "silicon", "sodium", "tantalum", "technetium", "tennessine", "thallium", "thulium", "tin", "titanium", "tungsten", "vanadium", "xenon", "zinc"]
     },
     {
       "round": 2,
-      "questionId": "pixar:tag:original",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature released before 2026 that isn't a sequel or prequel",
-      "size": 20,
-      "answers": ["a-bug-s-life", "brave", "cars", "coco", "elemental", "elio", "finding-nemo", "inside-out", "lightyear", "luca", "monsters-inc", "onward", "ratatouille", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "turning-red", "up", "wall-e"]
+      "questionId": "nhl:tag:conf:east",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Eastern Conference",
+      "size": 16,
+      "answers": ["boston-bruins", "buffalo-sabres", "carolina-hurricanes", "columbus-blue-jackets", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "ottawa-senators", "philadelphia-flyers", "pittsburgh-penguins", "tampa-bay-lightning", "toronto-maple-leafs", "washington-capitals"]
     },
     {
       "round": 3,
-      "questionId": "numbers:range:n:1-100@fibonacci",
-      "datasetId": "numbers",
-      "prompt": "Name a Fibonacci number from 1 to 100",
-      "size": 10,
-      "answers": ["n1", "n13", "n2", "n21", "n3", "n34", "n5", "n55", "n8", "n89"]
+      "questionId": "pokemon_gen1:tag:type:electric",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name a Electric-type Pokémon from the original 151 (current typings)",
+      "size": 9,
+      "answers": ["electabuzz", "electrode", "jolteon", "magnemite", "magneton", "pikachu", "raichu", "voltorb", "zapdos"]
     },
     {
       "round": 4,
-      "questionId": "space:contains:a@planet",
-      "datasetId": "space",
-      "prompt": "Name a planet with the letter A in its name",
-      "size": 4,
-      "answers": ["earth", "mars", "saturn", "uranus"]
+      "questionId": "pixar:contains:g",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter G in its title",
+      "size": 6,
+      "answers": ["a-bug-s-life", "finding-dory", "finding-nemo", "lightyear", "the-good-dinosaur", "turning-red"]
     },
     {
       "round": 5,
-      "questionId": "state_capitals:starts:d",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital that starts with the letter D",
-      "size": 3,
-      "answers": ["denver", "des-moines", "dover"]
+      "questionId": "us_presidents:range:start:2001-2025",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president who first took office in 2001 or later",
+      "size": 4,
+      "answers": ["barack-obama", "donald-trump", "george-w-bush", "joe-biden"]
     },
     {
       "round": 6,
-      "questionId": "zodiac:contains:k@chinese",
-      "datasetId": "zodiac",
-      "prompt": "Name a Chinese zodiac animal with the letter K in it",
-      "size": 2,
-      "answers": ["chinese-monkey", "chinese-snake"]
+      "questionId": "state_capitals:starts:p",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital that starts with the letter P",
+      "size": 3,
+      "answers": ["phoenix", "pierre", "providence"]
     }
   ]
 }

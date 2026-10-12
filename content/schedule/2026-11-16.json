@@ -2,55 +2,55 @@
   "date": "2026-11-16",
   "approved": false,
   "activity": "stop-the-needle",
-  "winRate": 0.2267,
+  "winRate": 0.6323,
   "rounds": [
     {
       "round": 1,
-      "questionId": "numbers:range:n:1-200@odd",
-      "datasetId": "numbers",
-      "prompt": "Name an odd number from 1 to 200",
+      "questionId": "elements:range:number:1-100",
+      "datasetId": "elements",
+      "prompt": "Name an element with atomic number 100 or less",
       "size": 100,
-      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n151", "n153", "n155", "n157", "n159", "n161", "n163", "n165", "n167", "n169", "n17", "n171", "n173", "n175", "n177", "n179", "n181", "n183", "n185", "n187", "n189", "n19", "n191", "n193", "n195", "n197", "n199", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "curium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
     },
     {
       "round": 2,
-      "questionId": "alphabet:range:pos:14-26",
+      "questionId": "alphabet:all",
       "datasetId": "alphabet",
-      "prompt": "Name a letter in the second half of the alphabet (N to Z)",
-      "size": 13,
-      "answers": ["letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
+      "prompt": "Name a letter of the English alphabet",
+      "size": 26,
+      "answers": ["letter-a", "letter-b", "letter-c", "letter-d", "letter-e", "letter-f", "letter-g", "letter-h", "letter-i", "letter-j", "letter-k", "letter-l", "letter-m", "letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
     },
     {
       "round": 3,
-      "questionId": "us_presidents:contains:u~surname",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president with the letter U in their last name",
-      "size": 7,
-      "answers": ["chester-a-arthur", "donald-trump", "george-h-w-bush", "george-w-bush", "harry-s-truman", "james-buchanan", "martin-van-buren"]
+      "questionId": "space:tag:planet",
+      "datasetId": "space",
+      "prompt": "Name a planet in our solar system",
+      "size": 8,
+      "answers": ["earth", "jupiter", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
     },
     {
       "round": 4,
-      "questionId": "german_states:contains:g",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with the letter G in its English name",
-      "size": 6,
-      "answers": ["baden-wurttemberg", "brandenburg", "hamburg", "mecklenburg-western-pomerania", "schleswig-holstein", "thuringia"]
+      "questionId": "greek_alphabet:contains:h",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter H in its name",
+      "size": 5,
+      "answers": ["alpha", "chi", "phi", "rho", "theta"]
     },
     {
       "round": 5,
-      "questionId": "pokemon_gen2:tag:type:fighting",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Fighting-type Johto Pokémon (#152 to #251, current typings)",
-      "size": 3,
-      "answers": ["heracross", "hitmontop", "tyrogue"]
+      "questionId": "famous_groups:tag:tmnt",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of the Teenage Mutant Ninja Turtles",
+      "size": 4,
+      "answers": ["tmnt-donatello", "tmnt-leonardo", "tmnt-michelangelo", "tmnt-raphael"]
     },
     {
       "round": 6,
-      "questionId": "india_states:starts:g@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state that starts with the letter G",
-      "size": 2,
-      "answers": ["goa", "gujarat"]
+      "questionId": "mexico_states:contains:z",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter Z in its name",
+      "size": 3,
+      "answers": ["coahuila", "veracruz", "zacatecas"]
     }
   ]
 }

@@ -2,55 +2,55 @@
   "date": "2026-11-19",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.2186,
+  "winRate": 0.6261,
   "rounds": [
     {
       "round": 1,
-      "questionId": "constellations:lacks:g",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation with no letter G in its name",
-      "size": 77,
-      "answers": ["andromeda", "antlia", "apus", "aquarius", "aquila", "ara", "aries", "bootes", "caelum", "camelopardalis", "cancer", "canes-venatici", "canis-major", "canis-minor", "capricornus", "carina", "cassiopeia", "centaurus", "cepheus", "cetus", "chamaeleon", "circinus", "columba", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "crater", "crux", "delphinus", "dorado", "draco", "equuleus", "eridanus", "fornax", "hercules", "hydra", "hydrus", "indus", "lacerta", "leo", "leo-minor", "lepus", "libra", "lupus", "lynx", "lyra", "mensa", "microscopium", "monoceros", "musca", "norma", "octans", "ophiuchus", "orion", "pavo", "perseus", "phoenix", "pictor", "pisces", "piscis-austrinus", "puppis", "pyxis", "reticulum", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "tucana", "ursa-major", "ursa-minor", "vela", "volans", "vulpecula"]
+      "questionId": "pokemon_gen2:lacks:s",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter S in its name",
+      "size": 65,
+      "answers": ["aipom", "azumarill", "bayleef", "celebi", "chikorita", "chinchou", "cleffa", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "elekid", "entei", "feraligatr", "flaaffy", "furret", "girafarig", "gligar", "granbull", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "pineco", "politoed", "porygon2", "pupitar", "quilava", "raikou", "remoraid", "togepi", "togetic", "totodile", "tyranitar", "tyrogue", "umbreon", "unown", "wobbuffet", "wooper", "xatu", "yanma"]
     },
     {
       "round": 2,
-      "questionId": "si_units:tag:prefix",
-      "datasetId": "si_units",
-      "prompt": "Name an SI prefix (like kilo- or nano-)",
-      "size": 24,
-      "answers": ["prefix-atto", "prefix-centi", "prefix-deca", "prefix-deci", "prefix-exa", "prefix-femto", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-peta", "prefix-pico", "prefix-quecto", "prefix-quetta", "prefix-ronna", "prefix-ronto", "prefix-tera", "prefix-yocto", "prefix-yotta", "prefix-zepto", "prefix-zetta"]
+      "questionId": "nato_alphabet:range:pos:1-13",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word for a letter from A to M",
+      "size": 13,
+      "answers": ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliett", "kilo", "lima", "mike"]
     },
     {
       "round": 3,
-      "questionId": "greek_myth:contains:a@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter A in their Greek name",
-      "size": 8,
-      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-ares", "olympian-artemis", "olympian-athena", "olympian-hephaestus", "olympian-hera", "olympian-hestia"]
+      "questionId": "shakespeare:tag:tragedy",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare tragedy (Troilus and Cressida and Cymbeline don't count)",
+      "size": 10,
+      "answers": ["antony-and-cleopatra", "coriolanus", "hamlet", "julius-caesar", "king-lear", "macbeth", "othello", "romeo-and-juliet", "timon-of-athens", "titus-andronicus"]
     },
     {
       "round": 4,
-      "questionId": "nfl:tag:div:nfc-west",
-      "datasetId": "nfl",
-      "prompt": "Name a team in the NFC West",
-      "size": 4,
-      "answers": ["arizona-cardinals", "los-angeles-rams", "san-francisco-49ers", "seattle-seahawks"]
+      "questionId": "india_states:starts:m@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter M",
+      "size": 5,
+      "answers": ["madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram"]
     },
     {
       "round": 5,
-      "questionId": "shakespeare:contains:j",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with the letter J in its title",
-      "size": 3,
-      "answers": ["julius-caesar", "king-john", "romeo-and-juliet"]
+      "questionId": "german_states:lacks:r",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter R in its English name",
+      "size": 4,
+      "answers": ["hesse", "saxony", "saxony-anhalt", "schleswig-holstein"]
     },
     {
       "round": 6,
-      "questionId": "tarot:starts:j",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card that starts with the letter J (ignore \"The\")",
-      "size": 2,
-      "answers": ["judgement", "justice"]
+      "questionId": "state_capitals:starts:j",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital that starts with the letter J",
+      "size": 3,
+      "answers": ["jackson", "jefferson-city", "juneau"]
     }
   ]
 }

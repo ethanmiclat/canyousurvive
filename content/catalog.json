@@ -193,22 +193,6 @@
       "answers": ["glutamic-acid", "glutamine", "glycine"]
     },
     {
-      "id": "amino_acids:starts:l",
-      "dataset": "amino_acids",
-      "kind": "letters",
-      "prompt": "Name a standard amino acid that starts with the letter L",
-      "size": 2,
-      "answers": ["leucine", "lysine"]
-    },
-    {
-      "id": "amino_acids:starts:p",
-      "dataset": "amino_acids",
-      "kind": "letters",
-      "prompt": "Name a standard amino acid that starts with the letter P",
-      "size": 2,
-      "answers": ["phenylalanine", "proline"]
-    },
-    {
       "id": "amino_acids:starts:t",
       "dataset": "amino_acids",
       "kind": "letters",
@@ -393,14 +377,6 @@
       "answers": ["12-years-a-slave", "american-beauty", "around-the-world-in-80-days", "driving-miss-daisy", "everything-everywhere-all-at-once", "from-here-to-eternity", "going-my-way", "how-green-was-my-valley", "marty", "midnight-cowboy", "million-dollar-baby", "mutiny-on-the-bounty", "my-fair-lady", "no-country-for-old-men", "ordinary-people", "rocky", "the-best-years-of-our-lives", "the-broadway-melody", "west-side-story", "you-can-t-take-it-with-you"]
     },
     {
-      "id": "best_picture:contains:z",
-      "dataset": "best_picture",
-      "kind": "letters",
-      "prompt": "Name a Best Picture winner with the letter Z in its title",
-      "size": 2,
-      "answers": ["the-great-ziegfeld", "the-life-of-emile-zola"]
-    },
-    {
       "id": "best_picture:range:year:1928-1959",
       "dataset": "best_picture",
       "kind": "curated",
@@ -537,14 +513,6 @@
       "answers": ["dances-with-wolves", "driving-miss-daisy", "the-deer-hunter", "the-departed"]
     },
     {
-      "id": "best_picture:starts:e",
-      "dataset": "best_picture",
-      "kind": "letters",
-      "prompt": "Name a Best Picture winner whose title starts with the letter E (ignore \"The\")",
-      "size": 2,
-      "answers": ["everything-everywhere-all-at-once", "the-english-patient"]
-    },
-    {
       "id": "best_picture:starts:f",
       "dataset": "best_picture",
       "kind": "letters",
@@ -569,22 +537,6 @@
       "answers": ["hamlet-1948", "how-green-was-my-valley", "the-hurt-locker"]
     },
     {
-      "id": "best_picture:starts:i",
-      "dataset": "best_picture",
-      "kind": "letters",
-      "prompt": "Name a Best Picture winner whose title starts with the letter I (ignore \"The\")",
-      "size": 2,
-      "answers": ["in-the-heat-of-the-night", "it-happened-one-night"]
-    },
-    {
-      "id": "best_picture:starts:k",
-      "dataset": "best_picture",
-      "kind": "letters",
-      "prompt": "Name a Best Picture winner whose title starts with the letter K (ignore \"The\")",
-      "size": 2,
-      "answers": ["kramer-vs-kramer", "the-king-s-speech"]
-    },
-    {
       "id": "best_picture:starts:l",
       "dataset": "best_picture",
       "kind": "letters",
@@ -599,14 +551,6 @@
       "prompt": "Name a Best Picture winner whose title starts with the letter M (ignore \"The\")",
       "size": 8,
       "answers": ["a-man-for-all-seasons", "marty", "midnight-cowboy", "million-dollar-baby", "moonlight", "mrs-miniver", "mutiny-on-the-bounty", "my-fair-lady"]
-    },
-    {
-      "id": "best_picture:starts:n",
-      "dataset": "best_picture",
-      "kind": "letters",
-      "prompt": "Name a Best Picture winner whose title starts with the letter N (ignore \"The\")",
-      "size": 2,
-      "answers": ["no-country-for-old-men", "nomadland"]
     },
     {
       "id": "best_picture:starts:o",
@@ -647,14 +591,6 @@
       "prompt": "Name a Best Picture winner whose title starts with the letter T (ignore \"The\")",
       "size": 4,
       "answers": ["12-years-a-slave", "terms-of-endearment", "titanic", "tom-jones"]
-    },
-    {
-      "id": "best_picture:starts:w",
-      "dataset": "best_picture",
-      "kind": "letters",
-      "prompt": "Name a Best Picture winner whose title starts with the letter W (ignore \"The\")",
-      "size": 2,
-      "answers": ["west-side-story", "wings"]
     },
     {
       "id": "bible_books:all",
@@ -801,14 +737,6 @@
       "answers": ["leviticus", "proverbs", "revelation"]
     },
     {
-      "id": "bible_books:contains:w~base",
-      "dataset": "bible_books",
-      "kind": "letters",
-      "prompt": "Name a book of the Bible with the letter W in its name (ignore any number in front)",
-      "size": 2,
-      "answers": ["hebrews", "matthew"]
-    },
-    {
       "id": "bible_books:contains:y~base",
       "dataset": "bible_books",
       "kind": "letters",
@@ -905,14 +833,6 @@
       "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-peter", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-peter", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "ecclesiastes", "ephesians", "esther", "ezekiel", "ezra", "galatians", "genesis", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "lamentations", "malachi", "mark", "matthew", "micah", "nehemiah", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "song-of-solomon", "zechariah", "zephaniah"]
     },
     {
-      "id": "bible_books:starts:a~base",
-      "dataset": "bible_books",
-      "kind": "letters",
-      "prompt": "Name a book of the Bible that starts with the letter A (ignore any number in front)",
-      "size": 2,
-      "answers": ["acts", "amos"]
-    },
-    {
       "id": "bible_books:starts:c~base",
       "dataset": "bible_books",
       "kind": "letters",
@@ -921,28 +841,12 @@
       "answers": ["1-chronicles", "1-corinthians", "2-chronicles", "2-corinthians", "colossians"]
     },
     {
-      "id": "bible_books:starts:d~base",
-      "dataset": "bible_books",
-      "kind": "letters",
-      "prompt": "Name a book of the Bible that starts with the letter D (ignore any number in front)",
-      "size": 2,
-      "answers": ["daniel", "deuteronomy"]
-    },
-    {
       "id": "bible_books:starts:e~base",
       "dataset": "bible_books",
       "kind": "letters",
       "prompt": "Name a book of the Bible that starts with the letter E (ignore any number in front)",
       "size": 6,
       "answers": ["ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra"]
-    },
-    {
-      "id": "bible_books:starts:g~base",
-      "dataset": "bible_books",
-      "kind": "letters",
-      "prompt": "Name a book of the Bible that starts with the letter G (ignore any number in front)",
-      "size": 2,
-      "answers": ["galatians", "genesis"]
     },
     {
       "id": "bible_books:starts:h~base",
@@ -959,14 +863,6 @@
       "prompt": "Name a book of the Bible that starts with the letter J (ignore any number in front)",
       "size": 12,
       "answers": ["1-john", "2-john", "3-john", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges"]
-    },
-    {
-      "id": "bible_books:starts:k~base",
-      "dataset": "bible_books",
-      "kind": "letters",
-      "prompt": "Name a book of the Bible that starts with the letter K (ignore any number in front)",
-      "size": 2,
-      "answers": ["1-kings", "2-kings"]
     },
     {
       "id": "bible_books:starts:l~base",
@@ -1023,14 +919,6 @@
       "prompt": "Name a book of the Bible that starts with the letter T (ignore any number in front)",
       "size": 5,
       "answers": ["1-thessalonians", "1-timothy", "2-thessalonians", "2-timothy", "titus"]
-    },
-    {
-      "id": "bible_books:starts:z~base",
-      "dataset": "bible_books",
-      "kind": "letters",
-      "prompt": "Name a book of the Bible that starts with the letter Z (ignore any number in front)",
-      "size": 2,
-      "answers": ["zechariah", "zephaniah"]
     },
     {
       "id": "bible_books:tag:general",
@@ -1111,38 +999,6 @@
       "prompt": "Name an orange, red or yellow property in classic US Monopoly",
       "size": 9,
       "answers": ["monopoly-atlantic-avenue", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-new-york-avenue", "monopoly-st-james-place", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue"]
-    },
-    {
-      "id": "board_games:starts:b@monopoly-street",
-      "dataset": "board_games",
-      "kind": "letters",
-      "prompt": "Name a classic US Monopoly street that starts with the letter B",
-      "size": 2,
-      "answers": ["monopoly-baltic-avenue", "monopoly-boardwalk"]
-    },
-    {
-      "id": "board_games:starts:i@monopoly-street",
-      "dataset": "board_games",
-      "kind": "letters",
-      "prompt": "Name a classic US Monopoly street that starts with the letter I",
-      "size": 2,
-      "answers": ["monopoly-illinois-avenue", "monopoly-indiana-avenue"]
-    },
-    {
-      "id": "board_games:starts:m@monopoly-street",
-      "dataset": "board_games",
-      "kind": "letters",
-      "prompt": "Name a classic US Monopoly street that starts with the letter M",
-      "size": 2,
-      "answers": ["monopoly-marvin-gardens", "monopoly-mediterranean-avenue"]
-    },
-    {
-      "id": "board_games:starts:n@monopoly-street",
-      "dataset": "board_games",
-      "kind": "letters",
-      "prompt": "Name a classic US Monopoly street that starts with the letter N",
-      "size": 2,
-      "answers": ["monopoly-new-york-avenue", "monopoly-north-carolina-avenue"]
     },
     {
       "id": "board_games:starts:p@monopoly-street",
@@ -1249,14 +1105,6 @@
       "answers": ["december", "march", "october"]
     },
     {
-      "id": "calendar:contains:e@day",
-      "dataset": "calendar",
-      "kind": "letters",
-      "prompt": "Name a day of the week with the letter E in its name",
-      "size": 2,
-      "answers": ["tuesday", "wednesday"]
-    },
-    {
       "id": "calendar:contains:e@month",
       "dataset": "calendar",
       "kind": "letters",
@@ -1271,14 +1119,6 @@
       "prompt": "Name a month with the letter J in its name",
       "size": 3,
       "answers": ["january", "july", "june"]
-    },
-    {
-      "id": "calendar:contains:l@month",
-      "dataset": "calendar",
-      "kind": "letters",
-      "prompt": "Name a month with the letter L in its name",
-      "size": 2,
-      "answers": ["april", "july"]
     },
     {
       "id": "calendar:contains:m@month",
@@ -1305,22 +1145,6 @@
       "answers": ["january", "june", "november"]
     },
     {
-      "id": "calendar:contains:o@month",
-      "dataset": "calendar",
-      "kind": "letters",
-      "prompt": "Name a month with the letter O in its name",
-      "size": 2,
-      "answers": ["november", "october"]
-    },
-    {
-      "id": "calendar:contains:p@month",
-      "dataset": "calendar",
-      "kind": "letters",
-      "prompt": "Name a month with the letter P in its name",
-      "size": 2,
-      "answers": ["april", "september"]
-    },
-    {
       "id": "calendar:contains:r@day",
       "dataset": "calendar",
       "kind": "letters",
@@ -1343,14 +1167,6 @@
       "prompt": "Name a day of the week with the letter S in its name",
       "size": 5,
       "answers": ["saturday", "sunday", "thursday", "tuesday", "wednesday"]
-    },
-    {
-      "id": "calendar:contains:s@month",
-      "dataset": "calendar",
-      "kind": "letters",
-      "prompt": "Name a month with the letter S in its name",
-      "size": 2,
-      "answers": ["august", "september"]
     },
     {
       "id": "calendar:contains:t@day",
@@ -1529,14 +1345,6 @@
       "answers": ["august", "july", "june", "may"]
     },
     {
-      "id": "calendar:lacks:s@day",
-      "dataset": "calendar",
-      "kind": "letters",
-      "prompt": "Name a day of the week with no letter S in its name",
-      "size": 2,
-      "answers": ["friday", "monday"]
-    },
-    {
       "id": "calendar:lacks:s@month",
       "dataset": "calendar",
       "kind": "letters",
@@ -1695,14 +1503,6 @@
       "prompt": "Name a constellation with the letter H in its name",
       "size": 9,
       "answers": ["cepheus", "chamaeleon", "delphinus", "hercules", "horologium", "hydra", "hydrus", "ophiuchus", "phoenix"]
-    },
-    {
-      "id": "constellations:contains:j",
-      "dataset": "constellations",
-      "kind": "letters",
-      "prompt": "Name a constellation with the letter J in its name",
-      "size": 2,
-      "answers": ["canis-major", "ursa-major"]
     },
     {
       "id": "constellations:contains:l",
@@ -1905,22 +1705,6 @@
       "answers": ["delphinus", "dorado", "draco"]
     },
     {
-      "id": "constellations:starts:e",
-      "dataset": "constellations",
-      "kind": "letters",
-      "prompt": "Name a constellation that starts with the letter E",
-      "size": 2,
-      "answers": ["equuleus", "eridanus"]
-    },
-    {
-      "id": "constellations:starts:g",
-      "dataset": "constellations",
-      "kind": "letters",
-      "prompt": "Name a constellation that starts with the letter G",
-      "size": 2,
-      "answers": ["gemini", "grus"]
-    },
-    {
       "id": "constellations:starts:h",
       "dataset": "constellations",
       "kind": "letters",
@@ -1975,14 +1759,6 @@
       "prompt": "Name a constellation that starts with the letter T",
       "size": 5,
       "answers": ["taurus", "telescopium", "triangulum", "triangulum-australe", "tucana"]
-    },
-    {
-      "id": "constellations:starts:u",
-      "dataset": "constellations",
-      "kind": "letters",
-      "prompt": "Name a constellation that starts with the letter U",
-      "size": 2,
-      "answers": ["ursa-major", "ursa-minor"]
     },
     {
       "id": "constellations:starts:v",
@@ -2167,14 +1943,6 @@
       "prompt": "Name a country with the letter V in its name",
       "size": 18,
       "answers": ["bolivia", "bosnia-and-herzegovina", "cabo-verde", "cote-d-ivoire", "el-salvador", "latvia", "maldives", "moldova", "republic-of-the-congo", "saint-kitts-and-nevis", "saint-vincent-and-the-grenadines", "slovakia", "slovenia", "tuvalu", "vanuatu", "vatican-city", "venezuela", "vietnam"]
-    },
-    {
-      "id": "countries:contains:x",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name a country with the letter X in its name",
-      "size": 2,
-      "answers": ["luxembourg", "mexico"]
     },
     {
       "id": "countries:contains:y",
@@ -2385,14 +2153,6 @@
       "answers": ["afghanistan", "albania", "algeria", "andorra", "angola", "antigua-and-barbuda", "argentina", "armenia", "australia", "austria", "azerbaijan", "united-states"]
     },
     {
-      "id": "countries:starts:a@continent:africa",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an African country that starts with the letter A",
-      "size": 2,
-      "answers": ["algeria", "angola"]
-    },
-    {
       "id": "countries:starts:a@continent:asia",
       "dataset": "countries",
       "kind": "letters",
@@ -2481,14 +2241,6 @@
       "answers": ["democratic-republic-of-the-congo", "denmark", "djibouti", "dominica", "dominican-republic", "north-korea"]
     },
     {
-      "id": "countries:starts:d@continent:africa",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an African country that starts with the letter D",
-      "size": 2,
-      "answers": ["democratic-republic-of-the-congo", "djibouti"]
-    },
-    {
       "id": "countries:starts:e",
       "dataset": "countries",
       "kind": "letters",
@@ -2511,14 +2263,6 @@
       "prompt": "Name a country that starts with the letter F",
       "size": 4,
       "answers": ["fiji", "finland", "france", "micronesia"]
-    },
-    {
-      "id": "countries:starts:f@continent:europe",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name a European country that starts with the letter F",
-      "size": 2,
-      "answers": ["finland", "france"]
     },
     {
       "id": "countries:starts:g",
@@ -2593,14 +2337,6 @@
       "answers": ["jamaica", "japan", "jordan"]
     },
     {
-      "id": "countries:starts:j@continent:asia",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an Asian country that starts with the letter J",
-      "size": 2,
-      "answers": ["japan", "jordan"]
-    },
-    {
       "id": "countries:starts:k",
       "dataset": "countries",
       "kind": "letters",
@@ -2631,14 +2367,6 @@
       "prompt": "Name an African country that starts with the letter L",
       "size": 3,
       "answers": ["lesotho", "liberia", "libya"]
-    },
-    {
-      "id": "countries:starts:l@continent:asia",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an Asian country that starts with the letter L",
-      "size": 2,
-      "answers": ["laos", "lebanon"]
     },
     {
       "id": "countries:starts:l@continent:europe",
@@ -2689,14 +2417,6 @@
       "answers": ["namibia", "niger", "nigeria"]
     },
     {
-      "id": "countries:starts:n@continent:asia",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an Asian country that starts with the letter N",
-      "size": 2,
-      "answers": ["nepal", "north-korea"]
-    },
-    {
       "id": "countries:starts:n@continent:europe",
       "dataset": "countries",
       "kind": "letters",
@@ -2721,28 +2441,12 @@
       "answers": ["pakistan", "palestine", "philippines"]
     },
     {
-      "id": "countries:starts:p@continent:europe",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name a European country that starts with the letter P",
-      "size": 2,
-      "answers": ["poland", "portugal"]
-    },
-    {
       "id": "countries:starts:r",
       "dataset": "countries",
       "kind": "letters",
       "prompt": "Name a country that starts with the letter R",
       "size": 5,
       "answers": ["ireland", "republic-of-the-congo", "romania", "russia", "rwanda"]
-    },
-    {
-      "id": "countries:starts:r@continent:africa",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an African country that starts with the letter R",
-      "size": 2,
-      "answers": ["republic-of-the-congo", "rwanda"]
     },
     {
       "id": "countries:starts:r@continent:europe",
@@ -2807,22 +2511,6 @@
       "prompt": "Name a country that starts with the letter U",
       "size": 7,
       "answers": ["uganda", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uruguay", "uzbekistan"]
-    },
-    {
-      "id": "countries:starts:u@continent:asia",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name an Asian country that starts with the letter U",
-      "size": 2,
-      "answers": ["united-arab-emirates", "uzbekistan"]
-    },
-    {
-      "id": "countries:starts:u@continent:europe",
-      "dataset": "countries",
-      "kind": "letters",
-      "prompt": "Name a European country that starts with the letter U",
-      "size": 2,
-      "answers": ["ukraine", "united-kingdom"]
     },
     {
       "id": "countries:starts:v",
@@ -3095,14 +2783,6 @@
       "prompt": "Name an element with the letter V in its name",
       "size": 6,
       "answers": ["flerovium", "livermorium", "mendelevium", "moscovium", "silver", "vanadium"]
-    },
-    {
-      "id": "elements:contains:x",
-      "dataset": "elements",
-      "kind": "letters",
-      "prompt": "Name an element with the letter X in its name",
-      "size": 2,
-      "answers": ["oxygen", "xenon"]
     },
     {
       "id": "elements:contains:y",
@@ -3441,22 +3121,6 @@
       "answers": ["samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur"]
     },
     {
-      "id": "elements:starts:y",
-      "dataset": "elements",
-      "kind": "letters",
-      "prompt": "Name an element that starts with the letter Y",
-      "size": 2,
-      "answers": ["ytterbium", "yttrium"]
-    },
-    {
-      "id": "elements:starts:z",
-      "dataset": "elements",
-      "kind": "letters",
-      "prompt": "Name an element that starts with the letter Z",
-      "size": 2,
-      "answers": ["zinc", "zirconium"]
-    },
-    {
       "id": "elements:tag:actinide",
       "dataset": "elements",
       "kind": "curated",
@@ -3727,14 +3391,6 @@
       "prompt": "Name a German state with the letter B in its English name",
       "size": 7,
       "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "mecklenburg-western-pomerania"]
-    },
-    {
-      "id": "german_states:contains:c",
-      "dataset": "german_states",
-      "kind": "letters",
-      "prompt": "Name a German state with the letter C in its English name",
-      "size": 2,
-      "answers": ["mecklenburg-western-pomerania", "schleswig-holstein"]
     },
     {
       "id": "german_states:contains:d",
@@ -4017,30 +3673,6 @@
       "answers": ["alpha", "beta", "delta", "eta", "gamma", "iota", "kappa", "lambda", "omega", "sigma", "tau", "theta", "zeta"]
     },
     {
-      "id": "greek_alphabet:contains:b",
-      "dataset": "greek_alphabet",
-      "kind": "letters",
-      "prompt": "Name a Greek letter with the letter B in its name",
-      "size": 2,
-      "answers": ["beta", "lambda"]
-    },
-    {
-      "id": "greek_alphabet:contains:c",
-      "dataset": "greek_alphabet",
-      "kind": "letters",
-      "prompt": "Name a Greek letter with the letter C in its name",
-      "size": 2,
-      "answers": ["chi", "omicron"]
-    },
-    {
-      "id": "greek_alphabet:contains:d",
-      "dataset": "greek_alphabet",
-      "kind": "letters",
-      "prompt": "Name a Greek letter with the letter D in its name",
-      "size": 2,
-      "answers": ["delta", "lambda"]
-    },
-    {
       "id": "greek_alphabet:contains:e",
       "dataset": "greek_alphabet",
       "kind": "letters",
@@ -4111,14 +3743,6 @@
       "prompt": "Name a Greek letter with the letter P in its name",
       "size": 7,
       "answers": ["alpha", "epsilon", "kappa", "phi", "pi", "psi", "upsilon"]
-    },
-    {
-      "id": "greek_alphabet:contains:r",
-      "dataset": "greek_alphabet",
-      "kind": "letters",
-      "prompt": "Name a Greek letter with the letter R in its name",
-      "size": 2,
-      "answers": ["omicron", "rho"]
     },
     {
       "id": "greek_alphabet:contains:s",
@@ -4729,30 +4353,6 @@
       "answers": ["andhra-pradesh", "arunachal-pradesh", "assam"]
     },
     {
-      "id": "india_states:starts:g@state",
-      "dataset": "india_states",
-      "kind": "letters",
-      "prompt": "Name an Indian state that starts with the letter G",
-      "size": 2,
-      "answers": ["goa", "gujarat"]
-    },
-    {
-      "id": "india_states:starts:h@state",
-      "dataset": "india_states",
-      "kind": "letters",
-      "prompt": "Name an Indian state that starts with the letter H",
-      "size": 2,
-      "answers": ["haryana", "himachal-pradesh"]
-    },
-    {
-      "id": "india_states:starts:k@state",
-      "dataset": "india_states",
-      "kind": "letters",
-      "prompt": "Name an Indian state that starts with the letter K",
-      "size": 2,
-      "answers": ["karnataka", "kerala"]
-    },
-    {
       "id": "india_states:starts:m@state",
       "dataset": "india_states",
       "kind": "letters",
@@ -4767,14 +4367,6 @@
       "prompt": "Name an Indian state that starts with the letter T",
       "size": 3,
       "answers": ["tamil-nadu", "telangana", "tripura"]
-    },
-    {
-      "id": "india_states:starts:u@state",
-      "dataset": "india_states",
-      "kind": "letters",
-      "prompt": "Name an Indian state that starts with the letter U",
-      "size": 2,
-      "answers": ["uttar-pradesh", "uttarakhand"]
     },
     {
       "id": "india_states:tag:pradesh",
@@ -4943,14 +4535,6 @@
       "prompt": "Name a Mexican state (or Mexico City) with the letter U in its name",
       "size": 16,
       "answers": ["aguascalientes", "baja-california-sur", "chihuahua", "coahuila", "durango", "guanajuato", "guerrero", "mexico-city", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "tamaulipas", "veracruz", "yucatan"]
-    },
-    {
-      "id": "mexico_states:contains:v",
-      "dataset": "mexico_states",
-      "kind": "letters",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter V in its name",
-      "size": 2,
-      "answers": ["nuevo-leon", "veracruz"]
     },
     {
       "id": "mexico_states:contains:x",
@@ -5129,14 +4713,6 @@
       "answers": ["aguascalientes", "baja-california", "baja-california-sur", "campeche", "chiapas", "chihuahua", "coahuila", "colima", "durango", "guanajuato", "guerrero", "hidalgo", "jalisco", "michoacan", "morelos", "nayarit", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "sinaloa", "sonora", "tabasco", "tamaulipas", "veracruz", "yucatan", "zacatecas"]
     },
     {
-      "id": "mexico_states:starts:b",
-      "dataset": "mexico_states",
-      "kind": "letters",
-      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter B",
-      "size": 2,
-      "answers": ["baja-california", "baja-california-sur"]
-    },
-    {
       "id": "mexico_states:starts:c",
       "dataset": "mexico_states",
       "kind": "letters",
@@ -5145,36 +4721,12 @@
       "answers": ["campeche", "chiapas", "chihuahua", "coahuila", "colima", "mexico-city"]
     },
     {
-      "id": "mexico_states:starts:g",
-      "dataset": "mexico_states",
-      "kind": "letters",
-      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter G",
-      "size": 2,
-      "answers": ["guanajuato", "guerrero"]
-    },
-    {
       "id": "mexico_states:starts:m",
       "dataset": "mexico_states",
       "kind": "letters",
       "prompt": "Name a Mexican state (or Mexico City) that starts with the letter M",
       "size": 4,
       "answers": ["mexico-city", "michoacan", "morelos", "state-of-mexico"]
-    },
-    {
-      "id": "mexico_states:starts:n",
-      "dataset": "mexico_states",
-      "kind": "letters",
-      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter N",
-      "size": 2,
-      "answers": ["nayarit", "nuevo-leon"]
-    },
-    {
-      "id": "mexico_states:starts:q",
-      "dataset": "mexico_states",
-      "kind": "letters",
-      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter Q",
-      "size": 2,
-      "answers": ["queretaro", "quintana-roo"]
     },
     {
       "id": "mexico_states:starts:s",
@@ -5383,14 +4935,6 @@
       "prompt": "Name a US national park with the letter I in its name",
       "size": 35,
       "answers": ["acadia", "american-samoa", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "capitol-reef", "channel-islands", "denali", "gates-of-the-arctic", "glacier", "glacier-bay", "great-basin", "great-smoky-mountains", "guadalupe-mountains", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "katmai", "kenai-fjords", "kings-canyon", "lassen-volcanic", "mount-rainier", "new-river-gorge", "olympic", "petrified-forest", "pinnacles", "rocky-mountain", "sequoia", "virgin-islands", "white-sands", "wind-cave", "wrangell-st-elias", "yosemite", "zion"]
-    },
-    {
-      "id": "national_parks:contains:j",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park with the letter J in its name",
-      "size": 2,
-      "answers": ["joshua-tree", "kenai-fjords"]
     },
     {
       "id": "national_parks:contains:k",
@@ -5625,28 +5169,12 @@
       "answers": ["haleakala", "hawai-i-volcanoes", "hot-springs"]
     },
     {
-      "id": "national_parks:starts:i",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter I",
-      "size": 2,
-      "answers": ["indiana-dunes", "isle-royale"]
-    },
-    {
       "id": "national_parks:starts:k",
       "dataset": "national_parks",
       "kind": "letters",
       "prompt": "Name a US national park that starts with the letter K",
       "size": 4,
       "answers": ["katmai", "kenai-fjords", "kings-canyon", "kobuk-valley"]
-    },
-    {
-      "id": "national_parks:starts:l",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter L",
-      "size": 2,
-      "answers": ["lake-clark", "lassen-volcanic"]
     },
     {
       "id": "national_parks:starts:m",
@@ -5657,30 +5185,6 @@
       "answers": ["mammoth-cave", "mesa-verde", "mount-rainier"]
     },
     {
-      "id": "national_parks:starts:n",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter N",
-      "size": 2,
-      "answers": ["new-river-gorge", "north-cascades"]
-    },
-    {
-      "id": "national_parks:starts:p",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter P",
-      "size": 2,
-      "answers": ["petrified-forest", "pinnacles"]
-    },
-    {
-      "id": "national_parks:starts:r",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter R",
-      "size": 2,
-      "answers": ["redwood", "rocky-mountain"]
-    },
-    {
       "id": "national_parks:starts:s",
       "dataset": "national_parks",
       "kind": "letters",
@@ -5689,28 +5193,12 @@
       "answers": ["saguaro", "sequoia", "shenandoah"]
     },
     {
-      "id": "national_parks:starts:v",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter V",
-      "size": 2,
-      "answers": ["virgin-islands", "voyageurs"]
-    },
-    {
       "id": "national_parks:starts:w",
       "dataset": "national_parks",
       "kind": "letters",
       "prompt": "Name a US national park that starts with the letter W",
       "size": 3,
       "answers": ["white-sands", "wind-cave", "wrangell-st-elias"]
-    },
-    {
-      "id": "national_parks:starts:y",
-      "dataset": "national_parks",
-      "kind": "letters",
-      "prompt": "Name a US national park that starts with the letter Y",
-      "size": 2,
-      "answers": ["yellowstone", "yosemite"]
     },
     {
       "id": "national_parks:tag:state:ak",
@@ -5777,14 +5265,6 @@
       "answers": ["charlie", "echo", "oscar", "quebec", "victor"]
     },
     {
-      "id": "nato_alphabet:contains:d",
-      "dataset": "nato_alphabet",
-      "kind": "letters",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter D",
-      "size": 2,
-      "answers": ["delta", "india"]
-    },
-    {
       "id": "nato_alphabet:contains:e",
       "dataset": "nato_alphabet",
       "kind": "letters",
@@ -5799,14 +5279,6 @@
       "prompt": "Name a NATO phonetic alphabet word containing the letter F",
       "size": 4,
       "answers": ["alfa", "foxtrot", "golf", "uniform"]
-    },
-    {
-      "id": "nato_alphabet:contains:g",
-      "dataset": "nato_alphabet",
-      "kind": "letters",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter G",
-      "size": 2,
-      "answers": ["golf", "tango"]
     },
     {
       "id": "nato_alphabet:contains:h",
@@ -5903,14 +5375,6 @@
       "prompt": "Name a NATO phonetic alphabet word containing the letter V",
       "size": 3,
       "answers": ["bravo", "november", "victor"]
-    },
-    {
-      "id": "nato_alphabet:contains:x",
-      "dataset": "nato_alphabet",
-      "kind": "letters",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter X",
-      "size": 2,
-      "answers": ["foxtrot", "x-ray"]
     },
     {
       "id": "nato_alphabet:contains:y",
@@ -6745,22 +6209,6 @@
       "answers": ["a-bug-s-life", "inside-out", "inside-out-2", "luca", "monsters-university", "ratatouille", "soul", "the-good-dinosaur", "turning-red", "up"]
     },
     {
-      "id": "pixar:contains:v",
-      "dataset": "pixar",
-      "kind": "letters",
-      "prompt": "Name a Pixar feature (before 2026) with the letter V in its title",
-      "size": 2,
-      "answers": ["brave", "monsters-university"]
-    },
-    {
-      "id": "pixar:contains:w",
-      "dataset": "pixar",
-      "kind": "letters",
-      "prompt": "Name a Pixar feature (before 2026) with the letter W in its title",
-      "size": 2,
-      "answers": ["onward", "wall-e"]
-    },
-    {
       "id": "pixar:contains:y",
       "dataset": "pixar",
       "kind": "letters",
@@ -6919,14 +6367,6 @@
       "prompt": "Name an original-151 Pokémon with the letter P in its name",
       "size": 33,
       "answers": ["bellsprout", "caterpie", "hypno", "jigglypuff", "kabutops", "lapras", "machamp", "machop", "magikarp", "metapod", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "ponyta", "porygon", "primeape", "psyduck", "rapidash", "slowpoke", "spearow", "vaporeon", "vileplume", "vulpix", "weepinbell", "zapdos"]
-    },
-    {
-      "id": "pokemon_gen1:contains:q",
-      "dataset": "pokemon_gen1",
-      "kind": "letters",
-      "prompt": "Name an original-151 Pokémon with the letter Q in its name",
-      "size": 2,
-      "answers": ["nidoqueen", "squirtle"]
     },
     {
       "id": "pokemon_gen1:contains:r",
@@ -7249,14 +6689,6 @@
       "answers": ["kabuto", "kabutops", "kadabra", "kakuna", "kangaskhan", "kingler", "koffing", "krabby"]
     },
     {
-      "id": "pokemon_gen1:starts:l",
-      "dataset": "pokemon_gen1",
-      "kind": "letters",
-      "prompt": "Name an original-151 Pokémon that starts with the letter L",
-      "size": 2,
-      "answers": ["lapras", "lickitung"]
-    },
-    {
       "id": "pokemon_gen1:starts:m",
       "dataset": "pokemon_gen1",
       "kind": "letters",
@@ -7327,14 +6759,6 @@
       "prompt": "Name an original-151 Pokémon that starts with the letter W",
       "size": 5,
       "answers": ["wartortle", "weedle", "weepinbell", "weezing", "wigglytuff"]
-    },
-    {
-      "id": "pokemon_gen1:starts:z",
-      "dataset": "pokemon_gen1",
-      "kind": "letters",
-      "prompt": "Name an original-151 Pokémon that starts with the letter Z",
-      "size": 2,
-      "answers": ["zapdos", "zubat"]
     },
     {
       "id": "pokemon_gen1:tag:legendary",
@@ -7463,14 +6887,6 @@
       "prompt": "Name a Psychic-type Pokémon from the original 151 (current typings)",
       "size": 14,
       "answers": ["abra", "alakazam", "drowzee", "exeggcute", "exeggutor", "hypno", "jynx", "kadabra", "mew", "mewtwo", "mr-mime", "slowbro", "slowpoke", "starmie"]
-    },
-    {
-      "id": "pokemon_gen1:tag:type:steel",
-      "dataset": "pokemon_gen1",
-      "kind": "curated",
-      "prompt": "Name a Steel-type Pokémon from the original 151 (current typings)",
-      "size": 2,
-      "answers": ["magnemite", "magneton"]
     },
     {
       "id": "pokemon_gen1:tag:type:water",
@@ -7609,28 +7025,12 @@
       "answers": ["larvitar", "misdreavus", "quilava"]
     },
     {
-      "id": "pokemon_gen2:contains:x",
-      "dataset": "pokemon_gen2",
-      "kind": "letters",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with the letter X in its name",
-      "size": 2,
-      "answers": ["steelix", "xatu"]
-    },
-    {
       "id": "pokemon_gen2:contains:y",
       "dataset": "pokemon_gen2",
       "kind": "letters",
       "prompt": "Name a Johto Pokémon (#152 to #251) with the letter Y in its name",
       "size": 15,
       "answers": ["bayleef", "blissey", "cyndaquil", "flaaffy", "igglybuff", "ledyba", "magby", "octillery", "phanpy", "porygon2", "skarmory", "typhlosion", "tyranitar", "tyrogue", "yanma"]
-    },
-    {
-      "id": "pokemon_gen2:contains:z",
-      "dataset": "pokemon_gen2",
-      "kind": "letters",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with the letter Z in its name",
-      "size": 2,
-      "answers": ["azumarill", "scizor"]
     },
     {
       "id": "pokemon_gen2:lacks:b",
@@ -7881,14 +7281,6 @@
       "answers": ["magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow"]
     },
     {
-      "id": "pokemon_gen2:starts:n",
-      "dataset": "pokemon_gen2",
-      "kind": "letters",
-      "prompt": "Name a Johto Pokémon (#152 to #251) that starts with the letter N",
-      "size": 2,
-      "answers": ["natu", "noctowl"]
-    },
-    {
       "id": "pokemon_gen2:starts:p",
       "dataset": "pokemon_gen2",
       "kind": "letters",
@@ -7903,14 +7295,6 @@
       "prompt": "Name a Johto Pokémon (#152 to #251) that starts with the letter Q",
       "size": 3,
       "answers": ["quagsire", "quilava", "qwilfish"]
-    },
-    {
-      "id": "pokemon_gen2:starts:r",
-      "dataset": "pokemon_gen2",
-      "kind": "letters",
-      "prompt": "Name a Johto Pokémon (#152 to #251) that starts with the letter R",
-      "size": 2,
-      "answers": ["raikou", "remoraid"]
     },
     {
       "id": "pokemon_gen2:starts:s",
@@ -7935,14 +7319,6 @@
       "prompt": "Name a Johto Pokémon (#152 to #251) that starts with the letter U",
       "size": 3,
       "answers": ["umbreon", "unown", "ursaring"]
-    },
-    {
-      "id": "pokemon_gen2:starts:w",
-      "dataset": "pokemon_gen2",
-      "kind": "letters",
-      "prompt": "Name a Johto Pokémon (#152 to #251) that starts with the letter W",
-      "size": 2,
-      "answers": ["wobbuffet", "wooper"]
     },
     {
       "id": "pokemon_gen2:tag:baby",
@@ -8529,28 +7905,12 @@
       "answers": ["earth", "jupiter", "mercury", "neptune", "venus"]
     },
     {
-      "id": "space:contains:m@planet",
-      "dataset": "space",
-      "kind": "letters",
-      "prompt": "Name a planet with the letter M in its name",
-      "size": 2,
-      "answers": ["mars", "mercury"]
-    },
-    {
       "id": "space:contains:n@planet",
       "dataset": "space",
       "kind": "letters",
       "prompt": "Name a planet with the letter N in its name",
       "size": 4,
       "answers": ["neptune", "saturn", "uranus", "venus"]
-    },
-    {
-      "id": "space:contains:p@planet",
-      "dataset": "space",
-      "kind": "letters",
-      "prompt": "Name a planet with the letter P in its name",
-      "size": 2,
-      "answers": ["jupiter", "neptune"]
     },
     {
       "id": "space:contains:r@planet",
@@ -8649,14 +8009,6 @@
       "answers": ["earth", "mars", "mercury", "saturn", "uranus", "venus"]
     },
     {
-      "id": "space:lacks:r@planet",
-      "dataset": "space",
-      "kind": "letters",
-      "prompt": "Name a planet with no letter R in its name",
-      "size": 2,
-      "answers": ["neptune", "venus"]
-    },
-    {
       "id": "space:lacks:s@planet",
       "dataset": "space",
       "kind": "letters",
@@ -8671,14 +8023,6 @@
       "prompt": "Name a planet with no letter T in its name",
       "size": 4,
       "answers": ["mars", "mercury", "uranus", "venus"]
-    },
-    {
-      "id": "space:lacks:u@planet",
-      "dataset": "space",
-      "kind": "letters",
-      "prompt": "Name a planet with no letter U in its name",
-      "size": 2,
-      "answers": ["earth", "mars"]
     },
     {
       "id": "space:lacks:v@planet",
@@ -9041,28 +8385,12 @@
       "answers": ["madison", "montgomery", "montpelier"]
     },
     {
-      "id": "state_capitals:starts:o",
-      "dataset": "state_capitals",
-      "kind": "letters",
-      "prompt": "Name a US state capital that starts with the letter O",
-      "size": 2,
-      "answers": ["oklahoma-city", "olympia"]
-    },
-    {
       "id": "state_capitals:starts:p",
       "dataset": "state_capitals",
       "kind": "letters",
       "prompt": "Name a US state capital that starts with the letter P",
       "size": 3,
       "answers": ["phoenix", "pierre", "providence"]
-    },
-    {
-      "id": "state_capitals:starts:r",
-      "dataset": "state_capitals",
-      "kind": "letters",
-      "prompt": "Name a US state capital that starts with the letter R",
-      "size": 2,
-      "answers": ["raleigh", "richmond"]
     },
     {
       "id": "state_capitals:starts:s",
@@ -9161,14 +8489,6 @@
       "answers": ["death", "judgement", "justice", "strength", "temperance", "the-devil", "the-emperor", "the-empress", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-tower", "wheel-of-fortune"]
     },
     {
-      "id": "tarot:contains:f",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card with the letter F in its name",
-      "size": 2,
-      "answers": ["the-fool", "wheel-of-fortune"]
-    },
-    {
       "id": "tarot:contains:g",
       "dataset": "tarot",
       "kind": "letters",
@@ -9265,14 +8585,6 @@
       "answers": ["judgement", "justice", "the-sun", "wheel-of-fortune"]
     },
     {
-      "id": "tarot:contains:v",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card with the letter V in its name",
-      "size": 2,
-      "answers": ["the-devil", "the-lovers"]
-    },
-    {
       "id": "tarot:contains:w",
       "dataset": "tarot",
       "kind": "letters",
@@ -9289,22 +8601,6 @@
       "answers": ["strength", "the-chariot", "the-emperor", "the-empress", "the-fool", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-magician"]
     },
     {
-      "id": "tarot:starts:d",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card that starts with the letter D (ignore \"The\")",
-      "size": 2,
-      "answers": ["death", "the-devil"]
-    },
-    {
-      "id": "tarot:starts:e",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card that starts with the letter E (ignore \"The\")",
-      "size": 2,
-      "answers": ["the-emperor", "the-empress"]
-    },
-    {
       "id": "tarot:starts:h",
       "dataset": "tarot",
       "kind": "letters",
@@ -9313,44 +8609,12 @@
       "answers": ["the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess"]
     },
     {
-      "id": "tarot:starts:j",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card that starts with the letter J (ignore \"The\")",
-      "size": 2,
-      "answers": ["judgement", "justice"]
-    },
-    {
-      "id": "tarot:starts:m",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card that starts with the letter M (ignore \"The\")",
-      "size": 2,
-      "answers": ["the-magician", "the-moon"]
-    },
-    {
       "id": "tarot:starts:s",
       "dataset": "tarot",
       "kind": "letters",
       "prompt": "Name a Major Arcana card that starts with the letter S (ignore \"The\")",
       "size": 3,
       "answers": ["strength", "the-star", "the-sun"]
-    },
-    {
-      "id": "tarot:starts:t",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card that starts with the letter T (ignore \"The\")",
-      "size": 2,
-      "answers": ["temperance", "the-tower"]
-    },
-    {
-      "id": "tarot:starts:w",
-      "dataset": "tarot",
-      "kind": "letters",
-      "prompt": "Name a Major Arcana card that starts with the letter W (ignore \"The\")",
-      "size": 2,
-      "answers": ["the-world", "wheel-of-fortune"]
     },
     {
       "id": "us_presidents:contains:a~surname",
@@ -9617,14 +8881,6 @@
       "answers": ["george-h-w-bush", "george-w-bush", "james-buchanan", "joe-biden"]
     },
     {
-      "id": "us_presidents:starts:c~first",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose first name starts with the letter C",
-      "size": 2,
-      "answers": ["calvin-coolidge", "chester-a-arthur"]
-    },
-    {
       "id": "us_presidents:starts:c~surname",
       "dataset": "us_presidents",
       "kind": "letters",
@@ -9633,52 +8889,12 @@
       "answers": ["bill-clinton", "calvin-coolidge", "grover-cleveland", "jimmy-carter"]
     },
     {
-      "id": "us_presidents:starts:d~first",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose first name starts with the letter D",
-      "size": 2,
-      "answers": ["donald-trump", "dwight-d-eisenhower"]
-    },
-    {
-      "id": "us_presidents:starts:f~first",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose first name starts with the letter F",
-      "size": 2,
-      "answers": ["franklin-d-roosevelt", "franklin-pierce"]
-    },
-    {
-      "id": "us_presidents:starts:f~surname",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose last name starts with the letter F",
-      "size": 2,
-      "answers": ["gerald-ford", "millard-fillmore"]
-    },
-    {
       "id": "us_presidents:starts:g~first",
       "dataset": "us_presidents",
       "kind": "letters",
       "prompt": "Name a US president whose first name starts with the letter G",
       "size": 5,
       "answers": ["george-h-w-bush", "george-w-bush", "george-washington", "gerald-ford", "grover-cleveland"]
-    },
-    {
-      "id": "us_presidents:starts:g~surname",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose last name starts with the letter G",
-      "size": 2,
-      "answers": ["james-a-garfield", "ulysses-s-grant"]
-    },
-    {
-      "id": "us_presidents:starts:h~first",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose first name starts with the letter H",
-      "size": 2,
-      "answers": ["harry-s-truman", "herbert-hoover"]
     },
     {
       "id": "us_presidents:starts:h~surname",
@@ -9697,28 +8913,12 @@
       "answers": ["andrew-jackson", "andrew-johnson", "lyndon-b-johnson", "thomas-jefferson"]
     },
     {
-      "id": "us_presidents:starts:m~first",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose first name starts with the letter M",
-      "size": 2,
-      "answers": ["martin-van-buren", "millard-fillmore"]
-    },
-    {
       "id": "us_presidents:starts:m~surname",
       "dataset": "us_presidents",
       "kind": "letters",
       "prompt": "Name a US president whose last name starts with the letter M",
       "size": 3,
       "answers": ["james-madison", "james-monroe", "william-mckinley"]
-    },
-    {
-      "id": "us_presidents:starts:p~surname",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose last name starts with the letter P",
-      "size": 2,
-      "answers": ["franklin-pierce", "james-k-polk"]
     },
     {
       "id": "us_presidents:starts:r~first",
@@ -9737,14 +8937,6 @@
       "answers": ["franklin-d-roosevelt", "ronald-reagan", "theodore-roosevelt"]
     },
     {
-      "id": "us_presidents:starts:t~first",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose first name starts with the letter T",
-      "size": 2,
-      "answers": ["theodore-roosevelt", "thomas-jefferson"]
-    },
-    {
       "id": "us_presidents:starts:t~surname",
       "dataset": "us_presidents",
       "kind": "letters",
@@ -9759,14 +8951,6 @@
       "prompt": "Name a US president whose first name starts with the letter W",
       "size": 5,
       "answers": ["warren-g-harding", "william-henry-harrison", "william-howard-taft", "william-mckinley", "woodrow-wilson"]
-    },
-    {
-      "id": "us_presidents:starts:w~surname",
-      "dataset": "us_presidents",
-      "kind": "letters",
-      "prompt": "Name a US president whose last name starts with the letter W",
-      "size": 2,
-      "answers": ["george-washington", "woodrow-wilson"]
     },
     {
       "id": "us_presidents:tag:party:dem",
@@ -9793,14 +8977,6 @@
       "answers": ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
     },
     {
-      "id": "us_states:contains:b",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state with the letter B in its name",
-      "size": 2,
-      "answers": ["alabama", "nebraska"]
-    },
-    {
       "id": "us_states:contains:c",
       "dataset": "us_states",
       "kind": "letters",
@@ -9823,14 +8999,6 @@
       "prompt": "Name a US state with the letter E in its name",
       "size": 20,
       "answers": ["connecticut", "delaware", "georgia", "kentucky", "maine", "massachusetts", "minnesota", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "oregon", "pennsylvania", "rhode-island", "tennessee", "texas", "vermont", "west-virginia"]
-    },
-    {
-      "id": "us_states:contains:f",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state with the letter F in its name",
-      "size": 2,
-      "answers": ["california", "florida"]
     },
     {
       "id": "us_states:contains:g",
@@ -9945,14 +9113,6 @@
       "answers": ["nevada", "pennsylvania", "vermont", "virginia", "west-virginia"]
     },
     {
-      "id": "us_states:contains:x",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state with the letter X in its name",
-      "size": 2,
-      "answers": ["new-mexico", "texas"]
-    },
-    {
       "id": "us_states:contains:y",
       "dataset": "us_states",
       "kind": "letters",
@@ -10065,14 +9225,6 @@
       "answers": ["idaho", "illinois", "indiana", "iowa"]
     },
     {
-      "id": "us_states:starts:k",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state that starts with the letter K",
-      "size": 2,
-      "answers": ["kansas", "kentucky"]
-    },
-    {
       "id": "us_states:starts:m",
       "dataset": "us_states",
       "kind": "letters",
@@ -10095,30 +9247,6 @@
       "prompt": "Name a US state that starts with the letter O",
       "size": 3,
       "answers": ["ohio", "oklahoma", "oregon"]
-    },
-    {
-      "id": "us_states:starts:s",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state that starts with the letter S",
-      "size": 2,
-      "answers": ["south-carolina", "south-dakota"]
-    },
-    {
-      "id": "us_states:starts:t",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state that starts with the letter T",
-      "size": 2,
-      "answers": ["tennessee", "texas"]
-    },
-    {
-      "id": "us_states:starts:v",
-      "dataset": "us_states",
-      "kind": "letters",
-      "prompt": "Name a US state that starts with the letter V",
-      "size": 2,
-      "answers": ["vermont", "virginia"]
     },
     {
       "id": "us_states:starts:w",
@@ -10393,14 +9521,6 @@
       "answers": ["bandar-seri-begawan", "bridgetown", "cape-town", "freetown", "georgetown", "kingstown", "kuwait-city", "lilongwe", "moscow", "naypyidaw", "new-delhi", "ottawa", "pretoria", "south-tarawa", "sri-jayawardenepura-kotte", "vienna", "warsaw", "washington-d-c", "wellington", "windhoek"]
     },
     {
-      "id": "world_capitals:contains:x",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name a national capital with the letter X in its name",
-      "size": 2,
-      "answers": ["luxembourg-city", "mexico-city"]
-    },
-    {
       "id": "world_capitals:contains:y",
       "dataset": "world_capitals",
       "kind": "letters",
@@ -10673,14 +9793,6 @@
       "answers": ["cairo", "cape-town", "conakry"]
     },
     {
-      "id": "world_capitals:starts:c@continent:europe",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name a European capital that starts with the letter C",
-      "size": 2,
-      "answers": ["chisinau", "copenhagen"]
-    },
-    {
       "id": "world_capitals:starts:d",
       "dataset": "world_capitals",
       "kind": "letters",
@@ -10705,28 +9817,12 @@
       "answers": ["damascus", "dhaka", "dili", "doha", "dushanbe"]
     },
     {
-      "id": "world_capitals:starts:f",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name a national capital that starts with the letter F",
-      "size": 2,
-      "answers": ["freetown", "funafuti"]
-    },
-    {
       "id": "world_capitals:starts:g",
       "dataset": "world_capitals",
       "kind": "letters",
       "prompt": "Name a national capital that starts with the letter G",
       "size": 4,
       "answers": ["gaborone", "georgetown", "gitega", "guatemala-city"]
-    },
-    {
-      "id": "world_capitals:starts:g@continent:africa",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name an African capital that starts with the letter G",
-      "size": 2,
-      "answers": ["gaborone", "gitega"]
     },
     {
       "id": "world_capitals:starts:h",
@@ -10743,14 +9839,6 @@
       "prompt": "Name a national capital that starts with the letter J",
       "size": 3,
       "answers": ["jakarta", "jerusalem", "juba"]
-    },
-    {
-      "id": "world_capitals:starts:j@continent:asia",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name an Asian capital that starts with the letter J",
-      "size": 2,
-      "answers": ["jakarta", "jerusalem"]
     },
     {
       "id": "world_capitals:starts:k",
@@ -10775,14 +9863,6 @@
       "prompt": "Name an Asian capital that starts with the letter K",
       "size": 5,
       "answers": ["kabul", "kathmandu", "kuala-lumpur", "kuwait-city", "sri-jayawardenepura-kotte"]
-    },
-    {
-      "id": "world_capitals:starts:k@continent:europe",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name a European capital that starts with the letter K",
-      "size": 2,
-      "answers": ["chisinau", "kyiv"]
     },
     {
       "id": "world_capitals:starts:l",
@@ -10857,14 +9937,6 @@
       "answers": ["astana", "naypyidaw", "new-delhi", "nicosia"]
     },
     {
-      "id": "world_capitals:starts:n@continent:europe",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name a European capital that starts with the letter N",
-      "size": 2,
-      "answers": ["astana", "nicosia"]
-    },
-    {
       "id": "world_capitals:starts:o",
       "dataset": "world_capitals",
       "kind": "letters",
@@ -10911,14 +9983,6 @@
       "prompt": "Name a national capital that starts with the letter R",
       "size": 7,
       "answers": ["rabat", "ramallah", "reykjavik", "riga", "riyadh", "rome", "roseau"]
-    },
-    {
-      "id": "world_capitals:starts:r@continent:asia",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name an Asian capital that starts with the letter R",
-      "size": 2,
-      "answers": ["ramallah", "riyadh"]
     },
     {
       "id": "world_capitals:starts:r@continent:europe",
@@ -11009,28 +10073,12 @@
       "answers": ["vienna", "warsaw", "washington-d-c", "wellington", "windhoek"]
     },
     {
-      "id": "world_capitals:starts:w@continent:europe",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name a European capital that starts with the letter W",
-      "size": 2,
-      "answers": ["vienna", "warsaw"]
-    },
-    {
       "id": "world_capitals:starts:y",
       "dataset": "world_capitals",
       "kind": "letters",
       "prompt": "Name a national capital that starts with the letter Y",
       "size": 4,
       "answers": ["yamoussoukro", "yaounde", "yaren", "yerevan"]
-    },
-    {
-      "id": "world_capitals:starts:y@continent:africa",
-      "dataset": "world_capitals",
-      "kind": "letters",
-      "prompt": "Name an African capital that starts with the letter Y",
-      "size": 2,
-      "answers": ["yamoussoukro", "yaounde"]
     },
     {
       "id": "world_capitals:tag:continent:north-america",
@@ -11129,14 +10177,6 @@
       "answers": ["cancer", "capricorn", "pisces", "scorpio"]
     },
     {
-      "id": "zodiac:contains:d@chinese",
-      "dataset": "zodiac",
-      "kind": "letters",
-      "prompt": "Name a Chinese zodiac animal with the letter D in it",
-      "size": 2,
-      "answers": ["chinese-dog", "chinese-dragon"]
-    },
-    {
       "id": "zodiac:contains:e@chinese",
       "dataset": "zodiac",
       "kind": "letters",
@@ -11183,22 +10223,6 @@
       "prompt": "Name a Western zodiac sign with the letter I in it",
       "size": 9,
       "answers": ["aquarius", "aries", "capricorn", "gemini", "libra", "pisces", "sagittarius", "scorpio", "virgo"]
-    },
-    {
-      "id": "zodiac:contains:k@chinese",
-      "dataset": "zodiac",
-      "kind": "letters",
-      "prompt": "Name a Chinese zodiac animal with the letter K in it",
-      "size": 2,
-      "answers": ["chinese-monkey", "chinese-snake"]
-    },
-    {
-      "id": "zodiac:contains:l@western",
-      "dataset": "zodiac",
-      "kind": "letters",
-      "prompt": "Name a Western zodiac sign with the letter L in it",
-      "size": 2,
-      "answers": ["leo", "libra"]
     },
     {
       "id": "zodiac:contains:n@chinese",
@@ -11279,14 +10303,6 @@
       "prompt": "Name a Chinese zodiac animal with the letter T in it",
       "size": 5,
       "answers": ["chinese-goat", "chinese-rabbit", "chinese-rat", "chinese-rooster", "chinese-tiger"]
-    },
-    {
-      "id": "zodiac:contains:t@western",
-      "dataset": "zodiac",
-      "kind": "letters",
-      "prompt": "Name a Western zodiac sign with the letter T in it",
-      "size": 2,
-      "answers": ["sagittarius", "taurus"]
     },
     {
       "id": "zodiac:contains:u@western",

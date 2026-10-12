@@ -2,55 +2,55 @@
   "date": "2026-10-24",
   "approved": false,
   "activity": "poison-cups",
-  "winRate": 0.2346,
+  "winRate": 0.6384,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:u",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter U in its name",
-      "size": 63,
-      "answers": ["aipom", "ampharos", "ariados", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "cleffa", "corsola", "crobat", "croconaw", "delibird", "donphan", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "girafarig", "gligar", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "kingdra", "larvitar", "ledian", "ledyba", "magby", "magcargo", "mantine", "mareep", "marill", "miltank", "noctowl", "octillery", "phanpy", "piloswine", "pineco", "politoed", "porygon2", "qwilfish", "remoraid", "scizor", "sentret", "skarmory", "skiploom", "slowking", "smeargle", "sneasel", "spinarak", "stantler", "steelix", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "wooper", "yanma"]
+      "questionId": "pokemon_gen1:contains:t",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with the letter T in its name",
+      "size": 58,
+      "answers": ["aerodactyl", "articuno", "bellsprout", "blastoise", "butterfree", "caterpie", "cloyster", "diglett", "ditto", "dragonite", "dratini", "dugtrio", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "gastly", "golbat", "growlithe", "haunter", "hitmonchan", "hitmonlee", "jolteon", "kabuto", "kabutops", "lickitung", "magnemite", "magneton", "meowth", "metapod", "mewtwo", "moltres", "ninetales", "omanyte", "omastar", "parasect", "pidgeot", "pidgeotto", "poliwrath", "ponyta", "raticate", "rattata", "scyther", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "venomoth", "venonat", "victreebel", "voltorb", "wartortle", "wigglytuff", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:lacks:s",
+      "questionId": "mexico_states:lacks:h",
       "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with no letter S in its name",
-      "size": 20,
-      "answers": ["baja-california", "campeche", "chihuahua", "coahuila", "colima", "durango", "guanajuato", "guerrero", "hidalgo", "mexico-city", "michoacan", "nayarit", "nuevo-leon", "oaxaca", "puebla", "queretaro", "quintana-roo", "tlaxcala", "veracruz", "yucatan"]
+      "prompt": "Name a Mexican state (or Mexico City) with no letter H in its name",
+      "size": 26,
+      "answers": ["aguascalientes", "baja-california", "baja-california-sur", "colima", "durango", "guanajuato", "guerrero", "jalisco", "mexico-city", "morelos", "nayarit", "nuevo-leon", "oaxaca", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "sinaloa", "sonora", "state-of-mexico", "tabasco", "tamaulipas", "tlaxcala", "veracruz", "yucatan", "zacatecas"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:div:atlantic",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Atlantic Division",
-      "size": 8,
-      "answers": ["boston-bruins", "buffalo-sabres", "detroit-red-wings", "florida-panthers", "montreal-canadiens", "ottawa-senators", "tampa-bay-lightning", "toronto-maple-leafs"]
+      "questionId": "canada:tag:province",
+      "datasetId": "canada",
+      "prompt": "Name a Canadian province (not a territory)",
+      "size": 10,
+      "answers": ["alberta", "british-columbia", "manitoba", "new-brunswick", "newfoundland-and-labrador", "nova-scotia", "ontario", "prince-edward-island", "quebec", "saskatchewan"]
     },
     {
       "round": 4,
-      "questionId": "greek_myth:contains:r@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter R in their Greek name",
-      "size": 6,
-      "answers": ["olympian-aphrodite", "olympian-ares", "olympian-artemis", "olympian-demeter", "olympian-hera", "olympian-hermes"]
+      "questionId": "olympics:tag:summer-repeat",
+      "datasetId": "olympics",
+      "prompt": "Name a city that has hosted the Summer Olympics more than once (through 2024)",
+      "size": 5,
+      "answers": ["athens", "london", "los-angeles", "paris", "tokyo"]
     },
     {
       "round": 5,
-      "questionId": "constellations:starts:d",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation that starts with the letter D",
-      "size": 3,
-      "answers": ["delphinus", "dorado", "draco"]
+      "questionId": "india_states:contains:j@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter J in its name",
+      "size": 4,
+      "answers": ["gujarat", "jharkhand", "punjab", "rajasthan"]
     },
     {
       "round": 6,
-      "questionId": "nato_alphabet:contains:d",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter D",
-      "size": 2,
-      "answers": ["delta", "india"]
+      "questionId": "space:lacks:e@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter E in its name",
+      "size": 3,
+      "answers": ["mars", "saturn", "uranus"]
     }
   ]
 }

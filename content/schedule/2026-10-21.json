@@ -2,55 +2,55 @@
   "date": "2026-10-21",
   "approved": false,
   "activity": "elevator",
-  "winRate": 0.2921,
+  "winRate": 0.6196,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:all",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name one of the original 151 Pokémon",
-      "size": 151,
-      "answers": ["abra", "aerodactyl", "alakazam", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "cubone", "dewgong", "diglett", "ditto", "dodrio", "doduo", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "eevee", "ekans", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gastly", "gengar", "geodude", "gloom", "golbat", "goldeen", "golduck", "golem", "graveler", "grimer", "growlithe", "gyarados", "haunter", "hitmonchan", "hitmonlee", "horsea", "hypno", "ivysaur", "jigglypuff", "jolteon", "jynx", "kabuto", "kabutops", "kadabra", "kakuna", "kangaskhan", "kingler", "koffing", "krabby", "lapras", "lickitung", "machamp", "machoke", "machop", "magikarp", "magmar", "magnemite", "magneton", "mankey", "marowak", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "muk", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "omanyte", "omastar", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "ponyta", "porygon", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "sandslash", "scyther", "seadra", "seaking", "seel", "shellder", "slowbro", "slowpoke", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "weezing", "wigglytuff", "zapdos", "zubat"]
+      "questionId": "state_capitals:all",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital",
+      "size": 50,
+      "answers": ["albany", "annapolis", "atlanta", "augusta", "austin", "baton-rouge", "bismarck", "boise", "boston", "carson-city", "charleston", "cheyenne", "columbia", "columbus", "concord", "denver", "des-moines", "dover", "frankfort", "harrisburg", "hartford", "helena", "honolulu", "indianapolis", "jackson", "jefferson-city", "juneau", "lansing", "lincoln", "little-rock", "madison", "montgomery", "montpelier", "nashville", "oklahoma-city", "olympia", "phoenix", "pierre", "providence", "raleigh", "richmond", "sacramento", "saint-paul", "salem", "salt-lake-city", "santa-fe", "springfield", "tallahassee", "topeka", "trenton"]
     },
     {
       "round": 2,
-      "questionId": "german_states:all",
-      "datasetId": "german_states",
-      "prompt": "Name one of Germany's 16 states (English or German names)",
-      "size": 16,
-      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "hesse", "lower-saxony", "mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate", "saarland", "saxony", "saxony-anhalt", "schleswig-holstein", "thuringia"]
+      "questionId": "nba:tag:conf:east",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Eastern Conference",
+      "size": 15,
+      "answers": ["atlanta-hawks", "boston-celtics", "brooklyn-nets", "charlotte-hornets", "chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "miami-heat", "milwaukee-bucks", "new-york-knicks", "orlando-magic", "philadelphia-76ers", "toronto-raptors", "washington-wizards"]
     },
     {
       "round": 3,
-      "questionId": "si_units:tag:base-unit",
-      "datasetId": "si_units",
-      "prompt": "Name one of the seven SI base units",
-      "size": 7,
-      "answers": ["unit-ampere", "unit-candela", "unit-kelvin", "unit-kilogram", "unit-metre", "unit-mole", "unit-second"]
+      "questionId": "tarot:contains:h",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter H in its name",
+      "size": 8,
+      "answers": ["death", "strength", "the-chariot", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "wheel-of-fortune"]
     },
     {
       "round": 4,
-      "questionId": "nba:tag:div:central",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Central Division",
+      "questionId": "mountains:tag:karakoram",
+      "datasetId": "mountains",
+      "prompt": "Name one of the four 8,000-meter peaks in the Karakoram (Pakistan)",
       "size": 5,
-      "answers": ["chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "milwaukee-bucks"]
+      "answers": ["broad-peak", "gasherbrum-i", "gasherbrum-ii", "k2", "nanga-parbat"]
     },
     {
       "round": 5,
-      "questionId": "greek_alphabet:contains:s",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter S in its name",
+      "questionId": "nfl:tag:div:nfc-east",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC East",
       "size": 4,
-      "answers": ["epsilon", "psi", "sigma", "upsilon"]
+      "answers": ["dallas-cowboys", "new-york-giants", "philadelphia-eagles", "washington-commanders"]
     },
     {
       "round": 6,
-      "questionId": "tarot:starts:s",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card that starts with the letter S (ignore \"The\")",
+      "questionId": "zodiac:contains:i@chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name a Chinese zodiac animal with the letter I in it",
       "size": 3,
-      "answers": ["strength", "the-star", "the-sun"]
+      "answers": ["chinese-pig", "chinese-rabbit", "chinese-tiger"]
     }
   ]
 }

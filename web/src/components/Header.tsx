@@ -16,7 +16,7 @@ export default function Header({ today, run, current }: { today: Today | null; r
     {today && (
       <div className="health-row">
         <HealthBar label="You" max={today.health.player} left={today.health.player - lost} hearts />
-        <HealthBar label={today.villain.name} max={today.health.boss} left={Math.max(0, today.health.boss - survived)} color={today.villain.color} />
+        <HealthBar label={today.villain.name} max={today.health.boss} left={run?.status === 'won' ? 0 : Math.max(0, today.health.boss - survived)} color={today.villain.color} />
       </div>
     )}
     {today && <Pips run={run} current={current} total={today.rounds.length} />}

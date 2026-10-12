@@ -2,55 +2,55 @@
   "date": "2026-10-18",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.2201,
+  "winRate": 0.6168,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:e",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter E in its name",
-      "size": 58,
-      "answers": ["aipom", "ampharos", "ariados", "azumarill", "chikorita", "chinchou", "corsola", "crobat", "croconaw", "cyndaquil", "donphan", "flaaffy", "girafarig", "gligar", "granbull", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "lugia", "magby", "magcargo", "marill", "miltank", "murkrow", "natu", "noctowl", "phanpy", "pichu", "porygon2", "pupitar", "quilava", "qwilfish", "raikou", "scizor", "skarmory", "skiploom", "slowking", "slugma", "smoochum", "snubbull", "spinarak", "sudowoodo", "sunflora", "swinub", "typhlosion", "tyranitar", "unown", "ursaring", "xatu", "yanma"]
+      "questionId": "bible_books:lacks:c~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter C in its name (ignore any number in front)",
+      "size": 55,
+      "answers": ["1-john", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-john", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "amos", "daniel", "deuteronomy", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "luke", "mark", "matthew", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zephaniah"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:lacks:n",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with no letter N in its name",
-      "size": 18,
-      "answers": ["campeche", "chiapas", "chihuahua", "coahuila", "colima", "guerrero", "hidalgo", "jalisco", "mexico-city", "morelos", "oaxaca", "puebla", "queretaro", "state-of-mexico", "tabasco", "tamaulipas", "tlaxcala", "zacatecas"]
+      "questionId": "alphabet:range:pos:1-13",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter in the first half of the alphabet (A to M)",
+      "size": 13,
+      "answers": ["letter-a", "letter-b", "letter-c", "letter-d", "letter-e", "letter-f", "letter-g", "letter-h", "letter-i", "letter-j", "letter-k", "letter-l", "letter-m"]
     },
     {
       "round": 3,
-      "questionId": "geography:any:ocean+great-lake",
-      "datasetId": "geography",
-      "prompt": "Name an ocean or one of the Great Lakes",
-      "size": 10,
-      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior", "ocean-arctic", "ocean-atlantic", "ocean-indian", "ocean-pacific", "ocean-southern"]
+      "questionId": "harry_potter:any:house+marauder",
+      "datasetId": "harry_potter",
+      "prompt": "Name a Hogwarts house or one of the Marauders",
+      "size": 8,
+      "answers": ["house-gryffindor", "house-hufflepuff", "house-ravenclaw", "house-slytherin", "marauder-moony", "marauder-padfoot", "marauder-prongs", "marauder-wormtail"]
     },
     {
       "round": 4,
-      "questionId": "space:contains:s@planet",
-      "datasetId": "space",
-      "prompt": "Name a planet with the letter S in its name",
-      "size": 4,
-      "answers": ["mars", "saturn", "uranus", "venus"]
+      "questionId": "amino_acids:contains:g",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter G in its name",
+      "size": 5,
+      "answers": ["arginine", "asparagine", "glutamic-acid", "glutamine", "glycine"]
     },
     {
       "round": 5,
-      "questionId": "best_picture:starts:h",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner whose title starts with the letter H (ignore \"The\")",
-      "size": 3,
-      "answers": ["hamlet-1948", "how-green-was-my-valley", "the-hurt-locker"]
+      "questionId": "space:tag:galilean",
+      "datasetId": "space",
+      "prompt": "Name one of Jupiter's four Galilean moons",
+      "size": 4,
+      "answers": ["callisto", "europa", "ganymede", "io"]
     },
     {
       "round": 6,
-      "questionId": "nato_alphabet:contains:g",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter G",
-      "size": 2,
-      "answers": ["golf", "tango"]
+      "questionId": "mexico_states:starts:t",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter T",
+      "size": 3,
+      "answers": ["tabasco", "tamaulipas", "tlaxcala"]
     }
   ]
 }

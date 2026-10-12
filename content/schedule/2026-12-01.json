@@ -2,55 +2,55 @@
   "date": "2026-12-01",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.2505,
+  "winRate": 0.6132,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:w",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter W in its name",
-      "size": 89,
-      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "cyndaquil", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "natu", "octillery", "phanpy", "pichu", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "suicune", "sunflora", "sunkern", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "umbreon", "ursaring", "xatu", "yanma"]
+      "questionId": "world_capitals:contains:i",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital with the letter I in its name",
+      "size": 94,
+      "answers": ["abu-dhabi", "addis-ababa", "algiers", "antananarivo", "apia", "asuncion", "bandar-seri-begawan", "bangui", "beijing", "beirut", "berlin", "bishkek", "bissau", "bloemfontein", "brasilia", "bratislava", "brazzaville", "bridgetown", "buenos-aires", "cairo", "castries", "chisinau", "dili", "djibouti", "dublin", "funafuti", "gitega", "guatemala-city", "hanoi", "helsinki", "honiara", "islamabad", "kigali", "kingston", "kingstown", "kinshasa", "kuwait-city", "kyiv", "libreville", "lilongwe", "lima", "lisbon", "luxembourg-city", "madrid", "manila", "mexico-city", "minsk", "mogadishu", "monrovia", "montevideo", "moroni", "nairobi", "naypyidaw", "new-delhi", "niamey", "nicosia", "palikir", "panama-city", "paramaribo", "paris", "podgorica", "port-au-prince", "port-louis", "port-of-spain", "port-vila", "praia", "pretoria", "quito", "reykjavik", "riga", "riyadh", "san-marino", "santiago", "santo-domingo", "singapore", "sofia", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "tallinn", "tbilisi", "tegucigalpa", "thimphu", "tirana", "tripoli", "tunis", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "washington-d-c", "wellington", "windhoek"]
     },
     {
       "round": 2,
-      "questionId": "us_presidents:tag:party:dem",
-      "datasetId": "us_presidents",
-      "prompt": "Name a Democratic US president (Andrew Johnson, elected on the National Union ticket, doesn't count)",
-      "size": 15,
-      "answers": ["andrew-jackson", "barack-obama", "bill-clinton", "franklin-d-roosevelt", "franklin-pierce", "grover-cleveland", "harry-s-truman", "james-buchanan", "james-k-polk", "jimmy-carter", "joe-biden", "john-f-kennedy", "lyndon-b-johnson", "martin-van-buren", "woodrow-wilson"]
+      "questionId": "alphabet:range:pos:14-26",
+      "datasetId": "alphabet",
+      "prompt": "Name a letter in the second half of the alphabet (N to Z)",
+      "size": 13,
+      "answers": ["letter-n", "letter-o", "letter-p", "letter-q", "letter-r", "letter-s", "letter-t", "letter-u", "letter-v", "letter-w", "letter-x", "letter-y", "letter-z"]
     },
     {
       "round": 3,
-      "questionId": "german_states:lacks:o",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with no letter O in its English name",
-      "size": 10,
-      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "hesse", "rhineland-palatinate", "saarland", "thuringia"]
+      "questionId": "space:lacks:c@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter C in its name",
+      "size": 7,
+      "answers": ["earth", "jupiter", "mars", "neptune", "saturn", "uranus", "venus"]
     },
     {
       "round": 4,
-      "questionId": "mlb:tag:div:al-east",
-      "datasetId": "mlb",
-      "prompt": "Name a team in the AL East",
+      "questionId": "nba:tag:div:pacific",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Pacific Division",
       "size": 5,
-      "answers": ["baltimore-orioles", "boston-red-sox", "new-york-yankees", "tampa-bay-rays", "toronto-blue-jays"]
+      "answers": ["golden-state-warriors", "los-angeles-clippers", "los-angeles-lakers", "phoenix-suns", "sacramento-kings"]
     },
     {
       "round": 5,
-      "questionId": "nfl:tag:div:afc-east",
-      "datasetId": "nfl",
-      "prompt": "Name a team in the AFC East",
+      "questionId": "famous_groups:tag:teletubby",
+      "datasetId": "famous_groups",
+      "prompt": "Name a Teletubby",
       "size": 4,
-      "answers": ["buffalo-bills", "miami-dolphins", "new-england-patriots", "new-york-jets"]
+      "answers": ["teletubby-dipsy", "teletubby-laa-laa", "teletubby-po", "teletubby-tinky-winky"]
     },
     {
       "round": 6,
-      "questionId": "india_states:starts:u@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state that starts with the letter U",
-      "size": 2,
-      "answers": ["uttar-pradesh", "uttarakhand"]
+      "questionId": "mexico_states:contains:y",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter Y in its name",
+      "size": 3,
+      "answers": ["mexico-city", "nayarit", "yucatan"]
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 A daily survival game, the first in the "Can You..." series. Nine rounds, each hiding a deadly outcome:
 six typed-trivia rounds, an activity of the day, rock paper scissors, and a coin flip. Losing a round costs
-one of two hearts; surviving one damages the boss. Same board for everyone, one run per day, about 1 in 4
+one of three hearts; surviving one damages the boss. Same board for everyone, one run per day, about half
 survive. Full spec: [docs/PLAN.md](docs/PLAN.md). Notes on how the
 build maps to the plan and the calls made on its open items: [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md).
 

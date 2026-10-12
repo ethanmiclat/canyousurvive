@@ -2,55 +2,55 @@
   "date": "2026-12-03",
   "approved": false,
   "activity": "poison-cups",
-  "winRate": 0.2526,
+  "winRate": 0.618,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:lacks:p",
-      "datasetId": "elements",
-      "prompt": "Name an element with no letter P in its name",
-      "size": 102,
-      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "curium", "darmstadtium", "dubnium", "einsteinium", "erbium", "fermium", "flerovium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "lanthanum", "lawrencium", "lead", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "radium", "radon", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+      "questionId": "numbers:range:n:1-250@odd",
+      "datasetId": "numbers",
+      "prompt": "Name an odd number from 1 to 250",
+      "size": 125,
+      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n151", "n153", "n155", "n157", "n159", "n161", "n163", "n165", "n167", "n169", "n17", "n171", "n173", "n175", "n177", "n179", "n181", "n183", "n185", "n187", "n189", "n19", "n191", "n193", "n195", "n197", "n199", "n201", "n203", "n205", "n207", "n209", "n21", "n211", "n213", "n215", "n217", "n219", "n221", "n223", "n225", "n227", "n229", "n23", "n231", "n233", "n235", "n237", "n239", "n241", "n243", "n245", "n247", "n249", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
     },
     {
       "round": 2,
-      "questionId": "amino_acids:all",
-      "datasetId": "amino_acids",
-      "prompt": "Name one of the 20 standard amino acids",
-      "size": 20,
-      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid", "cysteine", "glutamic-acid", "glutamine", "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan", "tyrosine", "valine"]
+      "questionId": "si_units:tag:prefix+big",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix for a multiple larger than one (deca- and up)",
+      "size": 12,
+      "answers": ["prefix-deca", "prefix-exa", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-peta", "prefix-quetta", "prefix-ronna", "prefix-tera", "prefix-yotta", "prefix-zetta"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:canada",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team based in Canada",
-      "size": 7,
-      "answers": ["calgary-flames", "edmonton-oilers", "montreal-canadiens", "ottawa-senators", "toronto-maple-leafs", "vancouver-canucks", "winnipeg-jets"]
+      "questionId": "board_games:any:color:brown+color:light-blue+color:pink",
+      "datasetId": "board_games",
+      "prompt": "Name a brown, light blue or pink property in classic US Monopoly",
+      "size": 8,
+      "answers": ["monopoly-baltic-avenue", "monopoly-connecticut-avenue", "monopoly-mediterranean-avenue", "monopoly-oriental-avenue", "monopoly-st-charles-place", "monopoly-states-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
     },
     {
       "round": 4,
-      "questionId": "board_games:tag:clue-suspect",
-      "datasetId": "board_games",
-      "prompt": "Name one of the six classic Clue (Cluedo) suspects",
-      "size": 6,
-      "answers": ["clue-colonel-mustard", "clue-miss-scarlett", "clue-mrs-peacock", "clue-mrs-white", "clue-professor-plum", "clue-reverend-green"]
+      "questionId": "us_states:tag:gulf-coast",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with a Gulf of Mexico coastline",
+      "size": 5,
+      "answers": ["alabama", "florida", "louisiana", "mississippi", "texas"]
     },
     {
       "round": 5,
-      "questionId": "national_parks:starts:k",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park that starts with the letter K",
+      "questionId": "constellations:starts:v",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter V",
       "size": 4,
-      "answers": ["katmai", "kenai-fjords", "kings-canyon", "kobuk-valley"]
+      "answers": ["vela", "virgo", "volans", "vulpecula"]
     },
     {
       "round": 6,
-      "questionId": "bible_books:starts:z~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible that starts with the letter Z (ignore any number in front)",
-      "size": 2,
-      "answers": ["zechariah", "zephaniah"]
+      "questionId": "amino_acids:contains:m",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter M in its name",
+      "size": 3,
+      "answers": ["glutamic-acid", "glutamine", "methionine"]
     }
   ]
 }

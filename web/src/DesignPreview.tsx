@@ -15,7 +15,7 @@ import type { ActivityInfo, LockResponse, PublicRun, RoundResult, Today } from '
 
 const villain = villains.villains[3]
 const run: PublicRun = { date: '2026-10-07', status: 'playing', round: 7, results: [], prompt: null, timeLeftMs: null, pendingThrows: [], answerSets: null }
-const today: Today = { date: run.date, puzzle: 1, nextResetAt: '2026-10-08T05:00:00Z', typedRoundSeconds: 30, villain, health: { player: 2, boss: 8 }, rounds: [] }
+const today: Today = { date: run.date, puzzle: 1, nextResetAt: '2026-10-08T05:00:00Z', typedRoundSeconds: 30, villain, health: { player: 3, boss: 9 }, rounds: [] }
 
 export default function DesignPreview() {
   const [screen, setScreen] = useState('question')

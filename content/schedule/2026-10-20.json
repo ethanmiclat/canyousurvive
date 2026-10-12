@@ -2,55 +2,55 @@
   "date": "2026-10-20",
   "approved": false,
   "activity": "spin-the-wheel",
-  "winRate": 0.2306,
+  "winRate": 0.6106,
   "rounds": [
     {
       "round": 1,
-      "questionId": "numbers:range:n:1-150@odd",
-      "datasetId": "numbers",
-      "prompt": "Name an odd number from 1 to 150",
-      "size": 75,
-      "answers": ["n1", "n101", "n103", "n105", "n107", "n109", "n11", "n111", "n113", "n115", "n117", "n119", "n121", "n123", "n125", "n127", "n129", "n13", "n131", "n133", "n135", "n137", "n139", "n141", "n143", "n145", "n147", "n149", "n15", "n17", "n19", "n21", "n23", "n25", "n27", "n29", "n3", "n31", "n33", "n35", "n37", "n39", "n41", "n43", "n45", "n47", "n49", "n5", "n51", "n53", "n55", "n57", "n59", "n61", "n63", "n65", "n67", "n69", "n7", "n71", "n73", "n75", "n77", "n79", "n81", "n83", "n85", "n87", "n89", "n9", "n91", "n93", "n95", "n97", "n99"]
+      "questionId": "pokemon_gen2:lacks:d",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter D in its name",
+      "size": 83,
+      "answers": ["aipom", "ampharos", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "croconaw", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "igglybuff", "jumpluff", "lanturn", "larvitar", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "porygon2", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "suicune", "sunflora", "sunkern", "swinub", "togepi", "togetic", "typhlosion", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu", "yanma"]
     },
     {
       "round": 2,
-      "questionId": "board_games:tag:monopoly",
-      "datasetId": "board_games",
-      "prompt": "Name a property you can buy in classic US Monopoly (streets, railroads, utilities)",
-      "size": 28,
-      "answers": ["monopoly-atlantic-avenue", "monopoly-b-and-o-railroad", "monopoly-baltic-avenue", "monopoly-boardwalk", "monopoly-connecticut-avenue", "monopoly-electric-company", "monopoly-illinois-avenue", "monopoly-indiana-avenue", "monopoly-kentucky-avenue", "monopoly-marvin-gardens", "monopoly-mediterranean-avenue", "monopoly-new-york-avenue", "monopoly-north-carolina-avenue", "monopoly-oriental-avenue", "monopoly-pacific-avenue", "monopoly-park-place", "monopoly-pennsylvania-avenue", "monopoly-pennsylvania-railroad", "monopoly-reading-railroad", "monopoly-short-line", "monopoly-st-charles-place", "monopoly-st-james-place", "monopoly-states-avenue", "monopoly-tennessee-avenue", "monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue", "monopoly-water-works"]
+      "questionId": "greek_alphabet:range:pos:13-24",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name one of the last 12 letters of the Greek alphabet",
+      "size": 12,
+      "answers": ["chi", "nu", "omega", "omicron", "phi", "pi", "psi", "rho", "sigma", "tau", "upsilon", "xi"]
     },
     {
       "round": 3,
-      "questionId": "shakespeare:lacks:t",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with no letter T in its title",
-      "size": 8,
-      "answers": ["coriolanus", "cymbeline", "julius-caesar", "king-john", "king-lear", "measure-for-measure", "the-comedy-of-errors", "the-merry-wives-of-windsor"]
+      "questionId": "film_series:tag:jurassic",
+      "datasetId": "film_series",
+      "prompt": "Name a Jurassic Park or Jurassic World film released before 2026",
+      "size": 7,
+      "answers": ["jurassic-jurassic-park", "jurassic-jurassic-park-iii", "jurassic-jurassic-world", "jurassic-jurassic-world-dominion", "jurassic-jurassic-world-fallen-kingdom", "jurassic-jurassic-world-rebirth", "jurassic-the-lost-world-jurassic-park"]
     },
     {
       "round": 4,
-      "questionId": "mountains:tag:karakoram",
-      "datasetId": "mountains",
-      "prompt": "Name one of the four 8,000-meter peaks in the Karakoram (Pakistan)",
+      "questionId": "calendar:tag:weekday",
+      "datasetId": "calendar",
+      "prompt": "Name a weekday (Monday to Friday)",
       "size": 5,
-      "answers": ["broad-peak", "gasherbrum-i", "gasherbrum-ii", "k2", "nanga-parbat"]
+      "answers": ["friday", "monday", "thursday", "tuesday", "wednesday"]
     },
     {
       "round": 5,
-      "questionId": "india_states:contains:o@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with the letter O in its name",
-      "size": 3,
-      "answers": ["goa", "mizoram", "odisha"]
+      "questionId": "nato_alphabet:contains:u",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter U",
+      "size": 4,
+      "answers": ["juliett", "quebec", "uniform", "zulu"]
     },
     {
       "round": 6,
-      "questionId": "countries:starts:u@continent:asia",
-      "datasetId": "countries",
-      "prompt": "Name an Asian country that starts with the letter U",
-      "size": 2,
-      "answers": ["united-arab-emirates", "uzbekistan"]
+      "questionId": "constellations:contains:q",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation with the letter Q in its name",
+      "size": 3,
+      "answers": ["aquarius", "aquila", "equuleus"]
     }
   ]
 }

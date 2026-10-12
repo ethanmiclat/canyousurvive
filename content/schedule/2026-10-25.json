@@ -2,55 +2,55 @@
   "date": "2026-10-25",
   "approved": false,
   "activity": "bomb-wires",
-  "winRate": 0.2583,
+  "winRate": 0.6247,
   "rounds": [
     {
       "round": 1,
-      "questionId": "countries:lacks:u",
-      "datasetId": "countries",
-      "prompt": "Name a country with no letter U in its name",
-      "size": 133,
-      "answers": ["afghanistan", "albania", "algeria", "andorra", "angola", "argentina", "armenia", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belize", "benin", "bolivia", "bosnia-and-herzegovina", "botswana", "brazil", "cabo-verde", "cambodia", "cameroon", "canada", "chad", "chile", "china", "colombia", "comoros", "costa-rica", "cote-d-ivoire", "croatia", "denmark", "dominica", "egypt", "el-salvador", "eritrea", "estonia", "eswatini", "ethiopia", "fiji", "finland", "france", "gabon", "gambia", "georgia", "germany", "ghana", "greece", "grenada", "haiti", "iceland", "india", "indonesia", "iran", "iraq", "israel", "italy", "jamaica", "japan", "jordan", "kazakhstan", "kenya", "kiribati", "kyrgyzstan", "laos", "latvia", "lebanon", "lesotho", "liberia", "libya", "liechtenstein", "madagascar", "malawi", "malaysia", "maldives", "mali", "malta", "marshall-islands", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "morocco", "namibia", "nepal", "netherlands", "new-zealand", "niger", "nigeria", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palestine", "panama", "philippines", "poland", "qatar", "romania", "rwanda", "saint-kitts-and-nevis", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "sao-tome-and-principe", "senegal", "serbia", "seychelles", "sierra-leone", "singapore", "slovakia", "slovenia", "solomon-islands", "somalia", "spain", "sri-lanka", "sweden", "switzerland", "syria", "tajikistan", "tanzania", "thailand", "timor-leste", "togo", "tonga", "trinidad-and-tobago", "vatican-city", "vietnam", "yemen", "zambia", "zimbabwe"]
+      "questionId": "pokemon_gen2:lacks:f",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter F in its name",
+      "size": 88,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "corsola", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wooper", "xatu", "yanma"]
     },
     {
       "round": 2,
-      "questionId": "mlb:all",
-      "datasetId": "mlb",
-      "prompt": "Name an MLB team",
-      "size": 30,
-      "answers": ["arizona-diamondbacks", "athletics", "atlanta-braves", "baltimore-orioles", "boston-red-sox", "chicago-cubs", "chicago-white-sox", "cincinnati-reds", "cleveland-guardians", "colorado-rockies", "detroit-tigers", "houston-astros", "kansas-city-royals", "los-angeles-angels", "los-angeles-dodgers", "miami-marlins", "milwaukee-brewers", "minnesota-twins", "new-york-mets", "new-york-yankees", "philadelphia-phillies", "pittsburgh-pirates", "san-diego-padres", "san-francisco-giants", "seattle-mariners", "st-louis-cardinals", "tampa-bay-rays", "texas-rangers", "toronto-blue-jays", "washington-nationals"]
+      "questionId": "greek_alphabet:all",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a letter of the Greek alphabet",
+      "size": 24,
+      "answers": ["alpha", "beta", "chi", "delta", "epsilon", "eta", "gamma", "iota", "kappa", "lambda", "mu", "nu", "omega", "omicron", "phi", "pi", "psi", "rho", "sigma", "tau", "theta", "upsilon", "xi", "zeta"]
     },
     {
       "round": 3,
-      "questionId": "canada:tag:province",
-      "datasetId": "canada",
-      "prompt": "Name a Canadian province (not a territory)",
-      "size": 10,
-      "answers": ["alberta", "british-columbia", "manitoba", "new-brunswick", "newfoundland-and-labrador", "nova-scotia", "ontario", "prince-edward-island", "quebec", "saskatchewan"]
+      "questionId": "constellations:starts:s",
+      "datasetId": "constellations",
+      "prompt": "Name a constellation that starts with the letter S",
+      "size": 7,
+      "answers": ["sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans"]
     },
     {
       "round": 4,
-      "questionId": "geography:tag:great-lake",
-      "datasetId": "geography",
-      "prompt": "Name one of the Great Lakes",
+      "questionId": "calendar:contains:u@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter U in its name",
       "size": 5,
-      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior"]
+      "answers": ["august", "february", "january", "july", "june"]
     },
     {
       "round": 5,
-      "questionId": "shakespeare:lacks:e",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with no letter E in its title",
+      "questionId": "greek_myth:contains:p@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter P in their Greek name",
       "size": 4,
-      "answers": ["coriolanus", "king-john", "much-ado-about-nothing", "titus-andronicus"]
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-hephaestus", "olympian-poseidon"]
     },
     {
       "round": 6,
-      "questionId": "calendar:contains:e@day",
-      "datasetId": "calendar",
-      "prompt": "Name a day of the week with the letter E in its name",
-      "size": 2,
-      "answers": ["tuesday", "wednesday"]
+      "questionId": "board_games:starts:v@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter V",
+      "size": 3,
+      "answers": ["monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
     }
   ]
 }

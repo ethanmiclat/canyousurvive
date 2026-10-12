@@ -2,55 +2,55 @@
   "date": "2026-11-15",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.2182,
+  "winRate": 0.6449,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:all",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible (the 66-book Protestant canon)",
-      "size": 66,
-      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah", "zephaniah"]
+      "questionId": "pokemon_gen1:lacks:o",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with no letter O in its name",
+      "size": 76,
+      "answers": ["abra", "alakazam", "arcanine", "beedrill", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "clefable", "clefairy", "diglett", "dratini", "eevee", "ekans", "electabuzz", "exeggcute", "farfetch-d", "gastly", "gengar", "graveler", "grimer", "haunter", "ivysaur", "jigglypuff", "jynx", "kadabra", "kakuna", "kangaskhan", "kingler", "krabby", "lapras", "lickitung", "machamp", "magikarp", "magmar", "magnemite", "mankey", "mew", "mr-mime", "muk", "ninetales", "paras", "parasect", "persian", "pidgey", "pikachu", "pinsir", "primeape", "psyduck", "raichu", "rapidash", "raticate", "rattata", "sandshrew", "sandslash", "scyther", "seadra", "seaking", "seel", "shellder", "squirtle", "starmie", "staryu", "tangela", "tentacruel", "venusaur", "victreebel", "vileplume", "vulpix", "weedle", "weepinbell", "weezing", "wigglytuff", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "greek_alphabet:all",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a letter of the Greek alphabet",
-      "size": 24,
-      "answers": ["alpha", "beta", "chi", "delta", "epsilon", "eta", "gamma", "iota", "kappa", "lambda", "mu", "nu", "omega", "omicron", "phi", "pi", "psi", "rho", "sigma", "tau", "theta", "upsilon", "xi", "zeta"]
+      "questionId": "si_units:tag:prefix+small",
+      "datasetId": "si_units",
+      "prompt": "Name an SI prefix for a fraction smaller than one (deci- and down)",
+      "size": 12,
+      "answers": ["prefix-atto", "prefix-centi", "prefix-deci", "prefix-femto", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-quecto", "prefix-ronto", "prefix-yocto", "prefix-zepto"]
     },
     {
       "round": 3,
-      "questionId": "calendar:contains:r@month",
-      "datasetId": "calendar",
-      "prompt": "Name a month with the letter R in its name",
+      "questionId": "greek_myth:contains:s@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter S in their Greek name",
       "size": 8,
-      "answers": ["april", "december", "february", "january", "march", "november", "october", "september"]
+      "answers": ["olympian-ares", "olympian-artemis", "olympian-dionysus", "olympian-hephaestus", "olympian-hermes", "olympian-hestia", "olympian-poseidon", "olympian-zeus"]
     },
     {
       "round": 4,
-      "questionId": "famous_groups:tag:beatle",
-      "datasetId": "famous_groups",
-      "prompt": "Name a member of the Beatles (the famous four)",
-      "size": 4,
-      "answers": ["beatle-george-harrison", "beatle-john-lennon", "beatle-paul-mccartney", "beatle-ringo-starr"]
+      "questionId": "board_games:tag:chess",
+      "datasetId": "board_games",
+      "prompt": "Name a chess piece",
+      "size": 6,
+      "answers": ["chess-bishop", "chess-king", "chess-knight", "chess-pawn", "chess-queen", "chess-rook"]
     },
     {
       "round": 5,
-      "questionId": "pokemon_gen1:tag:type:dragon",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name a Dragon-type Pokémon from the original 151 (current typings)",
-      "size": 3,
-      "answers": ["dragonair", "dragonite", "dratini"]
+      "questionId": "nba:tag:div:central",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Central Division",
+      "size": 5,
+      "answers": ["chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "milwaukee-bucks"]
     },
     {
       "round": 6,
-      "questionId": "pixar:contains:v",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter V in its title",
-      "size": 2,
-      "answers": ["brave", "monsters-university"]
+      "questionId": "zodiac:contains:s@chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name a Chinese zodiac animal with the letter S in it",
+      "size": 3,
+      "answers": ["chinese-horse", "chinese-rooster", "chinese-snake"]
     }
   ]
 }

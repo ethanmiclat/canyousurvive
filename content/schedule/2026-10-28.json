@@ -2,55 +2,55 @@
   "date": "2026-10-28",
   "approved": false,
   "activity": "spin-the-wheel",
-  "winRate": 0.2127,
+  "winRate": 0.6185,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:range:number:1-100",
-      "datasetId": "elements",
-      "prompt": "Name an element with atomic number 100 or less",
-      "size": 100,
-      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "boron", "bromine", "cadmium", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copper", "curium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+      "questionId": "national_parks:lacks:b",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter B in its name",
+      "size": 54,
+      "answers": ["acadia", "american-samoa", "arches", "canyonlands", "capitol-reef", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "grand-canyon", "grand-teton", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
     },
     {
       "round": 2,
-      "questionId": "space:any:planet+dwarf",
-      "datasetId": "space",
-      "prompt": "Name a planet or one of the five recognized dwarf planets",
-      "size": 13,
-      "answers": ["ceres", "earth", "eris", "haumea", "jupiter", "makemake", "mars", "mercury", "neptune", "pluto", "saturn", "uranus", "venus"]
+      "questionId": "mountains:all",
+      "datasetId": "mountains",
+      "prompt": "Name one of the 14 mountains over 8,000 meters",
+      "size": 14,
+      "answers": ["annapurna", "broad-peak", "cho-oyu", "dhaulagiri", "gasherbrum-i", "gasherbrum-ii", "k2", "kangchenjunga", "lhotse", "makalu", "manaslu", "mount-everest", "nanga-parbat", "shishapangma"]
     },
     {
       "round": 3,
-      "questionId": "bible_books:contains:p~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with the letter P in its name (ignore any number in front)",
+      "questionId": "amino_acids:contains:s",
+      "datasetId": "amino_acids",
+      "prompt": "Name a standard amino acid with the letter S in its name",
       "size": 8,
-      "answers": ["1-peter", "2-peter", "ephesians", "philemon", "philippians", "proverbs", "psalms", "zephaniah"]
+      "answers": ["asparagine", "aspartic-acid", "cysteine", "histidine", "isoleucine", "lysine", "serine", "tyrosine"]
     },
     {
       "round": 4,
-      "questionId": "famous_groups:tag:golden-girl",
+      "questionId": "famous_groups:tag:simpsons",
       "datasetId": "famous_groups",
-      "prompt": "Name one of The Golden Girls",
-      "size": 4,
-      "answers": ["golden-girl-blanche-devereaux", "golden-girl-dorothy-zbornak", "golden-girl-rose-nylund", "golden-girl-sophia-petrillo"]
+      "prompt": "Name a member of the Simpson family (Homer's household)",
+      "size": 5,
+      "answers": ["simpsons-bart-simpson", "simpsons-homer-simpson", "simpsons-lisa-simpson", "simpsons-maggie-simpson", "simpsons-marge-simpson"]
     },
     {
       "round": 5,
-      "questionId": "world_capitals:starts:c@continent:africa",
-      "datasetId": "world_capitals",
-      "prompt": "Name an African capital that starts with the letter C",
-      "size": 3,
-      "answers": ["cairo", "cape-town", "conakry"]
+      "questionId": "bible_books:tag:gospel",
+      "datasetId": "bible_books",
+      "prompt": "Name one of the four Gospels",
+      "size": 4,
+      "answers": ["john", "luke", "mark", "matthew"]
     },
     {
       "round": 6,
-      "questionId": "state_capitals:starts:o",
-      "datasetId": "state_capitals",
-      "prompt": "Name a US state capital that starts with the letter O",
-      "size": 2,
-      "answers": ["oklahoma-city", "olympia"]
+      "questionId": "shakespeare:contains:p",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter P in its title",
+      "size": 3,
+      "answers": ["antony-and-cleopatra", "pericles", "the-tempest"]
     }
   ]
 }

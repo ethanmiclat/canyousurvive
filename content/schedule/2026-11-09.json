@@ -2,55 +2,55 @@
   "date": "2026-11-09",
   "approved": false,
   "activity": "poison-cups",
-  "winRate": 0.2586,
+  "winRate": 0.6193,
   "rounds": [
     {
       "round": 1,
-      "questionId": "elements:lacks:d",
-      "datasetId": "elements",
-      "prompt": "Name an element with no letter D in its name",
-      "size": 94,
-      "answers": ["actinium", "aluminium", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "caesium", "calcium", "californium", "carbon", "cerium", "chlorine", "chromium", "cobalt", "copernicium", "copper", "curium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "francium", "gallium", "germanium", "hafnium", "hassium", "helium", "holmium", "iron", "krypton", "lanthanum", "lawrencium", "lithium", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mercury", "moscovium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "oganesson", "osmium", "oxygen", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "promethium", "protactinium", "rhenium", "roentgenium", "ruthenium", "samarium", "seaborgium", "selenium", "silicon", "silver", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "tennessine", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
+      "questionId": "numbers:range:n:1-60",
+      "datasetId": "numbers",
+      "prompt": "Name a whole number from 1 to 60",
+      "size": 60,
+      "answers": ["n1", "n10", "n11", "n12", "n13", "n14", "n15", "n16", "n17", "n18", "n19", "n2", "n20", "n21", "n22", "n23", "n24", "n25", "n26", "n27", "n28", "n29", "n3", "n30", "n31", "n32", "n33", "n34", "n35", "n36", "n37", "n38", "n39", "n4", "n40", "n41", "n42", "n43", "n44", "n45", "n46", "n47", "n48", "n49", "n5", "n50", "n51", "n52", "n53", "n54", "n55", "n56", "n57", "n58", "n59", "n6", "n60", "n7", "n8", "n9"]
     },
     {
       "round": 2,
-      "questionId": "shakespeare:lacks:y",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with no letter Y in its title",
-      "size": 25,
-      "answers": ["a-midsummer-night-s-dream", "all-s-well-that-ends-well", "coriolanus", "hamlet", "julius-caesar", "king-john", "king-lear", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "much-ado-about-nothing", "othello", "richard-ii", "richard-iii", "romeo-and-juliet", "the-merchant-of-venice", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "the-winter-s-tale", "timon-of-athens", "titus-andronicus", "troilus-and-cressida", "twelfth-night"]
+      "questionId": "world_cup:tag:mh",
+      "datasetId": "world_cup",
+      "prompt": "Name a country that has hosted (or co-hosted) the men's FIFA World Cup, through 2026",
+      "size": 19,
+      "answers": ["argentina", "brazil", "canada", "chile", "england", "france", "germany", "italy", "japan", "mexico", "qatar", "russia", "south-africa", "south-korea", "spain", "sweden", "switzerland", "united-states", "uruguay"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:div:central",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Central Division",
-      "size": 8,
-      "answers": ["chicago-blackhawks", "colorado-avalanche", "dallas-stars", "minnesota-wild", "nashville-predators", "st-louis-blues", "utah-mammoth", "winnipeg-jets"]
+      "questionId": "harry_potter:tag:book",
+      "datasetId": "harry_potter",
+      "prompt": "Name one of the seven main Harry Potter books",
+      "size": 7,
+      "answers": ["book-harry-potter-and-the-chamber-of-secrets", "book-harry-potter-and-the-deathly-hallows", "book-harry-potter-and-the-goblet-of-fire", "book-harry-potter-and-the-half-blood-prince", "book-harry-potter-and-the-order-of-the-phoenix", "book-harry-potter-and-the-philosopher-s-stone", "book-harry-potter-and-the-prisoner-of-azkaban"]
     },
     {
       "round": 4,
-      "questionId": "constellations:contains:y",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation with the letter Y in its name",
-      "size": 6,
-      "answers": ["cygnus", "hydra", "hydrus", "lynx", "lyra", "pyxis"]
+      "questionId": "alphabet:tag:vowel",
+      "datasetId": "alphabet",
+      "prompt": "Name a vowel (A, E, I, O or U)",
+      "size": 5,
+      "answers": ["letter-a", "letter-e", "letter-i", "letter-o", "letter-u"]
     },
     {
       "round": 5,
-      "questionId": "famous_groups:tag:teletubby",
-      "datasetId": "famous_groups",
-      "prompt": "Name a Teletubby",
+      "questionId": "space:lacks:n@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter N in its name",
       "size": 4,
-      "answers": ["teletubby-dipsy", "teletubby-laa-laa", "teletubby-po", "teletubby-tinky-winky"]
+      "answers": ["earth", "jupiter", "mars", "mercury"]
     },
     {
       "round": 6,
-      "questionId": "nato_alphabet:contains:x",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter X",
-      "size": 2,
-      "answers": ["foxtrot", "x-ray"]
+      "questionId": "national_parks:starts:w",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park that starts with the letter W",
+      "size": 3,
+      "answers": ["white-sands", "wind-cave", "wrangell-st-elias"]
     }
   ]
 }

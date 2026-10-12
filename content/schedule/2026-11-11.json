@@ -2,55 +2,55 @@
   "date": "2026-11-11",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.2197,
+  "winRate": 0.6212,
   "rounds": [
     {
       "round": 1,
-      "questionId": "numbers:range:n:1-200@even",
-      "datasetId": "numbers",
-      "prompt": "Name an even number from 1 to 200",
-      "size": 100,
-      "answers": ["n10", "n100", "n102", "n104", "n106", "n108", "n110", "n112", "n114", "n116", "n118", "n12", "n120", "n122", "n124", "n126", "n128", "n130", "n132", "n134", "n136", "n138", "n14", "n140", "n142", "n144", "n146", "n148", "n150", "n152", "n154", "n156", "n158", "n16", "n160", "n162", "n164", "n166", "n168", "n170", "n172", "n174", "n176", "n178", "n18", "n180", "n182", "n184", "n186", "n188", "n190", "n192", "n194", "n196", "n198", "n2", "n20", "n200", "n22", "n24", "n26", "n28", "n30", "n32", "n34", "n36", "n38", "n4", "n40", "n42", "n44", "n46", "n48", "n50", "n52", "n54", "n56", "n58", "n6", "n60", "n62", "n64", "n66", "n68", "n70", "n72", "n74", "n76", "n78", "n8", "n80", "n82", "n84", "n86", "n88", "n90", "n92", "n94", "n96", "n98"]
+      "questionId": "elements:contains:e",
+      "datasetId": "elements",
+      "prompt": "Name an element with the letter E in its name",
+      "size": 55,
+      "answers": ["americium", "arsenic", "astatine", "berkelium", "beryllium", "bromine", "caesium", "cerium", "chlorine", "copernicium", "copper", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "germanium", "helium", "hydrogen", "iodine", "lawrencium", "lead", "livermorium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "nitrogen", "nobelium", "oganesson", "oxygen", "praseodymium", "promethium", "rhenium", "roentgenium", "ruthenium", "rutherfordium", "seaborgium", "selenium", "silver", "technetium", "tellurium", "tennessine", "terbium", "tungsten", "xenon", "ytterbium"]
     },
     {
       "round": 2,
-      "questionId": "alphabet:range:pos:1-13",
-      "datasetId": "alphabet",
-      "prompt": "Name a letter in the first half of the alphabet (A to M)",
-      "size": 13,
-      "answers": ["letter-a", "letter-b", "letter-c", "letter-d", "letter-e", "letter-f", "letter-g", "letter-h", "letter-i", "letter-j", "letter-k", "letter-l", "letter-m"]
+      "questionId": "tarot:all",
+      "datasetId": "tarot",
+      "prompt": "Name a card of the tarot's Major Arcana",
+      "size": 22,
+      "answers": ["death", "judgement", "justice", "strength", "temperance", "the-chariot", "the-devil", "the-emperor", "the-empress", "the-fool", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-magician", "the-moon", "the-star", "the-sun", "the-tower", "the-world", "wheel-of-fortune"]
     },
     {
       "round": 3,
-      "questionId": "german_states:contains:i",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with the letter I in its English name",
+      "questionId": "greek_alphabet:contains:p",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter P in its name",
       "size": 7,
-      "answers": ["bavaria", "berlin", "mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate", "schleswig-holstein", "thuringia"]
+      "answers": ["alpha", "epsilon", "kappa", "phi", "pi", "psi", "upsilon"]
     },
     {
       "round": 4,
-      "questionId": "india_states:tag:pradesh",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with \"Pradesh\" in its name",
+      "questionId": "nato_alphabet:contains:n",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter N",
       "size": 5,
-      "answers": ["andhra-pradesh", "arunachal-pradesh", "himachal-pradesh", "madhya-pradesh", "uttar-pradesh"]
+      "answers": ["india", "november", "tango", "uniform", "yankee"]
     },
     {
       "round": 5,
-      "questionId": "zodiac:contains:i@chinese",
-      "datasetId": "zodiac",
-      "prompt": "Name a Chinese zodiac animal with the letter I in it",
-      "size": 3,
-      "answers": ["chinese-pig", "chinese-rabbit", "chinese-tiger"]
+      "questionId": "nfl:tag:div:afc-north",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the AFC North",
+      "size": 4,
+      "answers": ["baltimore-ravens", "cincinnati-bengals", "cleveland-browns", "pittsburgh-steelers"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:g~surname",
+      "questionId": "us_presidents:starts:b~first",
       "datasetId": "us_presidents",
-      "prompt": "Name a US president whose last name starts with the letter G",
-      "size": 2,
-      "answers": ["james-a-garfield", "ulysses-s-grant"]
+      "prompt": "Name a US president whose first name starts with the letter B",
+      "size": 3,
+      "answers": ["barack-obama", "benjamin-harrison", "bill-clinton"]
     }
   ]
 }

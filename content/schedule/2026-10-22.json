@@ -2,55 +2,55 @@
   "date": "2026-10-22",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.2884,
+  "winRate": 0.6432,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:lacks:c~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with no letter C in its name (ignore any number in front)",
-      "size": 55,
-      "answers": ["1-john", "1-kings", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-john", "2-kings", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "amos", "daniel", "deuteronomy", "ephesians", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "luke", "mark", "matthew", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zephaniah"]
+      "questionId": "countries:lacks:y",
+      "datasetId": "countries",
+      "prompt": "Name a country with no letter Y in its name",
+      "size": 175,
+      "answers": ["afghanistan", "albania", "algeria", "andorra", "angola", "antigua-and-barbuda", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belarus", "belgium", "belize", "benin", "bhutan", "bolivia", "bosnia-and-herzegovina", "botswana", "brazil", "brunei", "bulgaria", "burkina-faso", "burundi", "cabo-verde", "cambodia", "cameroon", "canada", "central-african-republic", "chad", "chile", "china", "colombia", "comoros", "costa-rica", "croatia", "cuba", "czechia", "democratic-republic-of-the-congo", "denmark", "djibouti", "dominica", "dominican-republic", "ecuador", "el-salvador", "equatorial-guinea", "eritrea", "estonia", "eswatini", "ethiopia", "fiji", "finland", "france", "gabon", "gambia", "georgia", "ghana", "greece", "grenada", "guatemala", "guinea", "guinea-bissau", "haiti", "honduras", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "israel", "jamaica", "japan", "jordan", "kazakhstan", "kiribati", "kuwait", "laos", "latvia", "lebanon", "lesotho", "liberia", "liechtenstein", "lithuania", "luxembourg", "madagascar", "malawi", "maldives", "mali", "malta", "marshall-islands", "mauritania", "mauritius", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "morocco", "mozambique", "namibia", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "niger", "nigeria", "north-korea", "north-macedonia", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "peru", "philippines", "poland", "portugal", "qatar", "republic-of-the-congo", "romania", "russia", "rwanda", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "sao-tome-and-principe", "saudi-arabia", "senegal", "serbia", "sierra-leone", "singapore", "slovakia", "slovenia", "solomon-islands", "somalia", "south-africa", "south-korea", "south-sudan", "spain", "sri-lanka", "sudan", "suriname", "sweden", "switzerland", "tajikistan", "tanzania", "thailand", "timor-leste", "togo", "tonga", "trinidad-and-tobago", "tunisia", "turkmenistan", "tuvalu", "uganda", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uzbekistan", "vanuatu", "venezuela", "vietnam", "zambia", "zimbabwe"]
     },
     {
       "round": 2,
-      "questionId": "elements:tag:lanthanide",
-      "datasetId": "elements",
-      "prompt": "Name a lanthanide",
-      "size": 15,
-      "answers": ["cerium", "dysprosium", "erbium", "europium", "gadolinium", "holmium", "lanthanum", "lutetium", "neodymium", "praseodymium", "promethium", "samarium", "terbium", "thulium", "ytterbium"]
+      "questionId": "national_parks:lacks:i",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park with no letter I in its name",
+      "size": 28,
+      "answers": ["arches", "badlands", "bryce-canyon", "canyonlands", "carlsbad-caverns", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "dry-tortugas", "everglades", "gateway-arch", "grand-canyon", "grand-teton", "great-sand-dunes", "haleakala", "joshua-tree", "kobuk-valley", "lake-clark", "mammoth-cave", "mesa-verde", "north-cascades", "redwood", "saguaro", "shenandoah", "theodore-roosevelt", "voyageurs", "yellowstone"]
     },
     {
       "round": 3,
-      "questionId": "us_presidents:range:start:1981-2025",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president who first took office in 1981 or later",
-      "size": 7,
-      "answers": ["barack-obama", "bill-clinton", "donald-trump", "george-h-w-bush", "george-w-bush", "joe-biden", "ronald-reagan"]
+      "questionId": "shakespeare:lacks:i",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with no letter I in its title",
+      "size": 10,
+      "answers": ["all-s-well-that-ends-well", "antony-and-cleopatra", "hamlet", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "othello", "the-comedy-of-errors", "the-tempest", "the-two-gentlemen-of-verona"]
     },
     {
       "round": 4,
-      "questionId": "famous_groups:tag:simpsons",
-      "datasetId": "famous_groups",
-      "prompt": "Name a member of the Simpson family (Homer's household)",
+      "questionId": "german_states:contains:u",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with the letter U in its English name",
       "size": 5,
-      "answers": ["simpsons-bart-simpson", "simpsons-homer-simpson", "simpsons-lisa-simpson", "simpsons-maggie-simpson", "simpsons-marge-simpson"]
+      "answers": ["baden-wurttemberg", "brandenburg", "hamburg", "mecklenburg-western-pomerania", "thuringia"]
     },
     {
       "round": 5,
-      "questionId": "olympics:tag:winter+continent:asia",
-      "datasetId": "olympics",
-      "prompt": "Name an Asian city that has hosted the Winter Olympics",
+      "questionId": "famous_groups:tag:golden-girl",
+      "datasetId": "famous_groups",
+      "prompt": "Name one of The Golden Girls",
       "size": 4,
-      "answers": ["beijing", "nagano", "pyeongchang", "sapporo"]
+      "answers": ["golden-girl-blanche-devereaux", "golden-girl-dorothy-zbornak", "golden-girl-rose-nylund", "golden-girl-sophia-petrillo"]
     },
     {
       "round": 6,
-      "questionId": "amino_acids:starts:t",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid that starts with the letter T",
+      "questionId": "pixar:contains:f",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter F in its title",
       "size": 3,
-      "answers": ["threonine", "tryptophan", "tyrosine"]
+      "answers": ["a-bug-s-life", "finding-dory", "finding-nemo"]
     }
   ]
 }

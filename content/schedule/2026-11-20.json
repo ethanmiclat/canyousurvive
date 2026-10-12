@@ -2,55 +2,55 @@
   "date": "2026-11-20",
   "approved": false,
   "activity": "draw-straws",
-  "winRate": 0.2455,
+  "winRate": 0.6406,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:lacks:p~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with no letter P in its name (ignore any number in front)",
-      "size": 58,
-      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "esther", "exodus", "ezekiel", "ezra", "galatians", "genesis", "habakkuk", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "judges", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "revelation", "romans", "ruth", "song-of-solomon", "titus", "zechariah"]
+      "questionId": "pokemon_gen1:lacks:k",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with no letter K in its name",
+      "size": 128,
+      "answers": ["abra", "aerodactyl", "arcanine", "articuno", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "chansey", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "cubone", "dewgong", "diglett", "ditto", "dodrio", "doduo", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "eevee", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gastly", "gengar", "geodude", "gloom", "golbat", "goldeen", "golem", "graveler", "grimer", "growlithe", "gyarados", "haunter", "hitmonchan", "hitmonlee", "horsea", "hypno", "ivysaur", "jigglypuff", "jolteon", "jynx", "lapras", "machamp", "machop", "magmar", "magnemite", "magneton", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "omanyte", "omastar", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pinsir", "poliwag", "poliwhirl", "poliwrath", "ponyta", "porygon", "primeape", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "sandslash", "scyther", "seadra", "seel", "shellder", "slowbro", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tangela", "tauros", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "weezing", "wigglytuff", "zapdos", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "nato_alphabet:range:pos:14-26",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word for a letter from N to Z",
-      "size": 13,
-      "answers": ["november", "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform", "victor", "whiskey", "x-ray", "yankee", "zulu"]
+      "questionId": "zodiac:tag:western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign",
+      "size": 12,
+      "answers": ["aquarius", "aries", "cancer", "capricorn", "gemini", "leo", "libra", "pisces", "sagittarius", "scorpio", "taurus", "virgo"]
     },
     {
       "round": 3,
-      "questionId": "calendar:lacks:u@month",
-      "datasetId": "calendar",
-      "prompt": "Name a month with no letter U in its name",
+      "questionId": "best_picture:starts:b",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner whose title starts with the letter B (ignore \"The\")",
       "size": 7,
-      "answers": ["april", "december", "march", "may", "november", "october", "september"]
+      "answers": ["a-beautiful-mind", "ben-hur", "birdman", "braveheart", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody"]
     },
     {
       "round": 4,
-      "questionId": "nhl:tag:original-six",
-      "datasetId": "nhl",
-      "prompt": "Name one of the NHL's Original Six teams",
+      "questionId": "board_games:tag:clue-suspect",
+      "datasetId": "board_games",
+      "prompt": "Name one of the six classic Clue (Cluedo) suspects",
       "size": 6,
-      "answers": ["boston-bruins", "chicago-blackhawks", "detroit-red-wings", "montreal-canadiens", "new-york-rangers", "toronto-maple-leafs"]
+      "answers": ["clue-colonel-mustard", "clue-miss-scarlett", "clue-mrs-peacock", "clue-mrs-white", "clue-professor-plum", "clue-reverend-green"]
     },
     {
       "round": 5,
-      "questionId": "greek_alphabet:contains:n",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter N in its name",
-      "size": 4,
-      "answers": ["epsilon", "nu", "omicron", "upsilon"]
+      "questionId": "greek_myth:contains:i@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter I in their Greek name",
+      "size": 5,
+      "answers": ["olympian-aphrodite", "olympian-artemis", "olympian-dionysus", "olympian-hestia", "olympian-poseidon"]
     },
     {
       "round": 6,
-      "questionId": "pixar:contains:w",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter W in its title",
-      "size": 2,
-      "answers": ["onward", "wall-e"]
+      "questionId": "national_parks:starts:d",
+      "datasetId": "national_parks",
+      "prompt": "Name a US national park that starts with the letter D",
+      "size": 3,
+      "answers": ["death-valley", "denali", "dry-tortugas"]
     }
   ]
 }

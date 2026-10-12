@@ -2,55 +2,55 @@
   "date": "2026-11-08",
   "approved": false,
   "activity": "stop-the-needle",
-  "winRate": 0.2928,
+  "winRate": 0.6363,
   "rounds": [
     {
       "round": 1,
-      "questionId": "national_parks:lacks:b",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park with no letter B in its name",
-      "size": 54,
-      "answers": ["acadia", "american-samoa", "arches", "canyonlands", "capitol-reef", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "grand-canyon", "grand-teton", "great-sand-dunes", "great-smoky-mountains", "guadalupe-mountains", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "katmai", "kenai-fjords", "kings-canyon", "lake-clark", "lassen-volcanic", "mammoth-cave", "mesa-verde", "mount-rainier", "new-river-gorge", "north-cascades", "olympic", "petrified-forest", "pinnacles", "redwood", "rocky-mountain", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "yosemite", "zion"]
+      "questionId": "pokemon_gen1:contains:e",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with the letter E in its name",
+      "size": 84,
+      "answers": ["aerodactyl", "arcanine", "beedrill", "bellsprout", "blastoise", "butterfree", "caterpie", "chansey", "charmander", "charmeleon", "clefable", "clefairy", "cloyster", "cubone", "dewgong", "diglett", "dragonite", "drowzee", "eevee", "ekans", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gengar", "geodude", "goldeen", "golem", "graveler", "grimer", "growlithe", "haunter", "hitmonlee", "horsea", "jolteon", "kingler", "machoke", "magnemite", "magneton", "mankey", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "nidoqueen", "nidoran-f", "nidoran-m", "ninetales", "omanyte", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "primeape", "raticate", "sandshrew", "scyther", "seadra", "seaking", "seel", "shellder", "slowpoke", "spearow", "squirtle", "starmie", "tangela", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "wartortle", "weedle", "weepinbell", "weezing"]
     },
     {
       "round": 2,
-      "questionId": "nba:tag:conf:west",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Western Conference",
-      "size": 15,
-      "answers": ["dallas-mavericks", "denver-nuggets", "golden-state-warriors", "houston-rockets", "los-angeles-clippers", "los-angeles-lakers", "memphis-grizzlies", "minnesota-timberwolves", "new-orleans-pelicans", "oklahoma-city-thunder", "phoenix-suns", "portland-trail-blazers", "sacramento-kings", "san-antonio-spurs", "utah-jazz"]
+      "questionId": "amino_acids:all",
+      "datasetId": "amino_acids",
+      "prompt": "Name one of the 20 standard amino acids",
+      "size": 20,
+      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid", "cysteine", "glutamic-acid", "glutamine", "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan", "tyrosine", "valine"]
     },
     {
       "round": 3,
-      "questionId": "tarot:contains:h",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter H in its name",
-      "size": 8,
-      "answers": ["death", "strength", "the-chariot", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "wheel-of-fortune"]
+      "questionId": "best_picture:range:year:1950-1959",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner released in the 1950s",
+      "size": 10,
+      "answers": ["all-about-eve", "an-american-in-paris", "around-the-world-in-80-days", "ben-hur", "from-here-to-eternity", "gigi", "marty", "on-the-waterfront", "the-bridge-on-the-river-kwai", "the-greatest-show-on-earth"]
     },
     {
       "round": 4,
-      "questionId": "world_cup:tag:ww",
-      "datasetId": "world_cup",
-      "prompt": "Name a nation that has won the FIFA Women's World Cup (through 2023)",
+      "questionId": "shakespeare:contains:b",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter B in its title",
       "size": 5,
-      "answers": ["germany", "japan", "norway", "spain", "united-states"]
+      "answers": ["cymbeline", "love-s-labour-s-lost", "macbeth", "much-ado-about-nothing", "the-two-noble-kinsmen"]
     },
     {
       "round": 5,
-      "questionId": "mexico_states:contains:j",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with the letter J in its name",
+      "questionId": "german_states:lacks:a",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter A in its English name",
       "size": 4,
-      "answers": ["baja-california", "baja-california-sur", "guanajuato", "jalisco"]
+      "answers": ["berlin", "bremen", "hesse", "schleswig-holstein"]
     },
     {
       "round": 6,
-      "questionId": "board_games:starts:v@monopoly-street",
-      "datasetId": "board_games",
-      "prompt": "Name a classic US Monopoly street that starts with the letter V",
+      "questionId": "india_states:starts:t@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state that starts with the letter T",
       "size": 3,
-      "answers": ["monopoly-ventnor-avenue", "monopoly-vermont-avenue", "monopoly-virginia-avenue"]
+      "answers": ["tamil-nadu", "telangana", "tripura"]
     }
   ]
 }

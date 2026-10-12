@@ -2,55 +2,55 @@
   "date": "2026-11-17",
   "approved": false,
   "activity": "poison-cups",
-  "winRate": 0.2441,
+  "winRate": 0.6277,
   "rounds": [
     {
       "round": 1,
-      "questionId": "best_picture:contains:t",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner with the letter T in its title",
-      "size": 58,
-      "answers": ["12-years-a-slave", "a-beautiful-mind", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "around-the-world-in-80-days", "birdman", "braveheart", "chariots-of-fire", "dances-with-wolves", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gladiator", "gone-with-the-wind", "grand-hotel", "hamlet-1948", "in-the-heat-of-the-night", "it-happened-one-night", "marty", "midnight-cowboy", "moonlight", "mutiny-on-the-bounty", "no-country-for-old-men", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "out-of-africa", "parasite", "patton", "platoon", "schindler-s-list", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "the-sting", "titanic", "tom-jones", "west-side-story", "you-can-t-take-it-with-you"]
+      "questionId": "bible_books:lacks:g~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible with no letter G in its name (ignore any number in front)",
+      "size": 59,
+      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-peter", "1-samuel", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-peter", "2-samuel", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "deuteronomy", "ecclesiastes", "ephesians", "esther", "exodus", "ezekiel", "ezra", "habakkuk", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "joshua", "jude", "lamentations", "leviticus", "luke", "malachi", "mark", "matthew", "micah", "nahum", "nehemiah", "numbers", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "ruth", "titus", "zechariah", "zephaniah"]
     },
     {
       "round": 2,
-      "questionId": "olympics:tag:summer+continent:europe",
+      "questionId": "olympics:tag:winter",
       "datasetId": "olympics",
-      "prompt": "Name a European city that has hosted the Summer Olympics (through 2024)",
-      "size": 12,
-      "answers": ["amsterdam", "antwerp", "athens", "barcelona", "berlin", "helsinki", "london", "moscow", "munich", "paris", "rome", "stockholm"]
+      "prompt": "Name a city that has hosted the Winter Olympics (through 2026, co-hosts count)",
+      "size": 22,
+      "answers": ["albertville", "beijing", "calgary", "chamonix", "cortina-d-ampezzo", "garmisch-partenkirchen", "grenoble", "innsbruck", "lake-placid", "lillehammer", "milan", "nagano", "oslo", "pyeongchang", "salt-lake-city", "sapporo", "sarajevo", "sochi", "squaw-valley", "st-moritz", "turin", "vancouver"]
     },
     {
       "round": 3,
-      "questionId": "zodiac:lacks:e@western",
-      "datasetId": "zodiac",
-      "prompt": "Name a Western zodiac sign with no letter E in it",
-      "size": 7,
-      "answers": ["aquarius", "capricorn", "libra", "sagittarius", "scorpio", "taurus", "virgo"]
+      "questionId": "us_states:range:admitted:1890-1959",
+      "datasetId": "us_states",
+      "prompt": "Name a US state admitted in 1890 or later",
+      "size": 8,
+      "answers": ["alaska", "arizona", "hawaii", "idaho", "new-mexico", "oklahoma", "utah", "wyoming"]
     },
     {
       "round": 4,
-      "questionId": "film_series:tag:middle-earth",
-      "datasetId": "film_series",
-      "prompt": "Name one of Peter Jackson's Lord of the Rings or Hobbit films",
-      "size": 6,
-      "answers": ["middle-earth-the-hobbit-an-unexpected-journey", "middle-earth-the-hobbit-the-battle-of-the-five-armies", "middle-earth-the-hobbit-the-desolation-of-smaug", "middle-earth-the-lord-of-the-rings-the-fellowship-of-the-ring", "middle-earth-the-lord-of-the-rings-the-return-of-the-king", "middle-earth-the-lord-of-the-rings-the-two-towers"]
+      "questionId": "us_presidents:range:start:1789-1817",
+      "datasetId": "us_presidents",
+      "prompt": "Name one of the first five US presidents",
+      "size": 5,
+      "answers": ["george-washington", "james-madison", "james-monroe", "john-adams", "thomas-jefferson"]
     },
     {
       "round": 5,
-      "questionId": "amino_acids:contains:u",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid with the letter U in its name",
+      "questionId": "nfl:tag:div:nfc-north",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC North",
       "size": 4,
-      "answers": ["glutamic-acid", "glutamine", "isoleucine", "leucine"]
+      "answers": ["chicago-bears", "detroit-lions", "green-bay-packers", "minnesota-vikings"]
     },
     {
       "round": 6,
-      "questionId": "space:lacks:r@planet",
-      "datasetId": "space",
-      "prompt": "Name a planet with no letter R in its name",
-      "size": 2,
-      "answers": ["neptune", "venus"]
+      "questionId": "tarot:contains:w",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter W in its name",
+      "size": 3,
+      "answers": ["the-tower", "the-world", "wheel-of-fortune"]
     }
   ]
 }

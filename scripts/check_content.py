@@ -88,6 +88,7 @@ def check_schedule(dataset_ids):
     lo, hi = config["winRateGuard"]
     dates = schedule_dates()
     days = {d: load_schedule(d) for d in dates}
+    today = today_in_zone(config["timezone"])
     for d, day in days.items():
         where = f"schedule/{d}"
         if day.get("date") != d:
@@ -99,7 +100,8 @@ def check_schedule(dataset_ids):
         for r, band in zip(rounds, bands):
             if r["round"] != band["round"]:
                 errors.append(f"{where}: round order")
-            if not band["min"] <= r["size"] <= band["max"]:
+            # Days already played keep the bands they were generated under.
+            if d > today and not band["min"] <= r["size"] <= band["max"]:
                 errors.append(f"{where}: round {r['round']} size {r['size']} outside {band['min']}-{band['max']}")
             if r["size"] != len(r["answers"]) or len(set(r["answers"])) != len(r["answers"]):
                 errors.append(f"{where}: round {r['round']} size/answers mismatch")
@@ -132,7 +134,6 @@ def check_schedule(dataset_ids):
                         (warnings if day.get("relaxed") else errors).append(f"{where}: dataset {r['datasetId']} reused {gap} day(s) after {other_d}")
                     if gap < config["questionCooldownDays"] and o["questionId"] == r["questionId"]:
                         (warnings if day.get("relaxed") else errors).append(f"{where}: question {r['questionId']} reused {gap} day(s) after {other_d}")
-    today = today_in_zone(config["timezone"])
     missing = [add_days(today, i) for i in range(config["aheadDays"]) if add_days(today, i) not in days]
     if missing:
         warnings.append(f"only {config['aheadDays'] - len(missing)} of the next {config['aheadDays']} days are scheduled (missing from {missing[0]}); run `npm run content:generate`")

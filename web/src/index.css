@@ -1,5 +1,15 @@
 @import 'tailwindcss';
 
+/* Pixelify Sans draws 5 almost like S, so reading text takes its digits from Tiny5, where 2, 3, 5 and 8 stay
+   distinct. Tiny5 runs small, so the digits are scaled to sit level with Pixelify's letters. */
+@font-face {
+  font-family: 'Tiny5 Digits';
+  src: url('@fontsource/tiny5/files/tiny5-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+  size-adjust: 112%;
+  font-display: swap;
+}
+
 @theme {
   --color-ink: #0c0e10;
   --color-panel: #14171a;
@@ -11,11 +21,12 @@
   --color-blood-deep: #773d30;
   --color-safe: #a6b982;
   --color-amber: #dbaf68;
-  /* Every bit of text is Tiny5, a pixel font whose 2, 3, 5 and C stay distinct, which matters for trivia. */
+  /* Two pixel fonts. Tiny5 is for short display text: titles, names, buttons, numbers. Everything read as a
+     sentence (questions, answers, clues, rules) is Pixelify Sans, whose real lowercase and wider letters stay
+     readable at body sizes. */
   --font-display: 'Tiny5', monospace;
-  --font-sans: 'Tiny5', monospace;
-  --font-mono: 'Tiny5', monospace;
-  /* Tiny5 is compact (16px reads like 12px elsewhere), so the small sizes are scaled up. */
+  --font-sans: 'Tiny5 Digits', 'Pixelify Sans', system-ui, sans-serif;
+  --font-mono: 'Tiny5 Digits', 'Pixelify Sans', system-ui, sans-serif;
   --text-xs: 14px;
   --text-xs--line-height: 1.5;
   --text-sm: 16px;
@@ -26,16 +37,15 @@
 
 html, body, #root { min-height: 100%; }
 body { margin: 0; background: var(--color-ink); color: var(--color-bone); font-family: var(--font-sans); font-size: 18px; line-height: 1.6; -webkit-tap-highlight-color: transparent; }
-/* Tiny5 has one weight; faked bold or italic would smear the pixels. */
+/* Neither font is synthesized: Tiny5 has one weight, and Pixelify Sans ships the 400 and 600 used here. */
 * { font-synthesis: none; }
 button { cursor: pointer; }
 button:disabled { cursor: not-allowed; }
 button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--color-amber); outline-offset: 5px; }
 ::selection { background: var(--color-blood-deep); color: var(--color-bone); }
-.display, .headline { font-family: var(--font-display); font-weight: 400; }
-.display { text-transform: uppercase; letter-spacing: .025em; }
-.headline { line-height: 1.17; text-wrap: balance; }
-.eyebrow { font: 14px/1.6 var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--color-mute); }
+.display { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; letter-spacing: .025em; }
+.headline { font-family: var(--font-sans); font-weight: 600; line-height: 1.25; text-wrap: balance; }
+.eyebrow { font: 600 14px/1.6 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--color-mute); }
 .game-shell { position: relative; isolation: isolate; display: flex; flex-direction: column; min-height: 100dvh; max-width: 680px; margin: auto; padding: 0 28px 120px; }
 .game-content { flex: 1; }
 .world { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; background: var(--color-ink); }
@@ -77,7 +87,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 .clock-track { margin-top: 10px; height: 5px; background: var(--color-line); position: relative; }
 .clock-track::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, transparent 0 15px, var(--color-ink) 15px 18px); }
 .clock-danger .clock-track { opacity: .9; }
-.question-heading { margin: 34px auto 0; font-size: clamp(28px, 3.6vw, 40px); text-align: center; min-height: 2.34em; }
+.question-heading { margin: 34px auto 0; font-size: clamp(26px, 3.4vw, 34px); text-align: center; min-height: 2.5em; }
 .typed-round form { max-width: 500px; margin: 30px auto 0; }
 .typed-round input { background: rgb(18 21 24 / .94); border: 1px solid #464a4c; border-radius: 0; padding: 16px 18px; font-size: 22px; caret-color: var(--color-amber); transition: border-color .15s; box-shadow: inset 3px 3px 0 rgb(0 0 0 / .2); }
 .typed-round input:focus { border-color: var(--color-amber); outline: none; }
@@ -146,10 +156,10 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 .hint-clues li { position: relative; padding-left: 18px; line-height: 1.45; }
 .hint-clues li::before { content: ''; position: absolute; left: 0; top: .5em; width: 7px; height: 7px; background: var(--color-amber); }
 .hint-letters { display: grid; grid-template-columns: repeat(13, minmax(0, 1fr)); gap: 3px; margin-top: 8px; }
-.hint-letters span { display: grid; place-items: center; aspect-ratio: 1; font-family: var(--font-display); font-size: 14px; color: #4a4e50; background: var(--color-ink); }
+.hint-letters span { display: grid; place-items: center; aspect-ratio: 1; font-weight: 600; font-size: 15px; color: #4a4e50; background: var(--color-ink); }
 .hint-letters span.is-on { color: var(--color-ink); background: var(--color-amber); box-shadow: inset 0 -3px 0 rgb(0 0 0 / .2); }
 .hint-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.hint-chips span { padding: 2px 8px; font-family: var(--font-display); color: var(--color-ink); background: var(--color-amber); }
+.hint-chips span { padding: 2px 8px; font-weight: 600; color: var(--color-ink); background: var(--color-amber); }
 .answer-sets { display: grid; gap: 10px; margin-top: 14px; }
 .answer-set { padding: 0; }
 .answer-set summary { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 12px; row-gap: 6px; padding: 14px 16px; cursor: pointer; list-style: none; }

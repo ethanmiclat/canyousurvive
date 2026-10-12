@@ -2,55 +2,55 @@
   "date": "2026-12-04",
   "approved": false,
   "activity": "bomb-wires",
-  "winRate": 0.2567,
+  "winRate": 0.6163,
   "rounds": [
     {
       "round": 1,
-      "questionId": "countries:contains:n",
-      "datasetId": "countries",
-      "prompt": "Name a country with the letter N in its name",
-      "size": 116,
-      "answers": ["afghanistan", "albania", "andorra", "angola", "antigua-and-barbuda", "argentina", "armenia", "azerbaijan", "bahrain", "bangladesh", "benin", "bhutan", "bosnia-and-herzegovina", "botswana", "brunei", "burkina-faso", "burundi", "cameroon", "canada", "central-african-republic", "china", "democratic-republic-of-the-congo", "denmark", "dominica", "dominican-republic", "equatorial-guinea", "estonia", "eswatini", "finland", "france", "gabon", "germany", "ghana", "grenada", "guinea", "guinea-bissau", "guyana", "honduras", "hungary", "iceland", "india", "indonesia", "iran", "ireland", "japan", "jordan", "kazakhstan", "kenya", "kyrgyzstan", "lebanon", "liechtenstein", "lithuania", "marshall-islands", "mauritania", "micronesia", "monaco", "mongolia", "montenegro", "myanmar", "namibia", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "niger", "nigeria", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palestine", "panama", "papua-new-guinea", "philippines", "poland", "republic-of-the-congo", "romania", "russia", "rwanda", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "san-marino", "sao-tome-and-principe", "senegal", "sierra-leone", "singapore", "slovenia", "solomon-islands", "south-sudan", "spain", "sri-lanka", "sudan", "suriname", "sweden", "switzerland", "tajikistan", "tanzania", "thailand", "tonga", "trinidad-and-tobago", "tunisia", "turkmenistan", "uganda", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen"]
+      "questionId": "pokemon_gen2:lacks:y",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter Y in its name",
+      "size": 85,
+      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bellossom", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "croconaw", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "lugia", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "pichu", "piloswine", "pineco", "politoed", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu"]
     },
     {
       "round": 2,
-      "questionId": "greek_myth:tag:olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god (Hestia and Dionysus both count)",
-      "size": 13,
-      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-ares", "olympian-artemis", "olympian-athena", "olympian-demeter", "olympian-dionysus", "olympian-hephaestus", "olympian-hera", "olympian-hermes", "olympian-hestia", "olympian-poseidon", "olympian-zeus"]
+      "questionId": "shakespeare:contains:m",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with the letter M in its title",
+      "size": 15,
+      "answers": ["a-midsummer-night-s-dream", "cymbeline", "hamlet", "macbeth", "measure-for-measure", "much-ado-about-nothing", "romeo-and-juliet", "the-comedy-of-errors", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "timon-of-athens"]
     },
     {
       "round": 3,
-      "questionId": "shakespeare:lacks:n",
-      "datasetId": "shakespeare",
-      "prompt": "Name a Shakespeare play with no letter N in its title",
-      "size": 10,
-      "answers": ["as-you-like-it", "hamlet", "julius-caesar", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "othello", "richard-iii", "the-comedy-of-errors", "the-tempest"]
+      "questionId": "greek_alphabet:contains:e",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name a Greek letter with the letter E in its name",
+      "size": 7,
+      "answers": ["beta", "delta", "epsilon", "eta", "omega", "theta", "zeta"]
     },
     {
       "round": 4,
-      "questionId": "world_capitals:starts:a@continent:africa",
-      "datasetId": "world_capitals",
-      "prompt": "Name an African capital that starts with the letter A",
-      "size": 6,
-      "answers": ["abuja", "accra", "addis-ababa", "algiers", "antananarivo", "asmara"]
+      "questionId": "tarot:contains:l",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter L in its name",
+      "size": 5,
+      "answers": ["the-devil", "the-fool", "the-lovers", "the-world", "wheel-of-fortune"]
     },
     {
       "round": 5,
-      "questionId": "pokemon_gen1:starts:o",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon that starts with the letter O",
+      "questionId": "countries:tag:guinea",
+      "datasetId": "countries",
+      "prompt": "Name a country with \"Guinea\" in its name",
       "size": 4,
-      "answers": ["oddish", "omanyte", "omastar", "onix"]
+      "answers": ["equatorial-guinea", "guinea", "guinea-bissau", "papua-new-guinea"]
     },
     {
       "round": 6,
-      "questionId": "tarot:starts:w",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card that starts with the letter W (ignore \"The\")",
-      "size": 2,
-      "answers": ["the-world", "wheel-of-fortune"]
+      "questionId": "calendar:contains:n@day",
+      "datasetId": "calendar",
+      "prompt": "Name a day of the week with the letter N in its name",
+      "size": 3,
+      "answers": ["monday", "sunday", "wednesday"]
     }
   ]
 }

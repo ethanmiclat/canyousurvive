@@ -2,55 +2,55 @@
   "date": "2026-11-29",
   "approved": false,
   "activity": "spin-the-wheel",
-  "winRate": 0.2459,
+  "winRate": 0.616,
   "rounds": [
     {
       "round": 1,
-      "questionId": "world_capitals:lacks:l",
-      "datasetId": "world_capitals",
-      "prompt": "Name a national capital with no letter L in its name",
-      "size": 143,
-      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "amman", "amsterdam", "ankara", "antananarivo", "apia", "ashgabat", "asmara", "asuncion", "athens", "baghdad", "baku", "bamako", "bandar-seri-begawan", "bangkok", "bangui", "basseterre", "beijing", "beirut", "bern", "bishkek", "bissau", "bogota", "bridgetown", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "chisinau", "conakry", "copenhagen", "dakar", "damascus", "dhaka", "djibouti", "dodoma", "doha", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "hanoi", "harare", "havana", "honiara", "jakarta", "juba", "kathmandu", "khartoum", "kingston", "kingstown", "kinshasa", "kuwait-city", "kyiv", "madrid", "majuro", "managua", "manama", "maputo", "maseru", "mbabane", "mexico-city", "minsk", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "niamey", "nicosia", "nouakchott", "ottawa", "ouagadougou", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-moresby", "port-of-spain", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "reykjavik", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "sanaa", "santiago", "santo-domingo", "sao-tome", "sarajevo", "singapore", "skopje", "sofia", "south-tarawa", "sri-jayawardenepura-kotte", "st-george-s", "st-john-s", "sucre", "suva", "tashkent", "tehran", "thimphu", "tirana", "tokyo", "tunis", "vaduz", "vatican-city", "victoria", "vienna", "vientiane", "warsaw", "washington-d-c", "windhoek", "yamoussoukro", "yaounde", "yaren", "yerevan", "zagreb"]
+      "questionId": "pokemon_gen2:lacks:l",
+      "datasetId": "pokemon_gen2",
+      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter L in its name",
+      "size": 59,
+      "answers": ["aipom", "ampharos", "ariados", "chikorita", "chinchou", "crobat", "croconaw", "donphan", "dunsparce", "entei", "espeon", "forretress", "furret", "girafarig", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "kingdra", "magby", "magcargo", "mantine", "mareep", "meganium", "misdreavus", "murkrow", "natu", "phanpy", "pichu", "pineco", "porygon2", "pupitar", "quagsire", "raikou", "remoraid", "scizor", "sentret", "skarmory", "smoochum", "spinarak", "sudowoodo", "suicune", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu", "yanma"]
     },
     {
       "round": 2,
-      "questionId": "shakespeare:all",
-      "datasetId": "shakespeare",
-      "prompt": "Name a play by Shakespeare (multi-part plays like Henry VI count once)",
-      "size": 35,
-      "answers": ["a-midsummer-night-s-dream", "all-s-well-that-ends-well", "antony-and-cleopatra", "as-you-like-it", "coriolanus", "cymbeline", "hamlet", "henry-iv", "henry-v", "henry-vi", "henry-viii", "julius-caesar", "king-john", "king-lear", "love-s-labour-s-lost", "macbeth", "measure-for-measure", "much-ado-about-nothing", "othello", "pericles", "richard-ii", "richard-iii", "romeo-and-juliet", "the-comedy-of-errors", "the-merchant-of-venice", "the-merry-wives-of-windsor", "the-taming-of-the-shrew", "the-tempest", "the-two-gentlemen-of-verona", "the-two-noble-kinsmen", "the-winter-s-tale", "timon-of-athens", "titus-andronicus", "troilus-and-cressida", "twelfth-night"]
+      "questionId": "nfl:tag:conf:nfc",
+      "datasetId": "nfl",
+      "prompt": "Name an NFC team in the NFL",
+      "size": 16,
+      "answers": ["arizona-cardinals", "atlanta-falcons", "carolina-panthers", "chicago-bears", "dallas-cowboys", "detroit-lions", "green-bay-packers", "los-angeles-rams", "minnesota-vikings", "new-orleans-saints", "new-york-giants", "philadelphia-eagles", "san-francisco-49ers", "seattle-seahawks", "tampa-bay-buccaneers", "washington-commanders"]
     },
     {
       "round": 3,
-      "questionId": "tarot:range:num:0-9",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card numbered 0 to 9",
-      "size": 10,
-      "answers": ["strength", "the-chariot", "the-emperor", "the-empress", "the-fool", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-magician"]
+      "questionId": "calendar:tag:days-31",
+      "datasetId": "calendar",
+      "prompt": "Name a month with 31 days",
+      "size": 7,
+      "answers": ["august", "december", "january", "july", "march", "may", "october"]
     },
     {
       "round": 4,
-      "questionId": "greek_myth:contains:t@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter T in their Greek name",
-      "size": 6,
-      "answers": ["olympian-aphrodite", "olympian-artemis", "olympian-athena", "olympian-demeter", "olympian-hephaestus", "olympian-hestia"]
+      "questionId": "mlb:tag:div:nl-central",
+      "datasetId": "mlb",
+      "prompt": "Name a team in the NL Central",
+      "size": 5,
+      "answers": ["chicago-cubs", "cincinnati-reds", "milwaukee-brewers", "pittsburgh-pirates", "st-louis-cardinals"]
     },
     {
       "round": 5,
-      "questionId": "pokemon_gen1:tag:type:ghost",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name a Ghost-type Pokémon from the original 151 (current typings)",
-      "size": 3,
-      "answers": ["gastly", "gengar", "haunter"]
+      "questionId": "shakespeare:lacks:e",
+      "datasetId": "shakespeare",
+      "prompt": "Name a Shakespeare play with no letter E in its title",
+      "size": 4,
+      "answers": ["coriolanus", "king-john", "much-ado-about-nothing", "titus-andronicus"]
     },
     {
       "round": 6,
-      "questionId": "mexico_states:starts:g",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter G",
-      "size": 2,
-      "answers": ["guanajuato", "guerrero"]
+      "questionId": "nato_alphabet:contains:s",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter S",
+      "size": 3,
+      "answers": ["oscar", "sierra", "whiskey"]
     }
   ]
 }

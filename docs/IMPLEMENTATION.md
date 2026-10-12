@@ -51,12 +51,12 @@ How v1 maps to [PLAN.md](PLAN.md), and the calls made where the plan left someth
   (`content/villains.json`). Each has a color, a death stamp, and lines shown after each round. The villain is
   cosmetic only and never affects picks or odds.
 
-- **Health.** Nine rounds: six typed questions (the last two with 3–4 and 2–3 answers), then the activity,
-  RPS and the coin flip. The player has `playerHits` hearts (2); losing a round costs one, and the run ends
-  when they run out. The boss has `9 - playerHits + 1` health (8) and loses one per round survived, so
-  emptying it means getting through with a heart to spare. A flawless run therefore ends at round 8 and
-  skips the coin flip. The scheduler's win rate is the chance of losing fewer than `playerHits` rounds, kept
-  in `winRateGuard` (21–30%). Six datasets a day forced the dataset cooldown down from 7 days to 5.
+- **Health.** Nine rounds: six typed questions (the last three with 5–6, 4–5 and 3–4 answers, so the final question always has at least three), then the activity,
+  RPS and the coin flip. The player has `playerHits` hearts (3); losing a round costs one, and the run ends
+  when they run out. The boss has 9 health, one per round, and loses one per round survived, so
+  every run plays all nine rounds. Reaching the end with a heart left wins and the last round finishes off
+  whatever boss health remains. The scheduler's win rate is the chance of losing fewer than `playerHits` rounds, kept
+  in `winRateGuard` (50–65%). Six datasets a day forced the dataset cooldown down from 7 days to 5.
 
 - **Hints.** One free hint per typed round: three clues describing different valid answers without naming
   them, plus the letters answers start with. Clues are hand-written in `content/clues/<dataset>.json` or

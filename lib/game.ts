@@ -92,13 +92,11 @@ const secret = () => {
 /* ---------- public board metadata ---------- */
 
 /**
- * Both health bars. Losing a round costs the player one hit; surviving one costs the boss one. The boss has
- * just enough health that emptying it means getting through every round with a hit to spare, so a flawless
- * run finishes the boss one round early.
+ * Both health bars. Losing a round costs the player one hit; surviving one costs the boss one. The boss has one
+ * health per round, so every run plays all nine; reaching the end with a hit to spare wins and finishes the boss.
  */
 export function health() {
-  const player = loadConfig().playerHits
-  return { player, boss: TOTAL_ROUNDS - player + 1 }
+  return { player: loadConfig().playerHits, boss: TOTAL_ROUNDS }
 }
 
 export function hitsTaken(run: Pick<Run, 'results'>) {
@@ -234,12 +232,10 @@ async function finishRound(run: Run, result: RoundResult) {
   run.roundStartedAt = null
   run.checks = 0
   run.throws = []
-  const { player, boss } = health()
-  const survived = run.results.length - hitsTaken(run)
-  if (hitsTaken(run) >= player) {
+  if (hitsTaken(run) >= health().player) {
     run.status = 'dead'
     await store.hincr(`stats:${run.date}`, `died:${run.round}`, STATS_TTL)
-  } else if (survived >= boss || run.round === TOTAL_ROUNDS) {
+  } else if (run.round === TOTAL_ROUNDS) {
     run.status = 'won'
     await store.hincr(`stats:${run.date}`, 'won', STATS_TTL)
   } else {

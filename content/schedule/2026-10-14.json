@@ -2,55 +2,55 @@
   "date": "2026-10-14",
   "approved": false,
   "activity": "glass-bridge",
-  "winRate": 0.2111,
+  "winRate": 0.6428,
   "rounds": [
     {
       "round": 1,
-      "questionId": "bible_books:lacks:u~base",
-      "datasetId": "bible_books",
-      "prompt": "Name a book of the Bible with no letter U in its name (ignore any number in front)",
-      "size": 52,
-      "answers": ["1-chronicles", "1-corinthians", "1-john", "1-kings", "1-peter", "1-thessalonians", "1-timothy", "2-chronicles", "2-corinthians", "2-john", "2-kings", "2-peter", "2-thessalonians", "2-timothy", "3-john", "acts", "amos", "colossians", "daniel", "ecclesiastes", "ephesians", "esther", "ezekiel", "ezra", "galatians", "genesis", "haggai", "hebrews", "hosea", "isaiah", "james", "jeremiah", "job", "joel", "john", "jonah", "lamentations", "malachi", "mark", "matthew", "micah", "nehemiah", "obadiah", "philemon", "philippians", "proverbs", "psalms", "revelation", "romans", "song-of-solomon", "zechariah", "zephaniah"]
+      "questionId": "pokemon_gen1:lacks:y",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with no letter Y in its name",
+      "size": 129,
+      "answers": ["abra", "alakazam", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefable", "cubone", "dewgong", "diglett", "ditto", "dodrio", "doduo", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "eevee", "ekans", "electabuzz", "electrode", "exeggcute", "exeggutor", "farfetch-d", "fearow", "flareon", "gengar", "geodude", "gloom", "golbat", "goldeen", "golduck", "golem", "graveler", "grimer", "growlithe", "haunter", "hitmonchan", "hitmonlee", "horsea", "jolteon", "kabuto", "kabutops", "kadabra", "kakuna", "kangaskhan", "kingler", "koffing", "lapras", "lickitung", "machamp", "machoke", "machop", "magikarp", "magmar", "magnemite", "magneton", "marowak", "meowth", "metapod", "mew", "mewtwo", "moltres", "mr-mime", "muk", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "omastar", "onix", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "primeape", "raichu", "rapidash", "raticate", "rattata", "sandshrew", "sandslash", "seadra", "seaking", "seel", "shellder", "slowbro", "slowpoke", "snorlax", "spearow", "squirtle", "starmie", "tangela", "tauros", "tentacool", "tentacruel", "vaporeon", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "voltorb", "vulpix", "wartortle", "weedle", "weepinbell", "weezing", "zapdos", "zubat"]
     },
     {
       "round": 2,
-      "questionId": "state_capitals:tag:region:west",
-      "datasetId": "state_capitals",
-      "prompt": "Name the capital of a US state in the West (US Census region)",
+      "questionId": "canada:all",
+      "datasetId": "canada",
+      "prompt": "Name a Canadian province or territory",
       "size": 13,
-      "answers": ["boise", "carson-city", "cheyenne", "denver", "helena", "honolulu", "juneau", "olympia", "phoenix", "sacramento", "salem", "salt-lake-city", "santa-fe"]
+      "answers": ["alberta", "british-columbia", "manitoba", "new-brunswick", "newfoundland-and-labrador", "northwest-territories", "nova-scotia", "nunavut", "ontario", "prince-edward-island", "quebec", "saskatchewan", "yukon"]
     },
     {
       "round": 3,
-      "questionId": "india_states:tag:ut",
-      "datasetId": "india_states",
-      "prompt": "Name one of India's eight union territories",
-      "size": 8,
-      "answers": ["andaman-and-nicobar-islands", "chandigarh", "dadra-and-nagar-haveli-and-daman-and-diu", "delhi", "jammu-and-kashmir", "ladakh", "lakshadweep", "puducherry"]
+      "questionId": "si_units:tag:base-unit",
+      "datasetId": "si_units",
+      "prompt": "Name one of the seven SI base units",
+      "size": 7,
+      "answers": ["unit-ampere", "unit-candela", "unit-kelvin", "unit-kilogram", "unit-metre", "unit-mole", "unit-second"]
     },
     {
       "round": 4,
-      "questionId": "countries:tag:guinea",
-      "datasetId": "countries",
-      "prompt": "Name a country with \"Guinea\" in its name",
-      "size": 4,
-      "answers": ["equatorial-guinea", "guinea", "guinea-bissau", "papua-new-guinea"]
+      "questionId": "film_series:tag:middle-earth",
+      "datasetId": "film_series",
+      "prompt": "Name one of Peter Jackson's Lord of the Rings or Hobbit films",
+      "size": 6,
+      "answers": ["middle-earth-the-hobbit-an-unexpected-journey", "middle-earth-the-hobbit-the-battle-of-the-five-armies", "middle-earth-the-hobbit-the-desolation-of-smaug", "middle-earth-the-lord-of-the-rings-the-fellowship-of-the-ring", "middle-earth-the-lord-of-the-rings-the-return-of-the-king", "middle-earth-the-lord-of-the-rings-the-two-towers"]
     },
     {
       "round": 5,
-      "questionId": "greek_myth:contains:u@olympian",
-      "datasetId": "greek_myth",
-      "prompt": "Name an Olympian god with the letter U in their Greek name",
-      "size": 3,
-      "answers": ["olympian-dionysus", "olympian-hephaestus", "olympian-zeus"]
+      "questionId": "nba:tag:div:southeast",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Southeast Division",
+      "size": 5,
+      "answers": ["atlanta-hawks", "charlotte-hornets", "miami-heat", "orlando-magic", "washington-wizards"]
     },
     {
       "round": 6,
-      "questionId": "pokemon_gen1:tag:type:steel",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name a Steel-type Pokémon from the original 151 (current typings)",
-      "size": 2,
-      "answers": ["magnemite", "magneton"]
+      "questionId": "board_games:starts:p@monopoly-street",
+      "datasetId": "board_games",
+      "prompt": "Name a classic US Monopoly street that starts with the letter P",
+      "size": 3,
+      "answers": ["monopoly-pacific-avenue", "monopoly-park-place", "monopoly-pennsylvania-avenue"]
     }
   ]
 }

@@ -2,7 +2,7 @@
   "date": "2026-10-13",
   "approved": false,
   "activity": "elevator",
-  "winRate": 0.2146,
+  "winRate": 0.6229,
   "rounds": [
     {
       "round": 1,
@@ -30,27 +30,27 @@
     },
     {
       "round": 4,
-      "questionId": "space:tag:galilean",
+      "questionId": "space:tag:dwarf",
       "datasetId": "space",
-      "prompt": "Name one of Jupiter's four Galilean moons",
-      "size": 4,
-      "answers": ["callisto", "europa", "ganymede", "io"]
+      "prompt": "Name one of the five recognized dwarf planets",
+      "size": 5,
+      "answers": ["ceres", "eris", "haumea", "makemake", "pluto"]
     },
     {
       "round": 5,
-      "questionId": "nato_alphabet:contains:s",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter S",
-      "size": 3,
-      "answers": ["oscar", "sierra", "whiskey"]
+      "questionId": "greek_myth:contains:o@olympian",
+      "datasetId": "greek_myth",
+      "prompt": "Name an Olympian god with the letter O in their Greek name",
+      "size": 4,
+      "answers": ["olympian-aphrodite", "olympian-apollo", "olympian-dionysus", "olympian-poseidon"]
     },
     {
       "round": 6,
-      "questionId": "mexico_states:starts:n",
+      "questionId": "mexico_states:lacks:a",
       "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) that starts with the letter N",
-      "size": 2,
-      "answers": ["nayarit", "nuevo-leon"]
+      "prompt": "Name a Mexican state (or Mexico City) with no letter A in its name",
+      "size": 3,
+      "answers": ["guerrero", "morelos", "nuevo-leon"]
     }
   ]
 }

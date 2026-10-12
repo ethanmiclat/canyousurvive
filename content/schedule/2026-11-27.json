@@ -2,55 +2,55 @@
   "date": "2026-11-27",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.2212,
+  "winRate": 0.6281,
   "rounds": [
     {
       "round": 1,
-      "questionId": "best_picture:contains:e",
-      "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner with the letter E in its title",
-      "size": 68,
-      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "amadeus", "american-beauty", "an-american-in-paris", "annie-hall", "around-the-world-in-80-days", "ben-hur", "birdman", "braveheart", "cavalcade", "chariots-of-fire", "dances-with-wolves", "everything-everywhere-all-at-once", "forrest-gump", "from-here-to-eternity", "gentleman-s-agreement", "gone-with-the-wind", "grand-hotel", "green-book", "hamlet-1948", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "kramer-vs-kramer", "lawrence-of-arabia", "mrs-miniver", "mutiny-on-the-bounty", "no-country-for-old-men", "oliver", "on-the-waterfront", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "parasite", "rebecca", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-hurt-locker", "the-king-s-speech", "the-last-emperor", "the-life-of-emile-zola", "the-lord-of-the-rings-the-return-of-the-king", "the-lost-weekend", "the-shape-of-water", "the-silence-of-the-lambs", "tom-jones", "unforgiven", "west-side-story", "you-can-t-take-it-with-you"]
+      "questionId": "pokemon_gen1:contains:r",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with the letter R in its name",
+      "size": 79,
+      "answers": ["abra", "aerodactyl", "arbok", "arcanine", "articuno", "beedrill", "bellsprout", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefairy", "cloyster", "dodrio", "dragonair", "dragonite", "dratini", "drowzee", "dugtrio", "electrode", "exeggutor", "farfetch-d", "fearow", "flareon", "gengar", "graveler", "grimer", "growlithe", "gyarados", "haunter", "horsea", "ivysaur", "kadabra", "kingler", "krabby", "lapras", "magikarp", "magmar", "marowak", "moltres", "mr-mime", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "omastar", "paras", "parasect", "persian", "pinsir", "poliwhirl", "poliwrath", "porygon", "primeape", "raichu", "rapidash", "raticate", "rattata", "rhydon", "rhyhorn", "sandshrew", "scyther", "seadra", "shellder", "slowbro", "snorlax", "spearow", "squirtle", "starmie", "staryu", "tauros", "tentacruel", "vaporeon", "venusaur", "victreebel", "voltorb", "wartortle"]
     },
     {
       "round": 2,
-      "questionId": "si_units:tag:prefix+small",
-      "datasetId": "si_units",
-      "prompt": "Name an SI prefix for a fraction smaller than one (deci- and down)",
-      "size": 12,
-      "answers": ["prefix-atto", "prefix-centi", "prefix-deci", "prefix-femto", "prefix-micro", "prefix-milli", "prefix-nano", "prefix-pico", "prefix-quecto", "prefix-ronto", "prefix-yocto", "prefix-zepto"]
+      "questionId": "pixar:contains:s",
+      "datasetId": "pixar",
+      "prompt": "Name a Pixar feature (before 2026) with the letter S in its title",
+      "size": 16,
+      "answers": ["a-bug-s-life", "cars", "cars-2", "cars-3", "incredibles-2", "inside-out", "inside-out-2", "monsters-inc", "monsters-university", "soul", "the-good-dinosaur", "the-incredibles", "toy-story", "toy-story-2", "toy-story-3", "toy-story-4"]
     },
     {
       "round": 3,
-      "questionId": "space:tag:planet",
-      "datasetId": "space",
-      "prompt": "Name a planet in our solar system",
-      "size": 8,
-      "answers": ["earth", "jupiter", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
+      "questionId": "board_games:tag:clue-room",
+      "datasetId": "board_games",
+      "prompt": "Name one of the nine rooms in classic Clue (Cluedo)",
+      "size": 9,
+      "answers": ["clue-ballroom", "clue-billiard-room", "clue-conservatory", "clue-dining-room", "clue-hall", "clue-kitchen", "clue-library", "clue-lounge", "clue-study"]
     },
     {
       "round": 4,
-      "questionId": "nba:tag:div:northwest",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Northwest Division",
+      "questionId": "tarot:contains:g",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter G in its name",
       "size": 5,
-      "answers": ["denver-nuggets", "minnesota-timberwolves", "oklahoma-city-thunder", "portland-trail-blazers", "utah-jazz"]
+      "answers": ["judgement", "strength", "the-hanged-man", "the-high-priestess", "the-magician"]
     },
     {
       "round": 5,
-      "questionId": "zodiac:contains:p@western",
-      "datasetId": "zodiac",
-      "prompt": "Name a Western zodiac sign with the letter P in it",
-      "size": 3,
-      "answers": ["capricorn", "pisces", "scorpio"]
+      "questionId": "us_presidents:starts:c~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president whose last name starts with the letter C",
+      "size": 4,
+      "answers": ["bill-clinton", "calvin-coolidge", "grover-cleveland", "jimmy-carter"]
     },
     {
       "round": 6,
-      "questionId": "countries:starts:d@continent:africa",
-      "datasetId": "countries",
-      "prompt": "Name an African country that starts with the letter D",
-      "size": 2,
-      "answers": ["democratic-republic-of-the-congo", "djibouti"]
+      "questionId": "elements:contains:k",
+      "datasetId": "elements",
+      "prompt": "Name an element with the letter K in its name",
+      "size": 3,
+      "answers": ["berkelium", "krypton", "nickel"]
     }
   ]
 }

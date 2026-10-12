@@ -2,55 +2,55 @@
   "date": "2026-12-05",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.2916,
+  "winRate": 0.6149,
   "rounds": [
     {
       "round": 1,
-      "questionId": "constellations:contains:s",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation with the letter S in its name",
-      "size": 53,
-      "answers": ["apus", "aquarius", "aries", "bootes", "camelopardalis", "canes-venatici", "canis-major", "canis-minor", "capricornus", "cassiopeia", "centaurus", "cepheus", "cetus", "circinus", "coma-berenices", "corona-australis", "corona-borealis", "corvus", "cygnus", "delphinus", "equuleus", "eridanus", "grus", "hercules", "hydrus", "indus", "lepus", "lupus", "mensa", "microscopium", "monoceros", "musca", "octans", "ophiuchus", "pegasus", "perseus", "pisces", "piscis-austrinus", "puppis", "pyxis", "sagitta", "sagittarius", "scorpius", "sculptor", "scutum", "serpens", "sextans", "taurus", "telescopium", "triangulum-australe", "ursa-major", "ursa-minor", "volans"]
+      "questionId": "best_picture:contains:i",
+      "datasetId": "best_picture",
+      "prompt": "Name a Best Picture winner with the letter I in its title",
+      "size": 57,
+      "answers": ["a-beautiful-mind", "all-quiet-on-the-western-front", "all-the-king-s-men", "american-beauty", "an-american-in-paris", "annie-hall", "around-the-world-in-80-days", "birdman", "chariots-of-fire", "chicago", "cimarron", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "from-here-to-eternity", "gandhi", "gigi", "gladiator", "going-my-way", "gone-with-the-wind", "in-the-heat-of-the-night", "it-happened-one-night", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "mrs-miniver", "mutiny-on-the-bounty", "my-fair-lady", "oliver", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "rain-man", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "spotlight", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-english-patient", "the-french-connection", "the-godfather-part-ii", "the-great-ziegfeld", "the-king-s-speech", "the-life-of-emile-zola", "the-lord-of-the-rings-the-return-of-the-king", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "unforgiven", "west-side-story", "wings", "you-can-t-take-it-with-you"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:lacks:t",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with no letter T in its name",
-      "size": 19,
-      "answers": ["baja-california", "baja-california-sur", "campeche", "chiapas", "chihuahua", "coahuila", "colima", "durango", "guerrero", "hidalgo", "jalisco", "michoacan", "morelos", "nuevo-leon", "oaxaca", "puebla", "sinaloa", "sonora", "veracruz"]
+      "questionId": "zodiac:tag:chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name an animal of the Chinese zodiac",
+      "size": 12,
+      "answers": ["chinese-dog", "chinese-dragon", "chinese-goat", "chinese-horse", "chinese-monkey", "chinese-ox", "chinese-pig", "chinese-rabbit", "chinese-rat", "chinese-rooster", "chinese-snake", "chinese-tiger"]
     },
     {
       "round": 3,
-      "questionId": "greek_alphabet:contains:t",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter T in its name",
-      "size": 7,
-      "answers": ["beta", "delta", "eta", "iota", "tau", "theta", "zeta"]
+      "questionId": "india_states:contains:u@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter U in its name",
+      "size": 8,
+      "answers": ["arunachal-pradesh", "gujarat", "manipur", "punjab", "tamil-nadu", "tripura", "uttar-pradesh", "uttarakhand"]
     },
     {
       "round": 4,
-      "questionId": "nba:tag:div:southwest",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Southwest Division",
+      "questionId": "nato_alphabet:contains:m",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter M",
       "size": 5,
-      "answers": ["dallas-mavericks", "houston-rockets", "memphis-grizzlies", "new-orleans-pelicans", "san-antonio-spurs"]
+      "answers": ["lima", "mike", "november", "romeo", "uniform"]
     },
     {
       "round": 5,
-      "questionId": "calendar:lacks:r@month",
-      "datasetId": "calendar",
-      "prompt": "Name a month with no letter R in its name",
+      "questionId": "bible_books:starts:m~base",
+      "datasetId": "bible_books",
+      "prompt": "Name a book of the Bible that starts with the letter M (ignore any number in front)",
       "size": 4,
-      "answers": ["august", "july", "june", "may"]
+      "answers": ["malachi", "mark", "matthew", "micah"]
     },
     {
       "round": 6,
-      "questionId": "nato_alphabet:contains:y",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter Y",
+      "questionId": "german_states:lacks:n",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter N in its English name",
       "size": 3,
-      "answers": ["whiskey", "x-ray", "yankee"]
+      "answers": ["bavaria", "hamburg", "hesse"]
     }
   ]
 }

@@ -2,55 +2,55 @@
   "date": "2026-10-26",
   "approved": false,
   "activity": "five-keys",
-  "winRate": 0.2442,
+  "winRate": 0.6314,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen1:range:dex:1-75",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name a Pokémon numbered 1 to 75 in the National Pokédex",
-      "size": 75,
-      "answers": ["abra", "alakazam", "arbok", "arcanine", "beedrill", "bellsprout", "blastoise", "bulbasaur", "butterfree", "caterpie", "charizard", "charmander", "charmeleon", "clefable", "clefairy", "diglett", "dugtrio", "ekans", "fearow", "geodude", "gloom", "golbat", "golduck", "graveler", "growlithe", "ivysaur", "jigglypuff", "kadabra", "kakuna", "machamp", "machoke", "machop", "mankey", "meowth", "metapod", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "paras", "parasect", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "poliwag", "poliwhirl", "poliwrath", "primeape", "psyduck", "raichu", "raticate", "rattata", "sandshrew", "sandslash", "spearow", "squirtle", "tentacool", "tentacruel", "venomoth", "venonat", "venusaur", "victreebel", "vileplume", "vulpix", "wartortle", "weedle", "weepinbell", "wigglytuff", "zubat"]
+      "questionId": "numbers:range:n:1-200@even",
+      "datasetId": "numbers",
+      "prompt": "Name an even number from 1 to 200",
+      "size": 100,
+      "answers": ["n10", "n100", "n102", "n104", "n106", "n108", "n110", "n112", "n114", "n116", "n118", "n12", "n120", "n122", "n124", "n126", "n128", "n130", "n132", "n134", "n136", "n138", "n14", "n140", "n142", "n144", "n146", "n148", "n150", "n152", "n154", "n156", "n158", "n16", "n160", "n162", "n164", "n166", "n168", "n170", "n172", "n174", "n176", "n178", "n18", "n180", "n182", "n184", "n186", "n188", "n190", "n192", "n194", "n196", "n198", "n2", "n20", "n200", "n22", "n24", "n26", "n28", "n30", "n32", "n34", "n36", "n38", "n4", "n40", "n42", "n44", "n46", "n48", "n50", "n52", "n54", "n56", "n58", "n6", "n60", "n62", "n64", "n66", "n68", "n70", "n72", "n74", "n76", "n78", "n8", "n80", "n82", "n84", "n86", "n88", "n90", "n92", "n94", "n96", "n98"]
     },
     {
       "round": 2,
-      "questionId": "pixar:contains:n",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter N in its title",
-      "size": 12,
-      "answers": ["elemental", "finding-dory", "finding-nemo", "incredibles-2", "inside-out", "inside-out-2", "monsters-inc", "monsters-university", "onward", "the-good-dinosaur", "the-incredibles", "turning-red"]
+      "questionId": "tarot:contains:e",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter E in its name",
+      "size": 15,
+      "answers": ["death", "judgement", "justice", "strength", "temperance", "the-devil", "the-emperor", "the-empress", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-tower", "wheel-of-fortune"]
     },
     {
       "round": 3,
-      "questionId": "india_states:contains:m@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with the letter M in its name",
-      "size": 9,
-      "answers": ["assam", "himachal-pradesh", "madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram", "sikkim", "tamil-nadu"]
+      "questionId": "us_presidents:contains:d~surname",
+      "datasetId": "us_presidents",
+      "prompt": "Name a US president with the letter D in their last name",
+      "size": 10,
+      "answers": ["calvin-coolidge", "gerald-ford", "grover-cleveland", "james-a-garfield", "james-madison", "joe-biden", "john-adams", "john-f-kennedy", "john-quincy-adams", "warren-g-harding"]
     },
     {
       "round": 4,
-      "questionId": "film_series:tag:indiana-jones",
-      "datasetId": "film_series",
-      "prompt": "Name one of the five Indiana Jones films",
+      "questionId": "geography:tag:great-lake",
+      "datasetId": "geography",
+      "prompt": "Name one of the Great Lakes",
       "size": 5,
-      "answers": ["indiana-jones-indiana-jones-and-the-dial-of-destiny", "indiana-jones-indiana-jones-and-the-kingdom-of-the-crystal-skull", "indiana-jones-indiana-jones-and-the-last-crusade", "indiana-jones-indiana-jones-and-the-temple-of-doom", "indiana-jones-raiders-of-the-lost-ark"]
+      "answers": ["lake-erie", "lake-huron", "lake-michigan", "lake-ontario", "lake-superior"]
     },
     {
       "round": 5,
-      "questionId": "greek_alphabet:contains:u",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter U in its name",
+      "questionId": "nato_alphabet:contains:h",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter H",
       "size": 4,
-      "answers": ["mu", "nu", "tau", "upsilon"]
+      "answers": ["charlie", "echo", "hotel", "whiskey"]
     },
     {
       "round": 6,
-      "questionId": "tarot:starts:t",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card that starts with the letter T (ignore \"The\")",
-      "size": 2,
-      "answers": ["temperance", "the-tower"]
+      "questionId": "zodiac:contains:g@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter G in it",
+      "size": 3,
+      "answers": ["gemini", "sagittarius", "virgo"]
     }
   ]
 }

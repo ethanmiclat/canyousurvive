@@ -2,55 +2,55 @@
   "date": "2026-11-26",
   "approved": false,
   "activity": "bomb-wires",
-  "winRate": 0.2966,
+  "winRate": 0.6195,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:lacks:b",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (#152 to #251) with no letter B in its name",
-      "size": 86,
-      "answers": ["aipom", "ampharos", "ariados", "azumarill", "chikorita", "chinchou", "cleffa", "corsola", "croconaw", "cyndaquil", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "lugia", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "unown", "ursaring", "wooper", "xatu", "yanma"]
+      "questionId": "world_capitals:lacks:k",
+      "datasetId": "world_capitals",
+      "prompt": "Name a national capital with no letter K in its name",
+      "size": 163,
+      "answers": ["abu-dhabi", "abuja", "accra", "addis-ababa", "algiers", "amman", "amsterdam", "andorra-la-vella", "antananarivo", "apia", "ashgabat", "asmara", "astana", "asuncion", "athens", "baghdad", "bandar-seri-begawan", "bangui", "banjul", "basseterre", "beirut", "belgrade", "belmopan", "berlin", "bern", "bissau", "bloemfontein", "bogota", "brasilia", "bratislava", "brazzaville", "bridgetown", "brussels", "bucharest", "budapest", "buenos-aires", "cairo", "canberra", "cape-town", "caracas", "castries", "copenhagen", "damascus", "dili", "djibouti", "dodoma", "doha", "dublin", "dushanbe", "freetown", "funafuti", "gaborone", "georgetown", "gitega", "guatemala-city", "hanoi", "harare", "havana", "honiara", "islamabad", "jerusalem", "juba", "la-paz", "libreville", "lilongwe", "lima", "lisbon", "ljubljana", "lobamba", "lome", "london", "luanda", "luxembourg-city", "madrid", "majuro", "malabo", "male", "managua", "manama", "manila", "maputo", "maseru", "mbabane", "mexico-city", "mogadishu", "monaco", "monrovia", "montevideo", "moroni", "moscow", "muscat", "n-djamena", "nairobi", "nassau", "naypyidaw", "new-delhi", "ngerulmud", "niamey", "nicosia", "oslo", "ottawa", "ouagadougou", "panama-city", "paramaribo", "paris", "phnom-penh", "podgorica", "port-au-prince", "port-louis", "port-moresby", "port-of-spain", "port-vila", "porto-novo", "prague", "praia", "pretoria", "pyongyang", "quito", "rabat", "ramallah", "riga", "riyadh", "rome", "roseau", "san-jose", "san-marino", "san-salvador", "sanaa", "santiago", "santo-domingo", "sao-tome", "sarajevo", "seoul", "singapore", "sofia", "south-tarawa", "st-george-s", "st-john-s", "sucre", "suva", "tallinn", "tbilisi", "tegucigalpa", "tehran", "thimphu", "tirana", "tripoli", "tunis", "ulaanbaatar", "vaduz", "valletta", "vatican-city", "victoria", "vienna", "vientiane", "vilnius", "warsaw", "washington-d-c", "wellington", "yaounde", "yaren", "yerevan", "zagreb"]
     },
     {
       "round": 2,
-      "questionId": "nfl:tag:no-super-bowl",
-      "datasetId": "nfl",
-      "prompt": "Name an NFL team that has never won a Super Bowl",
-      "size": 12,
-      "answers": ["arizona-cardinals", "atlanta-falcons", "buffalo-bills", "carolina-panthers", "cincinnati-bengals", "cleveland-browns", "detroit-lions", "houston-texans", "jacksonville-jaguars", "los-angeles-chargers", "minnesota-vikings", "tennessee-titans"]
+      "questionId": "mexico_states:contains:u",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter U in its name",
+      "size": 16,
+      "answers": ["aguascalientes", "baja-california-sur", "chihuahua", "coahuila", "durango", "guanajuato", "guerrero", "mexico-city", "nuevo-leon", "puebla", "queretaro", "quintana-roo", "san-luis-potosi", "tamaulipas", "veracruz", "yucatan"]
     },
     {
       "round": 3,
-      "questionId": "india_states:lacks:r@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with no letter R in its name",
-      "size": 10,
-      "answers": ["assam", "goa", "meghalaya", "nagaland", "odisha", "punjab", "sikkim", "tamil-nadu", "telangana", "west-bengal"]
+      "questionId": "space:lacks:i@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with no letter I in its name",
+      "size": 7,
+      "answers": ["earth", "mars", "mercury", "neptune", "saturn", "uranus", "venus"]
     },
     {
       "round": 4,
-      "questionId": "mlb:tag:div:al-west",
-      "datasetId": "mlb",
-      "prompt": "Name a team in the AL West",
+      "questionId": "nba:tag:div:southwest",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Southwest Division",
       "size": 5,
-      "answers": ["athletics", "houston-astros", "los-angeles-angels", "seattle-mariners", "texas-rangers"]
+      "answers": ["dallas-mavericks", "houston-rockets", "memphis-grizzlies", "new-orleans-pelicans", "san-antonio-spurs"]
     },
     {
       "round": 5,
-      "questionId": "german_states:contains:m",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with the letter M in its English name",
+      "questionId": "famous_groups:tag:beatle",
+      "datasetId": "famous_groups",
+      "prompt": "Name a member of the Beatles (the famous four)",
       "size": 4,
-      "answers": ["baden-wurttemberg", "bremen", "hamburg", "mecklenburg-western-pomerania"]
+      "answers": ["beatle-george-harrison", "beatle-john-lennon", "beatle-paul-mccartney", "beatle-ringo-starr"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:r~surname",
-      "datasetId": "us_presidents",
-      "prompt": "Name a US president whose last name starts with the letter R",
+      "questionId": "state_capitals:starts:l",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital that starts with the letter L",
       "size": 3,
-      "answers": ["franklin-d-roosevelt", "ronald-reagan", "theodore-roosevelt"]
+      "answers": ["lansing", "lincoln", "little-rock"]
     }
   ]
 }

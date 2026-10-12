@@ -2,55 +2,55 @@
   "date": "2026-11-01",
   "approved": false,
   "activity": "poison-cups",
-  "winRate": 0.247,
+  "winRate": 0.6293,
   "rounds": [
     {
       "round": 1,
-      "questionId": "best_picture:range:year:1960-2024",
+      "questionId": "best_picture:contains:a",
       "datasetId": "best_picture",
-      "prompt": "Name a Best Picture winner released from 1960 to 2024",
-      "size": 65,
-      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "amadeus", "american-beauty", "annie-hall", "anora", "argo", "birdman", "braveheart", "chariots-of-fire", "chicago", "coda", "crash", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "forrest-gump", "gandhi", "gladiator", "green-book", "in-the-heat-of-the-night", "kramer-vs-kramer", "lawrence-of-arabia", "midnight-cowboy", "million-dollar-baby", "moonlight", "my-fair-lady", "no-country-for-old-men", "nomadland", "oliver", "one-flew-over-the-cuckoo-s-nest", "oppenheimer", "ordinary-people", "out-of-africa", "parasite", "patton", "platoon", "rain-man", "rocky", "schindler-s-list", "shakespeare-in-love", "slumdog-millionaire", "spotlight", "terms-of-endearment", "the-apartment", "the-artist", "the-deer-hunter", "the-departed", "the-english-patient", "the-french-connection", "the-godfather", "the-godfather-part-ii", "the-hurt-locker", "the-king-s-speech", "the-last-emperor", "the-lord-of-the-rings-the-return-of-the-king", "the-shape-of-water", "the-silence-of-the-lambs", "the-sound-of-music", "the-sting", "titanic", "tom-jones", "unforgiven", "west-side-story"]
+      "prompt": "Name a Best Picture winner with the letter A in its title",
+      "size": 68,
+      "answers": ["12-years-a-slave", "a-beautiful-mind", "a-man-for-all-seasons", "all-about-eve", "all-quiet-on-the-western-front", "all-the-king-s-men", "amadeus", "american-beauty", "an-american-in-paris", "annie-hall", "anora", "argo", "around-the-world-in-80-days", "birdman", "braveheart", "casablanca", "cavalcade", "chariots-of-fire", "chicago", "cimarron", "coda", "crash", "dances-with-wolves", "driving-miss-daisy", "everything-everywhere-all-at-once", "gandhi", "gentleman-s-agreement", "gladiator", "going-my-way", "grand-hotel", "hamlet-1948", "how-green-was-my-valley", "in-the-heat-of-the-night", "it-happened-one-night", "kramer-vs-kramer", "lawrence-of-arabia", "marty", "million-dollar-baby", "my-fair-lady", "nomadland", "on-the-waterfront", "ordinary-people", "out-of-africa", "parasite", "patton", "platoon", "rain-man", "rebecca", "shakespeare-in-love", "slumdog-millionaire", "terms-of-endearment", "the-apartment", "the-artist", "the-best-years-of-our-lives", "the-bridge-on-the-river-kwai", "the-broadway-melody", "the-departed", "the-english-patient", "the-godfather", "the-godfather-part-ii", "the-great-ziegfeld", "the-greatest-show-on-earth", "the-last-emperor", "the-life-of-emile-zola", "the-shape-of-water", "the-silence-of-the-lambs", "titanic", "you-can-t-take-it-with-you"]
     },
     {
       "round": 2,
-      "questionId": "mountains:all",
-      "datasetId": "mountains",
-      "prompt": "Name one of the 14 mountains over 8,000 meters",
-      "size": 14,
-      "answers": ["annapurna", "broad-peak", "cho-oyu", "dhaulagiri", "gasherbrum-i", "gasherbrum-ii", "k2", "kangchenjunga", "lhotse", "makalu", "manaslu", "mount-everest", "nanga-parbat", "shishapangma"]
+      "questionId": "tarot:contains:r",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card with the letter R in its name",
+      "size": 13,
+      "answers": ["strength", "temperance", "the-chariot", "the-emperor", "the-empress", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-star", "the-tower", "the-world", "wheel-of-fortune"]
     },
     {
       "round": 3,
-      "questionId": "film_series:tag:jurassic",
-      "datasetId": "film_series",
-      "prompt": "Name a Jurassic Park or Jurassic World film released before 2026",
-      "size": 7,
-      "answers": ["jurassic-jurassic-park", "jurassic-jurassic-park-iii", "jurassic-jurassic-world", "jurassic-jurassic-world-dominion", "jurassic-jurassic-world-fallen-kingdom", "jurassic-jurassic-world-rebirth", "jurassic-the-lost-world-jurassic-park"]
+      "questionId": "nhl:tag:div:metropolitan",
+      "datasetId": "nhl",
+      "prompt": "Name an NHL team in the Metropolitan Division",
+      "size": 8,
+      "answers": ["carolina-hurricanes", "columbus-blue-jackets", "new-jersey-devils", "new-york-islanders", "new-york-rangers", "philadelphia-flyers", "pittsburgh-penguins", "washington-capitals"]
     },
     {
       "round": 4,
-      "questionId": "national_parks:contains:p",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park with the letter P in its name",
+      "questionId": "us_states:contains:y",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with the letter Y in its name",
       "size": 6,
-      "answers": ["capitol-reef", "guadalupe-mountains", "hot-springs", "olympic", "petrified-forest", "pinnacles"]
+      "answers": ["kentucky", "maryland", "new-jersey", "new-york", "pennsylvania", "wyoming"]
     },
     {
       "round": 5,
-      "questionId": "amino_acids:starts:a",
-      "datasetId": "amino_acids",
-      "prompt": "Name a standard amino acid that starts with the letter A",
+      "questionId": "film_series:tag:shrek",
+      "datasetId": "film_series",
+      "prompt": "Name one of the four main Shrek films",
       "size": 4,
-      "answers": ["alanine", "arginine", "asparagine", "aspartic-acid"]
+      "answers": ["shrek-shrek", "shrek-shrek-2", "shrek-shrek-forever-after", "shrek-shrek-the-third"]
     },
     {
       "round": 6,
-      "questionId": "us_presidents:starts:w~surname",
+      "questionId": "us_presidents:starts:a~surname",
       "datasetId": "us_presidents",
-      "prompt": "Name a US president whose last name starts with the letter W",
-      "size": 2,
-      "answers": ["george-washington", "woodrow-wilson"]
+      "prompt": "Name a US president whose last name starts with the letter A",
+      "size": 3,
+      "answers": ["chester-a-arthur", "john-adams", "john-quincy-adams"]
     }
   ]
 }

@@ -2,55 +2,55 @@
   "date": "2026-10-16",
   "approved": false,
   "activity": "poison-cups",
-  "winRate": 0.2397,
+  "winRate": 0.6267,
   "rounds": [
     {
       "round": 1,
-      "questionId": "national_parks:lacks:m",
-      "datasetId": "national_parks",
-      "prompt": "Name a US national park with no letter M in its name",
-      "size": 53,
-      "answers": ["acadia", "arches", "badlands", "big-bend", "biscayne", "black-canyon-of-the-gunnison", "bryce-canyon", "canyonlands", "capitol-reef", "carlsbad-caverns", "channel-islands", "congaree", "crater-lake", "cuyahoga-valley", "death-valley", "denali", "dry-tortugas", "everglades", "gates-of-the-arctic", "gateway-arch", "glacier", "glacier-bay", "grand-canyon", "grand-teton", "great-basin", "great-sand-dunes", "haleakala", "hawai-i-volcanoes", "hot-springs", "indiana-dunes", "isle-royale", "joshua-tree", "kenai-fjords", "kings-canyon", "kobuk-valley", "lake-clark", "lassen-volcanic", "new-river-gorge", "north-cascades", "petrified-forest", "pinnacles", "redwood", "saguaro", "sequoia", "shenandoah", "theodore-roosevelt", "virgin-islands", "voyageurs", "white-sands", "wind-cave", "wrangell-st-elias", "yellowstone", "zion"]
+      "questionId": "countries:not:continent:africa",
+      "datasetId": "countries",
+      "prompt": "Name a country outside Africa",
+      "size": 141,
+      "answers": ["afghanistan", "albania", "andorra", "antigua-and-barbuda", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belarus", "belgium", "belize", "bhutan", "bolivia", "bosnia-and-herzegovina", "brazil", "brunei", "bulgaria", "cambodia", "canada", "chile", "china", "colombia", "costa-rica", "croatia", "cuba", "cyprus", "czechia", "denmark", "dominica", "dominican-republic", "ecuador", "el-salvador", "estonia", "fiji", "finland", "france", "georgia", "germany", "greece", "grenada", "guatemala", "guyana", "haiti", "honduras", "hungary", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "israel", "italy", "jamaica", "japan", "jordan", "kazakhstan", "kiribati", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "liechtenstein", "lithuania", "luxembourg", "malaysia", "maldives", "malta", "marshall-islands", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "myanmar", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "north-korea", "north-macedonia", "norway", "oman", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "poland", "portugal", "qatar", "romania", "russia", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "saudi-arabia", "serbia", "singapore", "slovakia", "slovenia", "solomon-islands", "south-korea", "spain", "sri-lanka", "suriname", "sweden", "switzerland", "syria", "tajikistan", "thailand", "timor-leste", "tonga", "trinidad-and-tobago", "turkey", "turkmenistan", "tuvalu", "ukraine", "united-arab-emirates", "united-kingdom", "united-states", "uruguay", "uzbekistan", "vanuatu", "vatican-city", "venezuela", "vietnam", "yemen"]
     },
     {
       "round": 2,
-      "questionId": "nba:tag:conf:east",
-      "datasetId": "nba",
-      "prompt": "Name an NBA team in the Eastern Conference",
-      "size": 15,
-      "answers": ["atlanta-hawks", "boston-celtics", "brooklyn-nets", "charlotte-hornets", "chicago-bulls", "cleveland-cavaliers", "detroit-pistons", "indiana-pacers", "miami-heat", "milwaukee-bucks", "new-york-knicks", "orlando-magic", "philadelphia-76ers", "toronto-raptors", "washington-wizards"]
+      "questionId": "nfl:tag:no-super-bowl",
+      "datasetId": "nfl",
+      "prompt": "Name an NFL team that has never won a Super Bowl",
+      "size": 12,
+      "answers": ["arizona-cardinals", "atlanta-falcons", "buffalo-bills", "carolina-panthers", "cincinnati-bengals", "cleveland-browns", "detroit-lions", "houston-texans", "jacksonville-jaguars", "los-angeles-chargers", "minnesota-vikings", "tennessee-titans"]
     },
     {
       "round": 3,
-      "questionId": "german_states:contains:b",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with the letter B in its English name",
-      "size": 7,
-      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "mecklenburg-western-pomerania"]
+      "questionId": "us_states:tag:two-words",
+      "datasetId": "us_states",
+      "prompt": "Name a US state with a two-word name",
+      "size": 10,
+      "answers": ["new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "rhode-island", "south-carolina", "south-dakota", "west-virginia"]
     },
     {
       "round": 4,
-      "questionId": "tarot:contains:d",
-      "datasetId": "tarot",
-      "prompt": "Name a Major Arcana card with the letter D in its name",
+      "questionId": "shakespeare:tag:romance",
+      "datasetId": "shakespeare",
+      "prompt": "Name one of Shakespeare's late romances (Pericles, Cymbeline and friends)",
       "size": 5,
-      "answers": ["death", "judgement", "the-devil", "the-hanged-man", "the-world"]
+      "answers": ["cymbeline", "pericles", "the-tempest", "the-two-noble-kinsmen", "the-winter-s-tale"]
     },
     {
       "round": 5,
-      "questionId": "pixar:contains:m",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature (before 2026) with the letter M in its title",
+      "questionId": "zodiac:contains:o@western",
+      "datasetId": "zodiac",
+      "prompt": "Name a Western zodiac sign with the letter O in it",
       "size": 4,
-      "answers": ["elemental", "finding-nemo", "monsters-inc", "monsters-university"]
+      "answers": ["capricorn", "leo", "scorpio", "virgo"]
     },
     {
       "round": 6,
-      "questionId": "greek_alphabet:contains:b",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter B in its name",
-      "size": 2,
-      "answers": ["beta", "lambda"]
+      "questionId": "tarot:starts:s",
+      "datasetId": "tarot",
+      "prompt": "Name a Major Arcana card that starts with the letter S (ignore \"The\")",
+      "size": 3,
+      "answers": ["strength", "the-star", "the-sun"]
     }
   ]
 }

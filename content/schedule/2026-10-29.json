@@ -2,55 +2,55 @@
   "date": "2026-10-29",
   "approved": false,
   "activity": "elevator",
-  "winRate": 0.2197,
+  "winRate": 0.6231,
   "rounds": [
     {
       "round": 1,
-      "questionId": "pokemon_gen2:all",
-      "datasetId": "pokemon_gen2",
-      "prompt": "Name a Johto Pokémon (National Pokédex #152 to #251)",
-      "size": 100,
-      "answers": ["aipom", "ampharos", "ariados", "azumarill", "bayleef", "bellossom", "blissey", "celebi", "chikorita", "chinchou", "cleffa", "corsola", "crobat", "croconaw", "cyndaquil", "delibird", "donphan", "dunsparce", "elekid", "entei", "espeon", "feraligatr", "flaaffy", "forretress", "furret", "girafarig", "gligar", "granbull", "heracross", "hitmontop", "ho-oh", "hoothoot", "hoppip", "houndoom", "houndour", "igglybuff", "jumpluff", "kingdra", "lanturn", "larvitar", "ledian", "ledyba", "lugia", "magby", "magcargo", "mantine", "mareep", "marill", "meganium", "miltank", "misdreavus", "murkrow", "natu", "noctowl", "octillery", "phanpy", "pichu", "piloswine", "pineco", "politoed", "porygon2", "pupitar", "quagsire", "quilava", "qwilfish", "raikou", "remoraid", "scizor", "sentret", "shuckle", "skarmory", "skiploom", "slowking", "slugma", "smeargle", "smoochum", "sneasel", "snubbull", "spinarak", "stantler", "steelix", "sudowoodo", "suicune", "sunflora", "sunkern", "swinub", "teddiursa", "togepi", "togetic", "totodile", "typhlosion", "tyranitar", "tyrogue", "umbreon", "unown", "ursaring", "wobbuffet", "wooper", "xatu", "yanma"]
+      "questionId": "elements:lacks:a",
+      "datasetId": "elements",
+      "prompt": "Name an element with no letter A in its name",
+      "size": 76,
+      "answers": ["berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cerium", "chlorine", "chromium", "copernicium", "copper", "curium", "dubnium", "dysprosium", "einsteinium", "erbium", "europium", "fermium", "flerovium", "fluorine", "gold", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lithium", "livermorium", "lutetium", "meitnerium", "mendelevium", "mercury", "molybdenum", "moscovium", "neodymium", "neon", "neptunium", "nickel", "nihonium", "niobium", "nitrogen", "nobelium", "osmium", "oxygen", "phosphorus", "plutonium", "polonium", "promethium", "rhenium", "rhodium", "roentgenium", "rubidium", "ruthenium", "rutherfordium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "technetium", "tellurium", "tennessine", "terbium", "thorium", "thulium", "tin", "tungsten", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"]
     },
     {
       "round": 2,
-      "questionId": "mexico_states:lacks:p",
-      "datasetId": "mexico_states",
-      "prompt": "Name a Mexican state (or Mexico City) with no letter P in its name",
-      "size": 26,
-      "answers": ["aguascalientes", "baja-california", "baja-california-sur", "chihuahua", "coahuila", "colima", "durango", "guanajuato", "guerrero", "hidalgo", "jalisco", "mexico-city", "morelos", "nayarit", "nuevo-leon", "oaxaca", "queretaro", "quintana-roo", "sinaloa", "sonora", "state-of-mexico", "tabasco", "tlaxcala", "veracruz", "yucatan", "zacatecas"]
+      "questionId": "german_states:lacks:x",
+      "datasetId": "german_states",
+      "prompt": "Name a German state with no letter X in its English name",
+      "size": 13,
+      "answers": ["baden-wurttemberg", "bavaria", "berlin", "brandenburg", "bremen", "hamburg", "hesse", "mecklenburg-western-pomerania", "north-rhine-westphalia", "rhineland-palatinate", "saarland", "schleswig-holstein", "thuringia"]
     },
     {
       "round": 3,
-      "questionId": "nhl:tag:div:pacific",
-      "datasetId": "nhl",
-      "prompt": "Name an NHL team in the Pacific Division",
-      "size": 8,
-      "answers": ["anaheim-ducks", "calgary-flames", "edmonton-oilers", "los-angeles-kings", "san-jose-sharks", "seattle-kraken", "vancouver-canucks", "vegas-golden-knights"]
+      "questionId": "india_states:contains:m@state",
+      "datasetId": "india_states",
+      "prompt": "Name an Indian state with the letter M in its name",
+      "size": 9,
+      "answers": ["assam", "himachal-pradesh", "madhya-pradesh", "maharashtra", "manipur", "meghalaya", "mizoram", "sikkim", "tamil-nadu"]
     },
     {
       "round": 4,
-      "questionId": "nato_alphabet:contains:k",
-      "datasetId": "nato_alphabet",
-      "prompt": "Name a NATO phonetic alphabet word containing the letter K",
-      "size": 4,
-      "answers": ["kilo", "mike", "whiskey", "yankee"]
+      "questionId": "nba:tag:div:atlantic",
+      "datasetId": "nba",
+      "prompt": "Name an NBA team in the Atlantic Division",
+      "size": 5,
+      "answers": ["boston-celtics", "brooklyn-nets", "new-york-knicks", "philadelphia-76ers", "toronto-raptors"]
     },
     {
       "round": 5,
-      "questionId": "german_states:lacks:n",
-      "datasetId": "german_states",
-      "prompt": "Name a German state with no letter N in its English name",
-      "size": 3,
-      "answers": ["bavaria", "hamburg", "hesse"]
+      "questionId": "space:contains:n@planet",
+      "datasetId": "space",
+      "prompt": "Name a planet with the letter N in its name",
+      "size": 4,
+      "answers": ["neptune", "saturn", "uranus", "venus"]
     },
     {
       "round": 6,
-      "questionId": "constellations:starts:u",
-      "datasetId": "constellations",
-      "prompt": "Name a constellation that starts with the letter U",
-      "size": 2,
-      "answers": ["ursa-major", "ursa-minor"]
+      "questionId": "mexico_states:contains:f",
+      "datasetId": "mexico_states",
+      "prompt": "Name a Mexican state (or Mexico City) with the letter F in its name",
+      "size": 3,
+      "answers": ["baja-california", "baja-california-sur", "state-of-mexico"]
     }
   ]
 }

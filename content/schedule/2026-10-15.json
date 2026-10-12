@@ -2,7 +2,7 @@
   "date": "2026-10-15",
   "approved": false,
   "activity": "stop-the-needle",
-  "winRate": 0.2147,
+  "winRate": 0.6231,
   "rounds": [
     {
       "round": 1,
@@ -14,11 +14,11 @@
     },
     {
       "round": 2,
-      "questionId": "si_units:tag:prefix+big",
-      "datasetId": "si_units",
-      "prompt": "Name an SI prefix for a multiple larger than one (deca- and up)",
+      "questionId": "greek_alphabet:range:pos:1-12",
+      "datasetId": "greek_alphabet",
+      "prompt": "Name one of the first 12 letters of the Greek alphabet",
       "size": 12,
-      "answers": ["prefix-deca", "prefix-exa", "prefix-giga", "prefix-hecto", "prefix-kilo", "prefix-mega", "prefix-peta", "prefix-quetta", "prefix-ronna", "prefix-tera", "prefix-yotta", "prefix-zetta"]
+      "answers": ["alpha", "beta", "delta", "epsilon", "eta", "gamma", "iota", "kappa", "lambda", "mu", "theta", "zeta"]
     },
     {
       "round": 3,
@@ -30,27 +30,27 @@
     },
     {
       "round": 4,
-      "questionId": "constellations:starts:m",
+      "questionId": "constellations:contains:b",
       "datasetId": "constellations",
-      "prompt": "Name a constellation that starts with the letter M",
-      "size": 4,
-      "answers": ["mensa", "microscopium", "monoceros", "musca"]
+      "prompt": "Name a constellation with the letter B in its name",
+      "size": 5,
+      "answers": ["bootes", "columba", "coma-berenices", "corona-borealis", "libra"]
     },
     {
       "round": 5,
-      "questionId": "zodiac:contains:u@western",
-      "datasetId": "zodiac",
-      "prompt": "Name a Western zodiac sign with the letter U in it",
-      "size": 3,
-      "answers": ["aquarius", "sagittarius", "taurus"]
+      "questionId": "nato_alphabet:contains:k",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter K",
+      "size": 4,
+      "answers": ["kilo", "mike", "whiskey", "yankee"]
     },
     {
       "round": 6,
-      "questionId": "board_games:starts:b@monopoly-street",
-      "datasetId": "board_games",
-      "prompt": "Name a classic US Monopoly street that starts with the letter B",
-      "size": 2,
-      "answers": ["monopoly-baltic-avenue", "monopoly-boardwalk"]
+      "questionId": "calendar:contains:c@month",
+      "datasetId": "calendar",
+      "prompt": "Name a month with the letter C in its name",
+      "size": 3,
+      "answers": ["december", "march", "october"]
     }
   ]
 }

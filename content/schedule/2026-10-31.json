@@ -2,55 +2,55 @@
   "date": "2026-10-31",
   "approved": false,
   "activity": "stop-the-needle",
-  "winRate": 0.2372,
+  "winRate": 0.6233,
   "rounds": [
     {
       "round": 1,
-      "questionId": "countries:not:continent:asia",
-      "datasetId": "countries",
-      "prompt": "Name a country outside Asia",
-      "size": 146,
-      "answers": ["albania", "algeria", "andorra", "angola", "antigua-and-barbuda", "argentina", "australia", "austria", "bahamas", "barbados", "belarus", "belgium", "belize", "benin", "bolivia", "bosnia-and-herzegovina", "botswana", "brazil", "bulgaria", "burkina-faso", "burundi", "cabo-verde", "cameroon", "canada", "central-african-republic", "chad", "chile", "colombia", "comoros", "costa-rica", "cote-d-ivoire", "croatia", "cuba", "czechia", "democratic-republic-of-the-congo", "denmark", "djibouti", "dominica", "dominican-republic", "ecuador", "egypt", "el-salvador", "equatorial-guinea", "eritrea", "estonia", "eswatini", "ethiopia", "fiji", "finland", "france", "gabon", "gambia", "germany", "ghana", "greece", "grenada", "guatemala", "guinea", "guinea-bissau", "guyana", "haiti", "honduras", "hungary", "iceland", "ireland", "italy", "jamaica", "kenya", "kiribati", "latvia", "lesotho", "liberia", "libya", "liechtenstein", "lithuania", "luxembourg", "madagascar", "malawi", "mali", "malta", "marshall-islands", "mauritania", "mauritius", "mexico", "micronesia", "moldova", "monaco", "montenegro", "morocco", "mozambique", "namibia", "nauru", "netherlands", "new-zealand", "nicaragua", "niger", "nigeria", "north-macedonia", "norway", "palau", "panama", "papua-new-guinea", "paraguay", "peru", "poland", "portugal", "republic-of-the-congo", "romania", "rwanda", "saint-kitts-and-nevis", "saint-lucia", "saint-vincent-and-the-grenadines", "samoa", "san-marino", "sao-tome-and-principe", "senegal", "serbia", "seychelles", "sierra-leone", "slovakia", "slovenia", "solomon-islands", "somalia", "south-africa", "south-sudan", "spain", "sudan", "suriname", "sweden", "switzerland", "tanzania", "togo", "tonga", "trinidad-and-tobago", "tunisia", "tuvalu", "uganda", "ukraine", "united-kingdom", "united-states", "uruguay", "vanuatu", "vatican-city", "venezuela", "zambia", "zimbabwe"]
+      "questionId": "pokemon_gen1:contains:i",
+      "datasetId": "pokemon_gen1",
+      "prompt": "Name an original-151 Pokémon with the letter I in its name",
+      "size": 57,
+      "answers": ["arcanine", "articuno", "beedrill", "blastoise", "caterpie", "charizard", "clefairy", "diglett", "ditto", "dodrio", "dragonair", "dragonite", "dratini", "dugtrio", "grimer", "growlithe", "hitmonchan", "hitmonlee", "ivysaur", "jigglypuff", "kingler", "koffing", "lickitung", "magikarp", "magnemite", "mr-mime", "nidoking", "nidoqueen", "nidoran-f", "nidoran-m", "nidorina", "nidorino", "ninetales", "oddish", "onix", "persian", "pidgeot", "pidgeotto", "pidgey", "pikachu", "pinsir", "poliwag", "poliwhirl", "poliwrath", "primeape", "raichu", "rapidash", "raticate", "seaking", "squirtle", "starmie", "victreebel", "vileplume", "vulpix", "weepinbell", "weezing", "wigglytuff"]
     },
     {
       "round": 2,
-      "questionId": "tarot:all",
-      "datasetId": "tarot",
-      "prompt": "Name a card of the tarot's Major Arcana",
-      "size": 22,
-      "answers": ["death", "judgement", "justice", "strength", "temperance", "the-chariot", "the-devil", "the-emperor", "the-empress", "the-fool", "the-hanged-man", "the-hermit", "the-hierophant", "the-high-priestess", "the-lovers", "the-magician", "the-moon", "the-star", "the-sun", "the-tower", "the-world", "wheel-of-fortune"]
+      "questionId": "greek_myth:tag:titan",
+      "datasetId": "greek_myth",
+      "prompt": "Name one of the twelve first-generation Titans (children of Uranus and Gaia)",
+      "size": 12,
+      "answers": ["titan-coeus", "titan-crius", "titan-cronus", "titan-hyperion", "titan-iapetus", "titan-mnemosyne", "titan-oceanus", "titan-phoebe", "titan-rhea", "titan-tethys", "titan-theia", "titan-themis"]
     },
     {
       "round": 3,
-      "questionId": "pixar:range:year:2020-2025",
-      "datasetId": "pixar",
-      "prompt": "Name a Pixar feature released from 2020 to 2025",
-      "size": 8,
-      "answers": ["elemental", "elio", "inside-out-2", "lightyear", "luca", "onward", "soul", "turning-red"]
+      "questionId": "nato_alphabet:contains:r",
+      "datasetId": "nato_alphabet",
+      "prompt": "Name a NATO phonetic alphabet word containing the letter R",
+      "size": 10,
+      "answers": ["bravo", "charlie", "foxtrot", "november", "oscar", "romeo", "sierra", "uniform", "victor", "x-ray"]
     },
     {
       "round": 4,
-      "questionId": "greek_alphabet:contains:o",
-      "datasetId": "greek_alphabet",
-      "prompt": "Name a Greek letter with the letter O in its name",
-      "size": 6,
-      "answers": ["epsilon", "iota", "omega", "omicron", "rho", "upsilon"]
+      "questionId": "state_capitals:contains:f",
+      "datasetId": "state_capitals",
+      "prompt": "Name a US state capital with the letter F in its name",
+      "size": 5,
+      "answers": ["frankfort", "hartford", "jefferson-city", "santa-fe", "springfield"]
     },
     {
       "round": 5,
-      "questionId": "india_states:contains:y@state",
-      "datasetId": "india_states",
-      "prompt": "Name an Indian state with the letter Y in its name",
-      "size": 3,
-      "answers": ["haryana", "madhya-pradesh", "meghalaya"]
+      "questionId": "nfl:tag:div:nfc-south",
+      "datasetId": "nfl",
+      "prompt": "Name a team in the NFC South",
+      "size": 4,
+      "answers": ["atlanta-falcons", "carolina-panthers", "new-orleans-saints", "tampa-bay-buccaneers"]
     },
     {
       "round": 6,
-      "questionId": "pokemon_gen1:contains:q",
-      "datasetId": "pokemon_gen1",
-      "prompt": "Name an original-151 Pokémon with the letter Q in its name",
-      "size": 2,
-      "answers": ["nidoqueen", "squirtle"]
+      "questionId": "zodiac:contains:n@chinese",
+      "datasetId": "zodiac",
+      "prompt": "Name a Chinese zodiac animal with the letter N in it",
+      "size": 3,
+      "answers": ["chinese-dragon", "chinese-monkey", "chinese-snake"]
     }
   ]
 }
